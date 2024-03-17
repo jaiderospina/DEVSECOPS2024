@@ -83,4 +83,4 @@ Los procesos de DevSecOps están diseñados para integrar la seguridad en cada f
 
 - **Operación y Monitoreo**: En estas etapas, se utilizan métricas de infraestructura y aplicación para identificar actividades inusuales que puedan indicar una violación de seguridad. Los registros y otros instrumentos se utilizan para identificar y comprender el impacto de cualquier incidente de seguridad.
 
-<p align="center"><img src="https://learn.microsoft.com/es-es/azure/architecture/guide/devsecops/media/devsecops-azure-aks.svg" alt="logo" width="200"/></p>
+<p align="center"><img src="https://learn.microsoft.com/es-es/azure/architecture/guide/devsecops/media/devsecops-azure-aks.svg" alt="logo" width="1500" height="1000"/></p>
