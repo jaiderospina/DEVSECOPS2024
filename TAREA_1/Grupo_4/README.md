@@ -63,3 +63,22 @@ La evolución y los hitos clave en el desarrollo de las prácticas DevSecOps, ha
 ### 12. **Integración de IA y ML**
    - La inteligencia artificial (IA) y el aprendizaje automático (ML) se están integrando en los flujos de trabajo de DevSecOps para mejorar la detección de amenazas, la detección de anomalías y el análisis de seguridad.
    - Se espera que la automatización impulsada por AI/ML agilice aún más las operaciones y la respuesta de seguridad.
+   
+**Niveles habituales del proceso de DevSecOps**
+
+Los procesos de DevSecOps están diseñados para integrar la seguridad en cada fase del ciclo de vida del desarrollo de software, basándose en los principios de DevOps. Estas etapas son fundamentales para asegurar que los problemas de seguridad se aborden de manera proactiva y eficiente a lo largo del proceso. A continuación, se detallan estas etapas:
+
+- **Planificación**: En esta fase, la seguridad se considera desde el inicio del proceso de desarrollo de software. Se analizan posibles amenazas y se diseñan medidas de seguridad proactivas para integrarlas en el trabajo desde el principio.
+
+- **Codificación**: Durante la etapa de codificación, se promueve una cultura de programación defensiva mediante políticas que aborden problemas de seguridad y cumplimiento de manera proactiva.
+
+- **Compilación**: Aquí, se implementan controles de seguridad automatizados para detectar vulnerabilidades en el código fuente antes de que lleguen a la rama principal. Se utilizan herramientas como pruebas de seguridad de aplicaciones estáticas (SAST) y análisis de composición de software (SCA) para identificar y corregir posibles problemas.
+
+- **Prueba**: En esta fase, se desarrollan estrategias de prueba automatizadas para identificar vulnerabilidades o problemas de seguridad. Esto incluye pruebas unitarias y pruebas dinámicas de seguridad de aplicaciones (DAST) para evaluar tanto la funcionalidad como la seguridad de la aplicación.
+
+- **Lanzamiento**: Se realizan pruebas de seguridad adicionales y escaneos de vulnerabilidades antes del lanzamiento para detectar problemas que puedan haber pasado desapercibidos en etapas anteriores. Se implementa el principio de privilegio mínimo para limitar el acceso a recursos sensibles.
+
+- **Implementación**: Se garantiza que el código solo llegue a producción si ha pasado los controles de seguridad en todas las etapas anteriores. Se aplican pruebas automatizadas tanto al código de la aplicación como a la infraestructura subyacente.
+
+- **Operación y Monitoreo**: En estas etapas, se utilizan métricas de infraestructura y aplicación para identificar actividades inusuales que puedan indicar una violación de seguridad. Los registros y otros instrumentos se utilizan para identificar y comprender el impacto de cualquier incidente de seguridad.
+
