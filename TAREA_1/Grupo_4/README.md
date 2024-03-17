@@ -83,4 +83,4 @@ Los procesos de DevSecOps están diseñados para integrar la seguridad en cada f
 
 - **Operación y Monitoreo**: En estas etapas, se utilizan métricas de infraestructura y aplicación para identificar actividades inusuales que puedan indicar una violación de seguridad. Los registros y otros instrumentos se utilizan para identificar y comprender el impacto de cualquier incidente de seguridad.
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/raw/main/TAREA_1/Grupo_4/Imagenes/DevSecOps_image.png" alt="logo" width="200"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/tree/main/TAREA_1/Grupo_4/Imagenes/Flujo_Devsecops.png" alt="logo" width="200"/></p>
