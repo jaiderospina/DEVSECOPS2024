@@ -1,6 +1,4 @@
-# <h1 align="center"><span style="color:red">Historia de <strong>DevSecOps</strong></span></h1>
-<span style="color:red">Texto en rojo</span>
-
+# <h1 align="center">HISTORIA DE <strong>DEVSECOPS</strong></h1>
 
 La evolución y los hitos clave en el desarrollo de las prácticas DevSecOps, han destacando eventos significativos, tecnologías y tendencias que han dado forma a su aparición como una metodología crítica en el desarrollo de software moderno.
 
