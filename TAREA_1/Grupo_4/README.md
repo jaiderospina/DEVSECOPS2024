@@ -2,7 +2,7 @@
 
 La evolución y los hitos clave en el desarrollo de las prácticas DevSecOps, han destacando eventos significativos, tecnologías y tendencias que han dado forma a su aparición como una metodología crítica en el desarrollo de software moderno.
 
-<p align="center"><img src="https://www.offensiveosint.io/content/images/2020/07/OffensiveOsint-logo-RGB-2.png" alt="logo" width="200"/></p>
+<p align="center"><img src="https://www.xalt.de/wp-content/uploads/2022/08/devsecops_loop.png" alt="logo" width="200"/></p>
 
 ## Primeras raíces
 
