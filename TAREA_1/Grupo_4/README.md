@@ -1,6 +1,6 @@
 # Historia de **DevSecOps**
 
-Bienvenido a la guía completa de la historia de DevSecOps. Este documento traza la evolución y los hitos clave en el desarrollo de las prácticas DevSecOps, destacando eventos significativos, tecnologías y tendencias que han dado forma a su aparición como una metodología crítica en el desarrollo de software moderno.
+La evolución y los hitos clave en el desarrollo de las prácticas DevSecOps, han destacando eventos significativos, tecnologías y tendencias que han dado forma a su aparición como una metodología crítica en el desarrollo de software moderno.
 
 ## Primeras raíces
 
