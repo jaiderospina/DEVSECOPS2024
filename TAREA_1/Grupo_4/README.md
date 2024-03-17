@@ -65,7 +65,7 @@ La evolución y los hitos clave en el desarrollo de las prácticas DevSecOps, ha
    - Se espera que la automatización impulsada por AI/ML agilice aún más las operaciones y la respuesta de seguridad.
 
 ##  
-#**Niveles habituales del proceso de DevSecOps**
+# **Niveles habituales del proceso de DevSecOps**
 
 Los procesos de DevSecOps están diseñados para integrar la seguridad en cada fase del ciclo de vida del desarrollo de software, basándose en los principios de DevOps. Estas etapas son fundamentales para asegurar que los problemas de seguridad se aborden de manera proactiva y eficiente a lo largo del proceso. A continuación, se detallan estas etapas:
 
