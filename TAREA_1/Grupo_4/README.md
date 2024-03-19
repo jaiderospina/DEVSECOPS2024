@@ -84,3 +84,20 @@ Los procesos de DevSecOps están diseñados para integrar la seguridad en cada f
 - **Operación y Monitoreo**: En estas etapas, se utilizan métricas de infraestructura y aplicación para identificar actividades inusuales que puedan indicar una violación de seguridad. Los registros y otros instrumentos se utilizan para identificar y comprender el impacto de cualquier incidente de seguridad.
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_4/Imagenes/Flujo_Devsecops.png?raw=true" alt="logo" width="630" height="357"/></p>
+
+# **Principios de automatización en DevSecOps**
+
+Cuando se implementa de manera efectiva, la automatización acelera el ciclo de vida del desarrollo de software (SDLC), permitiendo que las personas utilicen la tecnología para realizar tareas manuales repetitivas y entregar software de mayor calidad en menos tiempo. En el contexto de DevSecOps, la automatización va un paso más allá al integrar pruebas de seguridad en todas las etapas del SDLC, mejorando así la velocidad, la coherencia y la mitigación de riesgos potenciales.
+
+Si DevSecOps establece que la seguridad es responsabilidad de todos, la automatización en DevSecOps se esfuerza por proporcionar a todos las herramientas necesarias para garantizar la seguridad del código y las configuraciones sin requerir que se conviertan en expertos en seguridad.
+
+Al considerar dónde aplicar la automatización en su propio proceso de DevSecOps, es importante tener en cuenta los siguientes principios:
+
+## Automatización estratégica
+   - Al igual que en una práctica de DevOps, la automatización debe aplicarse estratégicamente para facilitar la velocidad y la calidad en todo el SDLC. Es crucial ser estratégico sobre cómo y cuándo se aplica la automatización en un entorno DevSecOps.
+
+## Fomentar la creatividad humana
+   - Automatice las tareas repetitivas siempre que sea posible, permitiendo así que las personas dediquen su tiempo y energía mental a trabajos más complejos. Esto garantiza que los controles se apliquen de manera consistente y a escala.
+
+## Sistematizar la revisión de código
+   - Utilice herramientas como las pruebas de seguridad de aplicaciones estáticas para automatizar partes de la revisión de su código. Sin embargo, es fundamental que la revisión de código dirigida por humanos siga siendo una práctica importante. Asegúrese de que su lista de verificación de revisión de código aborde los problemas de seguridad específicos de su tecnología y cree un ciclo de retroalimentación para incorporar nueva información, como incidentes pasados, en esta lista de verificación. Esto garantiza una mejora continua en la seguridad del código.
