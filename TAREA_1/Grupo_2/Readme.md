@@ -1,8 +1,8 @@
 # <h1 align="center"> DEVSECOPS </h1>
 
 Integrantes:
+ - Integrante 1 - ID: 635668
  - Oscar Yela - ID: 433321
- - Integrante 2 - ID: 000000
  - Integrante 3 - ID: 000000
  - Integrante 4 - ID: 000000
  - Integrante 5 - ID: 000000
@@ -26,7 +26,8 @@ En lugar de tratar la seguridad como un aspecto separado o una tarea posterior, 
  - [ ] **2011:** El mensaje es claro, DevOps llegará muy pronto a las empresas. **"Para 2015, DevOps evolucionara de una estrategia de nicho empleada por grandes proveedores de nube a un estrategia general empleada por el 20% de las organizaciones de Global 2000".** Afirma Cameron Haight (Marzo 18 del 2011).
  - [ ] **2012:** Los proveedores de software líderes en la industria como: IBM, HP y CA Technologies aumentan su presencia en el mercado con herramientas DevOps de clase empresarial.
  - [ ] **2013:** Otro momento digno de mencion en la historia de DevOps fue la publicación del libro **"The Phoenix Project"**, escrito por Gene Kim, Kevin Behr y George Spafford. Esta novela ficticia cuenta la historia de un gerente de TI que se ve empujado a una situación aparentemente desesperada, ya que está encargado de rescatar un proyecto de desarrollo de comercio electronico de misión critica. Su misterioso mentor, un miembro de la junta empapado en las disciplinas de la manufactura a gran escala, guía al personaje principal hacia nuevas formas de pensar sobre TI y desarrollo de aplicaciones, introduciendo el concepto de DevOps en el camino.
- 
+
+
 
 ### Definición de DevOps
 
@@ -59,7 +60,11 @@ En lugar de tratar la seguridad como un aspecto separado o una tarea posterior, 
 ## Importancia de DevSecOps
 
  - ¿Por qué es importante integrar seguridad en DevOps?
+ - DevSecOps, es importante puesto que combina un importante nivel de seguridad con ciclos cortos de lanzamientos de produccion 
  - Beneficios para las organizaciones.
+    - Seguridad de las aplicaciones
+    - Deteccion temprana de vulnerabilidades
+    - cumplimiento y gobernanza mejoradas 
  - Impacto en la entrega de software.
 
 ## Los pilares de DevSecOps
