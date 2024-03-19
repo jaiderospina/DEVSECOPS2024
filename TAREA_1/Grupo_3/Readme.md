@@ -9,14 +9,14 @@
 <!--Tabla de contenido de los temas de DevSecOps-->
 
 # TABLA DE CONTENIDO
-- [Introducción](#Introducción)
-- [Seguridad en la infraestructura como código (IaC)](#Seguridad-en-la-infraestructura-como-código-(IaC))
-- [Gestión de identidades y accesos](#Gestión-de-identidades-y-accesos)
-- [Seguridad en contenedores y orquestación de contenedores](#Seguridad-contenedores)
-- [Gestión de incidentes de seguridad](#Gestión-incidentes)
-- [Educación y concienciación en seguridad](#Educación-concienciación)
-- [Protección de la cadena de suministro de software](#Protección-cadena)
-- [Glosario](#Glosario)
+- [Introducción](#introducción)
+- [Seguridad en la infraestructura como código (IaC)](#seguridad-en-la-infraestructura-como-código-iac)
+- [Gestión de identidades y accesos](#gestión-de-identidades-y-accesos)
+- [Seguridad en contenedores y orquestación de contenedores](#seguridad-en-contenedores-y-orquestación-de-contenedores)
+- [Gestión de incidentes de seguridad](#seguridad-en-contenedores-y-orquestación-de-contenedores)
+- [Educación y concienciación en seguridad](#educación-y-concienciación-en-seguridad)
+- [Protección de la cadena de suministro de software](#seguridad-en-contenedores-y-orquestación-de-contenedores)
+- [Glosario](#glosario)
 - [Autores](#autores)
 
 ---
