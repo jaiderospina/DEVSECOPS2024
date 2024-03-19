@@ -31,7 +31,7 @@ Contenido
 ## Seguridad en contenedores y orquestación de contenedores
 Contenido
 
-## gestion de incidentes de seguridad
+## Gestión de incidentes de seguridad
 Contenido
 
 ## Educación y concienciación en seguridad
