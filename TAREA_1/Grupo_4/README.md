@@ -105,3 +105,19 @@ Al considerar dónde aplicar la automatización en su propio proceso de DevSecOp
    - Utilice herramientas como las pruebas de seguridad de aplicaciones estáticas para automatizar partes de la revisión de su código. Sin embargo, es fundamental que la revisión de código dirigida por humanos siga siendo una práctica importante. Asegúrese de que su lista de verificación de revisión de código aborde los problemas de seguridad específicos de su tecnología y cree un ciclo de retroalimentación para incorporar nueva información, como incidentes pasados, en esta lista de verificación. Esto garantiza una mejora continua en la seguridad del código.
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_4/Imagenes/Dev.png" alt="logo" width="630" height="357"/></p>
+
+##
+
+# **CADENA DE HERRAMIENTAS EN DEVSECOPS**
+
+El proceso de adopción de DevSecOps comienza con un cambio cultural que coloca la seguridad como una preocupación central para todos los involucrados en el ciclo de vida del desarrollo de software (SDLC). Esto implica la implementación de nuevos procesos y la creación de una cadena de herramientas DevSecOps que aplica pruebas de seguridad automatizadas y herramientas de seguridad a lo largo del SDLC.
+
+Las herramientas utilizadas en DevSecOps a menudo se basan en las herramientas comunes de DevOps, como la integración continua (CI), entrega continua (CD), pruebas automatizadas, gestión de configuración y monitoreo. El objetivo principal es integrar herramientas centradas en la seguridad en cada etapa del ciclo de vida del producto.
+
+Entre los componentes clave de la cadena de herramientas DevSecOps se encuentran:
+
+## Pruebas de seguridad automatizadas en confirmaciones y fusiones
+   - Un objetivo fundamental en cualquier práctica de DevSecOps es detectar problemas en el código antes de que puedan causar daño. Esto se logra mediante la activación de análisis automáticos a través de gatillos de confirmación previa y fusiones. Algunos de los escaneos implementados podrían incluir:
+     - **Escaneo de código:** También conocido como prueba de seguridad de aplicaciones estáticas, evalúa el código en reposo para descubrir posibles vulnerabilidades sin necesidad de ejecutarlo.
+     - **Escaneo de vulnerabilidades:** Las herramientas dinámicas de escaneo de aplicaciones crean e implementan la aplicación en un entorno aislado para observar cómo responde a las amenazas de seguridad conocidas.
+     - **Escaneo de secretos:** Incluso con políticas de seguridad estrictas, los secretos ocasionalmente pueden filtrarse en las confirmaciones. Las herramientas de escaneo de secretos detectan estos casos antes de que se realice la confirmación. A menudo se combinan con herramientas de análisis de composición de software (SCA) para detectar vulnerabilidades en las dependencias de código abierto dentro de un repositorio específico.
