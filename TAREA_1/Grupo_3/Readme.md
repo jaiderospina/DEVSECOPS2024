@@ -16,6 +16,7 @@
 - [Gestión de incidentes de seguridad](#Gestión-incidentes)
 - [Educación y concienciación en seguridad](#Educación-concienciación)
 - [Protección de la cadena de suministro de software](#Protección-cadena)
+- [Glosario](#Glosario)
 - [Autores](#autores)
 
 ---
@@ -39,7 +40,7 @@ Contenido
 
 ## Protección de la cadena de suministro de software
 
-En este tipo de seguridad se combinan las practicas recomendadas de la gestión de los **riesgos** y la **ciberseguridad** para proteger esta cadena en los puntos más vulnerables. La cadena de suministro de software consta de todo el código, las personas, los sistemas y los procesos que contribuyen al desarrollo y la entrega de tu software, es decir, está directamente relacionado con el código durante el [ciclo de vida de desarrollo del software (SDLC)](#tituloSDLC).
+En este tipo de seguridad se combinan las practicas recomendadas de la gestión de los **riesgos** y la **ciberseguridad** para proteger esta cadena en los puntos más vulnerables. La cadena de suministro de software consta de todo el código, las personas, los sistemas y los procesos que contribuyen al desarrollo y la entrega de tu software, es decir, está directamente relacionado con el código durante el [ciclo de vida de desarrollo del software (SDLC)](#Ciclo-de-vida-de-desarrollo-del-software-(SDLC)).
 
 ### Riesgos de seguridad de la cadena de suministro del software
 
@@ -69,9 +70,9 @@ En este tipo de seguridad se combinan las practicas recomendadas de la gestión 
 - [x] Aprovechar la automatización para los procesos y políticas.
 - [x] Examinar el sistema con herramientas automatizadas de pruebas de seguridad.
 
-## Glosario {#glosario}
+## Glosario
 
-### Ciclo de vida de desarrollo del software (SDLC) {#tituloSDLC}
+### Ciclo de vida de desarrollo del software (SDLC)
 
 ![SDLC](imagenes/CicloDeVidaDeDesarrolloDelSoftwareSDLC.png)
  Es un marco que se utiliza para desarrollar, implementar y mantener el software, algunas de las etapas del SDLC son:
