@@ -104,5 +104,4 @@ Al considerar dónde aplicar la automatización en su propio proceso de DevSecOp
 ## Sistematizar la revisión de código
    - Utilice herramientas como las pruebas de seguridad de aplicaciones estáticas para automatizar partes de la revisión de su código. Sin embargo, es fundamental que la revisión de código dirigida por humanos siga siendo una práctica importante. Asegúrese de que su lista de verificación de revisión de código aborde los problemas de seguridad específicos de su tecnología y cree un ciclo de retroalimentación para incorporar nueva información, como incidentes pasados, en esta lista de verificación. Esto garantiza una mejora continua en la seguridad del código.
 
-
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_4/Imagenes/Dev.png" alt="logo" width="200"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_4/Imagenes/Dev.png" alt="logo" width="630" height="357"/></p>
