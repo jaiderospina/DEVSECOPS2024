@@ -41,7 +41,7 @@ Contenido
 
 En este tipo de seguridad se combinan las practicas recomendadas de la gestión de los **riesgos** y la **ciberseguridad** para proteger esta cadena en los puntos más vulnerables. La cadena de suministro de software consta de todo el código, las personas, los sistemas y los procesos que contribuyen al desarrollo y la entrega de tu software, es decir, está directamente relacionado con el código durante el [ciclo de vida de desarrollo del software (SDLC)](#tituloSDLC).
 
-### Riesgos de seguridad de la cadena de suministro del software {#riesgosCadenaSuministros}
+### Riesgos de seguridad de la cadena de suministro del software
 
 | Riesgos | Definición |
 | --- | ----------- |
@@ -50,7 +50,7 @@ En este tipo de seguridad se combinan las practicas recomendadas de la gestión 
 | Dependencias de terceros | Analice todo el código de terceros y comuníquese con sus proveedores para conocer las practicas de seguridad que se usan. |
 | Procesos y políticas | Cree políticas para los desarrolladores y los procesos que le permitan responder ante un punto vulnerable |
 
-### Reducción de las amenazas a la cadena de suministro de software {#reduccionCadenaSuministros}
+### Reducción de las amenazas a la cadena de suministro de software
 
 #### Para equipos de seguridad
 
@@ -68,6 +68,22 @@ En este tipo de seguridad se combinan las practicas recomendadas de la gestión 
 - [x] Firmar los elementos del software de manera digitar para autenticar su procedencia.
 - [x] Aprovechar la automatización para los procesos y políticas.
 - [x] Examinar el sistema con herramientas automatizadas de pruebas de seguridad.
+
+## Glosario {#glosario}
+
+### Ciclo de vida de desarrollo del software (SDLC) {#tituloSDLC}
+
+![SDLC](imagenes/CicloDeVidaDeDesarrolloDelSoftwareSDLC.png)
+ Es un marco que se utiliza para desarrollar, implementar y mantener el software, algunas de las etapas del SDLC son:
+
+- Planificacion
+- Análisis de requisitos
+- Diseño
+- Desarrollo
+- Documentación
+- Pruebas
+- Implementación
+- Mantenimiento
 
 ## Autores
 Contenido
