@@ -40,7 +40,7 @@ Contenido
 
 ## Protección de la cadena de suministro de software
 
-En este tipo de seguridad se combinan las practicas recomendadas de la gestión de los **riesgos** y la **ciberseguridad** para proteger esta cadena en los puntos más vulnerables. La cadena de suministro de software consta de todo el código, las personas, los sistemas y los procesos que contribuyen al desarrollo y la entrega de tu software, es decir, está directamente relacionado con el código durante el [ciclo de vida de desarrollo del software (SDLC)](#Ciclo-de-vida-de-desarrollo-del-software-(SDLC)).
+En este tipo de seguridad se combinan las practicas recomendadas de la gestión de los **riesgos** y la **ciberseguridad** para proteger esta cadena en los puntos más vulnerables. La cadena de suministro de software consta de todo el código, las personas, los sistemas y los procesos que contribuyen al desarrollo y la entrega de tu software, es decir, está directamente relacionado con el código durante el [ciclo de vida de desarrollo del software (SDLC)](#ciclo-de-vida-de-desarrollo-del-software-sdlc).
 
 ### Riesgos de seguridad de la cadena de suministro del software
 
