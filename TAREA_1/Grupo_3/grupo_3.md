@@ -2,7 +2,7 @@
 
 ## Contenido
 
-- [Seguridad de la cadena de suministro de software](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_3/grupo_3.md#tituloCadenaSuministros)
+- [Seguridad de la cadena de suministro de software](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_3/grupo_3.md#tituloCadenaSuministros)
     - [Riesgos de seguridad de la cadena de suministro del software](#riesgosCadenaSuministros)
     - [Riesgos de seguridad de la cadena de suministro del software](#reduccionCadenaSuministros)
 - [Glosario](#glosario)
