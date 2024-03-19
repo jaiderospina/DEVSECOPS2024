@@ -108,7 +108,8 @@ Al considerar dónde aplicar la automatización en su propio proceso de DevSecOp
 
 ##
 
-# **CADENA DE HERRAMIENTAS EN DEVSECOPS**
+# <h1 align="center">CADENA DE HERRAMIENTAS EN <strong>DEVSECOPS</strong></h1>
+
 
 El proceso de adopción de DevSecOps comienza con un cambio cultural que coloca la seguridad como una preocupación central para todos los involucrados en el ciclo de vida del desarrollo de software (SDLC). Esto implica la implementación de nuevos procesos y la creación de una cadena de herramientas DevSecOps que aplica pruebas de seguridad automatizadas y herramientas de seguridad a lo largo del SDLC.
 
