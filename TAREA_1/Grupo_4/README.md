@@ -85,6 +85,8 @@ Los procesos de DevSecOps están diseñados para integrar la seguridad en cada f
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_4/Imagenes/Flujo_Devsecops.png?raw=true" alt="logo" width="630" height="357"/></p>
 
+##
+
 # **Principios de automatización en DevSecOps**
 
 Cuando se implementa de manera efectiva, la automatización acelera el ciclo de vida del desarrollo de software (SDLC), permitiendo que las personas utilicen la tecnología para realizar tareas manuales repetitivas y entregar software de mayor calidad en menos tiempo. En el contexto de DevSecOps, la automatización va un paso más allá al integrar pruebas de seguridad en todas las etapas del SDLC, mejorando así la velocidad, la coherencia y la mitigación de riesgos potenciales.
