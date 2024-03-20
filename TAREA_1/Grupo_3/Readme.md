@@ -64,6 +64,9 @@ En la seguridad de DevOps, la gestión de incidentes implica establecer procesos
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://wac-cdn.atlassian.com/dam/jcr:4f9e076f-f048-4607-a3e3-dd2b51197fdb/hello.atlassian.png?cdnVersion=1497)
 
 
+La seguridad desempeña un papel fundamental en el proceso de DevOps. Integrar prácticas y herramientas de seguridad en estos procesos es crucial para asegurar la protección de sistemas y aplicaciones contra posibles amenazas y vulnerabilidades. Cada equipo debe evaluar sus necesidades y requisitos específicos antes de seleccionar las herramientas adecuadas y adoptar las prácticas de seguridad pertinentes. Esta medida garantiza tanto la entrega de software como la protección de usuarios y organizaciones contra posibles vulnerabilidades.
+
+
 
 ## Educación y concienciación en seguridad
 Contenido
