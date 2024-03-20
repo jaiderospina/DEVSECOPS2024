@@ -62,5 +62,15 @@ Tambien tiene tanto que ver con la cultura y la responsabilidad compartida como 
 
 - **Infraestructura inmutable:** Considere la posibilidad de adoptar prácticas de infraestructura inmutables en las que los componentes implementados se traten como entidades desechables. Cuando se detectan, las vulnerabilidades se pueden abordar reemplazando todo el componente con una versión actualizada.
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/IMPLEMENTACION.png" alt="logo" width="900"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/jaiderospina/DEVSECOPS2024/main/TAREA_1/Grupo_5/Imagenes/_the-history-of-devsecops-1024x600.avif" alt="logo" width="900"/></p>
+
+<h1 align="center">¿Como comenzo DevSecOps?</h1>
+
+DevSecOps surgió como una respuesta a la necesidad de abordar las deficiencias en la seguridad de las aplicaciones y sistemas dentro del marco de la metodología DevOps. DevOps se centraba principalmente en la colaboración entre equipos de desarrollo y operaciones para acelerar la entrega de software, pero no abordaba de manera integral las preocupaciones de seguridad.
+
+La creciente frecuencia y sofisticación de las amenazas cibernéticas, así como los numerosos incidentes de seguridad relacionados con aplicaciones y sistemas, llevaron a la comunidad de desarrollo de software a reconocer la importancia de integrar la seguridad desde el inicio del proceso de desarrollo. Esto condujo al nacimiento de DevSecOps como una extensión natural de DevOps, que prioriza la seguridad en todas las etapas del ciclo de vida del desarrollo de software.
+
+La aparición de DevSecOps puede ser vista como una evolución lógica en el campo de la seguridad de la información y el desarrollo de software, donde las organizaciones comenzaron a comprender que la seguridad no puede ser una ocurrencia tardía o una barrera para la entrega rápida de software, sino que debe ser una consideración fundamental desde el principio.
+
+Si bien no hay un punto específico en el tiempo en el que se pueda decir que DevSecOps comenzó oficialmente, su desarrollo se puede rastrear hasta mediados de la década de 2010, cuando las organizaciones comenzaron a adoptar prácticas más proactivas de seguridad en el contexto de DevOps. Desde entonces, ha ganado popularidad y ha sido adoptado por una amplia gama de organizaciones que buscan mejorar la seguridad de sus aplicaciones y sistemas.
 
