@@ -1,6 +1,7 @@
 ![imagen proceso](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/TITULO.jpg)
 
-# **Que es DevSecOps?**
+<h1 align="center"># **Que es DevSecOps?**</h1>
+
 
 Es un concepto que como tal no esta bien definido perose sabe que conecta tres disciplinas: desarrollo, seguridad y operaciones.
 
