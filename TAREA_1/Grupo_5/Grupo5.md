@@ -10,6 +10,18 @@ Tambien tiene tanto que ver con la cultura y la responsabilidad compartida como 
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/RepresentacionDevSecOps.png" alt="logo" width="600"/></p>
 
+## **¿Cuáles son los componentes de DevSecOps?**
+
+* **Análisis de código:** El análisis del código se refiere al proceso de investigar el código fuente de una aplicación en busca de vulnerabilidades y garantizar que se ajusta a las prácticas recomendadas de seguridad.
+
+* **Administración de cambios:** Los equipos de software utilizan herramientas de administración de cambios para realizar un seguimiento de los cambios relacionados con el software o los requisitos, así como para administrarlos e informar sobre estos. De este modo, se evitan vulnerabilidades de seguridad involuntarias ocasionadas por los cambios en el software.
+
+* **Administración del cumplimiento:** Los equipos de software se encargan de garantizar que el software cumpla con los requisitos regulatorios. Por ejemplo, los desarrolladores pueden utilizar AWS CloudHSM para demostrar el cumplimiento de las normativas de seguridad, privacidad y antimanipulación,como HIPAA, FedRAMP y PCI.
+
+* **Modelado de amenazas:** Los equipos de DevSecOps investigan los problemas de seguridad que puedan surgir antes y después de desplegar la aplicación. Corrigen cualquier problema conocido y lanzan una versión actualizada de la aplicación.
+
+* **Formación en seguridad:** La formación en materia de seguridad implica capacitar a los desarrolladores de software y a los equipos de operaciones en cuanto a las directrices de seguridad más recientes. De este modo, los equipos de desarrollo y de operaciones pueden tomar decisiones de seguridad independientes a la hora de crear y desplegar la aplicación.
+
 ## **Beneficios de DevSecOps**
 
 * **Mayor seguridad:** al integrar la seguridad en el proceso DevOps, DevSecOps puede ayudar a evitar que se introduzcan vulnerabilidades de seguridad en los sistemas de producción. 
