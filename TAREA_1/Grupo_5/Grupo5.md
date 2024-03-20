@@ -10,9 +10,7 @@ Tambien tiene tanto que ver con la cultura y la responsabilidad compartida como 
 
 A continuación se muestra un [Link](https://ejemplo.com/ "Título opcional del enlace").
 
-
-![imagen proceso](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/RepresentacionDevSecOps.png)
-
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/RepresentacionDevSecOps.png" alt="logo" width="200"/></p>
 
 ## **Beneficios de DevSecOps**
 
