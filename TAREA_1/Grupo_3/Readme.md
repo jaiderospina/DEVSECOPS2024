@@ -58,8 +58,11 @@ En la seguridad de DevOps, la gestión de incidentes implica establecer procesos
 
 7. **Coordinación Interdepartamental:**
    + Facilita la colaboración entre equipos de desarrollo, operaciones y seguridad para una respuesta coordinada.
+
+     
   
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://wac-cdn.atlassian.com/dam/jcr:4f9e076f-f048-4607-a3e3-dd2b51197fdb/hello.atlassian.png?cdnVersion=1497)
+
 
 
 ## Educación y concienciación en seguridad
