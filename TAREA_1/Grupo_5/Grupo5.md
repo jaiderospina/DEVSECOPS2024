@@ -6,6 +6,12 @@ Que asu vez intenta realizar una integración de la seguridad durante todo el ci
 
 Tambien tiene tanto que ver con la cultura y la responsabilidad compartida como con cualquier tecnología o técnica específica.
 
+A continuación se muestra un [Link](https://ejemplo.com/ "Título opcional del enlace").
+
+
+![imagen proceso](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/RepresentacionDevSecOps.png)
+
+
 ## **Beneficios de DevSecOps**
 
 * **Mayor seguridad:** al integrar la seguridad en el proceso DevOps, DevSecOps puede ayudar a evitar que se introduzcan vulnerabilidades de seguridad en los sistemas de producción. 
