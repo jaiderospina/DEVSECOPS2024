@@ -52,4 +52,5 @@ A continuación se muestra un [Link](https://ejemplo.com/ "Título opcional del 
 
 - **Infraestructura inmutable:** Considere la posibilidad de adoptar prácticas de infraestructura inmutables en las que los componentes implementados se traten como entidades desechables. Cuando se detectan, las vulnerabilidades se pueden abordar reemplazando todo el componente con una versión actualizada.
 
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/IMPLEMENTACION.png" alt="logo" width="900"/></p>
 
