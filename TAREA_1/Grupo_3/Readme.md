@@ -88,17 +88,17 @@ Integrar efectivamente la educación y concienciación en seguridad en los proce
 
                                     Mejores Prácticas para Promover una Cultura de Seguridad Sólida en Todo el Equipo
                                                |
-                           _________________|_________________
-                          |               |                 |
+                           _________________|___________________
+                          |                 |                   |
           Involucramiento de    Capacitación Continua    Integración de Seguridad  
             la Alta Dirección      en Seguridad             en Procesos
-                   |                    /    \                     /    \
-                   |         Comunicación  Pruebas y       Actualizaciones  Evaluación y 
-                   |           Abierta     Evaluaciones      y Parches       Mejora Continua
-                   |            /     \                                      |
-                   |   Reconocimiento  |                               Resiliencia y 
-                   |   y Recompensas  |                    Planificación de Contingencia
-                   |___________________|______________________|__________________
+                   |                    /    \                     /     \
+                   |         Comunicación  Pruebas y      Actualizaciones  Evaluación y 
+                   |           Abierta     Evaluaciones   y Parches       Mejora Continua
+                   |            /                                                |
+                   |   Reconocimiento                                     Resiliencia y 
+                   |   y Recompensas                             Planificación de Contingencia
+                   |___________________|_________________________________________|____________
 
 
 ## Protección de la cadena de suministro de software
