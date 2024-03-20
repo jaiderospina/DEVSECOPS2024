@@ -31,3 +31,17 @@ Tambien tiene tanto que ver con la cultura y la responsabilidad compartida como 
 * **Costos reducidos:** Reduzca los costos asociados con la seguridad y las violaciones de datos. 
 
 * **Visibilidad mejorada:** ayude a las organizaciones a obtener visibilidad de su postura de seguridad para identificar y abordar rápidamente los riesgos de seguridad. 
+
+## **Implementación de las mejores prácticas de DevSecOps**
+
+- **Pruebas de seguridad automatizadas:** Los análisis de seguridad periódicos, como evaluaciones de vulnerabilidades, pruebas de penetración y revisiones de códigos de seguridad, deberían integrarse perfectamente en el proceso de desarrollo. 
+
+- **Monitoreo y retroalimentación continuos:** El monitoreo en tiempo real ayuda a identificar y mitigar las amenazas a la seguridad en producción, lo que permite una respuesta y mitigación inmediatas.
+
+- **Seguridad de infraestructura como código (IaC):** La implementación de prácticas de seguridad dentro del código de infraestructura ayuda a mantener configuraciones de seguridad consistentes y reduce el riesgo de configuraciones erróneas que podrían provocar infracciones.
+
+- **Colaboración y Formación:** Se nutre de la colaboración entre los equipos de desarrollo, seguridad y operaciones. Fomentar una cultura de comunicación abierta y de intercambio de conocimientos.
+
+- **Infraestructura inmutable:** Considere la posibilidad de adoptar prácticas de infraestructura inmutables en las que los componentes implementados se traten como entidades desechables. Cuando se detectan, las vulnerabilidades se pueden abordar reemplazando todo el componente con una versión actualizada.
+
+
