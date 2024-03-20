@@ -33,7 +33,8 @@ Contenido
 Contenido
 
 ## Gestión de incidentes de seguridad
-Contenido
+
+En la seguridad de DevOps, la gestión de incidentes implica establecer procesos y procedimientos para detectar, responder y recuperarse de eventos de seguridad. Esto requiere una estrecha coordinación entre equipos de desarrollo, operaciones y seguridad para garantizar una respuesta efectiva ante cualquier incidente que pueda surgir en entornos DevOps.
 
 ## Educación y concienciación en seguridad
 Contenido
