@@ -81,7 +81,7 @@ La educación y concienciación en seguridad juegan un papel crucial en el proce
             5. Fomento de la Comunicación y Colaboración
             6. Revisiones Periódicas y Mejora Continua
 
-Establecer un programa integral de educación y concienciación en seguridad en el contexto de DevOps, fortalece la cultura de seguridad en toda la organización, promover prácticas seguras en el desarrollo y despliegue de software, y mitigar los riesgos de seguridad en todas las etapas del ciclo de vida del desarrollo de software.
+Integrar efectivamente la educación y concienciación en seguridad en los procesos de DevOps es fundamental para promover una cultura de seguridad sólida y mitigar los riesgos en cada etapa del ciclo de vida del desarrollo de software.
 
 
 ## Protección de la cadena de suministro de software
