@@ -72,7 +72,7 @@ La seguridad desempeña un papel fundamental en el proceso de DevOps. Integrar p
 
 La educación y concienciación en seguridad juegan un papel crucial en el proceso de DevOps. Más allá de implementar herramientas y prácticas técnicas, es fundamental cultivar una comprensión profunda de la importancia de la seguridad en cada fase del ciclo de vida del desarrollo de software. Desde el diseño hasta la implementación, la educación y concienciación en seguridad son pilares clave para proteger los sistemas y datos contra las crecientes amenazas. 
 
-@Integrar :writing_hand: educación y concienciación en seguridad DevOps :ear_with_hearing_aid:
+**@Integrar** :writing_hand: educación y concienciación en seguridad DevOps :ear_with_hearing_aid:
 
 
 
