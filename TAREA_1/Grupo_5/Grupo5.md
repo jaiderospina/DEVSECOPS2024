@@ -38,6 +38,8 @@ A continuación se muestra un [Link](https://ejemplo.com/ "Título opcional del 
 
 * **Visibilidad mejorada:** ayude a las organizaciones a obtener visibilidad de su postura de seguridad para identificar y abordar rápidamente los riesgos de seguridad. 
 
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/BENEFICIOS.png" alt="logo" width="900"/></p>
+
 ## **Implementación de las mejores prácticas de DevSecOps**
 
 - **Pruebas de seguridad automatizadas:** Los análisis de seguridad periódicos, como evaluaciones de vulnerabilidades, pruebas de penetración y revisiones de códigos de seguridad, deberían integrarse perfectamente en el proceso de desarrollo. 
