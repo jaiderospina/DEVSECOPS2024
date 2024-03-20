@@ -41,22 +41,22 @@ En la seguridad de DevOps, la gestión de incidentes implica establecer procesos
 1. **Detección:**
    + Utilizar herramientas de monitoreo para detectar actividades sospechosas en tiempo real.
 
-2. Notificación:
+2. **Notificación:**
    + Establecer canales como Slack o Microsoft Teams para notificar sobre incidentes.
 
-3. Investigación:
+3. **Investigación:**
    + Analizar registros e inspecciona sistemas para comprender la naturaleza del incidente.
 
-4. Respuesta:
+4. **Respuesta:**
    + Actúar rápidamente con medidas como aplicar parches o desactivar servicios comprometidos.
 
-5. Recuperación:
+5. **Recuperación:**
    + Automatizar la restauración de sistemas a un estado operativo normal, usando herramientas como Jenkins.
 
-6. Análisis Post-Mortem:
+6. **Análisis Post-Mortem:**
    + Identifica lecciones aprendidas y oportunidades de mejora en los procesos de seguridad.
 
-7. Coordinación Interdepartamental:
+7. **Coordinación Interdepartamental:**
    + Facilita la colaboración entre equipos de desarrollo, operaciones y seguridad para una respuesta coordinada.
 
 
