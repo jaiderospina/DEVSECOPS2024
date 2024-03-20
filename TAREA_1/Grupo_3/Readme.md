@@ -38,7 +38,7 @@ En la seguridad de DevOps, la gestión de incidentes implica establecer procesos
 
 @Proceso :technologist: Gestión de incidentes de DevOps :computer:
 
-1. Detección:
+1. **Detección:**
    + Utilizar herramientas de monitoreo para detectar actividades sospechosas en tiempo real.
 
 2. Notificación:
