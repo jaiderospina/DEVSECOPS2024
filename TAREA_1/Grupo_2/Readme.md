@@ -1,7 +1,7 @@
 # <h1 align="center"> DEVSECOPS </h1>
 
 Integrantes:
- - Integrante 1 - ID: 635668
+ - Juan Peña - ID: 635668
  - Oscar Yela - ID: 433321
  - Integrante 3 - ID: 000000
  - Integrante 4 - ID: 000000
@@ -60,16 +60,27 @@ En lugar de tratar la seguridad como un aspecto separado o una tarea posterior, 
 ## Importancia de DevSecOps
 
  - ¿Por qué es importante integrar seguridad en DevOps?
- - DevSecOps, es importante puesto que combina un importante nivel de seguridad con ciclos cortos de lanzamientos de produccion 
- - Beneficios para las organizaciones.
+	 - DevSecOps, es importante puesto que combina un importante nivel de seguridad con ciclos cortos de lanzamientos de produccion. tambien posee ciclos de desarrollo más cortos los cuales favorecen la innovacion.
+   Ademas de esto al producirse la unión entre dos equipos aumenta la productividad haciendo que el proceso sea mas fluido ya que todo esta orientado a un objetivo común. Reduciendo los errores de implementación, y mejorando la gestion de los recursos incrementando la eficiencia y reduciendo los tiempos de desarrollo y errores o problemas de código. Ademas en el caso de que se deba dar solución a cualquier problema, la recuperación será más rápida, gracias al conocimiento e involucración de todos los miembros durante el proceso de desarrollo.
+- Beneficios para las organizaciones
+	- DevSecOps beneficia a las organizaciones de forma tal como:
+ 		- Detecte las vulnerabilidades del software en una fase temprana en lugar de esperar a que el software esté terminado, realizan comprobaciones en cada fase. Los equipos de software tienen la capacidad de detectar los problemas de seguridad en fases más tempranas y de reducir el costo y el tiempo necesarios para solucionar las vulnerabilidades.
+		- Gracias a DevSecOps, los equipos de software pueden automatizar las pruebas de seguridad y reducir los errores humanos. También evita que la evaluación de la seguridad se convierta en un cuello de botella dentro del proceso de desarrollo.
+ 		- Los equipos de software utilizan DevSecOps para cumplir con los requisitos normativos mediante la adopción de prácticas y tecnologías de seguridad profesionales. Identifican los requisitos de protección y seguridad de los datos en el sistema.
+		- Los equipos de software son más conscientes de las prácticas recomendadas de seguridad al desarrollar una aplicación. Son más proactivos a la hora de detectar posibles problemas de seguridad en el código, los módulos u otras tecnologías para crear la aplicación.
+		- DevSecOps fomenta la colaboración flexible entre los equipos de desarrollo, operaciones y seguridad. Comparten la misma comprensión de la seguridad del software y utilizan herramientas comunes para automatizar las evaluaciones y los informes. Todos se centran en las formas de aportar más valor a los clientes sin poner en riesgo la seguridad. 	 
     - Seguridad de las aplicaciones
+     	- La seguridad en DevOps se refiere a la implementación de prácticas y herramientas para garantizar la seguridad del software en todas las etapas del ciclo de vida del desarrollo de software, desde la planificación hasta la entrega y el mantenimiento. El objetivo es garantizar que el software sea seguro y esté protegido contra las amenazas de seguridad, incluyendo la identificación temprana y la resolución de vulnerabilidades de seguridad en el software, la protección de datos y la prevención de posibles ataques. 
+       	- Existen diferentes tipos de pruebas de seguridad de las aplicaciones, como las pruebas dinámicas de seguridad de las aplicaciones (DAST), las pruebas estáticas de seguridad de las aplicaciones (SAST), las pruebas interactivas de seguridad de las aplicaciones (IAST) y la autoprotección de las aplicaciones en tiempo de ejecución (RASP). Cada una se incorpora en una fase diferente del desarrollo para identificar vulnerabilidades de seguridad en el entorno, identificar vulnerabilidades en el código, supervisar el rendimiento de la aplicación y recopilar datos para detectar y resolver problemas de seguridad a medida que surgen.
     - Deteccion temprana de vulnerabilidades
-    - cumplimiento y gobernanza mejoradas 
+    	- Las pruebas continuas permiten que los entornos DevSecOps identifiquen problemas dentro de su infraestructura mucho más rápidamente, lo que reduce la posibilidad de una infracción, pérdida de trabajo o retrasos dentro del proceso, especialmente con prácticas como las pruebas de penetración.	 
+    - cumplimiento y gobernanza mejoradas
+    	- Existen menos riesgos de cumplimiento relacionados con la implementación y el lanzamiento de la aplicación, ya que se implementan controles de seguridad en cada parte del desarrollo, lo que reduce el riesgo de una infracción.
  - Impacto en la entrega de software.
 
 ## Los pilares de DevSecOps
 
--  Automatización.
+-  Automatización: Con DevSecOps se consigue CI y CD, es decir, Integración y Entrega Continua, lo que permite mejorar la calidad y la velocidad del desarrollo de software detectando errores más rápidos y automatizar todo el proceso desde la confirmación del código hasta la puesta en producción.
 -  Colaboración.
 -  Integración continua.
 -  Entrega continua.
@@ -99,3 +110,7 @@ En lugar de tratar la seguridad como un aspecto separado o una tarea posterior, 
 ## Referencias
 - Novakovic, K., & Jenkins, C. (2022, 27 enero). DevSecOps: Why you should care and how to get started | Red Hat Developer. Red Hat Developer. https://developers.redhat.com/articles/2022/01/27/devsecops-why-you-should-care-and-how-get-started
 - Felipe Redondo, A. M., & Núñez Cárdenas, F. de J. (2022). DevOps: un vistazo rápido. _Ciencia Huasteca Boletín Científico De La Escuela Superior De Huejutla_, _10_(19), 35-40. https://doi.org/10.29057/esh.v10i19.8121
+- Chakray. (2023, 13 diciembre). ¿Qué es DevOps y por qué es tan importante? Chakray. https://www.chakray.com/es/devops-que-es-y-por-que-es-tan-importante/
+- evolución e importancia de la seguridad para DevOps y DevSecOps. (2024, 9 febrero). GlobalSign. https://www.globalsign.com/es/blog/devops-vs-devsecops-evolucion-e-importancia-de-la-seguridad#:~:text=Al%20integrar%20la%20seguridad%20de,los%20procesos%20de%20desarrollo%20optimizados.
+- ¿Qué es DevSecOps? - Explicación de las operaciones de seguridad para desarrolladores - AWS. (s. f.). Amazon Web Services, Inc. https://aws.amazon.com/es/what-is/devsecops/
+- Sentrio. (2023, 10 mayo). Seguridad en DevOps: prácticas y herramientas para garantizar la seguridad. Sentrio. https://sentrio.io/blog/seguridad-en-devops-practicas-y-herramientas-para-garantizar-la-seguridad/#:~:text=%C2%BFQu%C3%A9%20es%20la%20Seguridad%20en,la%20entrega%20y%20el%20mantenimiento.
