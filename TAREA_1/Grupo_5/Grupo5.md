@@ -75,3 +75,12 @@ La aparición de DevSecOps puede ser vista como una evolución lógica en el cam
 
 Si bien no hay un punto específico en el tiempo en el que se pueda decir que DevSecOps comenzó oficialmente, su desarrollo se puede rastrear hasta mediados de la década de 2010, cuando las organizaciones comenzaron a adoptar prácticas más proactivas de seguridad en el contexto de DevOps. Desde entonces, ha ganado popularidad y ha sido adoptado por una amplia gama de organizaciones que buscan mejorar la seguridad de sus aplicaciones y sistemas.
 
+## **Diferencias entre DevSecOps y DevOps**
+
+DevOps no solo se trata de los equipos de desarrollo y operaciones. Si desea aprovechar al máximo la agilidad y la capacidad de respuesta del enfoque de DevOps, la seguridad de la TI debe ser una parte integral de todo el ciclo de vida de sus aplicaciones.
+
+¿A qué se debe? En el pasado, solo un equipo específico se encargaba de la seguridad en la etapa final del desarrollo. Esto no era un problema cuando esos ciclos duraban meses o incluso años, pero esas épocas se terminaron. Un enfoque de DevOps efectivo garantiza ciclos de desarrollo frecuentes y rápidos (que suelen durar semanas o días); sin embargo, las prácticas de seguridad desactualizadas pueden revertir hasta las iniciativas más eficientes.
+<p align="center"><img src="https://raw.githubusercontent.com/jaiderospina/DEVSECOPS2024/main/TAREA_1/Grupo_5/Imagenes/devsecops-linear-405x259.png" alt="logo" width="900"/></p>
+
+DevSecOps implica pensar desde el principio en la seguridad de las aplicaciones y de la infraestructura. También supone automatizar algunas puertas de seguridad para evitar que se ralenticen los flujos de trabajo de DevOps. A fin de cumplir con estos objetivos, es necesario seleccionar las herramientas adecuadas para integrar la seguridad de manera permanente, como acordar el uso de un entorno de desarrollo integrado (IDE) con funciones que permitan proteger los sistemas. Sin embargo, la seguridad efectiva de DevOps requiere más que nuevas herramientas, ya que se construye sobre los cambios culturales de este enfoque para integrar el trabajo de los equipos de seguridad lo antes posible.
+<p align="center"><img src="https://raw.githubusercontent.com/jaiderospina/DEVSECOPS2024/main/TAREA_1/Grupo_5/Imagenes/devsecops-collab-405x308.png" alt="logo" width="900"/></p>
