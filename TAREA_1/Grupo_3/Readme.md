@@ -36,7 +36,7 @@ Contenido
 
 En la seguridad de DevOps, la gestión de incidentes implica establecer procesos y procedimientos para detectar, responder y recuperarse de eventos de seguridad. Esto requiere una estrecha coordinación entre equipos de desarrollo, operaciones y seguridad para garantizar una respuesta efectiva ante cualquier incidente que pueda surgir en entornos DevOps.
 
-@Proceso :technologist: Gestión de incidentes de DevOps :computer:
+**@Proceso** :technologist: Gestión de incidentes de DevOps :computer:
 
 1. **Detección:**
    + Utilizar herramientas de monitoreo para detectar actividades sospechosas en tiempo real.
@@ -82,6 +82,23 @@ La educación y concienciación en seguridad juegan un papel crucial en el proce
             6. Revisiones Periódicas y Mejora Continua
 
 Integrar efectivamente la educación y concienciación en seguridad en los procesos de DevOps es fundamental para promover una cultura de seguridad sólida y mitigar los riesgos en cada etapa del ciclo de vida del desarrollo de software.
+
+**@Mejores Prácticas** :white_check_mark:
+
+
+                                    Mejores Prácticas para Promover una Cultura de Seguridad Sólida en Todo el Equipo
+                                               |
+                           _________________|___________________
+                          |                 |                   |
+          Involucramiento de    Capacitación Continua    Integración de Seguridad  
+            la Alta Dirección      en Seguridad             en Procesos
+                   |                    /    \                     /     \
+                   |         Comunicación  Pruebas y      Actualizaciones  Evaluación y 
+                   |           Abierta     Evaluaciones   y Parches       Mejora Continua
+                   |            /                                                |
+                   |   Reconocimiento                                     Resiliencia y 
+                   |   y Recompensas                             Planificación de Contingencia
+                   |___________________|_________________________________________|____________
 
 
 ## Protección de la cadena de suministro de software
