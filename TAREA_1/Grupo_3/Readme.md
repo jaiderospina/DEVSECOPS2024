@@ -11,7 +11,7 @@
 # TABLA DE CONTENIDO
 - [Introducción](#introducción)
 - [Seguridad en la infraestructura como código (IaC)](#seguridad-en-la-infraestructura-como-código-iac)
-- [Gestión de Identidades y Accesos (IAM)](#Gestión-de-Identidades-y-Accesos-(IAM))
+- [Gestión de Identidades y Accesos (IAM)](#gestión-de-identidades-y-accesos-(iam))
 - [Seguridad en contenedores y orquestación de contenedores](#seguridad-en-contenedores-y-orquestación-de-contenedores)
 - [Gestión de incidentes de seguridad](#seguridad-en-ontenedores-y-orquestación-de-contenedores)
 - [Educación y concienciación en seguridad](#educación-y-concienciación-en-seguridad)
