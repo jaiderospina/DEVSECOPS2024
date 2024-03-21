@@ -9,7 +9,7 @@
 <!--Tabla de contenido de los temas de DevSecOps-->
 
 # TABLA DE CONTENIDO
-- [Introducción](#introducción)
+- [Introducción](#Introducción)
 - [Seguridad en la infraestructura como código (IaC)](#seguridad-en-la-infraestructura-como-código-iac)
 - [Gestión de Identidades y Accesos (IAM)](#gestión-de-identidades-y-accesos-iam)
 - [Seguridad en contenedores y orquestación de contenedores](#seguridad-en-contenedores-y-orquestación-de-contenedores)
@@ -239,4 +239,5 @@ En este tipo de seguridad se combinan las practicas recomendadas de la gestión 
 
 ## Autores
 
-| [<img src="https://github.dev/jpinillaDiplomado/jpinillaDiplomado/blob/main/Profile/Photo.jpeg" width=115><br><sub>Julieth Pinilla</sub>](https://github.com/jpinillaDiplomado) |
+| <img src="https://github.com/jpinillaDiplomado/jpinillaDiplomado/blob/5e8d3d0a2a850cc19d1823b300a81c37461aaaa0/Profile/Photo.jpeg" width=115><br><sub>Julieth Pinilla</sub> (https://github.com/jpinillaDiplomado) | [<img src="https://github.com/jpinillaDiplomado/jpinillaDiplomado/blob/5e8d3d0a2a850cc19d1823b300a81c37461aaaa0/Profile/Photo.jpeg" width=115><br><sub>Julieth Pinilla</sub>](https://github.com/jpinillaDiplomado) |
+
