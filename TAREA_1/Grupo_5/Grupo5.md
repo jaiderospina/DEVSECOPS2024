@@ -66,7 +66,7 @@ Tambien tiene tanto que ver con la cultura y la responsabilidad compartida como 
 
 <h1 align="center">¿Como comenzo DevSecOps?</h1>
 
-<p align="center"><img src="https://raw.githubusercontent.com/jaiderospina/DEVSECOPS2024/main/TAREA_1/Grupo_5/Imagenes/_the-history-of-devsecops-1024x600.avif" alt="logo" width="900"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/HISTORIA.png" alt="logo" width="900"/></p>
 
 DevSecOps surgió como una respuesta a la necesidad de abordar las deficiencias en la seguridad de las aplicaciones y sistemas dentro del marco de la metodología DevOps. DevOps se centraba principalmente en la colaboración entre equipos de desarrollo y operaciones para acelerar la entrega de software, pero no abordaba de manera integral las preocupaciones de seguridad.
 
