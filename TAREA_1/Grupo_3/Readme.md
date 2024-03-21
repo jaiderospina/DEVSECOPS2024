@@ -65,7 +65,7 @@ En conclusión, la implementación efectiva de controles de acceso basados en ro
 
 ## Seguridad en contenedores y orquestación de contenedores
 
-![Seguridad en Contenedores](Imgen Contenedores.jpeg)
+![Seguridad en Contenedores](imagenes/Imgen Contenedores.jpg)
 
 ## Introducción
 
