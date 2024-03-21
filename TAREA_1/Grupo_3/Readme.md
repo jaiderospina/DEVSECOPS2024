@@ -239,5 +239,9 @@ En este tipo de seguridad se combinan las practicas recomendadas de la gestión 
 
 ## Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Camila Fernanda Alves</sub>](https://github.com/camilafernanda) | [<img src="https://avatars.githubusercontent.com/u/38091359?v=4" width=115><br><sub>Clóvis Ribeiro Júnior</sub>](https://github.com/crovim)  |
+## Autores
+
+| [<img src="https://raw.githubusercontent.com/jpinillaDiplomado/jpinillaDiplomado/5e8d3d0a2a850cc19d1823b300a81c37461aaaa0/Profile/Photo.jpeg" width=115><br><sub>Juliteth Pinilla</sub>](https://github.com/jpinillaDiplomado) | [<img src="https://avatars.githubusercontent.com/u/105172071?v=4" width=115><br><sub>Miguel Aponte</sub>](https://github.com/Miguelo89)  | [<img src="https://avatars.githubusercontent.com/u/163653023?v=4" width=115><br><sub>Andrés Gonzales </sub>](https://github.com/Andrezk8) | 
+| :---: | :---: | :---: |
+| **Left-aligned** | This | That |
 
