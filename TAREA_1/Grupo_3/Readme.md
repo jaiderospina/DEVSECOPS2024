@@ -21,10 +21,7 @@
 
 ---
 ## Introducción
-Contenido
-
-## Seguridad en la infraestructura como código (IaC)
-Contenido
+La seguridad en DevOps es un enfoque integrado que aborda la seguridad en todas las etapas del ciclo de vida de desarrollo de software, desde la planificación y el desarrollo hasta las pruebas, la implementación, la entrega y el monitoreo continuo. DevOps combina las prácticas de desarrollo ágil con las operaciones de TI para permitir entregas de software rápidas y frecuentes. La seguridad en DevOps busca garantizar que estas entregas rápidas no comprometan la seguridad del software.
 
 ## Gestión de Identidades y Accesos (IAM)
 
@@ -66,10 +63,6 @@ En conclusión, la implementación efectiva de controles de acceso basados en ro
 ## Seguridad en contenedores y orquestación de contenedores
 
 ![Seguridad en Contenedores](imagenes/Imgen_Contenedores.jpg)
-
-## Introducción
-
-En el vertiginoso mundo de DevOps, la seguridad en contenedores y su orquestación se erigen como pilares fundamentales. Esta investigación explora de manera creativa las mejores prácticas y enfoques innovadores para garantizar la seguridad en el desarrollo, despliegue y gestión de contenedores.
 
 ## Desafíos de Seguridad y Soluciones Creativas
 
@@ -228,7 +221,7 @@ En este tipo de seguridad se combinan las practicas recomendadas de la gestión 
 ![SDLC](imagenes/CicloDeVidaDeDesarrolloDelSoftwareSDLC.png)
  Es un marco que se utiliza para desarrollar, implementar y mantener el software, algunas de las etapas del SDLC son:
 
-- Planificacion
+- Planificación
 - Análisis de requisitos
 - Diseño
 - Desarrollo
