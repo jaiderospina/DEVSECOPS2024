@@ -239,5 +239,4 @@ En este tipo de seguridad se combinan las practicas recomendadas de la gestión 
 
 ## Autores
 
-| [<img src="https://github.dev/jpinillaDiplomado/jpinillaDiplomado/blob/main/Profile/Photo.jpeg" width=115><br><sub>Julieth Pinilla</sub>](https://github.com/jpinillaDiplomado) |  [<img src="https://avatars.githubusercontent.com/u/38091359?v=4" width=115><br><sub>Clóvis Ribeiro Júnior</sub>](https://github.com/crovim)  |
-| :---: | :---: 
+| [<img src="https://github.dev/jpinillaDiplomado/jpinillaDiplomado/blob/main/Profile/Photo.jpeg" width=115><br><sub>Julieth Pinilla</sub>](https://github.com/jpinillaDiplomado) |
