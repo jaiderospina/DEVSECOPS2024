@@ -9,11 +9,11 @@
 <!--Tabla de contenido de los temas de DevSecOps-->
 
 # TABLA DE CONTENIDO
-- [Introducción](#introducción)
+- [Introducción](#Introducción)
 - [Seguridad en la infraestructura como código (IaC)](#seguridad-en-la-infraestructura-como-código-iac)
-- [Gestión de identidades y accesos](#gestión-de-identidades-y-accesos)
+- [Gestión de Identidades y Accesos (IAM)](#gestión-de-identidades-y-accesos-iam)
 - [Seguridad en contenedores y orquestación de contenedores](#seguridad-en-contenedores-y-orquestación-de-contenedores)
-- [Gestión de incidentes de seguridad](#seguridad-en-contenedores-y-orquestación-de-contenedores)
+- [Gestión de incidentes de seguridad](#seguridad-en-ontenedores-y-orquestación-de-contenedores)
 - [Educación y concienciación en seguridad](#educación-y-concienciación-en-seguridad)
 - [Protección de la cadena de suministro de software](#seguridad-en-contenedores-y-orquestación-de-contenedores)
 - [Glosario](#glosario)
@@ -26,11 +26,99 @@ Contenido
 ## Seguridad en la infraestructura como código (IaC)
 Contenido
 
-## Gestión de identidades y accesos
-Contenido
+## Gestión de Identidades y Accesos (IAM)
+
+La Gestión de Identidades y Accesos (IAM) desempeña un papel crucial en entornos DevOps para garantizar la seguridad de los sistemas y datos. En este documento, exploraremos la implementación de controles de acceso basados en roles (RBAC), autenticación multifactor (MFA) y auditoría de acceso como prácticas fundamentales en la seguridad de los entornos DevOps.
+
+## Implementación de Controles de Acceso Basados en Roles (RBAC)
+
+Los controles de acceso basados en roles (RBAC) son una forma efectiva de gestionar quién tiene acceso a qué recursos dentro de un entorno DevOps. En RBAC, los usuarios se asignan roles específicos que determinan sus permisos y acciones permitidas. Algunas mejores prácticas para la implementación de RBAC incluyen:
+
+- **Asignación de roles según responsabilidades**: Identificar y asignar roles específicos según las responsabilidades y funciones de los usuarios en el equipo DevOps.
+- **Principio de privilegios mínimos**: Conceder a los usuarios solo los permisos necesarios para realizar sus tareas asignadas, reduciendo así la superficie de ataque potencial.
+- **Revisión periódica de permisos**: Realizar revisiones regulares de los permisos asignados para garantizar que estén alineados con las necesidades operativas actuales y para eliminar cualquier acceso no utilizado o innecesario.
+
+![RBAC](imagenes/RBAC.png)
+
+## Autenticación Multifactor (MFA)
+
+La autenticación multifactor (MFA) agrega una capa adicional de seguridad al requerir múltiples formas de autenticación antes de permitir el acceso a los sistemas o datos. Algunas prácticas clave para implementar MFA en entornos DevOps incluyen:
+
+- **Uso de factores múltiples**: Utilizar al menos dos factores de autenticación, como contraseñas, tokens de autenticación, huellas dactilares o reconocimiento facial.
+- **Integración con sistemas de autenticación centralizados**: Implementar soluciones de MFA que se integren fácilmente con sistemas de autenticación centralizados, como LDAP o Active Directory, para una administración centralizada de identidades.
+- **Promoción de MFA en todas las interacciones**: Fomentar el uso de MFA en todas las interacciones, incluido el acceso a la consola de administración, herramientas de desarrollo y sistemas de control de versiones.
+
+![MFA](imagenes/MFA.jpg)
+
+## Auditoría de Acceso
+
+La auditoría de acceso es crucial para monitorear y registrar las actividades de los usuarios dentro del entorno DevOps, lo que ayuda a identificar y mitigar posibles amenazas de seguridad. Algunas estrategias para la auditoría de acceso efectiva incluyen:
+
+- **Registro exhaustivo de actividades**: Registrar todas las acciones realizadas por los usuarios, incluidos los intentos de inicio de sesión, cambios de configuración y accesos a recursos sensibles.
+- **Análisis de registros automatizado**: Implementar herramientas de análisis de registros automatizado para detectar patrones de comportamiento sospechosos o actividades anómalas.
+- **Retención de registros a largo plazo**: Mantener registros de auditoría durante períodos prolongados para cumplir con los requisitos de cumplimiento y facilitar la investigación de incidentes de seguridad.
+
+![Auditoría de Acceso](imagenes/AUDITORIA.jpg)
+
+En conclusión, la implementación efectiva de controles de acceso basados en roles, autenticación multifactor y auditoría de acceso son elementos esenciales para garantizar la seguridad de los sistemas y datos en entornos DevOps. Al seguir estas prácticas, las organizaciones pueden fortalecer su postura de seguridad y mitigar los riesgos asociados con el desarrollo y la implementación ágil de software.
+
 
 ## Seguridad en contenedores y orquestación de contenedores
-Contenido
+
+![Seguridad en Contenedores](imagenes/Imgen_Contenedores.jpg)
+
+## Introducción
+
+En el vertiginoso mundo de DevOps, la seguridad en contenedores y su orquestación se erigen como pilares fundamentales. Esta investigación explora de manera creativa las mejores prácticas y enfoques innovadores para garantizar la seguridad en el desarrollo, despliegue y gestión de contenedores.
+
+## Desafíos de Seguridad y Soluciones Creativas
+
+### Desafío 1: Configuración Segura de Imágenes de Contenedor
+
+**Solución:** Implementación de pipelines de CI/CD que integren automáticamente escaneos de seguridad en imágenes de contenedor antes del despliegue.
+
+### Desafío 2: Segmentación de Redes en Entornos de Contenedores
+
+**Solución:** Utilización de tecnologías de red definidas por software (SDN) para crear segmentación dinámica y granular entre contenedores.
+
+### Desafío 3: Monitorización de Comportamientos Anómalos
+
+**Solución Creativa:** Despliegue de sistemas de detección de intrusiones (IDS) específicos para entornos de contenedores que analicen patrones de tráfico y comportamientos anómalos en tiempo real.
+
+## Implementación en la Práctica
+
+### Paso 1: Configuración del Entorno
+
+Para empezar, asegúrate de tener instaladas las herramientas necesarias como Docker, Kubernetes, y herramientas de CI/CD como Jenkins.
+
+### Paso 2: Desarrollo Seguro de Imágenes
+
+Utiliza Dockerfile y Docker Security Bench para garantizar una configuración segura de tus imágenes de contenedor.
+
+### Paso 3: Despliegue y Gestión
+
+Emplea Kubernetes para orquestar tus contenedores y asegúrate de implementar políticas de segmentación de redes.
+
+### Paso 4: Monitorización Continua
+
+Integra herramientas como Prometheus y Grafana para monitorizar comportamientos anómalos y tomar acciones proactivas.
+
+| Ventajas                 | Desventajas                |
+|-----------------------------------|----------------------------------------|
+| Agilidad en el Desarrollo        | Aislamiento Inadecuado                |
+| Escalabilidad y Flexibilidad      | Vulnerabilidades en Imágenes          |
+| Eficiencia en el Despliegue       | Gestión Compleja de Secretos          |
+| Automatización de Procesos        | Dependencia de Herramientas Externas  |
+| Mejora en la Colaboración         | Costo de Implementación               |
+| Monitoreo y Detección de Anomalías| Complejidad en la Orquestación        |
+| Seguridad en el Ciclo de Vida     | Posible Impacto en el Rendimiento     |
+| Reducción de Tiempos de Entrega   | Riesgos de Fuga de Datos              |
+| Gestión Centralizada de Recursos  | Necesidad de Capacitación Continua    |
+
+
+## Conclusiones
+
+La seguridad en contenedores no es solo una tarea técnica, es un arte que requiere creatividad y enfoques innovadores. Al implementar prácticas como las mencionadas, podemos fortalecer la seguridad en todo el ciclo de vida de los contenedores en entornos DevOps.
 
 ## Gestión de incidentes de seguridad
 
@@ -150,4 +238,6 @@ En este tipo de seguridad se combinan las practicas recomendadas de la gestión 
 - Mantenimiento
 
 ## Autores
-Contenido
+
+| <img src="https://github.com/jpinillaDiplomado/jpinillaDiplomado/blob/5e8d3d0a2a850cc19d1823b300a81c37461aaaa0/Profile/Photo.jpeg" width=115><br><sub>Julieth Pinilla</sub> (https://github.com/jpinillaDiplomado) | [<img src="https://github.com/jpinillaDiplomado/jpinillaDiplomado/blob/5e8d3d0a2a850cc19d1823b300a81c37461aaaa0/Profile/Photo.jpeg" width=115><br><sub>Julieth Pinilla</sub>](https://github.com/jpinillaDiplomado) |
+
