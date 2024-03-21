@@ -11,9 +11,9 @@
 # TABLA DE CONTENIDO
 - [Introducción](#introducción)
 - [Seguridad en la infraestructura como código (IaC)](#seguridad-en-la-infraestructura-como-código-iac)
-- [Gestión de identidades y accesos](#gestión-de-identidades-y-accesos)
+- [Gestión de Identidades y Accesos (IAM)](#Gestión-de-Identidades-y-Accesos-(IAM))
 - [Seguridad en contenedores y orquestación de contenedores](#seguridad-en-contenedores-y-orquestación-de-contenedores)
-- [Gestión de incidentes de seguridad](#seguridad-en-contenedores-y-orquestación-de-contenedores)
+- [Gestión de incidentes de seguridad](#seguridad-en-ontenedores-y-orquestación-de-contenedores)
 - [Educación y concienciación en seguridad](#educación-y-concienciación-en-seguridad)
 - [Protección de la cadena de suministro de software](#seguridad-en-contenedores-y-orquestación-de-contenedores)
 - [Glosario](#glosario)
@@ -26,8 +26,42 @@ Contenido
 ## Seguridad en la infraestructura como código (IaC)
 Contenido
 
-## Gestión de identidades y accesos
-Contenido
+## Gestión de Identidades y Accesos (IAM)
+
+La Gestión de Identidades y Accesos (IAM) desempeña un papel crucial en entornos DevOps para garantizar la seguridad de los sistemas y datos. En este documento, exploraremos la implementación de controles de acceso basados en roles (RBAC), autenticación multifactor (MFA) y auditoría de acceso como prácticas fundamentales en la seguridad de los entornos DevOps.
+
+## Implementación de Controles de Acceso Basados en Roles (RBAC)
+
+Los controles de acceso basados en roles (RBAC) son una forma efectiva de gestionar quién tiene acceso a qué recursos dentro de un entorno DevOps. En RBAC, los usuarios se asignan roles específicos que determinan sus permisos y acciones permitidas. Algunas mejores prácticas para la implementación de RBAC incluyen:
+
+- **Asignación de roles según responsabilidades**: Identificar y asignar roles específicos según las responsabilidades y funciones de los usuarios en el equipo DevOps.
+- **Principio de privilegios mínimos**: Conceder a los usuarios solo los permisos necesarios para realizar sus tareas asignadas, reduciendo así la superficie de ataque potencial.
+- **Revisión periódica de permisos**: Realizar revisiones regulares de los permisos asignados para garantizar que estén alineados con las necesidades operativas actuales y para eliminar cualquier acceso no utilizado o innecesario.
+
+![RBAC](imagenes/RBAC.png)
+
+## Autenticación Multifactor (MFA)
+
+La autenticación multifactor (MFA) agrega una capa adicional de seguridad al requerir múltiples formas de autenticación antes de permitir el acceso a los sistemas o datos. Algunas prácticas clave para implementar MFA en entornos DevOps incluyen:
+
+- **Uso de factores múltiples**: Utilizar al menos dos factores de autenticación, como contraseñas, tokens de autenticación, huellas dactilares o reconocimiento facial.
+- **Integración con sistemas de autenticación centralizados**: Implementar soluciones de MFA que se integren fácilmente con sistemas de autenticación centralizados, como LDAP o Active Directory, para una administración centralizada de identidades.
+- **Promoción de MFA en todas las interacciones**: Fomentar el uso de MFA en todas las interacciones, incluido el acceso a la consola de administración, herramientas de desarrollo y sistemas de control de versiones.
+
+![MFA](imagenes/MFA.jpg)
+
+## Auditoría de Acceso
+
+La auditoría de acceso es crucial para monitorear y registrar las actividades de los usuarios dentro del entorno DevOps, lo que ayuda a identificar y mitigar posibles amenazas de seguridad. Algunas estrategias para la auditoría de acceso efectiva incluyen:
+
+- **Registro exhaustivo de actividades**: Registrar todas las acciones realizadas por los usuarios, incluidos los intentos de inicio de sesión, cambios de configuración y accesos a recursos sensibles.
+- **Análisis de registros automatizado**: Implementar herramientas de análisis de registros automatizado para detectar patrones de comportamiento sospechosos o actividades anómalas.
+- **Retención de registros a largo plazo**: Mantener registros de auditoría durante períodos prolongados para cumplir con los requisitos de cumplimiento y facilitar la investigación de incidentes de seguridad.
+
+![Auditoría de Acceso](imagenes/AUDITORIA.jpg)
+
+En conclusión, la implementación efectiva de controles de acceso basados en roles, autenticación multifactor y auditoría de acceso son elementos esenciales para garantizar la seguridad de los sistemas y datos en entornos DevOps. Al seguir estas prácticas, las organizaciones pueden fortalecer su postura de seguridad y mitigar los riesgos asociados con el desarrollo y la implementación ágil de software.
+
 
 ## Seguridad en contenedores y orquestación de contenedores
 Contenido
