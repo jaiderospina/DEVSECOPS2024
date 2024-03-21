@@ -64,7 +64,61 @@ En conclusión, la implementación efectiva de controles de acceso basados en ro
 
 
 ## Seguridad en contenedores y orquestación de contenedores
-Contenido
+
+![Seguridad en Contenedores](Imgen Contenedores.jpeg)
+
+## Introducción
+
+En el vertiginoso mundo de DevOps, la seguridad en contenedores y su orquestación se erigen como pilares fundamentales. Esta investigación explora de manera creativa las mejores prácticas y enfoques innovadores para garantizar la seguridad en el desarrollo, despliegue y gestión de contenedores.
+
+## Desafíos de Seguridad y Soluciones Creativas
+
+### Desafío 1: Configuración Segura de Imágenes de Contenedor
+
+**Solución:** Implementación de pipelines de CI/CD que integren automáticamente escaneos de seguridad en imágenes de contenedor antes del despliegue.
+
+### Desafío 2: Segmentación de Redes en Entornos de Contenedores
+
+**Solución:** Utilización de tecnologías de red definidas por software (SDN) para crear segmentación dinámica y granular entre contenedores.
+
+### Desafío 3: Monitorización de Comportamientos Anómalos
+
+**Solución Creativa:** Despliegue de sistemas de detección de intrusiones (IDS) específicos para entornos de contenedores que analicen patrones de tráfico y comportamientos anómalos en tiempo real.
+
+## Implementación en la Práctica
+
+### Paso 1: Configuración del Entorno
+
+Para empezar, asegúrate de tener instaladas las herramientas necesarias como Docker, Kubernetes, y herramientas de CI/CD como Jenkins.
+
+### Paso 2: Desarrollo Seguro de Imágenes
+
+Utiliza Dockerfile y Docker Security Bench para garantizar una configuración segura de tus imágenes de contenedor.
+
+### Paso 3: Despliegue y Gestión
+
+Emplea Kubernetes para orquestar tus contenedores y asegúrate de implementar políticas de segmentación de redes.
+
+### Paso 4: Monitorización Continua
+
+Integra herramientas como Prometheus y Grafana para monitorizar comportamientos anómalos y tomar acciones proactivas.
+
+| Ventajas                 | Desventajas                |
+|-----------------------------------|----------------------------------------|
+| Agilidad en el Desarrollo        | Aislamiento Inadecuado                |
+| Escalabilidad y Flexibilidad      | Vulnerabilidades en Imágenes          |
+| Eficiencia en el Despliegue       | Gestión Compleja de Secretos          |
+| Automatización de Procesos        | Dependencia de Herramientas Externas  |
+| Mejora en la Colaboración         | Costo de Implementación               |
+| Monitoreo y Detección de Anomalías| Complejidad en la Orquestación        |
+| Seguridad en el Ciclo de Vida     | Posible Impacto en el Rendimiento     |
+| Reducción de Tiempos de Entrega   | Riesgos de Fuga de Datos              |
+| Gestión Centralizada de Recursos  | Necesidad de Capacitación Continua    |
+
+
+## Conclusiones
+
+La seguridad en contenedores no es solo una tarea técnica, es un arte que requiere creatividad y enfoques innovadores. Al implementar prácticas como las mencionadas, podemos fortalecer la seguridad en todo el ciclo de vida de los contenedores en entornos DevOps.
 
 ## Gestión de incidentes de seguridad
 
