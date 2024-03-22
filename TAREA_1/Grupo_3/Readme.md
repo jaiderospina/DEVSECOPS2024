@@ -6,15 +6,16 @@
     <img width="600" height="140" alt="DevSecOps" src="imagenes/LogoDevSecOps1.png">
   </h1>
 </div>
-<!--Tabla de contenido de los temas de DevSecOps-->
 
 # TABLA DE CONTENIDO
+
 - [Introducción](#Introducción)
 - [Gestión de Identidades y Accesos (IAM)](#gestión-de-identidades-y-accesos-iam)
 - [Seguridad en contenedores y orquestación de contenedores](#seguridad-en-contenedores-y-orquestación-de-contenedores)
 - [Gestión de incidentes de seguridad](#seguridad-en-ontenedores-y-orquestación-de-contenedores)
 - [Educación y concienciación en seguridad](#educación-y-concienciación-en-seguridad)
 - [Protección de la cadena de suministro de software](#seguridad-en-contenedores-y-orquestación-de-contenedores)
+- [Automatización de pruebas de seguridad](#Automatización-de-pruebas-de-seguridad)
 - [Glosario](#glosario)
 - [Autores](#autores)
 
@@ -54,14 +55,18 @@ La auditoría de acceso es crucial para monitorear y registrar las actividades d
 - **Análisis de registros automatizado**: Implementar herramientas de análisis de registros automatizado para detectar patrones de comportamiento sospechosos o actividades anómalas.
 - **Retención de registros a largo plazo**: Mantener registros de auditoría durante períodos prolongados para cumplir con los requisitos de cumplimiento y facilitar la investigación de incidentes de seguridad.
 
-![Auditoría de Acceso](imagenes/AUDITORIA.jpg)
+<div align="center">
+    <img width="600" height="400" alt="DevSecOps" src="imagenes/AUDITORIA.jpg">
+</div>
 
 En conclusión, la implementación efectiva de controles de acceso basados en roles, autenticación multifactor y auditoría de acceso son elementos esenciales para garantizar la seguridad de los sistemas y datos en entornos DevOps. Al seguir estas prácticas, las organizaciones pueden fortalecer su postura de seguridad y mitigar los riesgos asociados con el desarrollo y la implementación ágil de software.
 
 
 ## Seguridad en contenedores y orquestación de contenedores
 
-![Seguridad en Contenedores](imagenes/Imgen_Contenedores.jpg)
+<div align="center">
+    <img width="400" height="400" alt="DevSecOps" src="imagenes/Imgen_Contenedores.jpg">
+</div>
 
 ### Desafíos de Seguridad y Soluciones Creativas
 
@@ -211,6 +216,9 @@ En este tipo de seguridad se combinan las practicas recomendadas de la gestión 
 - [x] Firmar los elementos del software de manera digitar para autenticar su procedencia.
 - [x] Aprovechar la automatización para los procesos y políticas.
 - [x] Examinar el sistema con herramientas automatizadas de pruebas de seguridad.
+
+## Automatización de pruebas de seguridad
+Aquí va el contenido de Leonardo
 
 ## Glosario
 
