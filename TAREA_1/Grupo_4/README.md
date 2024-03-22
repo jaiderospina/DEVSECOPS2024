@@ -137,7 +137,7 @@ La filosofía de DevSecOps promueve la colaboración estrecha entre equipos de d
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_4/Imagenes/AppsDevOps.jpg" alt="logo" width="630" height="357"/></p>
 
 
-### A continuacion, veremos algunos puntos clave donde se puede observar la implementación de DevSecOps en la actualidad
+A continuacion, veremos algunos puntos clave donde se puede observar la implementación de DevSecOps en la actualidad
 
 
 ### 1. **Integración de Seguridad desde el Inicio del Ciclo de Vida del Desarrollo (SDLC)**
