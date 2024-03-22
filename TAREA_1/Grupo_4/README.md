@@ -189,3 +189,14 @@ A continuacion, veremos algunos puntos clave donde se puede observar la implemen
    - La integración de herramientas de seguridad en los pipelines de desarrollo garantiza la detección temprana y la corrección automatizada de problemas de seguridad.
    - Se utilizan herramientas de análisis estático y dinámico de código, escáneres de vulnerabilidades, y pruebas de penetración automatizadas para evaluar la               seguridad del software durante todo el ciclo de vida de desarrollo.
    - La integración de herramientas de seguridad en los pipelines de CI/CD facilita la entrega continua de software seguro y minimiza el riesgo de exposición a              vulnerabilidades de seguridad.
+    
+   # <h1 align="center"><strong>CONCLUSIÓN</strong></h1>
+
+
+   - DevSecOps representa un enfoque integral y proactivo para abordar la seguridad en el desarrollo de software, desde las primeras etapas del ciclo de vida        hasta la operación en producción. Esta metodología reconoce la importancia crítica de la seguridad en un entorno de desarrollo ágil y colaborativo, donde       la velocidad y la calidad son fundamentales.
+
+   - A lo largo de su evolución, DevSecOps ha pasado de ser un concepto emergente a convertirse en una práctica estándar en muchas organizaciones,        especialmente aquellas con requisitos regulatorios estrictos. La integración de la seguridad en cada fase del proceso de desarrollo, junto con la automatización de pruebas y controles, ha demostrado ser efectiva para identificar y mitigar vulnerabilidades de manera temprana y continua.
+
+   - Además, el cambio cultural hacia una mentalidad de "seguridad como responsabilidad de todos" ha promovido una mayor colaboración entre equipos de desarrollo, operaciones y seguridad. Esta colaboración facilita la identificación y resolución de problemas de seguridad de manera más eficiente, al tiempo que fomenta una cultura de concienciación y responsabilidad en toda la organización.
+
+   - En el futuro, se espera que DevSecOps siga evolucionando para abordar los desafíos emergentes, como la seguridad en entornos nativos de la nube y la integración de inteligencia artificial y aprendizaje automático en los flujos de trabajo de seguridad. A medida que las organizaciones continúen adoptando DevSecOps y refinando sus prácticas, será fundamental seguir promoviendo una cultura de seguridad sólida y adaptarse a las cambiantes amenazas y regulaciones en el panorama de seguridad cibernética.
