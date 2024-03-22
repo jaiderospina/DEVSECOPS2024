@@ -3,7 +3,7 @@
 Integrantes:
  - Juan Peña - ID: 635668
  - Oscar Yela - ID: 433321
- - Integrante 3 - ID: 000000
+ - Maycol Paez - ID: 751391
  - Integrante 4 - ID: 000000
  - Integrante 5 - ID: 000000
 
@@ -94,6 +94,13 @@ En lugar de tratar la seguridad como un aspecto separado o una tarea posterior, 
 -  Monitoreo de seguridad en tiempo real.
 -  Gestión de identidades y accesos.
 -  Herramientas populares en el ecosistema DevSecOps.
+  -  **DevOps**
+     		Invicti es una herramienta que puedes integrarate en el tiempo de vida de desarrollo para realizar la gestión de seguridad en sus productos de software manteniendo la agilidad del desarrollo del proceso, su análisis realizado es exhaustivo, aportando precisión en el problema.
+
+![](imagenes/invicti_logo.png)
+
+-  **SonarQube**
+  		comprueba su código en busca de vulnerabilidades y lo rastrea en busca de errores que podrían convertirse en amenazas. Al momento de escribir este artículo, admite casi 30 diferentes lenguajes de programación.   
 
 ## Casos de estudio
 
