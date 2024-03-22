@@ -6,7 +6,7 @@ DevSecOps es la integración fluida de la seguridad dentro de los procesos de De
 ![Logo de DevSecOps](https://github.com/jaiderospina/DEVSECOPS2024/blob/332f0a6d3c74c39be41a601103030620a3020a0b/TAREA_1/Grupo_6/Imagenes/Imagen_Definici%C3%B3n.jpg)
  # ¿Qué significa DevSecOps?
 
-**DevSecOps significa desarrollo, seguridad y operaciones**. Es una extensión de la práctica de DevOps. Cada término define diferentes funciones y responsabilidades de los equipos de software a la hora de crear aplicaciones de software.
+**DevSecOps significa desarrollo, seguridad y operaciones**. Cada término define diferentes funciones y responsabilidades de los equipos de software a la hora de crear aplicaciones de software.
 
 - **Desarrollo:** El desarrollo es el proceso de planificación, codificación, creación y prueba de la aplicación.
 
