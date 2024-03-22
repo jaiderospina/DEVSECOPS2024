@@ -6,27 +6,28 @@
     <img width="600" height="140" alt="DevSecOps" src="imagenes/LogoDevSecOps1.png">
   </h1>
 </div>
-<!--Tabla de contenido de los temas de DevSecOps-->
 
 # TABLA DE CONTENIDO
+
 - [Introducción](#Introducción)
 - [Gestión de Identidades y Accesos (IAM)](#gestión-de-identidades-y-accesos-iam)
 - [Seguridad en contenedores y orquestación de contenedores](#seguridad-en-contenedores-y-orquestación-de-contenedores)
 - [Gestión de incidentes de seguridad](#seguridad-en-ontenedores-y-orquestación-de-contenedores)
 - [Educación y concienciación en seguridad](#educación-y-concienciación-en-seguridad)
 - [Protección de la cadena de suministro de software](#seguridad-en-contenedores-y-orquestación-de-contenedores)
+- [Automatización de pruebas de seguridad](#Automatización-de-pruebas-de-seguridad)
 - [Glosario](#glosario)
 - [Autores](#autores)
 
 ---
-## Introducción
+## Introducción  :books:
 La seguridad en DevOps es un enfoque integrado que aborda la seguridad en todas las etapas del ciclo de vida de desarrollo de software, desde la planificación y el desarrollo hasta las pruebas, la implementación, la entrega y el monitoreo continuo. DevOps combina las prácticas de desarrollo ágil con las operaciones de TI para permitir entregas de software rápidas y frecuentes. La seguridad en DevOps busca garantizar que estas entregas rápidas no comprometan la seguridad del software.
 
-## Gestión de Identidades y Accesos (IAM)
+## Gestión de Identidades y Accesos (IAM) :performing_arts:
 
 La Gestión de Identidades y Accesos (IAM) desempeña un papel crucial en entornos DevOps para garantizar la seguridad de los sistemas y datos. En este documento, exploraremos la implementación de controles de acceso basados en roles (RBAC), autenticación multifactor (MFA) y auditoría de acceso como prácticas fundamentales en la seguridad de los entornos DevOps.
 
-## Implementación de Controles de Acceso Basados en Roles (RBAC)
+### Implementación de Controles de Acceso Basados en Roles (RBAC)
 
 Los controles de acceso basados en roles (RBAC) son una forma efectiva de gestionar quién tiene acceso a qué recursos dentro de un entorno DevOps. En RBAC, los usuarios se asignan roles específicos que determinan sus permisos y acciones permitidas. Algunas mejores prácticas para la implementación de RBAC incluyen:
 
@@ -36,7 +37,7 @@ Los controles de acceso basados en roles (RBAC) son una forma efectiva de gestio
 
 ![RBAC](imagenes/RBAC.png)
 
-## Autenticación Multifactor (MFA)
+### Autenticación Multifactor (MFA)
 
 La autenticación multifactor (MFA) agrega una capa adicional de seguridad al requerir múltiples formas de autenticación antes de permitir el acceso a los sistemas o datos. Algunas prácticas clave para implementar MFA en entornos DevOps incluyen:
 
@@ -46,7 +47,7 @@ La autenticación multifactor (MFA) agrega una capa adicional de seguridad al re
 
 ![MFA](imagenes/MFA.jpg)
 
-## Auditoría de Acceso
+### Auditoría de Acceso
 
 La auditoría de acceso es crucial para monitorear y registrar las actividades de los usuarios dentro del entorno DevOps, lo que ayuda a identificar y mitigar posibles amenazas de seguridad. Algunas estrategias para la auditoría de acceso efectiva incluyen:
 
@@ -54,44 +55,48 @@ La auditoría de acceso es crucial para monitorear y registrar las actividades d
 - **Análisis de registros automatizado**: Implementar herramientas de análisis de registros automatizado para detectar patrones de comportamiento sospechosos o actividades anómalas.
 - **Retención de registros a largo plazo**: Mantener registros de auditoría durante períodos prolongados para cumplir con los requisitos de cumplimiento y facilitar la investigación de incidentes de seguridad.
 
-![Auditoría de Acceso](imagenes/AUDITORIA.jpg)
+<div align="center">
+    <img width="600" height="400" alt="DevSecOps" src="imagenes/AUDITORIA.jpg">
+</div>
 
 En conclusión, la implementación efectiva de controles de acceso basados en roles, autenticación multifactor y auditoría de acceso son elementos esenciales para garantizar la seguridad de los sistemas y datos en entornos DevOps. Al seguir estas prácticas, las organizaciones pueden fortalecer su postura de seguridad y mitigar los riesgos asociados con el desarrollo y la implementación ágil de software.
 
 
-## Seguridad en contenedores y orquestación de contenedores
+## Seguridad en contenedores y orquestación de contenedores :key:
 
-![Seguridad en Contenedores](imagenes/Imgen_Contenedores.jpg)
+<div align="center">
+    <img width="400" height="400" alt="DevSecOps" src="imagenes/Imgen_Contenedores.jpg">
+</div>
 
-## Desafíos de Seguridad y Soluciones Creativas
+### Desafíos de Seguridad y Soluciones Creativas
 
-### Desafío 1: Configuración Segura de Imágenes de Contenedor
+#### Desafío 1: Configuración Segura de Imágenes de Contenedor
 
 **Solución:** Implementación de pipelines de CI/CD que integren automáticamente escaneos de seguridad en imágenes de contenedor antes del despliegue.
 
-### Desafío 2: Segmentación de Redes en Entornos de Contenedores
+#### Desafío 2: Segmentación de Redes en Entornos de Contenedores
 
 **Solución:** Utilización de tecnologías de red definidas por software (SDN) para crear segmentación dinámica y granular entre contenedores.
 
-### Desafío 3: Monitorización de Comportamientos Anómalos
+#### Desafío 3: Monitorización de Comportamientos Anómalos
 
 **Solución Creativa:** Despliegue de sistemas de detección de intrusiones (IDS) específicos para entornos de contenedores que analicen patrones de tráfico y comportamientos anómalos en tiempo real.
 
-## Implementación en la Práctica
+### Implementación en la Práctica
 
-### Paso 1: Configuración del Entorno
+#### Paso 1: Configuración del Entorno
 
 Para empezar, asegúrate de tener instaladas las herramientas necesarias como Docker, Kubernetes, y herramientas de CI/CD como Jenkins.
 
-### Paso 2: Desarrollo Seguro de Imágenes
+#### Paso 2: Desarrollo Seguro de Imágenes
 
 Utiliza Dockerfile y Docker Security Bench para garantizar una configuración segura de tus imágenes de contenedor.
 
-### Paso 3: Despliegue y Gestión
+#### Paso 3: Despliegue y Gestión
 
 Emplea Kubernetes para orquestar tus contenedores y asegúrate de implementar políticas de segmentación de redes.
 
-### Paso 4: Monitorización Continua
+#### Paso 4: Monitorización Continua
 
 Integra herramientas como Prometheus y Grafana para monitorizar comportamientos anómalos y tomar acciones proactivas.
 
@@ -108,11 +113,11 @@ Integra herramientas como Prometheus y Grafana para monitorizar comportamientos 
 | Gestión Centralizada de Recursos  | Necesidad de Capacitación Continua    |
 
 
-## Conclusiones
+#### Conclusiones
 
 La seguridad en contenedores no es solo una tarea técnica, es un arte que requiere creatividad y enfoques innovadores. Al implementar prácticas como las mencionadas, podemos fortalecer la seguridad en todo el ciclo de vida de los contenedores en entornos DevOps.
 
-## Gestión de incidentes de seguridad
+## Gestión de incidentes de seguridad :vertical_traffic_light:
 
 En la seguridad de DevOps, la gestión de incidentes implica establecer procesos y procedimientos para detectar, responder y recuperarse de eventos de seguridad. Esto requiere una estrecha coordinación entre equipos de desarrollo, operaciones y seguridad para garantizar una respuesta efectiva ante cualquier incidente que pueda surgir en entornos DevOps.
 
@@ -147,8 +152,7 @@ En la seguridad de DevOps, la gestión de incidentes implica establecer procesos
 La seguridad desempeña un papel fundamental en el proceso de DevOps. Integrar prácticas y herramientas de seguridad en estos procesos es crucial para asegurar la protección de sistemas y aplicaciones contra posibles amenazas y vulnerabilidades. Cada equipo debe evaluar sus necesidades y requisitos específicos antes de seleccionar las herramientas adecuadas y adoptar las prácticas de seguridad pertinentes. Esta medida garantiza tanto la entrega de software como la protección de usuarios y organizaciones contra posibles vulnerabilidades.
 
 
-
-## Educación y concienciación en seguridad
+## Educación y concienciación en seguridad :beginner:
 
 La educación y concienciación en seguridad juegan un papel crucial en el proceso de DevOps. Más allá de implementar herramientas y prácticas técnicas, es fundamental cultivar una comprensión profunda de la importancia de la seguridad en cada fase del ciclo de vida del desarrollo de software. Desde el diseño hasta la implementación, la educación y concienciación en seguridad son pilares clave para proteger los sistemas y datos contra las crecientes amenazas. 
 
@@ -181,7 +185,7 @@ Integrar efectivamente la educación y concienciación en seguridad en los proce
                    |___________________|_________________________________________|____________
 
 
-## Protección de la cadena de suministro de software
+## Protección de la cadena de suministro de software 
 
 En este tipo de seguridad se combinan las practicas recomendadas de la gestión de los **riesgos** y la **ciberseguridad** para proteger esta cadena en los puntos más vulnerables. La cadena de suministro de software consta de todo el código, las personas, los sistemas y los procesos que contribuyen al desarrollo y la entrega de tu software, es decir, está directamente relacionado con el código durante el [ciclo de vida de desarrollo del software (SDLC)](#ciclo-de-vida-de-desarrollo-del-software-sdlc).
 
@@ -213,6 +217,9 @@ En este tipo de seguridad se combinan las practicas recomendadas de la gestión 
 - [x] Aprovechar la automatización para los procesos y políticas.
 - [x] Examinar el sistema con herramientas automatizadas de pruebas de seguridad.
 
+## Automatización de pruebas de seguridad
+Aquí va el contenido de Leonardo
+
 ## Glosario
 
 ### Ciclo de vida de desarrollo del software (SDLC)
@@ -229,7 +236,7 @@ En este tipo de seguridad se combinan las practicas recomendadas de la gestión 
 - Implementación
 - Mantenimiento
 
-## Autores
+## Autores :trollface:
 
 | [<img src="https://avatars.githubusercontent.com/u/163602168?v=4" width=115><br><sub>Juliteth Pinilla</sub>](https://github.com/jpinillaDiplomado) | [<img src="https://avatars.githubusercontent.com/u/105172071?v=4" width=115><br><sub>Miguel Aponte</sub>](https://github.com/Miguelo89)  | [<img src="https://avatars.githubusercontent.com/u/163653023?v=4" width=115><br><sub>Andrés Gonzales </sub>](https://github.com/Andrezk8) |  
 | :---: | :---: | :---: |
