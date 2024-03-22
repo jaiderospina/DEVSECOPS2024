@@ -3,7 +3,7 @@
 Integrantes:
  - Juan Peña - ID: 635668
  - Oscar Yela - ID: 433321
- - Integrante 3 - ID: 000000
+ - Maycol Paez - ID: 751391
  - Integrante 4 - ID: 000000
  - Integrante 5 - ID: 000000
 
@@ -12,6 +12,8 @@ Integrantes:
 DevSecOps es una metodología que integra la seguridad desde el principio en el ciclo de vida del desarrollo de software, en el marco de las prácticas de DevOps. Esta filosofía busca romper las barreras tradicionales entre los equipos de desarrollo, operaciones y seguridad, promoviendo la colaboración y la responsabilidad compartida en todas las etapas del proceso de desarrollo y despliegue de aplicaciones.
 
 En lugar de tratar la seguridad como un aspecto separado o una tarea posterior, DevSecOps fomenta la automatización de las pruebas de seguridad, la implementación de controles de seguridad continuos y la integración de herramientas de seguridad en todo el ciclo de vida de desarrollo, desde la planificación y el diseño hasta el despliegue y la monitorización en producción. El objetivo es mejorar la seguridad de las aplicaciones y sistemas, sin sacrificar la velocidad ni la agilidad del desarrollo, permitiendo la entrega de software de forma rápida y segura.
+
+DevSecOps
 
 ## ¿Qué es DevSecOps?
 
@@ -47,7 +49,7 @@ En lugar de tratar la seguridad como un aspecto separado o una tarea posterior, 
 
 ![](imagenes/DevOpsLogo.png)
  
- >DevOps es un movimiento basado en un conjunto de prácticas y herramientas que agrupan el desarrollo de software y las operaciones de TI.
+ > DevOps consiste en eliminar las barreras entre dos equipos que anteriormente estaban aislados, el de desarrollo y el de operaciones.
  
  
 ### Definición de DevSecOps.
@@ -94,6 +96,8 @@ En lugar de tratar la seguridad como un aspecto separado o una tarea posterior, 
 -  Monitoreo de seguridad en tiempo real.
 -  Gestión de identidades y accesos.
 -  Herramientas populares en el ecosistema DevSecOps.
+	- **invicti**
+ 		Es una herramienta que se puede implementar en clclo de vida de desarrollo para realizar gestiones de seguridad, su analisis es exhaustivo aportando prescion en la deteccion de problemas de forma automatizada mostrando rapidamente los problemas para solucionarlos.
 
 ## Casos de estudio
 
