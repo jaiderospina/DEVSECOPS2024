@@ -26,7 +26,7 @@ La seguridad en DevOps es un enfoque integrado que aborda la seguridad en todas 
 
 La Gestión de Identidades y Accesos (IAM) desempeña un papel crucial en entornos DevOps para garantizar la seguridad de los sistemas y datos. En este documento, exploraremos la implementación de controles de acceso basados en roles (RBAC), autenticación multifactor (MFA) y auditoría de acceso como prácticas fundamentales en la seguridad de los entornos DevOps.
 
-## Implementación de Controles de Acceso Basados en Roles (RBAC)
+### Implementación de Controles de Acceso Basados en Roles (RBAC)
 
 Los controles de acceso basados en roles (RBAC) son una forma efectiva de gestionar quién tiene acceso a qué recursos dentro de un entorno DevOps. En RBAC, los usuarios se asignan roles específicos que determinan sus permisos y acciones permitidas. Algunas mejores prácticas para la implementación de RBAC incluyen:
 
@@ -36,7 +36,7 @@ Los controles de acceso basados en roles (RBAC) son una forma efectiva de gestio
 
 ![RBAC](imagenes/RBAC.png)
 
-## Autenticación Multifactor (MFA)
+### Autenticación Multifactor (MFA)
 
 La autenticación multifactor (MFA) agrega una capa adicional de seguridad al requerir múltiples formas de autenticación antes de permitir el acceso a los sistemas o datos. Algunas prácticas clave para implementar MFA en entornos DevOps incluyen:
 
@@ -46,7 +46,7 @@ La autenticación multifactor (MFA) agrega una capa adicional de seguridad al re
 
 ![MFA](imagenes/MFA.jpg)
 
-## Auditoría de Acceso
+### Auditoría de Acceso
 
 La auditoría de acceso es crucial para monitorear y registrar las actividades de los usuarios dentro del entorno DevOps, lo que ayuda a identificar y mitigar posibles amenazas de seguridad. Algunas estrategias para la auditoría de acceso efectiva incluyen:
 
@@ -63,35 +63,35 @@ En conclusión, la implementación efectiva de controles de acceso basados en ro
 
 ![Seguridad en Contenedores](imagenes/Imgen_Contenedores.jpg)
 
-## Desafíos de Seguridad y Soluciones Creativas
+### Desafíos de Seguridad y Soluciones Creativas
 
-### Desafío 1: Configuración Segura de Imágenes de Contenedor
+#### Desafío 1: Configuración Segura de Imágenes de Contenedor
 
 **Solución:** Implementación de pipelines de CI/CD que integren automáticamente escaneos de seguridad en imágenes de contenedor antes del despliegue.
 
-### Desafío 2: Segmentación de Redes en Entornos de Contenedores
+#### Desafío 2: Segmentación de Redes en Entornos de Contenedores
 
 **Solución:** Utilización de tecnologías de red definidas por software (SDN) para crear segmentación dinámica y granular entre contenedores.
 
-### Desafío 3: Monitorización de Comportamientos Anómalos
+#### Desafío 3: Monitorización de Comportamientos Anómalos
 
 **Solución Creativa:** Despliegue de sistemas de detección de intrusiones (IDS) específicos para entornos de contenedores que analicen patrones de tráfico y comportamientos anómalos en tiempo real.
 
-## Implementación en la Práctica
+### Implementación en la Práctica
 
-### Paso 1: Configuración del Entorno
+#### Paso 1: Configuración del Entorno
 
 Para empezar, asegúrate de tener instaladas las herramientas necesarias como Docker, Kubernetes, y herramientas de CI/CD como Jenkins.
 
-### Paso 2: Desarrollo Seguro de Imágenes
+#### Paso 2: Desarrollo Seguro de Imágenes
 
 Utiliza Dockerfile y Docker Security Bench para garantizar una configuración segura de tus imágenes de contenedor.
 
-### Paso 3: Despliegue y Gestión
+#### Paso 3: Despliegue y Gestión
 
 Emplea Kubernetes para orquestar tus contenedores y asegúrate de implementar políticas de segmentación de redes.
 
-### Paso 4: Monitorización Continua
+#### Paso 4: Monitorización Continua
 
 Integra herramientas como Prometheus y Grafana para monitorizar comportamientos anómalos y tomar acciones proactivas.
 
@@ -108,7 +108,7 @@ Integra herramientas como Prometheus y Grafana para monitorizar comportamientos 
 | Gestión Centralizada de Recursos  | Necesidad de Capacitación Continua    |
 
 
-## Conclusiones
+#### Conclusiones
 
 La seguridad en contenedores no es solo una tarea técnica, es un arte que requiere creatividad y enfoques innovadores. Al implementar prácticas como las mencionadas, podemos fortalecer la seguridad en todo el ciclo de vida de los contenedores en entornos DevOps.
 
@@ -145,7 +145,6 @@ En la seguridad de DevOps, la gestión de incidentes implica establecer procesos
 
 
 La seguridad desempeña un papel fundamental en el proceso de DevOps. Integrar prácticas y herramientas de seguridad en estos procesos es crucial para asegurar la protección de sistemas y aplicaciones contra posibles amenazas y vulnerabilidades. Cada equipo debe evaluar sus necesidades y requisitos específicos antes de seleccionar las herramientas adecuadas y adoptar las prácticas de seguridad pertinentes. Esta medida garantiza tanto la entrega de software como la protección de usuarios y organizaciones contra posibles vulnerabilidades.
-
 
 
 ## Educación y concienciación en seguridad
