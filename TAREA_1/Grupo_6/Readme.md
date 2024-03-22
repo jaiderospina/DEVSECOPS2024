@@ -7,7 +7,9 @@ DevSecOps es la integración fluida de la seguridad dentro de los procesos de De
 
 
 # ¿Cuál es la diferencia entre DevOps y DevSecOps?
-
+<p align="center">
+  <img src="[https://example.com/imagen.png](https://github.com/jaiderospina/DEVSECOPS2024/blob/886690e3605f4be217ed007184bfb05c20467ef7/TAREA_1/Grupo_6/Imagenes/Diferencias.jpg)">
+</p>
 ![¿Diferencias?](https://github.com/jaiderospina/DEVSECOPS2024/blob/886690e3605f4be217ed007184bfb05c20467ef7/TAREA_1/Grupo_6/Imagenes/Diferencias.jpg)
 
 La diferencia principal entre DevOps y DevSecOps radica en el enfoque adicional en seguridad por parte de este último. Ambos comparten un marco común que prioriza la integración y la colaboración fluida, pero con una atención especial hacia la seguridad.
