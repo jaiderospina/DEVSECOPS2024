@@ -126,3 +126,5 @@ Entre los componentes clave de la cadena de herramientas DevSecOps se encuentran
 
 
 # <h1 align="center"><strong>DEVSECOPS HOY EN DIA</strong></h1>
+
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_4/Imagenes/DecSecOpshoyendia.jpeg" alt="logo" width="630" height="357"/></p>
