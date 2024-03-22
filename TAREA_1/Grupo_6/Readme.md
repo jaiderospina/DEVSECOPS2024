@@ -15,7 +15,7 @@ DevSecOps es la integración fluida de la seguridad dentro de los procesos de De
 - **Operaciones:** El equipo de operaciones publica, supervisa y corrige cualquier problema que surja del software.
 
 ![Imagen de DevSecOps]
-([https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_6/Imagenes/Devops.png](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_6/Imagenes/Devops.png))
+<img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_6/Imagenes/Devops.png">
 
 # ¿Cuál es la diferencia entre DevOps y DevSecOps?
 <p align="center">
