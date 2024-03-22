@@ -9,8 +9,16 @@ Que a su vez intenta realizar una integración de la seguridad durante todo el c
 Tambien tiene tanto que ver con la cultura y la responsabilidad compartida como con cualquier tecnología o técnica específica.
 
 **Índice**
-1. [Primer apartado](#id1)
-2. [Segundo apartado](#id2)
+1. [¿Cuáles son los componentes de DevSecOps?](#id1)
+3. [Beneficios de DevSecOps](#id2)
+4. [Implementación de DevSecOps](#id3)
+5. [Diferencias entre DevSecOps y DevOps](#id4)
+6. [Evaluación y Métricas de DevSecOps](#id5)
+7. [Desafíos y Obstáculos en la Implementación de DevSecOps](#id6)
+8. [Buenas Prácticas en DevSecOps](#id7)
+9. [Monitoreo de seguridad](#id8)
+10. [Segundo apartado](#id9)
+11. [Segundo apartado](#id10)
 
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/RepresentacionDevSecOps.png" alt="logo" width="900"/></p>
@@ -163,11 +171,3 @@ Es importante destacar que la supervisión de seguridad en DevOps no se limita �
 - Desafíos y consideraciones de seguridad de DevOps. (2024). (C) Copyright 2024. Oracle. [Enlace](https://docs.oracle.com/es-ww/iaas/Content/cloud-adoption-framework/devsecops.htm)
 
 - Métricas de DevOps. (2023). (C) Copyright 2023. Oracle. [Enlace](https://docs.oracle.com/es-ww/iaas/Content/devops/using/devops_metrics.htm)
-
-
-<div id='id1' />
-## Primer apartado
-Texto del primer apartado
-<div id='id2' />
-## Segundo apartado
-Texto del segundo apartado
