@@ -16,7 +16,7 @@ DevSecOps es la integración fluida de la seguridad dentro de los procesos de De
 
 <p align="center">
   <img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/886690e3605f4be217ed007184bfb05c20467ef7/TAREA_1/Grupo_6/Imagenes/Diferencias.jpg"
-alt="Descripción de la imagen"  
+ 
  >
 </p>
 
