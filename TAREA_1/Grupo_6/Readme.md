@@ -79,4 +79,16 @@ Al igual que DevOps incorpora pruebas en cada etapa del desarrollo, implementaci
 | Checkmarx                | Realiza análisis estático de código para identificar y solucionar problemas de seguridad.           |
 | Snyk                     | Analiza las dependencias del proyecto en busca de vulnerabilidades y proporciona soluciones.         |
 
+"A medida que las iniciativas de DevSecOps se trasladan a la nube, las cuatro áreas principales de interés incluyen: la seguridad de los datos (45 %), la gestión de la seguridad de la nube (36 %), los riesgos de seguridad de la cadena de suministro (33 %) y la protección de los recursos de la nube pública (29 %)"[1].
+
+Gráfico de barras:
+
+| Área de Interés                     | Porcentaje |
+|-------------------------------------|------------|
+| Seguridad de los datos              | 45%        |
+| Gestión de la seguridad de la nube  | 36%        |
+| Riesgos de seguridad de la cadena de suministro | 33% |
+| Protección de los recursos de la nube pública | 29% |
+
+![Gráfico de Barras](https://chart.googleapis.com/chart?cht=bvg&chtt=%C3%81reas+principales+de+inter%C3%A9s+en+DevSecOps+en+la+nube&chs=400x300&chd=t:45,36,33,29&chds=0,50&chxt=x,y&chxl=0:|Seguridad+de+los+datos|Gesti%C3%B3n+de+la+seguridad+de+la+nube|Riesgos+de+seguridad+de+la+cadena+de+suministro|Protecci%C3%B3n+de+los+recursos+de+la+nube+p%C3%BAblica&chco=4D89F9&chbh=20,5,15&chm=N,000000,0,,10">
 
