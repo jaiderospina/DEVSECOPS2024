@@ -153,7 +153,7 @@ Es importante destacar que la supervisión de seguridad en DevOps no se limita �
 
 - Atlassian. (s. f.). *Elige herramientas para cada etapa del ciclo de vida de DevOps.* [Enlace](https://www.atlassian.com/es/devops/devops-tools)
 
-- Atlassian. (s. f.). *Monitoreo de DevOps.* [Enlace](https://www.atlassian.com/es/devops/devops-tools/devops-monitoring)
+- Atlassian. (s. f.). *Supervisión de DevOps* [Enlace](https://www.atlassian.com/es/devops/devops-tools/devops-monitoring)
 
 - Desafíos y consideraciones de seguridad de DevOps. (2024). (C) Copyright 2024. Oracle. [Enlace](https://docs.oracle.com/es-ww/iaas/Content/cloud-adoption-framework/devsecops.htm)
 
