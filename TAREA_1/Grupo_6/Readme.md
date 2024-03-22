@@ -4,6 +4,15 @@
 DevSecOps es la integración fluida de la seguridad dentro de los procesos de DevOps, enfocándose en pruebas recurrentes, detección de vulnerabilidades, auditorías y gestión de riesgos. Este enfoque se centra en asegurar que la seguridad esté en el centro de todas las etapas del ciclo de vida del desarrollo de software. La adopción de DevSecOps está en aumento debido a los cambios culturales y a la necesidad de abordar las preocupaciones de seguridad de manera proactiva. Aunque su implementación puede variar, la mayoría de las organizaciones han adoptado al menos algunos de los principios fundamentales de DevSecOps, como la automatización de tareas de seguridad para mejorar la eficiencia y la consistencia.
 
 ![Logo de DevSecOps](https://github.com/jaiderospina/DEVSECOPS2024/blob/332f0a6d3c74c39be41a601103030620a3020a0b/TAREA_1/Grupo_6/Imagenes/Imagen_Definici%C3%B3n.jpg)
+ # ¿Qué significa DevSecOps?
+
+**DevSecOps significa desarrollo, seguridad y operaciones**. Es una extensión de la práctica de DevOps. Cada término define diferentes funciones y responsabilidades de los equipos de software a la hora de crear aplicaciones de software.
+
+- **Desarrollo:** El desarrollo es el proceso de planificación, codificación, creación y prueba de la aplicación.
+
+- **Seguridad:** La seguridad significa introducir la seguridad en una etapa temprana del ciclo de desarrollo de software. Por ejemplo, los programadores se aseguran de que el código esté libre de vulnerabilidades de seguridad y los profesionales de la seguridad prueban el software más a fondo antes de que la empresa lo publique.
+
+- **Operaciones:** El equipo de operaciones publica, supervisa y corrige cualquier problema que surja del software.
 
 
 # ¿Cuál es la diferencia entre DevOps y DevSecOps?
