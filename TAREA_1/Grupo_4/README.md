@@ -192,7 +192,7 @@ A continuacion, veremos algunos puntos clave donde se puede observar la implemen
     
    # <h1 align="center"><strong>CONCLUSIÓN</strong></h1>
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_4/Imagenes/ICONO-SECDEVOPS-768x758.png" alt="logo" width="768" height="758"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_4/Imagenes/ICONO-SECDEVOPS-768x758.png" alt="logo" width="368" height="358"/></p>
 
    - DevSecOps representa un enfoque integral y proactivo para abordar la seguridad en el desarrollo de software, desde las primeras etapas del ciclo de vida        hasta la operación en producción. Esta metodología reconoce la importancia crítica de la seguridad en un entorno de desarrollo ágil y colaborativo, donde       la velocidad y la calidad son fundamentales.
 
