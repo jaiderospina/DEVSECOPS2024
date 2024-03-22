@@ -8,6 +8,11 @@ Que a su vez intenta realizar una integración de la seguridad durante todo el c
 
 Tambien tiene tanto que ver con la cultura y la responsabilidad compartida como con cualquier tecnología o técnica específica.
 
+**Índice**
+1. [Primer apartado](#id1)
+2. [Segundo apartado](#id2)
+
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/RepresentacionDevSecOps.png" alt="logo" width="900"/></p>
 
 ## **¿Cuáles son los componentes de DevSecOps?**
@@ -159,3 +164,10 @@ Es importante destacar que la supervisión de seguridad en DevOps no se limita �
 
 - Métricas de DevOps. (2023). (C) Copyright 2023. Oracle. [Enlace](https://docs.oracle.com/es-ww/iaas/Content/devops/using/devops_metrics.htm)
 
+
+<div id='id1' />
+## Primer apartado
+Texto del primer apartado
+<div id='id2' />
+## Segundo apartado
+Texto del segundo apartado
