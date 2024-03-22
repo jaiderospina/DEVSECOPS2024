@@ -125,7 +125,7 @@ Entre los componentes clave de la cadena de herramientas DevSecOps se encuentran
     
 
 
-# <h1 align="center"><strong>DEVSECOPS HOY EN DIA</strong></h1>
+# <h1 align="center"><strong>DEVSECOPS EN LA ACTUALIDAD</strong></h1>
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_4/Imagenes/DecSecOpshoyendia.jpeg" alt="logo" width="630" height="357"/></p>
 
@@ -133,7 +133,7 @@ La implementación de DevSecOps representa un enfoque integral para la integraci
 
 La filosofía de DevSecOps promueve la colaboración estrecha entre equipos de desarrollo, operaciones y seguridad, con el objetivo de integrar prácticas de seguridad de manera continua y automatizada en todo el proceso de desarrollo de software. Esto implica no solo la implementación de controles de seguridad técnicos, sino también la promoción de una cultura de seguridad en toda la organización, donde la responsabilidad de la seguridad recae en todos los miembros del equipo.
 
-Ahora, examinaremos algunos puntos clave donde se puede observar la implementación de DevSecOps en la actualidad:
+A continuacion, veremos algunos puntos clave donde se puede observar la implementación de DevSecOps en la actualidad:
 
 
 ### 1. **Integración de Seguridad desde el Inicio del Ciclo de Vida del Desarrollo (SDLC)**
