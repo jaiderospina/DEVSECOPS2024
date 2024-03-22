@@ -122,3 +122,7 @@ Entre los componentes clave de la cadena de herramientas DevSecOps se encuentran
      - **Escaneo de código:** También conocido como prueba de seguridad de aplicaciones estáticas, evalúa el código en reposo para descubrir posibles vulnerabilidades sin necesidad de ejecutarlo.
      - **Escaneo de vulnerabilidades:** Las herramientas dinámicas de escaneo de aplicaciones crean e implementan la aplicación en un entorno aislado para observar cómo responde a las amenazas de seguridad conocidas.
      - **Escaneo de secretos:** Incluso con políticas de seguridad estrictas, los secretos ocasionalmente pueden filtrarse en las confirmaciones. Las herramientas de escaneo de secretos detectan estos casos antes de que se realice la confirmación. A menudo se combinan con herramientas de análisis de composición de software (SCA) para detectar vulnerabilidades en las dependencias de código abierto dentro de un repositorio específico.
+    
+
+
+# <h1 align="center"><strong>DEVSECOPS HOY EN DIA</strong></h1>
