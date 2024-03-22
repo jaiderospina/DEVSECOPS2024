@@ -135,15 +135,27 @@ Gestionar vulnerabilidades de manera proactiva es otro aspecto crucial en DevSec
 Proteger el acceso con la gestión de secretos y controlar, supervisar y auditar el acceso con privilegios son prácticas esenciales para garantizar la seguridad en DevSecOps. Oracle ofrece soluciones como Vault para la gestión segura de secretos y servicios como IAM, Logging y Monitoring para un control efectivo del acceso.
 
 
+## Monitoreo de seguridad
+En el contexto de DevOps, donde la rapidez en el desarrollo y despliegue de software es fundamental, la supervisión de seguridad se convierte en un aspecto crucial para garantizar la integridad y la protección de los sistemas. Según Krishna Sai, responsable de ingeniería de soluciones de TI, "con DevOps, la expectativa es desarrollar más rápido, realizar pruebas periódicas y publicar con mayor frecuencia, al mismo tiempo que se mejora la calidad y se reducen los costes" (Atlassian, s.f). En este sentido, las herramientas de supervisión de DevOps proporcionan la automatización y la visibilidad necesarias durante todo el ciclo de vida del desarrollo, desde la planificación hasta las operaciones.
+
+La supervisión de seguridad en DevOps implica monitorizar todas las etapas del proceso de desarrollo, desde la planificación y el desarrollo hasta las pruebas, la implementación y las operaciones. Proporciona una visión completa y en tiempo real del estado de las aplicaciones, los servicios y la infraestructura en el entorno de producción (Atlassian, s.f). Esta visibilidad continua y exhaustiva es fundamental para detectar y responder rápidamente a cualquier incidente de seguridad que pueda surgir durante el ciclo de vida del software.
+
+Una de las principales ventajas de la supervisión de seguridad en DevOps es su capacidad para optimizar la gestión de incidentes y la respuesta a estos. Según se destaca, "los equipos pueden responder a cualquier problema en la experiencia del cliente de forma rápida y automática" (Atlassian, s.f). Además, permite adoptar el enfoque "Shift Left", integrando la seguridad en etapas tempranas del desarrollo y reduciendo las interrupciones en los cambios de producción.
+
+Es importante destacar que la supervisión de seguridad en DevOps no se limita únicamente a la detección y respuesta a incidentes, sino que también implica la colaboración automática entre diferentes equipos y funciones empresariales. Esto se logra mediante la integración de herramientas y la automatización de procesos, lo que facilita la coordinación y la comunicación eficientes entre los equipos de desarrollo, operaciones y seguridad.
+
+
 
 
 ## Referencias
-
 
 - Atlassian. (s. f.). *4 métricas clave de DevOps* | Atlassian. [Enlace](https://www.atlassian.com/es/devops/frameworks/devops-metrics)
 
 - Atlassian. (s. f.). *Elige herramientas para cada etapa del ciclo de vida de DevOps.* [Enlace](https://www.atlassian.com/es/devops/devops-tools)
 
+- Atlassian. (s. f.). *Monitoreo de DevOps.* [Enlace](https://www.atlassian.com/es/devops/devops-tools/devops-monitoring)
+
 - Desafíos y consideraciones de seguridad de DevOps. (2024). (C) Copyright 2024. Oracle. [Enlace](https://docs.oracle.com/es-ww/iaas/Content/cloud-adoption-framework/devsecops.htm)
 
 - Métricas de DevOps. (2023). (C) Copyright 2023. Oracle. [Enlace](https://docs.oracle.com/es-ww/iaas/Content/devops/using/devops_metrics.htm)
+
