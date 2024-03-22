@@ -68,5 +68,15 @@ Al igual que DevOps incorpora pruebas en cada etapa del desarrollo, implementaci
 
 - **Dificultades en organizaciones grandes**: En organizaciones grandes y complejas, la implementación de DevOps puede ser más desafiante debido a la necesidad de coordinación entre equipos distribuidos, procesos burocráticos y una mayor resistencia al cambio.
 
+# Herramientas DevOps
+
+| Herramienta              | Descripción                                                                                          |
+|--------------------------|------------------------------------------------------------------------------------------------------|
+| OWASP Dependency-Check   | Escanea las dependencias de un proyecto para detectar vulnerabilidades conocidas en bibliotecas.     |
+| SonarQube                | Realiza análisis estático de código para identificar problemas de calidad y seguridad en el código. |
+| SourceClear              | Herramienta de seguridad que analiza el código fuente para identificar y solucionar vulnerabilidades.|
+| Retire.js                | Detecta bibliotecas JavaScript con vulnerabilidades conocidas y obsoletas.                           |
+| Checkmarx                | Realiza análisis estático de código para identificar y solucionar problemas de seguridad.           |
+| Snyk                     | Analiza las dependencias del proyecto en busca de vulnerabilidades y proporciona soluciones.         |
 
 
