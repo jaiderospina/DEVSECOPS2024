@@ -10,18 +10,18 @@ Tambien tiene tanto que ver con la cultura y la responsabilidad compartida como 
 
 **Índice**
 1. [¿Cuáles son los componentes de DevSecOps?](#id1)
-3. [Beneficios de DevSecOps](#id2)
-4. [Implementación de DevSecOps](#id3)
-5. [Diferencias entre DevSecOps y DevOps](#id4)
-6. [Evaluación y Métricas de DevSecOps](#id5)
-7. [Desafíos y Obstáculos en la Implementación de DevSecOps](#id6)
-8. [Buenas Prácticas en DevSecOps](#id7)
-9. [Monitoreo de seguridad](#id8)
+2. [Beneficios de DevSecOps](#id2)
+3. [Implementación de DevSecOps](#id3)
+4. [Diferencias entre DevSecOps y DevOps](#id4)
+5. [Evaluación y Métricas de DevSecOps](#id5)
+6. [Desafíos y Obstáculos en la Implementación de DevSecOps](#id6)
+7. [Buenas Prácticas en DevSecOps](#id7)
+8. [Monitoreo de seguridad](#id8)
 
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/RepresentacionDevSecOps.png" alt="logo" width="900"/></p>
 
-## **¿Cuáles son los componentes de DevSecOps?** <#id1>
+## **¿Cuáles son los componentes de DevSecOps?** <a id="id1"></a>
 
 * **Análisis de código:** El análisis del código se refiere al proceso de investigar el código fuente de una aplicación en busca de vulnerabilidades y garantizar que se ajusta a las prácticas recomendadas de seguridad.
 
@@ -33,7 +33,7 @@ Tambien tiene tanto que ver con la cultura y la responsabilidad compartida como 
 
 * **Formación en seguridad:** La formación en materia de seguridad implica capacitar a los desarrolladores de software y a los equipos de operaciones en cuanto a las directrices de seguridad más recientes. De este modo, los equipos de desarrollo y de operaciones pueden tomar decisiones de seguridad independientes a la hora de crear y desplegar la aplicación.
 
-## **Beneficios de DevSecOps** <#id2>
+## **Beneficios de DevSecOps** <a id="id2"></a>
 
 * **Mayor seguridad:** al integrar la seguridad en el proceso DevOps, DevSecOps puede ayudar a evitar que se introduzcan vulnerabilidades de seguridad en los sistemas de producción. 
 
@@ -61,7 +61,7 @@ Tambien tiene tanto que ver con la cultura y la responsabilidad compartida como 
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/BENEFICIOS.png" alt="logo" width="900"/></p>
 
-## **Implementación de DevSecOps** <#id3>
+## **Implementación de DevSecOps** <a id="id3"></a>
 
 - **Pruebas de seguridad automatizadas:** Los análisis de seguridad periódicos, como evaluaciones de vulnerabilidades, pruebas de penetración y revisiones de códigos de seguridad, deberían integrarse perfectamente en el proceso de desarrollo. 
 
@@ -87,7 +87,7 @@ La aparición de DevSecOps puede ser vista como una evolución lógica en el cam
 
 Si bien no hay un punto específico en el tiempo en el que se pueda decir que DevSecOps comenzó oficialmente, su desarrollo se puede rastrear hasta mediados de la década de 2010, cuando las organizaciones comenzaron a adoptar prácticas más proactivas de seguridad en el contexto de DevOps. Desde entonces, ha ganado popularidad y ha sido adoptado por una amplia gama de organizaciones que buscan mejorar la seguridad de sus aplicaciones y sistemas.
 
-## **Diferencias entre DevSecOps y DevOps** <#id4>
+## **Diferencias entre DevSecOps y DevOps** <a id="id4"></a>
 
 DevOps no solo se trata de los equipos de desarrollo y operaciones. Si desea aprovechar al máximo la agilidad y la capacidad de respuesta del enfoque de DevOps, la seguridad de la TI debe ser una parte integral de todo el ciclo de vida de sus aplicaciones.
 
@@ -99,7 +99,7 @@ DevSecOps implica pensar desde el principio en la seguridad de las aplicaciones 
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 
-# Evaluación y Métricas de DevSecOps <#id5>
+# Evaluación y Métricas de DevSecOps <a id="id5"></a>
 
 Las métricas en DevOps son esenciales para evaluar el rendimiento y el éxito de la metodología. Como menciona Tom Hall, defensor y profesional de DevOps, "el viejo dicho 'Si no lo puedes medir, no lo podrás mejorar' se aplica tanto al modelo DevOps como a cualquier otro" (Hall, s.f.). Para cumplir con la promesa de DevOps de lanzar productos de mayor calidad más rápido, los equipos deben recoger, analizar y medir varias métricas (Hall, s.f.).
 
@@ -119,7 +119,7 @@ Según Oracle (2023), las métricas en DevOps ayudan a realizar un seguimiento d
 - Número de transferencias y recuperaciones realizadas en repositorios de código.
 - Tamaño total del repositorio de código.
 
-## Desafíos y Obstáculos en la Implementación de DevSecOps <#id6>
+## Desafíos y Obstáculos en la Implementación de DevSecOps <a id="id6"></a>
 
 La adopción de la metodología de infraestructura como código (IaC) ha acelerado el desarrollo, pero también ha introducido desafíos significativos en términos de seguridad. Según Oracle (Año), "Un aumento de los procesos y la velocidad puede dar lugar a lagunas de seguridad". Esto puede resultar en la introducción de vulnerabilidades en el proceso de desarrollo y despliegue.
 
@@ -131,7 +131,7 @@ Además, obtener visibilidad en todo el ciclo de vida de desarrollo y mantener u
 
 Oracle Cloud Infrastructure (OCI) ofrece el servicio OCI DevOps, una plataforma completa de CI/CD que simplifica y automatiza el ciclo de vida de desarrollo de software. Este servicio aborda estos desafíos y garantiza un desarrollo y despliegue seguro de aplicaciones en entornos de infraestructura como código.
 
-## Buenas Prácticas en DevSecOps <#id7>
+## Buenas Prácticas en DevSecOps <a id="id7"></a>
 
 La implementación exitosa de DevSecOps se fundamenta en la adopción de prácticas sólidas que promuevan la seguridad y la eficiencia en el desarrollo y operación del software. Según Oracle, existen diversas recomendaciones clave para fortalecer la seguridad en este contexto.
 
@@ -146,7 +146,7 @@ Gestionar vulnerabilidades de manera proactiva es otro aspecto crucial en DevSec
 Proteger el acceso con la gestión de secretos y controlar, supervisar y auditar el acceso con privilegios son prácticas esenciales para garantizar la seguridad en DevSecOps. Oracle ofrece soluciones como Vault para la gestión segura de secretos y servicios como IAM, Logging y Monitoring para un control efectivo del acceso.
 
 
-## Monitoreo de seguridad <#id8>
+## Monitoreo de seguridad <a id="id8"></a>
 En el contexto de DevOps, donde la rapidez en el desarrollo y despliegue de software es fundamental, la supervisión de seguridad se convierte en un aspecto crucial para garantizar la integridad y la protección de los sistemas. Según Krishna Sai, responsable de ingeniería de soluciones de TI, "con DevOps, la expectativa es desarrollar más rápido, realizar pruebas periódicas y publicar con mayor frecuencia, al mismo tiempo que se mejora la calidad y se reducen los costes" (Atlassian, s.f). En este sentido, las herramientas de supervisión de DevOps proporcionan la automatización y la visibilidad necesarias durante todo el ciclo de vida del desarrollo, desde la planificación hasta las operaciones.
 
 La supervisión de seguridad en DevOps implica monitorizar todas las etapas del proceso de desarrollo, desde la planificación y el desarrollo hasta las pruebas, la implementación y las operaciones. Proporciona una visión completa y en tiempo real del estado de las aplicaciones, los servicios y la infraestructura en el entorno de producción (Atlassian, s.f). Esta visibilidad continua y exhaustiva es fundamental para detectar y responder rápidamente a cualquier incidente de seguridad que pueda surgir durante el ciclo de vida del software.
