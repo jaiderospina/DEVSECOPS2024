@@ -90,3 +90,9 @@ A medida que las iniciativas de DevSecOps se trasladan a la nube, las cuatro ár
 | Gestión de la seguridad de la nube  | 36%        |
 | Riesgos de seguridad de la cadena de suministro | 33% |
 | Protección de los recursos de la nube pública | 29% |
+
+<p align="center">
+  <img src="[https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_6/Imagenes/Devops.png](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_6/Imagenes/Devops%20Nube.png)https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_6/Imagenes/Devops%20Nube.png" 
+   alt="Imagen de DevSecOps Nube"
+ >
+</p>
