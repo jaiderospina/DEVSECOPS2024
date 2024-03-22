@@ -190,7 +190,7 @@ A continuacion, veremos algunos puntos clave donde se puede observar la implemen
    - Se utilizan herramientas de análisis estático y dinámico de código, escáneres de vulnerabilidades, y pruebas de penetración automatizadas para evaluar la               seguridad del software durante todo el ciclo de vida de desarrollo.
    - La integración de herramientas de seguridad en los pipelines de CI/CD facilita la entrega continua de software seguro y minimiza el riesgo de exposición a              vulnerabilidades de seguridad.
     
-   # <h1 align="center"><strong>CONCLUSIÓN</strong></h1>
+   # <h1 align="center"><strong>CONCLUSIÓNES</strong></h1>
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_4/Imagenes/ICONO-SECDEVOPS-768x758.png" alt="logo" width="368" height="358"/></p>
 
