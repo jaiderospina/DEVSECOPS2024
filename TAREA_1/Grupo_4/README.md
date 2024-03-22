@@ -128,3 +128,20 @@ Entre los componentes clave de la cadena de herramientas DevSecOps se encuentran
 # <h1 align="center"><strong>DEVSECOPS HOY EN DIA</strong></h1>
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_4/Imagenes/DecSecOpshoyendia.jpeg" alt="logo" width="630" height="357"/></p>
+
+La implementación de DevSecOps representa un enfoque integral para la integración de la seguridad en el desarrollo y despliegue de software, donde "Dev" se refiere a desarrollo, "Sec" a seguridad, y "Ops" a operaciones. Esta metodología surge como una evolución natural de DevOps, reconociendo la importancia crítica de la seguridad en el ciclo de vida del desarrollo de software y la necesidad de abordarla de manera proactiva desde las primeras etapas del proceso de desarrollo hasta la operación en producción.
+
+La filosofía de DevSecOps promueve la colaboración estrecha entre equipos de desarrollo, operaciones y seguridad, con el objetivo de integrar prácticas de seguridad de manera continua y automatizada en todo el proceso de desarrollo de software. Esto implica no solo la implementación de controles de seguridad técnicos, sino también la promoción de una cultura de seguridad en toda la organización, donde la responsabilidad de la seguridad recae en todos los miembros del equipo.
+
+Ahora, examinaremos algunos puntos clave donde se puede observar la implementación de DevSecOps en la actualidad:
+
+
+### 1. **Integración de Seguridad desde el Inicio del Ciclo de Vida del Desarrollo (SDLC)**
+   - La integración de la seguridad desde el principio del SDLC implica considerar aspectos de seguridad durante la fase de diseño y planificación del software.
+   - Se pueden realizar evaluaciones de riesgos y análisis de amenazas para identificar posibles vulnerabilidades y definir los requisitos de seguridad del sistema.
+   - Los equipos de desarrollo pueden utilizar prácticas de diseño seguro, como la minimización de privilegios y la separación de responsabilidades, para mitigar riesgos desde el principio.
+
+### 2. **Automatización de Pruebas de Seguridad**
+   - La automatización de pruebas de seguridad permite identificar y corregir vulnerabilidades de manera rápida y eficiente.
+   - Las herramientas de seguridad automatizadas, como las pruebas de penetración automatizadas y los escáneres de vulnerabilidades, se integran en los pipelines de desarrollo para realizar pruebas continuas del código y las aplicaciones.
+   - Esto ayuda a reducir el tiempo de detección y corrección de vulnerabilidades, mejorando la seguridad del software y reduciendo el riesgo de exposición a amenazas.
