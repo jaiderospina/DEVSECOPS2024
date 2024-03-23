@@ -1,4 +1,9 @@
 # DevSecOps
+<p align="center">
+  <img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_6/Imagenes/devsecops2.jpg" 
+   alt="Imagen de DevSecOps">
+</p>
+
 **Tabla de contenido**
 * [Definición](#definici%C3%B3n)
 * [Qué significa DevSecOps](#qu%C3%A9-significa-devsecops)
