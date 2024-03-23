@@ -1,4 +1,16 @@
 # DevSecOps
+**Tabla de contenido**
+* [Definición](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#definici%C3%B3n)
+* [Qué significa DevSecOps](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#qu%C3%A9-significa-devsecops)
+* [Cuál es la diferencia entre DevOps y DevSecOps](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#cu%C3%A1l-es-la-diferencia-entre-devops-y-devsecops)
+* [Beneficios del enfoque DevOps](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#beneficios-del-enfoque-devops)
+* [Desventajas del Enfoque DevOps](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#desventajas-del-enfoque-devops)
+* [Herramientas DevOps](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#herramientas-devops)
+* [Importancia de DevSecOps en la Nube](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#importancia-de-devsecops-en-la-nube)
+* [Herramientas DevOps](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#herramientas-devops)
+* [Cómo implementar DevSecOps](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#c%C3%B3mo-implementar-devsecops)
+* [Referencias Bibliograficas](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#referencias-bibliograficas)
+
 # Definición
 
 DevSecOps es la integración fluida de la seguridad dentro de los procesos de DevOps, enfocándose en pruebas recurrentes, detección de vulnerabilidades, auditorías y gestión de riesgos. Este enfoque se centra en asegurar que la seguridad esté en el centro de todas las etapas del ciclo de vida del desarrollo de software. La adopción de DevSecOps está en aumento debido a los cambios culturales y a la necesidad de abordar las preocupaciones de seguridad de manera proactiva. Aunque su implementación puede variar, la mayoría de las organizaciones han adoptado al menos algunos de los principios fundamentales de DevSecOps, como la automatización de tareas de seguridad para mejorar la eficiencia y la consistencia.
@@ -49,7 +61,7 @@ Al igual que DevOps incorpora pruebas en cada etapa del desarrollo, implementaci
 - **Cultura de aprendizaje y mejora continua**: DevOps fomenta una cultura de aprendizaje, experimentación y mejora continua, donde los equipos se sienten cómodos asumiendo riesgos y aprendiendo de los fracasos para iterar y mejorar constantemente los procesos y productos.
 
 
-# Desventajas del Enfoque Dev Ops
+# Desventajas del Enfoque DevOps
 
 - **Complejidad inicial**: Implementar DevOps puede requerir cambios significativos en la cultura organizativa, procesos y herramientas existentes. Esta transición puede ser compleja y llevar tiempo, especialmente en organizaciones grandes con estructuras tradicionales rígidas.
 
@@ -124,3 +136,5 @@ Una vez implementada la aplicación en producción, algunas organizaciones parti
 
 - **Operación**:
 Incluso el mejor proceso de DevSecOps no detectará todo, por lo que es fundamental supervisar continuamente las aplicaciones en busca de vulnerabilidades y amenazas. Los datos de análisis pueden ayudarle a evaluar si su posición de seguridad mejora y resalta las áreas de optimización.
+
+# Referencias Bibliograficas
