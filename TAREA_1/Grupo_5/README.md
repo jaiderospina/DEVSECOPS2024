@@ -11,14 +11,16 @@ Tambien tiene tanto que ver con la cultura y la responsabilidad compartida como 
 **Índice**
 1. [Historia](#historia)
 2. [¿Cuáles son los componentes de DevSecOps?](#componentes)
-3. [Implementación de DevSecOps](#implementacion)   
-4. [Desafíos y Obstáculos en la Implementación de DevSecOps](#desafios)
-5. [Beneficios de DevSecOps](#beneficios)
-6. [Diferencias entre DevSecOps y DevOps](#diferencias)
-7. [Evaluación y Métricas de DevSecOps](#metricas)
-8. [Buenas Prácticas en DevSecOps](#practicas)
-9. [Monitoreo de seguridad](#monitoreo)
-10. [Referencias](#referencias)
+3. [DevSecOps en el desarrollo ágil](#Agil)
+4. [¿Qué herramientas de DevSecOps comunes existen?](#HHerramientas)
+5. [Implementación de DevSecOps](#implementacion)  
+6. [Desafíos y Obstáculos en la Implementación de DevSecOps](#desafios)
+7. [Beneficios de DevSecOps](#beneficios)
+8. [Diferencias entre DevSecOps y DevOps](#diferencias)
+9. [Evaluación y Métricas de DevSecOps](#metricas)
+10. [Buenas Prácticas en DevSecOps](#practicas)
+11. [Monitoreo de seguridad](#monitoreo)
+12. [Referencias](#referencias)
 
 ## **Historia** <a id="historia"></a>
 
@@ -55,6 +57,23 @@ DevSecOps implica pensar desde el principio en la seguridad de las aplicaciones 
 * **Modelado de amenazas:** Los equipos de DevSecOps investigan los problemas de seguridad que puedan surgir antes y después de desplegar la aplicación. Corrigen cualquier problema conocido y lanzan una versión actualizada de la aplicación.
 
 * **Formación en seguridad:** La formación en materia de seguridad implica capacitar a los desarrolladores de software y a los equipos de operaciones en cuanto a las directrices de seguridad más recientes. De este modo, los equipos de desarrollo y de operaciones pueden tomar decisiones de seguridad independientes a la hora de crear y desplegar la aplicación.
+
+
+
+
+
+
+
+## **¿Qué herramientas de DevSecOps comunes existen?** <a id="Herramientas"></a>
+
+* **Pruebas de seguridad de las aplicaciones estáticas:** Las herramientas de pruebas de seguridad de aplicaciones estáticas (SAST) analizan y encuentran vulnerabilidades en el código fuente propio.
+
+* **Análisis de la composición del software:** El análisis de la composición del software (SCA) es el proceso mediante el cual se automatiza la visibilidad del uso del software de código abierto (OSS) con el fin de gestionar los riesgos, la seguridad y el cumplimiento de los requisitos de las licencias.
+
+* **PPruebas de seguridad de aplicaciones interactivas:** Los equipos de DevSecOps utilizan herramientas de pruebas de seguridad de aplicaciones interactivas (IAST) para evaluar las posibles vulnerabilidades de una aplicación en el entorno de producción. IAST comprende monitores de seguridad especiales que se ejecutan desde el interior de la aplicación.
+
+* **Pruebas de seguridad de aplicaciones dinámicas:** Las herramientas de pruebas de seguridad de aplicaciones dinámicas (DAST) imitan a los hackers al probar la seguridad de la aplicación desde fuera de la red.
+
 
 ## **Beneficios de DevSecOps** <a id="beneficios"></a>
 
