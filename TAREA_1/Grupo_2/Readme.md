@@ -102,7 +102,7 @@ En lugar de tratar la seguridad como un aspecto separado o una tarea posterior, 
 -  **SonarQube**
   		comprueba su código en busca de vulnerabilidades y lo rastrea en busca de errores que podrían convertirse en amenazas. Al momento de escribir este artículo, admite casi 30 diferentes lenguajes de programación.
 
-![](imagenes/sonar_quebe_logo.jpeg)
+![](imagenes/sonar_qube.png)
 
 ## Casos de estudio
 
