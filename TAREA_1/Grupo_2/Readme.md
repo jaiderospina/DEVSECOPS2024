@@ -151,6 +151,7 @@ Las vulnerabilidades en las dependencias de software pueden ser explotadas por a
 ## Conclusiones
 
   -  Recapitulación de los puntos clave.
+    -
   	-  Introducción a DevSecOps:
      		     -  DevSecOps integra la seguridad desde el principio en el ciclo de vida del desarrollo de software, en el marco de las prácticas de DevOps.
     	             -  Rompe las barreras tradicionales entre los equipos de desarrollo, operaciones y seguridad, promoviendo la colaboración y la responsabilidad compartida.
