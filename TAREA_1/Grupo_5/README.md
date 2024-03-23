@@ -59,9 +59,11 @@ DevSecOps implica pensar desde el principio en la seguridad de las aplicaciones 
 * **Formación en seguridad:** La formación en materia de seguridad implica capacitar a los desarrolladores de software y a los equipos de operaciones en cuanto a las directrices de seguridad más recientes. De este modo, los equipos de desarrollo y de operaciones pueden tomar decisiones de seguridad independientes a la hora de crear y desplegar la aplicación.
 
 
-DevSecOps en el desarrollo ágil.
+## **DevSecOps en el desarrollo ágil** <a id="Agil"></a>
 
+La metodología ágil es una mentalidad que ayuda a los equipos de software a ser más eficientes a la hora de crear aplicaciones y responder a los cambios. Los equipos de software solían crear el sistema entero en una serie de etapas inflexibles. Al utilizar el marco ágil, los equipos de software trabajan en un flujo de trabajo circular continuo. Utilizan procesos ágiles para recopilar retroalimentación constante y mejorar las aplicaciones en ciclos de desarrollo cortos e iterativos.
 
+DevSecOps y la metodología ágil no son prácticas mutuamente excluyentes. La metodología ágil permite al equipo de software actuar con rapidez ante las solicitudes de cambio. Mientras tanto, DevSecOps incorpora prácticas de seguridad en cada ciclo iterativo del desarrollo ágil. Por medio de DevSecOps, el equipo de software puede producir un código más seguro con métodos de desarrollo ágiles.
 
 
 ## **¿Qué herramientas de DevSecOps comunes existen?** <a id="Herramientas"></a>
