@@ -8,7 +8,7 @@ Que a su vez intenta realizar una integración de la seguridad durante todo el c
 
 Tambien tiene tanto que ver con la cultura y la responsabilidad compartida como con cualquier tecnología o técnica específica.
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/devsecops.png" alt="logo" width="900"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/QDevSecOps.png" alt="logo" width="900"/></p>
 
 **Índice**
 1. [Historia](#historia)
