@@ -4,7 +4,7 @@ Integrantes:
  - Juan Peña - ID: 635668
  - Oscar Yela - ID: 433321
  - Maycol Paez - ID: 751391
- - Brigitte Rodríguez - ID: 415800
+ - Brigitte Rodriguez - ID: 415800
  - Alvaro Adolfo Cote Sanchez - ID: 730352
 
 ## Introducción
