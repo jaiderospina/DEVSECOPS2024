@@ -79,6 +79,7 @@ DevSecOps y la metodología ágil no son prácticas mutuamente excluyentes. La m
 
 * **Pruebas de seguridad de aplicaciones dinámicas:** Las herramientas de pruebas de seguridad de aplicaciones dinámicas (DAST) imitan a los hackers al probar la seguridad de la aplicación desde fuera de la red.
 
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/devsecops.jpg" alt="logo" width="600"/></p>
 
 ## **Beneficios de DevSecOps** <a id="beneficios"></a>
 
