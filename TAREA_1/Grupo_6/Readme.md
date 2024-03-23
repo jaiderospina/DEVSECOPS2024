@@ -14,6 +14,7 @@
 * [Importancia de DevSecOps en la Nube](#importancia-de-devsecops-en-la-nube)
 * [Herramientas DevOps](#herramientas-devops)
 * [Cómo implementar DevSecOps](#c%C3%B3mo-implementar-devsecops)
+* [Empresas que utilizan DevOps](#Empresas-que-utilizan-DevOps)
 * [Referencias Bibliograficas](#referencias-bibliograficas)
 
 # Definición
@@ -141,6 +142,26 @@ Una vez implementada la aplicación en producción, algunas organizaciones parti
 
 - **Operación**:
 Incluso el mejor proceso de DevSecOps no detectará todo, por lo que es fundamental supervisar continuamente las aplicaciones en busca de vulnerabilidades y amenazas. Los datos de análisis pueden ayudarle a evaluar si su posición de seguridad mejora y resalta las áreas de optimización.
+
+
+# Empresas que utilizan DevOps
+
+1. **Amazon:** Como pionero en la implementación de DevOps, Amazon utiliza prácticas DevOps extensivamente en sus operaciones de desarrollo y despliegue de software.
+
+2. **Netflix:** Netflix es famoso por su cultura de DevOps y su uso de herramientas como Spinnaker para la implementación continua y la gestión de la infraestructura en la nube.
+
+3. **Google:** Google es conocido por sus prácticas de ingeniería avanzadas, incluyendo DevOps, que permiten lanzamientos frecuentes y confiables de sus productos y servicios.
+
+4. **Facebook:** Facebook adopta DevOps para gestionar su infraestructura a gran escala y lanzar nuevas características de forma rápida y segura en sus plataformas.
+
+5. **Microsoft:** Microsoft ha integrado DevOps en sus procesos de desarrollo de software con herramientas como Azure DevOps y GitHub Actions, facilitando la colaboración y la entrega continua.
+
+6. **Spotify:** Spotify utiliza DevOps para admitir su plataforma de transmisión de música a gran escala, permitiendo actualizaciones frecuentes y una rápida iteración en sus productos.
+
+7. **Etsy:** Etsy, un mercado en línea, ha adoptado DevOps para permitir despliegues rápidos y frecuentes de su plataforma de comercio electrónico.
+
+8. **Twitter:** Twitter utiliza DevOps para gestionar su infraestructura y entregar nuevas características y mejoras a su plataforma de redes sociales de manera eficiente.
+
 
 # Referencias Bibliograficas
 
