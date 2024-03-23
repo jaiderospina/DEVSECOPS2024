@@ -165,6 +165,12 @@ Las vulnerabilidades en las dependencias de software pueden ser explotadas por a
   - Definición de DevSecOps:
     - Integra la seguridad en las prácticas de DevOps desde el principio y de manera continua en todo el ciclo de vida del desarrollo de software.
     - No busca convertir a los desarrolladores en expertos en seguridad, sino educarlos en mejores prácticas de seguridad.
+  - Importancia de DevSecOps:
+    - Combina seguridad con ciclos cortos de lanzamientos, favoreciendo la innovación y la productividad.
+    - Detecta vulnerabilidades temprano, automatiza pruebas de seguridad y garantiza el cumplimiento normativo.
+    - Fomenta la colaboración flexible entre equipos de desarrollo, operaciones y seguridad.
+  - Pilares de DevSecOps:
+    - Automatización, colaboración, integración continua, entrega continua, monitoreo y retroalimentación.
 
 -  Perspectivas futuras de DevSecOps.
 -  Recursos adicionales para seguir aprendiendo
