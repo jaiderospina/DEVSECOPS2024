@@ -98,17 +98,17 @@ En lugar de tratar la seguridad como un aspecto separado o una tarea posterior, 
   ## Herramientas populares en el ecosistema DevSecOps.
   
 -  **DevOps**
-     		Invicti es una herramienta que puedes integrarate en el tiempo de vida de desarrollo para realizar la gestión de seguridad en sus productos de software manteniendo la agilidad del desarrollo del proceso, su análisis realizado es exhaustivo, aportando precisión en el problema.
+     		Invicti es una herramienta que se puede integrarl en el tiempo de vida de desarrollo y su mantenimiento para realizar la gestión de seguridad en sus productos de software manteniendo la agilidad del desarrollo del proceso, su análisis realizado es exhaustivo, aportando precisión en el problema para ser rapidamente solucionado.
 
 <img src="imagenes/invicti_logo.png" width="350" height="200">
 
 -  **SonarQube**
-  		comprueba su código en busca de vulnerabilidades y lo rastrea en busca de errores que podrían convertirse en amenazas. Al momento de escribir este artículo, admite casi 30 diferentes lenguajes de programación.
+  		Esta herramienta comprueba el código del programa en busca de vulnerabilidades y lo rastrea en busca de errores que podrían convertirse en amenazas. Al momento de escribir este artículo, admite casi 30 diferentes lenguajes de programación lo que hace que tenga un gran rango de uso en distintos desarrollo.
 
 ![](imagenes/sonar_qube.png)
 
 -  **WhiteSource**
-    		dispone de herramientas hecha por Mend.io Sus instrumentos de análisis de composición de software trabajan con una base de datos de vulnerabilidades que contiene alrededor de 11.000 millones de archivos en más de 200 idiomas y 100 millones de bibliotecas. Las vulnerabilidades se asocian a elementos relacionados para buscar los mismos en plugins u otros componentes de terceros en su código. Y al cotejar ambos, muestra cualquier problema de seguridad que estan en su base de datos de forma rapida.
+    		Una herramienta hecha por Mend.io Sus instrumentos de análisis de composición de software trabajan con una base de datos de vulnerabilidades que contiene alrededor de 11.000 millones de archivos en más de 200 idiomas y 100 millones de bibliotecas. Las vulnerabilidades se asocian a elementos relacionados para buscar los mismos en plugins u otros componentes de terceros en su código. Y al cotejar ambos, muestra cualquier problema de seguridad que estan en su base de datos de forma rapida.
 
 <img src="imagenes/white_source_logo.jpg" width="300" height="200">
 
@@ -131,3 +131,4 @@ En lugar de tratar la seguridad como un aspecto separado o una tarea posterior, 
 - evolución e importancia de la seguridad para DevOps y DevSecOps. (2024, 9 febrero). GlobalSign. https://www.globalsign.com/es/blog/devops-vs-devsecops-evolucion-e-importancia-de-la-seguridad#:~:text=Al%20integrar%20la%20seguridad%20de,los%20procesos%20de%20desarrollo%20optimizados.
 - ¿Qué es DevSecOps? - Explicación de las operaciones de seguridad para desarrolladores - AWS. (s. f.). Amazon Web Services, Inc. https://aws.amazon.com/es/what-is/devsecops/
 - Sentrio. (2023, 10 mayo). Seguridad en DevOps: prácticas y herramientas para garantizar la seguridad. Sentrio. https://sentrio.io/blog/seguridad-en-devops-practicas-y-herramientas-para-garantizar-la-seguridad/#:~:text=%C2%BFQu%C3%A9%20es%20la%20Seguridad%20en,la%20entrega%20y%20el%20mantenimiento.
+- Manjaly, S. (2023, 21 junio). Las 10 mejores herramientas DevSecOps para 2023. Las 10 mejores herramientas DevSecOps para 2023. https://blog.invgate.com/es/herramientas-devsecops
