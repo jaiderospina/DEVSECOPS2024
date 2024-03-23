@@ -151,21 +151,20 @@ Las vulnerabilidades en las dependencias de software pueden ser explotadas por a
 ## Conclusiones
 
   -  Recapitulación de los puntos clave.
-    -
-  	-  Introducción a DevSecOps:
-     		     -  DevSecOps integra la seguridad desde el principio en el ciclo de vida del desarrollo de software, en el marco de las prácticas de DevOps.
-    	             -  Rompe las barreras tradicionales entre los equipos de desarrollo, operaciones y seguridad, promoviendo la colaboración y la responsabilidad compartida.
-                     -  Automatiza pruebas de seguridad, implementa controles continuos y herramientas de seguridad en todo el ciclo de vida del desarrollo.
-        -  Historia de DevOps:
-                     -  Surgió en 2007 con Patrick Debois, quien buscaba mejorar la colaboración entre desarrollo y operaciones.
-           	     -  A lo largo de los años, DevOps evolucionó con conferencias y la publicación de libros como "The Phoenix Project".
-           	     -  Grandes empresas como IBM, HP y CA Technologies se involucraron en el mercado con herramientas DevOps.
-        -  Definición de DevOps:
-          	     -  Un movimiento que busca eliminar barreras entre equipos, automatizar procesos y generar transformación técnica y cultural.
-                     -  Basado en prácticas y herramientas que integran desarrollo de software y operaciones de TI.
-        -  Definición de DevSecOps:
-          	     -  Integra la seguridad en las prácticas de DevOps desde el principio y de manera continua en todo el ciclo de vida del desarrollo de software.
-           	     -  No busca convertir a los desarrolladores en expertos en seguridad, sino educarlos en mejores prácticas de seguridad.
+  	- Introducción a DevSecOps:
+    		-  DevSecOps integra la seguridad desde el principio en el ciclo de vida del desarrollo de software, en el marco de las prácticas de DevOps.
+     		-  Rompe las barreras tradicionales entre los equipos de desarrollo, operaciones y seguridad, promoviendo la colaboración y la responsabilidad compartida.
+    		-  Automatiza pruebas de seguridad, implementa controles continuos y herramientas de seguridad en todo el ciclo de vida del desarrollo.
+        - Historia de DevOps:
+          	-  Surgió en 2007 con Patrick Debois, quien buscaba mejorar la colaboración entre desarrollo y operaciones.
+           	-  A lo largo de los años, DevOps evolucionó con conferencias y la publicación de libros como "The Phoenix Project".
+           	-  Grandes empresas como IBM, HP y CA Technologies se involucraron en el mercado con herramientas DevOps.
+        - Definición de DevOps:
+          	-  Un movimiento que busca eliminar barreras entre equipos, automatizar procesos y generar transformación técnica y cultural.
+             	-  Basado en prácticas y herramientas que integran desarrollo de software y operaciones de TI.
+        - Definición de DevSecOps:
+          	-  Integra la seguridad en las prácticas de DevOps desde el principio y de manera continua en todo el ciclo de vida del desarrollo de software.
+           	-  No busca convertir a los desarrolladores en expertos en seguridad, sino educarlos en mejores prácticas de seguridad.
 -  Perspectivas futuras de DevSecOps.
 -  Recursos adicionales para seguir aprendiendo
    La seguridad en DevSecOps es un aspecto crítico del desarrollo de software moderno. La comprensión de los posibles ataques y la 
