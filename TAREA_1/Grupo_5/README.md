@@ -19,6 +19,27 @@ Tambien tiene tanto que ver con la cultura y la responsabilidad compartida como 
 8. [Monitoreo de seguridad](#id8)
 8. [Referencias](#id9)
 
+<h1 align="center">HISTORIA</h1>
+
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/HISTORIA.png" alt="logo" width="900"/></p>
+
+DevSecOps surgió como una respuesta a la necesidad de abordar las deficiencias en la seguridad de las aplicaciones y sistemas dentro del marco de la metodología DevOps. DevOps se centraba principalmente en la colaboración entre equipos de desarrollo y operaciones para acelerar la entrega de software, pero no abordaba de manera integral las preocupaciones de seguridad.
+
+La creciente frecuencia y sofisticación de las amenazas cibernéticas, así como los numerosos incidentes de seguridad relacionados con aplicaciones y sistemas, llevaron a la comunidad de desarrollo de software a reconocer la importancia de integrar la seguridad desde el inicio del proceso de desarrollo. Esto condujo al nacimiento de DevSecOps como una extensión natural de DevOps, que prioriza la seguridad en todas las etapas del ciclo de vida del desarrollo de software.
+
+La aparición de DevSecOps puede ser vista como una evolución lógica en el campo de la seguridad de la información y el desarrollo de software, donde las organizaciones comenzaron a comprender que la seguridad no puede ser una ocurrencia tardía o una barrera para la entrega rápida de software, sino que debe ser una consideración fundamental desde el principio.
+
+Si bien no hay un punto específico en el tiempo en el que se pueda decir que DevSecOps comenzó oficialmente, su desarrollo se puede rastrear hasta mediados de la década de 2010, cuando las organizaciones comenzaron a adoptar prácticas más proactivas de seguridad en el contexto de DevOps. Desde entonces, ha ganado popularidad y ha sido adoptado por una amplia gama de organizaciones que buscan mejorar la seguridad de sus aplicaciones y sistemas.
+
+## **Diferencias entre DevSecOps y DevOps** <a id="id4"></a>
+
+DevOps no solo se trata de los equipos de desarrollo y operaciones. Si desea aprovechar al máximo la agilidad y la capacidad de respuesta del enfoque de DevOps, la seguridad de la TI debe ser una parte integral de todo el ciclo de vida de sus aplicaciones.
+
+¿A qué se debe? En el pasado, solo un equipo específico se encargaba de la seguridad en la etapa final del desarrollo. Esto no era un problema cuando esos ciclos duraban meses o incluso años, pero esas épocas se terminaron. Un enfoque de DevOps efectivo garantiza ciclos de desarrollo frecuentes y rápidos (que suelen durar semanas o días); sin embargo, las prácticas de seguridad desactualizadas pueden revertir hasta las iniciativas más eficientes.
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/IMGDEVOPS.png" alt="logo" width="600"/></p>
+
+DevSecOps implica pensar desde el principio en la seguridad de las aplicaciones y de la infraestructura. También supone automatizar algunas puertas de seguridad para evitar que se ralenticen los flujos de trabajo de DevOps. A fin de cumplir con estos objetivos, es necesario seleccionar las herramientas adecuadas para integrar la seguridad de manera permanente, como acordar el uso de un entorno de desarrollo integrado (IDE) con funciones que permitan proteger los sistemas. Sin embargo, la seguridad efectiva de DevOps requiere más que nuevas herramientas, ya que se construye sobre los cambios culturales de este enfoque para integrar el trabajo de los equipos de seguridad lo antes posible.
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/IMGDEVSECOPS.png" alt="logo" width="900"/></p>
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/RepresentacionDevSecOps.png" alt="logo" width="900"/></p>
 
@@ -76,27 +97,6 @@ Tambien tiene tanto que ver con la cultura y la responsabilidad compartida como 
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/IMPLEMENTACION.png" alt="logo" width="900"/></p>
 
-<h1 align="center">¿Como comenzo DevSecOps?</h1>
-
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/HISTORIA.png" alt="logo" width="900"/></p>
-
-DevSecOps surgió como una respuesta a la necesidad de abordar las deficiencias en la seguridad de las aplicaciones y sistemas dentro del marco de la metodología DevOps. DevOps se centraba principalmente en la colaboración entre equipos de desarrollo y operaciones para acelerar la entrega de software, pero no abordaba de manera integral las preocupaciones de seguridad.
-
-La creciente frecuencia y sofisticación de las amenazas cibernéticas, así como los numerosos incidentes de seguridad relacionados con aplicaciones y sistemas, llevaron a la comunidad de desarrollo de software a reconocer la importancia de integrar la seguridad desde el inicio del proceso de desarrollo. Esto condujo al nacimiento de DevSecOps como una extensión natural de DevOps, que prioriza la seguridad en todas las etapas del ciclo de vida del desarrollo de software.
-
-La aparición de DevSecOps puede ser vista como una evolución lógica en el campo de la seguridad de la información y el desarrollo de software, donde las organizaciones comenzaron a comprender que la seguridad no puede ser una ocurrencia tardía o una barrera para la entrega rápida de software, sino que debe ser una consideración fundamental desde el principio.
-
-Si bien no hay un punto específico en el tiempo en el que se pueda decir que DevSecOps comenzó oficialmente, su desarrollo se puede rastrear hasta mediados de la década de 2010, cuando las organizaciones comenzaron a adoptar prácticas más proactivas de seguridad en el contexto de DevOps. Desde entonces, ha ganado popularidad y ha sido adoptado por una amplia gama de organizaciones que buscan mejorar la seguridad de sus aplicaciones y sistemas.
-
-## **Diferencias entre DevSecOps y DevOps** <a id="id4"></a>
-
-DevOps no solo se trata de los equipos de desarrollo y operaciones. Si desea aprovechar al máximo la agilidad y la capacidad de respuesta del enfoque de DevOps, la seguridad de la TI debe ser una parte integral de todo el ciclo de vida de sus aplicaciones.
-
-¿A qué se debe? En el pasado, solo un equipo específico se encargaba de la seguridad en la etapa final del desarrollo. Esto no era un problema cuando esos ciclos duraban meses o incluso años, pero esas épocas se terminaron. Un enfoque de DevOps efectivo garantiza ciclos de desarrollo frecuentes y rápidos (que suelen durar semanas o días); sin embargo, las prácticas de seguridad desactualizadas pueden revertir hasta las iniciativas más eficientes.
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/IMGDEVOPS.png" alt="logo" width="600"/></p>
-
-DevSecOps implica pensar desde el principio en la seguridad de las aplicaciones y de la infraestructura. También supone automatizar algunas puertas de seguridad para evitar que se ralenticen los flujos de trabajo de DevOps. A fin de cumplir con estos objetivos, es necesario seleccionar las herramientas adecuadas para integrar la seguridad de manera permanente, como acordar el uso de un entorno de desarrollo integrado (IDE) con funciones que permitan proteger los sistemas. Sin embargo, la seguridad efectiva de DevOps requiere más que nuevas herramientas, ya que se construye sobre los cambios culturales de este enfoque para integrar el trabajo de los equipos de seguridad lo antes posible.
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/IMGDEVSECOPS.png" alt="logo" width="900"/></p>
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 
