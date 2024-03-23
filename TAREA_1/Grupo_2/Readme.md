@@ -107,7 +107,7 @@ En lugar de tratar la seguridad como un aspecto separado o una tarea posterior, 
   -  **WhiteSource**
     		dispone de herramientas hecha por Mend.io Sus instrumentos de análisis de composición de software trabajan con una base de datos de vulnerabilidades que contiene alrededor de 11.000 millones de archivos en más de 200 idiomas y 100 millones de bibliotecas. Las vulnerabilidades se asocian a elementos relacionados para buscar los mismos en plugins u otros componentes de terceros en su código. Y al cotejar ambos, muestra cualquier problema de seguridad que estan en su base de datos de forma rapida.
 
-![](imagenes/white_source_logo.jpg)
+<img src="imagenes/white_source_logo.jpg" width="200" height="200">
 
 ## Casos de estudio
 
