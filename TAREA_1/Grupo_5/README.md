@@ -102,6 +102,8 @@ DevSecOps implica pensar desde el principio en la seguridad de las aplicaciones 
 
 # Evaluación y Métricas de DevSecOps <a id="id5"></a>
 
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/metricas.webp" alt="logo" width="900"/></p>
+
 Las métricas en DevOps son esenciales para evaluar el rendimiento y el éxito de la metodología. Como menciona Tom Hall, defensor y profesional de DevOps, "el viejo dicho 'Si no lo puedes medir, no lo podrás mejorar' se aplica tanto al modelo DevOps como a cualquier otro" (Hall, s.f.). Para cumplir con la promesa de DevOps de lanzar productos de mayor calidad más rápido, los equipos deben recoger, analizar y medir varias métricas (Hall, s.f.).
 
 Según Oracle (2023), "las métricas permiten supervisar de forma activa y pasiva sus recursos en la nube". Esto resalta la importancia de las métricas en el monitoreo del rendimiento de los recursos en la nube, proporcionando una visión integral del estado del sistema.
@@ -122,6 +124,8 @@ Según Oracle (2023), las métricas en DevOps ayudan a realizar un seguimiento d
 
 ## Desafíos y Obstáculos en la Implementación de DevSecOps <a id="id6"></a>
 
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/retos_DevOps.jpg" alt="logo" width="900"/></p>
+
 La adopción de la metodología de infraestructura como código (IaC) ha acelerado el desarrollo, pero también ha introducido desafíos significativos en términos de seguridad. Según Oracle (Año), "Un aumento de los procesos y la velocidad puede dar lugar a lagunas de seguridad". Esto puede resultar en la introducción de vulnerabilidades en el proceso de desarrollo y despliegue.
 
 Integrar controles de seguridad automatizados en el pipeline de CI/CD es crucial para detectar y mitigar vulnerabilidades de manera oportuna. Oracle (Año) sugiere que durante el proceso de definición de DevSecOps, es necesario "analizar los componentes del pipeline de integración y entrega continuas en el proceso de despliegue para reforzar las defensas de seguridad".
@@ -133,6 +137,7 @@ Además, obtener visibilidad en todo el ciclo de vida de desarrollo y mantener u
 Oracle Cloud Infrastructure (OCI) ofrece el servicio OCI DevOps, una plataforma completa de CI/CD que simplifica y automatiza el ciclo de vida de desarrollo de software. Este servicio aborda estos desafíos y garantiza un desarrollo y despliegue seguro de aplicaciones en entornos de infraestructura como código.
 
 ## Buenas Prácticas en DevSecOps <a id="id7"></a>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/Buenas_practicas.png" alt="logo" width="900"/></p>
 
 La implementación exitosa de DevSecOps se fundamenta en la adopción de prácticas sólidas que promuevan la seguridad y la eficiencia en el desarrollo y operación del software. Según Oracle, existen diversas recomendaciones clave para fortalecer la seguridad en este contexto.
 
@@ -148,6 +153,7 @@ Proteger el acceso con la gestión de secretos y controlar, supervisar y auditar
 
 
 ## Monitoreo de seguridad <a id="id8"></a>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/seguridad.png" alt="logo" width="900"/></p>
 En el contexto de DevOps, donde la rapidez en el desarrollo y despliegue de software es fundamental, la supervisión de seguridad se convierte en un aspecto crucial para garantizar la integridad y la protección de los sistemas. Según Krishna Sai, responsable de ingeniería de soluciones de TI, "con DevOps, la expectativa es desarrollar más rápido, realizar pruebas periódicas y publicar con mayor frecuencia, al mismo tiempo que se mejora la calidad y se reducen los costes" (Atlassian, s.f). En este sentido, las herramientas de supervisión de DevOps proporcionan la automatización y la visibilidad necesarias durante todo el ciclo de vida del desarrollo, desde la planificación hasta las operaciones.
 
 La supervisión de seguridad en DevOps implica monitorizar todas las etapas del proceso de desarrollo, desde la planificación y el desarrollo hasta las pruebas, la implementación y las operaciones. Proporciona una visión completa y en tiempo real del estado de las aplicaciones, los servicios y la infraestructura en el entorno de producción (Atlassian, s.f). Esta visibilidad continua y exhaustiva es fundamental para detectar y responder rápidamente a cualquier incidente de seguridad que pueda surgir durante el ciclo de vida del software.
