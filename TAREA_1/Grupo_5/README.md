@@ -59,7 +59,7 @@ DevSecOps implica pensar desde el principio en la seguridad de las aplicaciones 
 * **Formación en seguridad:** La formación en materia de seguridad implica capacitar a los desarrolladores de software y a los equipos de operaciones en cuanto a las directrices de seguridad más recientes. De este modo, los equipos de desarrollo y de operaciones pueden tomar decisiones de seguridad independientes a la hora de crear y desplegar la aplicación.
 
 
-
+DevSecOps en el desarrollo ágil.
 
 
 
