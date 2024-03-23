@@ -8,6 +8,8 @@ Que a su vez intenta realizar una integración de la seguridad durante todo el c
 
 Tambien tiene tanto que ver con la cultura y la responsabilidad compartida como con cualquier tecnología o técnica específica.
 
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/DevSecOps.png" alt="logo" width="900"/></p>
+
 **Índice**
 1. [Historia](#historia)
 2. [¿Cuáles son los componentes de DevSecOps?](#componentes)
