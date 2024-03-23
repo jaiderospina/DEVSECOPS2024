@@ -8,7 +8,7 @@ Que a su vez intenta realizar una integración de la seguridad durante todo el c
 
 Tambien tiene tanto que ver con la cultura y la responsabilidad compartida como con cualquier tecnología o técnica específica.
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/QDecSevOps.png" alt="logo" width="900"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/QDecSevOps.png" alt="logo" width="600"/></p>
 
 **Índice**
 1. [Historia](#historia)
@@ -26,7 +26,7 @@ Tambien tiene tanto que ver con la cultura y la responsabilidad compartida como 
 
 ## **Historia** <a id="historia"></a>
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/HISTORIA.png" alt="logo" width="500"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/HISTORIA.png" alt="logo" width="900"/></p>
 
 DevSecOps surgió como una respuesta a la necesidad de abordar las deficiencias en la seguridad de las aplicaciones y sistemas dentro del marco de la metodología DevOps. DevOps se centraba principalmente en la colaboración entre equipos de desarrollo y operaciones para acelerar la entrega de software, pero no abordaba de manera integral las preocupaciones de seguridad.
 
