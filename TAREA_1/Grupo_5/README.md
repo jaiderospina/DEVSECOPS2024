@@ -66,7 +66,7 @@ La metodología ágil es una mentalidad que ayuda a los equipos de software a se
 DevSecOps y la metodología ágil no son prácticas mutuamente excluyentes. La metodología ágil permite al equipo de software actuar con rapidez ante las solicitudes de cambio. Mientras tanto, DevSecOps incorpora prácticas de seguridad en cada ciclo iterativo del desarrollo ágil. Por medio de DevSecOps, el equipo de software puede producir un código más seguro con métodos de desarrollo ágiles.
 
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/Herramienta.jpg" alt="logo" width="900"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_1/Grupo_5/Imagenes/Herramienta.jpg" alt="logo" width="600"/></p>
 
 
 ## **¿Qué herramientas de DevSecOps comunes existen?** <a id="Herramientas"></a>
