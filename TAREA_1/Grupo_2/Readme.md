@@ -97,7 +97,7 @@ En lugar de tratar la seguridad como un aspecto separado o una tarea posterior, 
   -  **DevOps**
      		Invicti es una herramienta que puedes integrarate en el tiempo de vida de desarrollo para realizar la gestión de seguridad en sus productos de software manteniendo la agilidad del desarrollo del proceso, su análisis realizado es exhaustivo, aportando precisión en el problema.
 
-![](imagenes/invicti_logo.png)
+<img src="imagenes/invicti_logo.png" width="350" height="200">
 
   -  **SonarQube**
   		comprueba su código en busca de vulnerabilidades y lo rastrea en busca de errores que podrían convertirse en amenazas. Al momento de escribir este artículo, admite casi 30 diferentes lenguajes de programación.
@@ -107,7 +107,7 @@ En lugar de tratar la seguridad como un aspecto separado o una tarea posterior, 
   -  **WhiteSource**
     		dispone de herramientas hecha por Mend.io Sus instrumentos de análisis de composición de software trabajan con una base de datos de vulnerabilidades que contiene alrededor de 11.000 millones de archivos en más de 200 idiomas y 100 millones de bibliotecas. Las vulnerabilidades se asocian a elementos relacionados para buscar los mismos en plugins u otros componentes de terceros en su código. Y al cotejar ambos, muestra cualquier problema de seguridad que estan en su base de datos de forma rapida.
 
-<img src="imagenes/white_source_logo.jpg" width="200" height="200">
+<img src="imagenes/white_source_logo.jpg" width="300" height="200">
 
 ## Casos de estudio
 
