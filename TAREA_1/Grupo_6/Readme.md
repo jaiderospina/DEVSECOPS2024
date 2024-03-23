@@ -88,14 +88,6 @@ Existen varios métodos de DevOps comunes que las organizaciones usan para acele
 
 - **Agile**: Los anteriores métodos de desarrollo de software Agile siguen teniendo una gran influencia en las herramientas y las prácticas de DevOps. Muchos de estos métodos, incluidos Scrum y Kanban, han incorporado elementos de la programación Agile. Algunas de estas prácticas están asociadas a una mayor capacidad de respuesta a los continuos cambios en requisitos y necesidades, los requisitos de documentación en forma de casos prácticos, la realización de reuniones diarias para ponerse al día y la incorporación de comunicación continua con los clientes para conocer sus opiniones. En Agile también se estipulan ciclos de desarrollo de software más cortos en lugar de los tradicionales métodos de desarrollo «en cascada» que se prolongaban en el tiempo.
 
-# ¿Qué es DevSecOps?
-
-DevSecOps es DevOps que integra y automatiza continuamente la seguridad a lo largo del ciclo de vida de DevOps, de principio a fin, desde la planificación hasta la retroalimentación y de regreso a la planificación.
-
-Otra manera de explicarlo es que DevSecOps es lo que DevOps debió ser desde el inicio. Pero dos de los desafíos más importantes (y por un tiempo insuperables) de la adopción de DevOps fueron la integración de la experiencia en seguridad en equipos multifuncionales (un problema cultural) y la implementación de la automatización de seguridad en el ciclo de vida de DevOps (un problema técnico). La seguridad llegó a ser percibida como el "equipo negativo" y como un costoso cuello de botella en muchas prácticas de DevOps.
-
-DevSecOps surgió como un esfuerzo específico para integrar y automatizar la seguridad como se pretendía originalmente. En DevSecOps, la seguridad es un ciudadano y stakeholder "de primera clase", junto con el desarrollo y las operaciones, y aporta seguridad al proceso de desarrollo con un enfoque en el producto.
-
 # Importancia de DevSecOps en la Nube
 
 A medida que las iniciativas de DevSecOps se trasladan a la nube, las cuatro áreas principales de interés incluyen:
@@ -113,3 +105,27 @@ A medida que las iniciativas de DevSecOps se trasladan a la nube, las cuatro ár
   alt="Imagen de DevSecOps Nube"
  >
 </p>
+
+# Cómo implementar DevSecOps
+
+Agregar seguridad al proceso de DevOps requiere una planeación cuidadosa. Comience lentamente con procesos que presenten la menor fricción para el equipo y ofrezcan la mayor recompensa en términos de seguridad. Estas son algunas maneras de agregar seguridad a un sprint típico de DevOps.
+
+## Planeamiento y desarrollo
+
+La introducción temprana de la seguridad en los sprints de desarrollo no solo ayuda a reducir las vulnerabilidades más adelante, sino que también ahorra tiempo porque es más fácil solucionar los problemas antes de que el código se haya compilado e integrado. Durante el planeamiento y el desarrollo, use el modelado de amenazas para identificar y mitigar posibles amenazas para la aplicación. Esto le ayudará a crear seguridad en la aplicación desde el principio. Para detectar problemas de seguridad antes de que el código se confirme en el repositorio compartido, implemente comprobaciones automatizadas, como complementos de seguridad del entorno de desarrollo integrado, que proporcionan a los desarrolladores comentarios inmediatos si hay un posible riesgo de seguridad en el código que han escrito. Durante la revisión del código, pida a alguien con experiencia en seguridad que proporcione recomendaciones para realizar mejoras.
+
+## Confirmación del código
+
+Una de las claves para lograr un proceso de DevSecOps correcto es la integración continua. Normalmente, los desarrolladores confirman su código en un repositorio central varias veces al día para asegurarse de que los problemas de integración se detectan pronto. Es importante agregar comprobaciones de seguridad automatizadas a esta fase. Esto puede incluir el examen de bibliotecas y dependencias de terceros, pruebas unitarias y pruebas de seguridad de aplicaciones estáticas. También es importante implementar controles de acceso basados en roles para proteger la infraestructura de integración continua y entrega continua de atacantes que buscan ejecutar código malintencionado o robar credenciales.
+
+## Compilación y pruebas
+
+La ejecución de scripts de seguridad automatizados en el entorno de prueba ayuda a descubrir posibles problemas que no se detectaron anteriormente. Algunas de las pruebas de seguridad que puede ejecutar durante esta fase incluyen pruebas de seguridad de aplicaciones dinámicas, análisis de infraestructura, análisis de contenedores, validación de la configuración en la nube y pruebas de aceptación de seguridad.
+
+## Producción
+
+Una vez implementada la aplicación en producción, algunas organizaciones participan en pruebas de penetración para intentar encontrar puntos débiles en el entorno activo. En las pruebas de penetración, las personas adoptan la mentalidad de un atacante y buscan formas de vulnerar la aplicación.
+
+## Operación
+
+Incluso el mejor proceso de DevSecOps no detectará todo, por lo que es fundamental supervisar continuamente las aplicaciones en busca de vulnerabilidades y amenazas. Los datos de análisis pueden ayudarle a evaluar si su posición de seguridad mejora y resalta las áreas de optimización.
