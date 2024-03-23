@@ -218,7 +218,37 @@ En este tipo de seguridad se combinan las practicas recomendadas de la gestión 
 - [x] Examinar el sistema con herramientas automatizadas de pruebas de seguridad.
 
 ## Automatización de pruebas de seguridad
-Aquí va el contenido de Leonardo
+El escaneo de vulnerabilidades estáticas (SAST) es una técnica que analiza el código fuente en busca de posibles vulnerabilidades de seguridad sin necesidad de ejecutar el programa. Este proceso identifica problemas como inyección de código, exposición de datos confidenciales, vulnerabilidades de configuración, entre otros.
+
+![RBAC](imagenes/sast.png)
+### Implementación en CI/CD:
+
+- **Integración en el Pipeline de CI/CD:** Se incorpora un paso de escaneo SAST en el proceso de construcción automatizada del código dentro del pipeline de CI/CD. Esto permite identificar vulnerabilidades en una etapa temprana del ciclo de desarrollo.
+
+- **Automatización de Informes:** Se generan informes automatizados que detallan las vulnerabilidades encontradas durante el escaneo SAST. Estos informes son entregados a los desarrolladores para que puedan corregir los problemas de seguridad de manera oportuna.
+
+## 2. Escaneo de Vulnerabilidades Dinámicas (DAST)
+
+El escaneo de vulnerabilidades dinámicas (DAST) implica la evaluación de un sistema en ejecución para identificar posibles fallos de seguridad. A diferencia de SAST, DAST examina la aplicación desde el exterior, simula ataques reales y puede descubrir vulnerabilidades relacionadas con la configuración del servidor y la interacción con otros sistemas.
+
+![RBAC](imagenes/dast.jpg)
+
+### Implementación en CI/CD:
+
+- **Pruebas Automatizadas de Penetración:** Se realizan pruebas automatizadas de penetración como parte del proceso de CD para detectar vulnerabilidades en las aplicaciones en ejecución. Esto simula ataques cibernéticos y ayuda a identificar posibles puntos débiles.
+
+- **Integración con Entornos de Desarrollo y Producción:** Los escaneos DAST se pueden integrar en los entornos de desarrollo y producción para monitorear continuamente la seguridad de la aplicación en cada etapa del ciclo de vida del desarrollo de software.
+
+## 3. Análisis de Composición de Software (SCA)
+
+El análisis de composición de software (SCA) examina las bibliotecas y dependencias de terceros utilizadas en una aplicación para identificar vulnerabilidades conocidas. Esto es crucial ya que muchas vulnerabilidades surgen de bibliotecas desactualizadas o comprometidas que pueden ser explotadas por atacantes.
+
+![RBAC](imagenes/sca.png)
+### Implementación en CI/CD:
+
+- **Análisis Automatizado de Dependencias:** Se implementan herramientas de análisis automatizado de dependencias en el pipeline de CI/CD para identificar bibliotecas desactualizadas o vulnerables.
+
+- **Gestión de Riesgos:** Se establecen políticas para gestionar los riesgos asociados con las dependencias de terceros. Esto puede incluir la actualización regular de bibliotecas, la evaluación de alternativas más seguras y la mitigación de riesgos cuando no es posible actualizar.
 
 ## Glosario
 
@@ -240,5 +270,5 @@ Aquí va el contenido de Leonardo
 
 | [<img src="https://avatars.githubusercontent.com/u/163602168?v=4" width=115><br><sub>Juliteth Pinilla</sub>](https://github.com/jpinillaDiplomado) | [<img src="https://avatars.githubusercontent.com/u/105172071?v=4" width=115><br><sub>Miguel Aponte</sub>](https://github.com/Miguelo89)  | [<img src="https://avatars.githubusercontent.com/u/163653023?v=4" width=115><br><sub>Andrés Gonzales </sub>](https://github.com/Andrezk8) |  
 | :---: | :---: | :---: |
-| [<img src="https://avatars.githubusercontent.com/u/63757797?v=4" width=115><br><sub>John Solorza </sub>](https://github.com/jsolorza) | [<img src="https://avatars.githubusercontent.com/u/43438728?v=4" width=115><br><sub>Sebastian Villa </sub>](https://github.com/SebastianVilla13) | [<img src="https://avatars.githubusercontent.com/u/43438728?v=4" width=115><br><sub>Leonardo Rondon </sub>](https://github.com/SebastianVilla13) |
+| [<img src="https://avatars.githubusercontent.com/u/63757797?v=4" width=115><br><sub>John Solorza </sub>](https://github.com/jsolorza) | [<img src="https://avatars.githubusercontent.com/u/43438728?v=4" width=115><br><sub>Sebastian Villa </sub>](https://github.com/SebastianVilla13) | [<img src="https://avatars.githubusercontent.com/u/43438728?v=4" width=115><br><sub>Leonardo Rondon </sub>](https://github.com/leonardoj27) |
 
