@@ -143,3 +143,17 @@ Una vez implementada la aplicación en producción, algunas organizaciones parti
 Incluso el mejor proceso de DevSecOps no detectará todo, por lo que es fundamental supervisar continuamente las aplicaciones en busca de vulnerabilidades y amenazas. Los datos de análisis pueden ayudarle a evaluar si su posición de seguridad mejora y resalta las áreas de optimización.
 
 # Referencias Bibliograficas
+
+- Myrbakken, H., & Colomo-Palacios, R. (2017). DevSecOps: A Multivocal Literature Review. En Proceedings of the 12th International Conference on Availability, Reliability and Security (ARES) (pp. 17-29). Springer.
+  (https://link.springer.com/chapter/10.1007/978-3-319-67383-7_2)
+  
+- Kelly, W. (2022). A guide to implementing DevSecOps. Opensource.com. Recuperado de PDF
+  (https://opensource.com/sites/default/files/2022-03/osdc_Will-Kelly_Guide-to-implementing-DevSecOps.pdf)
+  
+- DevSecOps Guides. Recuperado de DevSecOps Guides
+  (https://devsecopsguides.com/)
+- Gupta, S., & Gupta, M. (2021). DevSecOps: A Security Model for Infrastructure as Code Over the Cloud. 2021 IEEE 18th India Council International Conference (INDICON)
+  (https://ieeexplore.ieee.org/document/9781709)
+  
+- Red Hat. (s.f.). ¿Qué es DevSecOps? Seguridad integrada dentro de DevOps. Recuperado de Red Hat
+  (https://www.redhat.com/es/topics/devops/what-is-devsecops)
