@@ -172,7 +172,8 @@ Las vulnerabilidades en las dependencias de software pueden ser explotadas por a
   - Pilares de DevSecOps:
     - Automatización, colaboración, integración continua, entrega continua, monitoreo y retroalimentación.
 
--  Perspectivas futuras de DevSecOps.
+-  Perspectivas futuras de DevSecOps
+   - El desarrollo basado en DevSecOps es algo que esta masivamente adoptado en el ambito de programas de todos los ambitos, al hacer una encuenta en github en 2021 se mostro que al rededor del 70% de los desarroladores dicen que usan esta metologia y posiblemente el porcente actual sea mucho mayor, lo que muestra que rapidamente se esta adaptando en varios tipos de programas de todos los usos mostrando que es una metodologia util que los desarrolladores se esfuercen en adoptar rapidamente la metologia DevSecOps, lo que muestra que a futuro sea un mas que un stanadar un requerimiento para el desarrollo lo que hace que se mejore de manera considerable la seguridad de los usuarios finales y los desarrolladores, y mejorando aun mas por las herramientas de desarrollo que se estan usando actualmente y las que se crearan en el futuro.
 -  Recursos adicionales para seguir aprendiendo
    La seguridad en DevSecOps es un aspecto crítico del desarrollo de software moderno. La comprensión de los posibles ataques y la 
    implementación de medidas de mitigación adecuadas son fundamentales para proteger los sistemas y los datos de los usuarios.
