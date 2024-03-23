@@ -5,7 +5,7 @@ Integrantes:
  - Oscar Yela - ID: 433321
  - Maycol Paez - ID: 751391
  - Brigitte Rodríguez - ID: 415800
- - Integrante 5 - ID: 000000
+ - Alvaro Adolfo Cote Sanchez - ID: 730352
 
 ## Introducción
 
@@ -117,11 +117,45 @@ En lugar de tratar la seguridad como un aspecto separado o una tarea posterior, 
 -  Ejemplos de empresas que han adoptado DevSecOps con éxito.
 -  Lecciones aprendidas y resultados obtenidos.
 
+
+## Tipos de Ataques
+
+### 1. Inyección de Código
+
+Los ataques de inyección de código son comunes en aplicaciones web y pueden ocurrir cuando los datos no se filtran adecuadamente antes de ser procesados por el sistema. Esto puede conducir a vulnerabilidades como la inyección de SQL, la inyección de comandos y la inyección de scripts entre otros.
+
+#### Mitigación:
+
+- Validar y sanitizar todas las entradas de usuario.
+- Utilizar parámetros preparados en consultas SQL.
+- Utilizar bibliotecas de seguridad específicas para el lenguaje de programación utilizado.
+
+### 2. Ataques de Fuerza Bruta y Diccionario
+
+Estos ataques implican intentos repetidos y automatizados de adivinar credenciales de usuario utilizando combinaciones de contraseñas comunes o fuerza bruta.
+
+#### Mitigación:
+
+- Implementar políticas de bloqueo de cuentas después de un número específico de intentos fallidos.
+- Utilizar autenticación multifactor (MFA) para aumentar la seguridad de las credenciales.
+
+### 3. Vulnerabilidades en Dependencias
+
+Las vulnerabilidades en las dependencias de software pueden ser explotadas por atacantes para comprometer sistemas a través de bibliotecas y frameworks utilizados en el desarrollo.
+
+#### Mitigación:
+
+- Monitorizar regularmente las dependencias en busca de vulnerabilidades conocidas.
+- Mantener actualizadas las dependencias y aplicar parches de seguridad según sea necesario.
+
 ## Conclusiones
 
 -  Recapitulación de los puntos clave.
 -  Perspectivas futuras de DevSecOps.
 -  Recursos adicionales para seguir aprendiendo
+   La seguridad en DevSecOps es un aspecto crítico del desarrollo de software moderno. La comprensión de los posibles ataques y la 
+   implementación de medidas de mitigación adecuadas son fundamentales para proteger los sistemas y los datos de los usuarios.
+- Para obtener más información sobre buenas prácticas de seguridad en DevSecOps, consulte la documentación oficial de las herramientas y frameworks utilizados en su proceso de desarrollo.
 
 
 ## Referencias
