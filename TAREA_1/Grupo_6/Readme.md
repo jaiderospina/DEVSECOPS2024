@@ -95,3 +95,14 @@ A medida que las iniciativas de DevSecOps se trasladan a la nube, las cuatro ár
   alt="Imagen de DevSecOps Nube"
  >
 </p>
+
+# MÉTODOS DE DEVOPS
+
+Existen varios métodos de DevOps comunes que las organizaciones usan para acelerar y mejorar el desarrollo y las publicaciones de productos. Normalmente se presentan como prácticas y metodologías de desarrollo de software. Entre los más populares están Scrum, Kanban y Agile:
+
+- **Scrum**: Scrum define la forma en la que los miembros de un equipo deben colaborar para conseguir entre todos acelerar los proyectos de desarrollo y control de calidad. Las prácticas de Scrum incluyen flujos de trabajo principales y terminología específica (sprints, bloques de tiempo, scrum diario [reunión]), y roles designados (Scrum Master, propietario del producto [product owner]).
+
+- **Kanban**: Kanban se originó a partir de las eficiencias que se alcanzaron en la fábrica de Toyota. Kanban prescribe que el estado «en curso» (WIP, del inglés «work in progress») de un proyecto de software debe controlarse en un tablero Kanban.
+
+- **Agile**: Los anteriores métodos de desarrollo de software Agile siguen teniendo una gran influencia en las herramientas y las prácticas de DevOps. Muchos de estos métodos, incluidos Scrum y Kanban, han incorporado elementos de la programación Agile. Algunas de estas prácticas están asociadas a una mayor capacidad de respuesta a los continuos cambios en requisitos y necesidades, los requisitos de documentación en forma de casos prácticos, la realización de reuniones diarias para ponerse al día y la incorporación de comunicación continua con los clientes para conocer sus opiniones. En Agile también se estipulan ciclos de desarrollo de software más cortos en lugar de los tradicionales métodos de desarrollo «en cascada» que se prolongaban en el tiempo.
+
