@@ -222,5 +222,5 @@ Es importante destacar que la supervisión de seguridad en DevOps no se limita �
 - La mentalidad DevSecOps: de la metodología lineal al "shifting left y. (2020, 10 noviembre). Claranet. [Enlace](https://www.claranet.com/es/blog/la-mentalidad-devsecops)
 - Saenz, R. (2021, 13 julio). La hoja de ruta de DevOps en materia de seguridad - I CLOUD SEVEN. [Enlace](https://icloudseven.com/la-hoja-de-ruta-de-devops-en-materia-de-seguridad/)
 
-
+- ¿Qué es DevSecOps? - Explicación de las operaciones de seguridad para desarrolladores - AWS. (s. f.). Amazon Web Services, Inc. [Enlace]( https://aws.amazon.com/es/what-is/devsecops/)
 
