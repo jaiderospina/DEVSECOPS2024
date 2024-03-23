@@ -1,15 +1,15 @@
 # DevSecOps
 **Tabla de contenido**
-* [Definición](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#definici%C3%B3n)
-* [Qué significa DevSecOps](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#qu%C3%A9-significa-devsecops)
-* [Cuál es la diferencia entre DevOps y DevSecOps](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#cu%C3%A1l-es-la-diferencia-entre-devops-y-devsecops)
-* [Beneficios del enfoque DevOps](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#beneficios-del-enfoque-devops)
-* [Desventajas del Enfoque DevOps](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#desventajas-del-enfoque-devops)
-* [Herramientas DevOps](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#herramientas-devops)
-* [Importancia de DevSecOps en la Nube](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#importancia-de-devsecops-en-la-nube)
-* [Herramientas DevOps](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#herramientas-devops)
-* [Cómo implementar DevSecOps](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#c%C3%B3mo-implementar-devsecops)
-* [Referencias Bibliograficas](https://github.com/jaiderospina/DEVSECOPS2024/edit/main/TAREA_1/Grupo_6/Readme.md#referencias-bibliograficas)
+* [Definición](#definici%C3%B3n)
+* [Qué significa DevSecOps](#qu%C3%A9-significa-devsecops)
+* [Cuál es la diferencia entre DevOps y DevSecOps](#cu%C3%A1l-es-la-diferencia-entre-devops-y-devsecops)
+* [Beneficios del enfoque DevOps](#beneficios-del-enfoque-devops)
+* [Desventajas del Enfoque DevOps](#desventajas-del-enfoque-devops)
+* [Herramientas DevOps](#herramientas-devops)
+* [Importancia de DevSecOps en la Nube](#importancia-de-devsecops-en-la-nube)
+* [Herramientas DevOps](#herramientas-devops)
+* [Cómo implementar DevSecOps](#c%C3%B3mo-implementar-devsecops)
+* [Referencias Bibliograficas](#referencias-bibliograficas)
 
 # Definición
 
