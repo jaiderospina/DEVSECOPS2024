@@ -45,15 +45,21 @@ Realizar en grupos:
 
 # CREACIÓN CONTENEDOR DESDE DOCKER INTERFAZ GRAFICA
 
-Se realiza la creación de contenedor por medio de la interfaz de docker
+1. Se realiza la creación de contenedor por medio de la interfaz de docker
+![Interfaz_1](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Interfaz_1.jpg)
 
-1. ![Interfaz_1](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Interfaz_1.jpg)
-2. ![Interfaz_2](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Interfaz_2.jpg)
-3. ![Interfaz_3](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Interfaz_3.jpg)
-4.
-* Se agregan los colaboradores al repositorio creado
+2. 
+![Interfaz_2](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Interfaz_2.jpg)
+
+3.
+![Interfaz_3](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Interfaz_3.jpg)
+
+4. Se agregan los colaboradores al repositorio creado
   ![Interfaz_4](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Interfaz_4.jpg)
-6. ![Interfaz_5](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Interfaz_5.jpg)
+
+5. 
+
+![Interfaz_5](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Interfaz_5.jpg)
 
 
 
