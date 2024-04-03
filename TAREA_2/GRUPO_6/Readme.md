@@ -1,3 +1,13 @@
+# Grupo 6
+
+- David Medina - 424738
+- Felipe Sánchez - 611390
+- Elias Acuña - 710154
+- Juan Felipe Sánchez - 594066
+- Brayan Andres Lara - 728895
+
+
+
 # CREACIÓN CONTENEDOR DESDE TERMINAL DOCKER
 
 Se realiza la creación de contenedor por medio de GIT BASH, para esto se revisan las imagenes que se tienen disponibles para Docker.
