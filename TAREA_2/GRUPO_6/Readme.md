@@ -26,7 +26,7 @@ Se realiza la creación de contenedor por medio de GIT BASH, para esto se revisa
 
 Al ejecutar la imagen muestra lo siguiente:
 <p align="center">
-  <img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Captura%20de%20pantalla%202024-04-02%20213131.png"
+  <img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Interfaz_5.jpg"
  >
 </p>
 
