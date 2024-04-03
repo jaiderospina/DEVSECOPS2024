@@ -42,6 +42,12 @@ Realizar en grupos:
  >
 </p>
 
+* Se agregan los colaboradores al repositorio creado
+<p align="center">
+  <img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Interfaz_4.jpg"
+ >
+</p>
+
 # CREACIÓN CONTENEDOR DESDE DOCKER INTERFAZ GRAFICA
 
 Se realiza la creación de contenedor por medio de la interfaz de docker
