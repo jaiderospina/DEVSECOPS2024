@@ -19,3 +19,8 @@ Se realiza la creación de contenedor por medio de GIT BASH, para esto se revisa
 Se realiza la creación de contenedor por medio de la interfaz de docker
 
 ![IMAGEN 2](https://github.com/jaiderospina/DEVSECOPS2024/raw/main/TAREA_2/GRUPO_6/Imagenes/I2.jpeg)
+
+
+
+![Imagen 3](https://github.com/jaiderospina/DEVSECOPS2024/raw/main/TAREA_2/GRUPO_6/Imagenes/I3.jpeg)
+
