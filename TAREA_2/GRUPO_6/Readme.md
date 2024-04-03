@@ -35,7 +35,12 @@ Realizar en grupos:
   <img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Creacion_terminal.jpg"
  >
 </p>
-  
+
+* Se evidencia el repositorio creado en DockerHub
+<p align="center">
+  <img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Resultado_terminal.jpg"
+ >
+</p>
 
 # CREACIÓN CONTENEDOR DESDE DOCKER INTERFAZ GRAFICA
 
