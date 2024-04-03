@@ -20,15 +20,22 @@ Realizar en grupos:
 
 # CREACIÓN CONTENEDOR DESDE TERMINAL DOCKER
 
-Se realiza la creación de contenedor por medio de GIT BASH, para esto se revisan las imagenes que se tienen disponibles para Docker.
+* Se realiza la creación de contenedor por medio de GIT BASH, para esto se revisan las imagenes que se tienen disponibles para Docker.
 
 ![Imagen_1](https://github.com/jaiderospina/DEVSECOPS2024/blob/8c4ad2655d1b4d6572fc4cd117378355253a3edf/TAREA_2/GRUPO_6/Imagenes/Imagen1.jpg)
 
-Al ejecutar la imagen muestra lo siguiente:
+* Al ejecutar la imagen muestra lo siguiente:
 <p align="center">
   <img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Interfaz_5.jpg"
  >
 </p>
+
+* Se ejecuta los siguientes comandos para crear el repositorio en DockerHub con un usuario ya existente y se realiza un push para subir la imagne seleccionada al repositorio
+<p align="center">
+  <img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Creacion_terminal.jpg"
+ >
+</p>
+  
 
 # CREACIÓN CONTENEDOR DESDE DOCKER INTERFAZ GRAFICA
 
