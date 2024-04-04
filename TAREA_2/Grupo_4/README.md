@@ -5,7 +5,7 @@
 
 ## Pasos a tener encuenta
 
-### Paso 1
+### Paso 1 Login en DockerHub
 
 Primeramente debemos enlazar nuestra cuenta de DockerHub con el Docker de consola, esto lo hacemos utilizando el siguiente comando el cual nos solicitara usuario y contraseña para poder iniciar:
 
@@ -17,7 +17,7 @@ Imagen
 
 
 
-### Paso 2
+### Paso 2 Etiquetar Imagen
 
 Seguidamente debomos ponerle una equiqueta u nombre a la imagen para que esta sea identificable, lo podemos hacer con el siguiente comando
 
@@ -28,10 +28,22 @@ Seguidamente debomos ponerle una equiqueta u nombre a la imagen para que esta se
 Imagen 1
 Imagen 2
 
+### Paso 3 Subir Imagen a DockerHub
+
+Una vez etiquetada la imagen correctamente, podemos subirla a Docker Hub usando el siguiente comando:
+
+```
+	docker push usuario_dockerhub/nombre_repositorio:etiqueta
+```
 
 
+Imagen Push Docker
 
+### Paso 4 Verificar la subida
 
+Por ultimo nos dirijimos a nuestra cuenta de Docker Hub en el navegador web y verificamos que la imagen se haya subido correctamente al repositorio especificado.
+
+Imagen del Repositorio de Docker Hub
 
 
 
