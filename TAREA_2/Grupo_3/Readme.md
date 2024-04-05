@@ -39,6 +39,9 @@ Se renombra la imagen del docker con el siguiente comando:
 ```prompt
 docker tag [id imagen] [nombre usuario]/[nombre imagen]:[tag]
 ```
+<div align="center">
+    <img alt="DevSecOps" src="img/tag.PNG">
+</div>
 
 ## Paso 3
 
@@ -47,7 +50,9 @@ Se inicia sesión en DockerHub con el siguente comando colocando el usuario y la
 ```prompt
 docker login -u [usuario] -password-stdin [contraseña]
 ```
-
+<div align="center">
+    <img alt="DevSecOps" src="img/login.PNG">
+</div>
 ## Paso 4
 
 Se sube la imagen al repositorio online de docker:
@@ -55,6 +60,11 @@ Se sube la imagen al repositorio online de docker:
 ```prompt
 docker push [imagen]:[tag] 
 ```
+<div align="center">
+    <img alt="DevSecOps" src="img/push.PNG">
+</div>
+
+
 
 ## Integrantes :trollface:
 
