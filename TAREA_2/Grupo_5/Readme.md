@@ -30,7 +30,7 @@ Se debe tener la imagen creada en el laboratorio en clase
 </p>
 Primeramente debemos identificar si nuestra imagen posee actualmente nombre y tag, de lo si no, debemos asignarme los mismos ya que de lo contrario, no se nos denegará el push a dockerhub, como podemos ver, nuestra imagen no posee nombre ni tag, así que se lo asignaremos.
 
-
+### Paso 2
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_5/imagenes/imagen13.PNG" alt="logo" width="500"/></p>
 
 Debemos verificar que estemos autenticados en dockerhub, con el siguiente comando, en caso de que no deberemos ingresar nobmre de usuario y contraseña, en caso de que ya estemos autenticados, volverá a realizar la autenticacion con las credenciales actuales, en ambos casos deberá mostrarnos si la autenticacion ha sido satisfactoria.
