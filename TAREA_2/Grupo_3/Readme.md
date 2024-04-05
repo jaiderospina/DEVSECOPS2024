@@ -10,7 +10,7 @@ docker ps -a
 </div>
 
 ## Paso 2
-A través de la terminal, nos ubicamos en el directorio donde se encuentra el fichero grupo3.Dockerfile con el comando **cd**
+A través de la terminal, nos ubicamos en el directorio donde se encuentra el fichero **grupo3.Dockerfile** con el comando **cd**
 
 <div align="center">
     <img alt="DevSecOps" src="img/TerminalPaso2.png">
