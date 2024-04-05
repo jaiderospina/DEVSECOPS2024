@@ -5,7 +5,9 @@ Se consulta los contenedores existentes usando el comando
 ```prompt
 docker ps -a
 ```
-<<imagen>>
+<div align="center">
+    <img width="600" height="130" alt="DevSecOps" src="img/TerminalPaso1.png">
+</div>
 
 ## Paso 2
 A través de la terminal se crea el contenedor XYZ usando el comando XYZ
