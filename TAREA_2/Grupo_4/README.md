@@ -60,5 +60,5 @@ Integrantes:
   - Jhoan Camilo Montealegre Romero ID: 705426
   - Johan Esteban Salinas Acosta ID:
   - Duver Salgado ID:
-  - Pedro Orozco ID:
+  - Pedro Orozco ID: 211654
   - Harold Cer ID:
