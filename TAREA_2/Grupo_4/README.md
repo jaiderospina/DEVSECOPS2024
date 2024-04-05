@@ -47,7 +47,7 @@ Primeramente debemos enlazar nuestra cuenta de DockerHub con el Docker de consol
 
 ### Verificando el Image Id anterior procedemos a crear una etiqueta en el repositorio  para que este sea identificable, cabe mencionar que esto permitira gestionar diferentes versiones de una imagen de contenedor, al etiquetar una imagen, nos  facilita su identificación y uso en entornos de desarrollo, prueba y producción.
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/Creacion%20Tag.png?raw=true" alt="logo" width="730" height="357"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/Creacion%20Tag.png?raw=true" alt="logo" width="840" height="357"/></p>
 
 
 
