@@ -27,8 +27,8 @@ Se debe tener la imagen creada en el laboratorio en clase
 ## Subir imagen a Dockerhub (Desde consola)
 ### Paso 1
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_5/imagenes/imagen12.png" alt="logo" width="500"/>
-Primeramente debemos identificar si nuestra imagen posee actualmente nombre y tag, de lo si no, debemos asignarme los mismos ya que de lo contrario, no se nos denegará el push a dockerhub, como podemos ver, nuestra imagen no posee nombre ni tag, así que se lo asignaremos.
 </p>
+Primeramente debemos identificar si nuestra imagen posee actualmente nombre y tag, de lo si no, debemos asignarme los mismos ya que de lo contrario, no se nos denegará el push a dockerhub, como podemos ver, nuestra imagen no posee nombre ni tag, así que se lo asignaremos.
 
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_5/imagenes/imagen13.PNG" alt="logo" width="500"/></p>
