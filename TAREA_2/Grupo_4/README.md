@@ -1,6 +1,6 @@
 # <h1 align="center"> PROCESO DE SUBIR UNA IMAGEN A UN REPOSITORIO DE DOCKERHUB </h1>
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/DockerHub.png?raw=true" alt="logo" width="850" height="250"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/DockerHub.png?raw=true" alt="logo" width="850" height="357"/></p>
 
 
 ## Pasos a tener encuenta
@@ -34,7 +34,7 @@ Primeramente debemos enlazar nuestra cuenta de DockerHub con el Docker de consol
 
 ###Seguidamente  ejecutamos Docker run  que es la que va iniciar  y ejecutar un contendor a partir de una imagen especifica en este caso buscamos el idImagen en docker images  y lo ejecutamos.
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/docker%20run.png?raw=true" alt="logo" width="730" height="250"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/docker%20run.png?raw=true" alt="logo" width="730" height="357"/></p>
 
 ## Paso 5 Docker Images 
 
