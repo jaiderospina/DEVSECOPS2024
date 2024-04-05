@@ -63,6 +63,6 @@ Primeramente debemos enlazar nuestra cuenta de DockerHub con el Docker de consol
 Integrantes:
   - Jhoan Camilo Montealegre Romero ID: 705426
   - Johan Esteban Salinas Acosta ID: 614420
-  - Duver Salgado ID:
+  - Duver Salgado ID: 596826
   - Pedro Orozco ID: 211654
   - Harold Cer ID:
