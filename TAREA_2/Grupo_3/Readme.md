@@ -64,6 +64,16 @@ docker push [imagen]:[tag]
     <img alt="DevSecOps" src="img/push.PNG">
 </div>
 
+## Paso 5
+
+Se visualiza la imagen con el siguiente comando:
+
+```prompt
+docker run [imagen]
+```
+<div align="center">
+    <img alt="DevSecOps" src="img/run.PNG">
+</div>
 
 
 ## Integrantes :trollface:
