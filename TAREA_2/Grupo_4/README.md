@@ -58,7 +58,7 @@ Imagen del Repositorio de Docker Hub
 
 Integrantes:
   - Jhoan Camilo Montealegre Romero ID: 705426
-  - Johan Esteban Salinas Acosta ID:
+  - Johan Esteban Salinas Acosta ID: 614420
   - Duver Salgado ID:
   - Pedro Orozco ID: 211654
   - Harold Cer ID:
