@@ -4,7 +4,7 @@ Integrantes:
  - Edward castro       - ID: 644838
  - Daniel lopez        - ID: 711991
  - Fabial silvqa       - ID: 
- - Sebastian sarmiento - ID: 
+ - Sebastian romero    - ID: 732124
  - Sebastian prieto    - ID: 
 
 ## Prerequisitos
