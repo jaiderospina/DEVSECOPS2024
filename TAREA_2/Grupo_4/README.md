@@ -36,33 +36,18 @@ Primeramente debemos enlazar nuestra cuenta de DockerHub con el Docker de consol
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/docker%20run.png?raw=true" alt="logo" width="730" height="357"/></p>
 
-### Paso 2 Etiquetar Imagen
+## Paso 5 Docker Images 
 
-Seguidamente debomos ponerle una equiqueta u nombre a la imagen para que esta sea identificable, lo podemos hacer con el siguiente comando
+### Nuevamentes ejecutamos Docker Images para verificar  el Image ID que vamos a utilizar para genera nuestro tag y asi mismo crear el respectivo repositorio
 
-```
-	docker tag nombre_imagen:etiqueta usuario_dockerhub/nombre_repositorio:etiqueta
-```
-
-Imagen 1
-Imagen 2
-
-### Paso 3 Subir Imagen a DockerHub
-
-Una vez etiquetada la imagen correctamente, podemos subirla a Docker Hub usando el siguiente comando:
-
-```
-	docker push usuario_dockerhub/nombre_repositorio:etiqueta
-```
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/Docker%20images%202.png?raw=true" alt="logo" width="730" height="357"/></p>
 
 
-Imagen Push Docker
+## Paso 6 Docker Tag
 
-### Paso 4 Verificar la subida
+### Verificando el Image Id anterior procedemos a crear una etiqueta en el repositorio  para que este sea identificable, cabe mencionar que esto permitira gestionar diferentes versiones de una imagen de contenedor, al etiquetar una imagen, nos  facilita su identificación y uso en entornos de desarrollo, prueba y producción.
 
-Por ultimo nos dirijimos a nuestra cuenta de Docker Hub en el navegador web y verificamos que la imagen se haya subido correctamente al repositorio especificado.
-
-Imagen del Repositorio de Docker Hub
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/Creacion%20Tag.png?raw=true" alt="logo" width="730" height="357"/></p>
 
 
 
