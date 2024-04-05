@@ -6,19 +6,21 @@ Se consulta los contenedores existentes usando el comando
 docker ps -a
 ```
 <div align="center">
-    <img width="600" height="130" alt="DevSecOps" src="img/TerminalPaso1.png">
+    <img alt="DevSecOps" src="img/TerminalPaso1.png">
 </div>
 
 ## Paso 2
-A través de la terminal, nos ubicamos en el directorio donde se encuentra el fichero HolaMundo.Dockerfile 
-```prompt
-docker ps -a
-```
+A través de la terminal, nos ubicamos en el directorio donde se encuentra el fichero HolaMundo.Dockerfile con el comando **cd**
+
 <div align="center">
-    <img width="600" height="130" alt="DevSecOps" src="img/TerminalPaso2.png">
+    <img alt="DevSecOps" src="img/TerminalPaso2.png">
 </div>
 
 ## Paso 3
+Se ejecuta el comando **docker build** el cual se encarga de realizar la construcción de la imagen
+```prompt
+docker build -f HolaMundo.Dockerfile .
+```
 
 ## Paso 4
 
