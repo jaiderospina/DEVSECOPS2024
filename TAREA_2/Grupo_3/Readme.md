@@ -25,9 +25,34 @@ docker build -f grupo3.Dockerfile .
     <img alt="DevSecOps" src="img/TerminalPaso3.png">
 </div>
 
+Posteriormente se observa que la imagen se crea exitosamente pero sin etiqueta y versión.
+<div align="center">
+    <img alt="DevSecOps" src="img/TerminalPaso31.png">
+</div>
+
 ## Paso 4
+Se ejecuta el comando **docker image tag** para agregar la etiqueta.
+```prompt
+docker image tag  ab413aaff52d jpinilla3016/grupo3:latest
+```
+<div align="center">
+    <img alt="DevSecOps" src="img/TerminalPaso4.png">
+</div>
+
+## Paso 5
+Se inicia sesión en DockerHub usando el comando **docker login** ingresando el usuario y la contraseña correctamente:
+
+```prompt
+docker login -u [usuario] -p [contraseña]
+```
+<div align="center">
+    <img alt="DevSecOps" src="img/TerminalPaso5.png">
+</div>
 
 
+## Paso 6
+
+## Paso 7
 # Punto 2: Crear repositorio directamente en Github siguiendo las buenas prácticas recomendadas por Dockerhub.
 
 ## Paso 1
