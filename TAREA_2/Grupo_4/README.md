@@ -19,6 +19,12 @@ Primeramente debemos enlazar nuestra cuenta de DockerHub con el Docker de consol
 
 ###  En primer lugar, el comando docker build inicia el proceso de construcción de la imagen del contenedor. El parámetro -f especifica el nombre del Dockerfile que se utilizará para construir la imagen. En este caso, "HolaMundo.Dockerfile" es el archivo que contiene las instrucciones necesarias para construir la imagen del contenedor.
 
+Comando:
+
+```
+	Docker Build -f HolaMundo.Dockerfile .
+```
+
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/docker%20build.png?raw=true" alt="logo" width="730" height="250"/></p>
 
