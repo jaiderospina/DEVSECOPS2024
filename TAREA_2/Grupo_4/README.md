@@ -25,9 +25,16 @@ Primeramente debemos enlazar nuestra cuenta de DockerHub con el Docker de consol
 
 ## Paso 3 Docker Images 
 
-### Verificamos en la lista de imágenes disponibles localmente en el sistema, que es la que proporciona información sobre el nombre de la imagen, su versión, el ID de la imagen y el tamaño.
+### Verificamos en la lista de imágenes disponibles localmente en el sistema del proceso de contrucción que realizamos anteiormente, que es la que proporciona información sobre el nombre de la imagen, su versión, el ID de la imagen y el tamaño.
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/Docker%20images.png?raw=true" alt="logo" width="730" height="357"/></p>
+
+
+## Paso 4 Docker Run 
+
+###Seguidamente  ejecutamos Docker run  que es la que va iniciar  y ejecutar un contendor a partir de una imagen especifica en este caso buscamos el idImagen en docker images  y lo ejecutamos.
+
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/docker%20run.png?raw=true" alt="logo" width="730" height="357"/></p>
 
 ### Paso 2 Etiquetar Imagen
 
