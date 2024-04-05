@@ -12,7 +12,7 @@ Se debe tener la imagen creada en el laboratorio en clase
 
 
 ### Paso 1 
-verificar que tengamos instalado Docker y podamos correr la imagen que viene por defecto.
+Verificar que tengamos instalado Docker y podamos correr la imagen que viene por defecto.
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_5/imagenes/imagen1.PNG" alt="logo" width="500"/></p>
 
 ### Paso 2 
