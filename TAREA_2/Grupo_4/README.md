@@ -70,13 +70,15 @@ Primeramente debemos enlazar nuestra cuenta de DockerHub con el Docker de consol
 
 
 
+## Paso 8 Docker Hub
 
+###  Despues de haber ejecutato el Docker psuh ya podremos visualizar en la plataforma Docker Hub  la creación de nuestro repositorio con su respectiva imagen creada y subida. Adicional para llevar una mejor trazabilidad se creo un tag para que cuando haya una nuevas verisones identifiquemos las versiones que se han realizado, facilitando el seguimiento y la gestión de versiones en entornos ya de de pruebas, desarrollo o producción.
 
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/repo%20docker%20%20hub.png?raw=true" alt="logo" width="840" height="250"/></p>
 
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/Tag%20Docker%20hub.png?raw=true" alt="logo" width="730" height="357"/></p>
 
-
-
-
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/Tag%20Docker%20hub%202.png?raw=true" alt="logo" width="840" height="250"/></p>
 
 
 Integrantes:
