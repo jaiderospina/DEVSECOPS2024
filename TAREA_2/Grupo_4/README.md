@@ -40,7 +40,7 @@ Primeramente debemos enlazar nuestra cuenta de DockerHub con el Docker de consol
 
 ### Nuevamentes ejecutamos Docker Images para verificar  el Image ID que vamos a utilizar para genera nuestro tag y asi mismo crear el respectivo repositorio
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/Docker%20images%202.png?raw=true" alt="logo" width="730" height="357"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/Docker%20images%202.png?raw=true" alt="logo" width="850" height="357"/></p>
 
 
 ## Paso 6 Docker Tag
