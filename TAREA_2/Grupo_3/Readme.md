@@ -1,9 +1,14 @@
 # Punto 1: Crear un repositorio en local y subirla al repositorio de Dockerhub, mediante el usos de la terminal.
 
 ## Paso 1
-Crear el contenedor en 
+Se consulta los contenedores existentes usando el comando 
+```prompt
+docker ps -a
+```
+<<imagen>>
 
 ## Paso 2
+A través de la terminal se crea el contenedor XYZ usando el comando XYZ
 
 ## Paso 3
 
