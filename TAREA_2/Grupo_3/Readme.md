@@ -10,7 +10,13 @@ docker ps -a
 </div>
 
 ## Paso 2
-A través de la terminal se crea el contenedor XYZ usando el comando XYZ
+A través de la terminal, nos ubicamos en el directorio donde se encuentra el fichero HolaMundo.Dockerfile 
+```prompt
+docker ps -a
+```
+<div align="center">
+    <img width="600" height="130" alt="DevSecOps" src="img/TerminalPaso2.png">
+</div>
 
 ## Paso 3
 
@@ -44,3 +50,9 @@ Se sube la imagen al repositorio online de docker:
 ```prompt
 docker push [imagen]:[tag] 
 ```
+
+## Integrantes :trollface:
+
+| [<img src="https://avatars.githubusercontent.com/u/163602168?v=4" width=115><br><sub>Juliteth Pinilla</sub>](https://github.com/jpinillaDiplomado) | [<img src="https://avatars.githubusercontent.com/u/105172071?v=4" width=115><br><sub>Miguel Aponte</sub>](https://github.com/Miguelo89)  | [<img src="https://avatars.githubusercontent.com/u/163653023?v=4" width=115><br><sub>Andrés Gonzales </sub>](https://github.com/Andrezk8) |  
+| :---: | :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/63757797?v=4" width=115><br><sub>John Solorza </sub>](https://github.com/jsolorza) | [<img src="https://avatars.githubusercontent.com/u/43438728?v=4" width=115><br><sub>Sebastian Villa </sub>](https://github.com/SebastianVilla13) | [<img src="https://avatars.githubusercontent.com/u/164546938?v=4" width=115><br><sub>Leonardo Rondon </sub>](https://github.com/leonardoj27) |
