@@ -70,50 +70,51 @@ docker run [imagen]
 # Punto 2: Crear repositorio directamente en Github siguiendo las buenas prácticas recomendadas por Dockerhub.
 
 ## Paso 1
+Creamos el repositorio en Docker Hub:
+
+<div align="center">
+    <img alt="DevSecOps" src="img/.PNG">
+</div>
+
 
 ## Paso 2
+Establecemos un nombre, descripción y privacidad del repositorio:
 
-Se renombra la imagen del docker con el siguiente comando:
-
-```prompt
-docker tag [id imagen] [nombre usuario]/[nombre imagen]:[tag]
-```
 <div align="center">
-    <img alt="DevSecOps" src="img/tag.PNG">
+    <img alt="DevSecOps" src="img/.PNG">
 </div>
+
 
 ## Paso 3
-
-Se inicia sesión en DockerHub con el siguente comando colocando el usuario y la contraseña correctamente:
+Se realiza el push a la imagen:
 
 ```prompt
-docker login -u [usuario] -password-stdin [contraseña]
+docker push miguelo89/grupo_3:tagname
 ```
 <div align="center">
-    <img alt="DevSecOps" src="img/login.PNG">
+    <img alt="DevSecOps" src="img/.PNG">
 </div>
+
+
 ## Paso 4
 
-Se sube la imagen al repositorio online de docker:
+Agregamos nombres de los participantes del repositorio:
 
-```prompt
-docker push [imagen]:[tag] 
-```
 <div align="center">
-    <img alt="DevSecOps" src="img/push.PNG">
+    <img alt="DevSecOps" src="img/.PNG">
 </div>
+
 
 ## Paso 5
 
-Se visualiza la imagen con el siguiente comando:
+Visualizamos la imagen:
 
 ```prompt
 docker run [imagen]
 ```
 <div align="center">
-    <img alt="DevSecOps" src="img/run.PNG">
+    <img alt="DevSecOps" src="img/.PNG">
 </div>
-
 
 ## Integrantes :trollface:
 
