@@ -49,10 +49,24 @@ docker login -u [usuario] -p [contraseña]
     <img alt="DevSecOps" src="img/TerminalPaso5.png">
 </div>
 
-
 ## Paso 6
+Se sube la imagen al repositorio Online de Docker Hub:
+```prompt
+docker push [imagen]
+```
+<div align="center">
+    <img alt="DevSecOps" src="img/TerminalPaso6.png">
+</div>
 
 ## Paso 7
+Se visualiza el mensaje de la imagen con el siguiente comando:
+```prompt
+docker run [imagen]
+```
+<div align="center">
+    <img alt="DevSecOps" src="img/TerminalPaso7.png">
+</div>
+
 # Punto 2: Crear repositorio directamente en Github siguiendo las buenas prácticas recomendadas por Dockerhub.
 
 ## Paso 1
