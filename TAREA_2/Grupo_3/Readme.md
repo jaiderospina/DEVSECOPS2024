@@ -1,4 +1,18 @@
-# Subir imagenes a DockerHub
+# Punto 1: Crear un repositorio en local y subirla al repositorio de Dockerhub, mediante el usos de la terminal.
+
+## Paso 1
+Crear el contenedor en 
+
+## Paso 2
+
+## Paso 3
+
+## Paso 4
+
+
+# Punto 2: Crear repositorio directamente en Github siguiendo las buenas prácticas recomendadas por Dockerhub.
+
+## Paso 1
 
 ## Paso 2
 
