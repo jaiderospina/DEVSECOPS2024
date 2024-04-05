@@ -19,8 +19,11 @@ A través de la terminal, nos ubicamos en el directorio donde se encuentra el fi
 ## Paso 3
 Se ejecuta el comando **docker build** el cual se encarga de realizar la construcción de la imagen
 ```prompt
-docker build -f HolaMundo.Dockerfile .
+docker build -f grupo3.Dockerfile .
 ```
+<div align="center">
+    <img alt="DevSecOps" src="img/TerminalPaso3.png">
+</div>
 
 ## Paso 4
 
