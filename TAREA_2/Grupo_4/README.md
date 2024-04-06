@@ -68,7 +68,11 @@ Primeramente debemos enlazar nuestra cuenta de DockerHub con el Docker de consol
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/Creacion%20Tag.png?raw=true" alt="logo" width="840" height="250"/></p>
 
+## Paso 7 Docker push
 
+### Una vez creamos el tag procedemos a ejecutar el comando el docker push, esto con el fin de subir la imagen del contenedor  desde un registro remoto.
+
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_4/imagenes/push%20repositorio.png?raw=true" alt="logo" width="840" height="250"/></p>
 
 ## Paso 8 Docker Hub
 
