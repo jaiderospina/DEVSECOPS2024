@@ -73,7 +73,7 @@ docker run [imagen]
 Creamos el repositorio en Docker Hub:
 
 <div align="center">
-    <img alt="DevSecOps" src="img/.PNG">
+    <img alt="DevSecOps" src="img/creacion.PNG">
 </div>
 
 
