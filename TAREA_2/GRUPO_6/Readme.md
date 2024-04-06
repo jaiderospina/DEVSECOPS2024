@@ -6,7 +6,7 @@
 - Juan Felipe Sánchez - 594066
 - Brayan Andres Lara - 728895
 
-## ITEMS SOLICITADOS
+# ITEMS SOLICITADOS
 
 Realizar en grupos:
 
@@ -26,20 +26,17 @@ Realizar en grupos:
 
 * Al ejecutar la imagen muestra lo siguiente:
 <p align="center">
-  <img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Interfaz_5.jpg"
- >
+  <img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Interfaz_5.jpg">
 </p>
 
 * Se ejecuta los siguientes comandos para crear el repositorio en DockerHub con un usuario ya existente y se realiza un push para subir la imagne seleccionada al repositorio
 <p align="center">
-  <img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Creacion_terminal.jpg"
- >
+  <img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Creacion_terminal.jpg">
 </p>
 
 * Se evidencia el repositorio creado en DockerHub
 <p align="center">
-  <img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Resultado_terminal.jpg"
- >
+  <img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Resultado_terminal.jpg">
 </p>
 
 
@@ -55,7 +52,7 @@ Realizar en grupos:
 ![Interfaz_3](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Interfaz_3.jpg)
 
 4. Se agregan los colaboradores al repositorio creado
-  ![Interfaz_4](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Interfaz_4.jpg)
+![Interfaz_4](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Interfaz_4.jpg)
 
 5. Se ejecuta el comando para visualizar el contenido
 ![Interfaz_5](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/GRUPO_6/Imagenes/Interfaz_5.jpg)
