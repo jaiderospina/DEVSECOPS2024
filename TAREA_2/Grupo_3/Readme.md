@@ -81,7 +81,7 @@ Creamos el repositorio en Docker Hub:
 Establecemos un nombre, descripción y privacidad del repositorio:
 
 <div align="center">
-    <img alt="DevSecOps" src="img/.1.jpg">
+    <img alt="DevSecOps" src="img/1.jpg">
 </div>
 
 
