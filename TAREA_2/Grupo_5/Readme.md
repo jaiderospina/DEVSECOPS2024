@@ -30,6 +30,9 @@ el comando docker container ls -a nos esta enlistando los contenedores donde se 
 El comando docker images nos permite revisar que iamgenes tenemos enlistadas y asi poder revisarlas
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_5/imagenes/imagen5.PNG" alt="logo" width="500"/></p>
+
+el docker run nos permite correr una imagen que nosotros le indiquemos y el ejecutable donde se encuentra la imagen.
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_5/imagenes/imagen6.PNG" alt="logo" width="500"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_5/imagenes/imagen7.PNG" alt="logo" width="500"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_5/imagenes/imagen8.PNG" alt="logo" width="500"/></p>
