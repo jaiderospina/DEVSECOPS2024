@@ -81,7 +81,7 @@ Creamos el repositorio en Docker Hub:
 Establecemos un nombre, descripción y privacidad del repositorio:
 
 <div align="center">
-    <img alt="DevSecOps" src="img/.PNG">
+    <img alt="DevSecOps" src="img/.1.jpg">
 </div>
 
 
@@ -92,7 +92,7 @@ Se realiza el push a la imagen:
 docker push miguelo89/grupo_3:tagname
 ```
 <div align="center">
-    <img alt="DevSecOps" src="img/.PNG">
+    <img alt="DevSecOps" src="img/2.jpg">
 </div>
 
 
@@ -101,7 +101,7 @@ docker push miguelo89/grupo_3:tagname
 Agregamos nombres de los participantes del repositorio:
 
 <div align="center">
-    <img alt="DevSecOps" src="img/.PNG">
+    <img alt="DevSecOps" src="img/3.jpg">
 </div>
 
 
@@ -113,7 +113,7 @@ Visualizamos la imagen:
 docker run [imagen]
 ```
 <div align="center">
-    <img alt="DevSecOps" src="img/.PNG">
+    <img alt="DevSecOps" src="img/4.jpg">
 </div>
 
 ## Integrantes :trollface:
