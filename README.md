@@ -29,18 +29,19 @@ Documento arquitectural.
  - Descripción funcional.
  - Requerimientos.
 
-### Documenteción.
+### Documentación.
 
-# Casos de uso -  historias de usuario.
-# Diagrama de despliegue.
-# Diagrama de secuencia.
-# Modelo capa de persistencia.
-# Manual de administración.
-# Manuales de usuario.
+ - Casos de uso -  historias de usuario.
+ - Diagrama de despliegue.
+ - Diagrama de secuencia.
+ - Modelo capa de persistencia.
+ - Manual de administración.
+ - Manuales de usuario.
 
 ### Infraestructura
 
-# Contenedores sobre github.
-# Docker compose.
-# Orquestación.
+ - Contenedores sobre github.
+ - Docker compose.
+ - Orquestación.
+ - Script de pruebas de seguridad y despliegue. 
 
