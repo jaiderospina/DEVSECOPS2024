@@ -16,10 +16,19 @@ Verificar que tengamos instalado Docker y podamos correr la imagen que viene por
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_5/imagenes/imagen1.PNG" alt="logo" width="500"/></p>
 
 ### Paso 2 
-...
+
+ejecutamos el comando docker run --interactive  --tty ubunto bash en el cual le estamos diciendo que docker corra e interactue con al terminal bash de ubuntu, posteriormente actualizara el sistema e instalara el programa. 
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_5/imagenes/imagen2.PNG" alt="logo" width="500"/></p>
+
+posteriormente damos las intrucciones para que el ejecutable se contruya y se den los permisos necesarios para la ejecucion, una vez realizado este paso procedemos a salir y volvemos a la terminal de windows
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_5/imagenes/imagen3.PNG" alt="logo" width="500"/></p>
+el comando docker container ls -a nos esta enlistando los contenedores donde se corre la imagen 
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_5/imagenes/imagen4.PNG" alt="logo" width="500"/></p>
+El comando docker images nos permite revisar que iamgenes tenemos enlistadas y asi poder revisarlas
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_5/imagenes/imagen5.PNG" alt="logo" width="500"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_5/imagenes/imagen6.PNG" alt="logo" width="500"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_2/Grupo_5/imagenes/imagen7.PNG" alt="logo" width="500"/></p>
