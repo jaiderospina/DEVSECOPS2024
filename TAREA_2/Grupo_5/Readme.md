@@ -5,7 +5,7 @@ Integrantes:
  - Daniel lopez        - ID: 711991
  - Fabial silvqa       - ID: 
  - Sebastian romero    - ID: 732124
- - Sebastian prieto    - ID: 
+ - Sebastian prieto    - ID: 711751
 
 ## Prerequisitos
 Se debe tener la imagen creada en el laboratorio en clase
