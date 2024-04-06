@@ -40,7 +40,7 @@ docker image tag  ab413aaff52d jpinilla3016/grupo3:latest
 </div>
 
 ## Paso 5
-Se inicia sesión en DockerHub usando el comando **docker login** ingresando el usuario y la contraseña correctamente:
+Se inicia sesión en DockerHub usando el comando **docker login** ingresando el usuario y la contraseña correctamente :
 
 ```prompt
 docker login -u [usuario] -p [contraseña]
