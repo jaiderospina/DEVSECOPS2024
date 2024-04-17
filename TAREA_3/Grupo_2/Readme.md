@@ -15,6 +15,7 @@ Integrantes:
 ```
 git clone https://github.com/docker/getting-started-app.git
 ```
+
 Este comando se ejecuta desde una terminal y utiliza el protocolo git para clonar todos los archivos desde el repositorio de Github hacia la maquina local. Después de ejecutar este comando, existirá una carpeta llamada "getting-started-app" en el directorio donde se esta ubicado, que contiene todo el contenido del repositorio remoto.
 
  - **git clone**: Es el comando principal de Git que se utiliza para clonar un repositorio.
