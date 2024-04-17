@@ -184,6 +184,7 @@ Esta comando ya se explico previamente
 docker run -dp 127.0.0.1:3000:3000 getting-started
 ```
 Aparecerá un error como el siguiente:
+
 ![](Imagenes/Screenshot_15.png)
 
 Este error ocurre cuando Docker intenta exponer un puerto en un contenedor, pero el puerto especificado ya está siendo utilizado por otro proceso en el host local.
