@@ -21,7 +21,7 @@ Este comando se ejecuta desde una terminal y utiliza el protocolo git para clona
  - **https://github.com/docker/getting-started-app.git**: Es la URL del repositorio que se desea clonar. En este caso, es un repositorio hospedado en GitHub en la cuenta "docker" y el repositorio se llama "getting-started-app.git".
 
 
-![](imagenes/Screenshot_1.png)
+![](Imagenes/Screenshot_1.png)
 
 2. Se verifica el contenido del repositorio clonado.
 ```
@@ -33,7 +33,7 @@ Este comando se ejecuta desde una terminal y utiliza el protocolo git para clona
 	│ └── yarn.lock
 ```
 
-![](imagenes/Screenshot_2.png)
+![](Imagenes/Screenshot_2.png)
 
 
 ## Construir la imagen de la aplicación.
@@ -53,7 +53,7 @@ Este comando se ejecuta desde una terminal para cambiar entre directorios. Esto 
  - **cd**: Es el comando para cambiar de directorio.
  - **/path/to/getting-started-app**: Es la ruta al directorio "getting-started-app" en el sistema. Se debe reemplazar "/path/to" con la ruta real de la maquina local donde se descargo el repositorio en el paso anterior.
 
-![](imagenes/Screenshot_3.png)
+![](Imagenes/Screenshot_3.png)
 
 
 Cree un archivo vacío llamado Dockerfile.
@@ -67,7 +67,7 @@ Este comando se utiliza para crear un archivo vacío o actualizar la marca de ti
 - **touch**: Es el comando principal que se utiliza para crear un archivo vacío o actualizar la marca de tiempo de un archivo existente.
 - **Dockerfile**: Es el nombre del archivo que se va a crear o actualizar. En este caso, el nombre del archivo es "Dockerfile".
 
-![](imagenes/Screenshot_4.png)
+![](Imagenes/Screenshot_4.png)
 
 2. Usando un editor de texto o editor de código, agregue el siguiente contenido al Dockerfile:
 
@@ -98,7 +98,7 @@ Este archivo es un script de texto plano que contiene unas instrucciones que Doc
 
  - **EXPOSE 3000**: Expone el puerto 3000 del contenedor Docker. Esto permite que los contenedores basados en esta imagen acepten conexiones en el puerto 3000 cuando se ejecuten.
 
-![](imagenes/Screenshot_5.png)
+![](Imagenes/Screenshot_5.png)
 
 3. Construya la imagen usando el siguiente comando:
 
@@ -112,8 +112,8 @@ Este comando se utiliza para construir una imagen Docker a partir de un Dockerfi
  - **-t getting-started**: La opción -t se utiliza para etiquetar la imagen que se está construyendo con un nombre y, opcionalmente, un tag. En este caso, se está etiquetando la imagen con el nombre getting-started.
  - **.** : Esto especifica el contexto de construcción. En este caso, el punto (.) significa que el contexto de construcción es el directorio actual en el que se está ejecutando el comando. Todos los archivos y directorios en este directorio serán considerados por Docker durante el proceso de construcción de la imagen.
 
-![](imagenes/Screenshot_6.png)
-![](imagenes/Screenshot_7.png)
+![](Imagenes/Screenshot_6.png)
+![](Imagenes/Screenshot_7.png)
 
 ## Iniciar un contenedor de aplicaciones
 
@@ -133,16 +133,16 @@ Este comando se utiliza para ejecutar un contenedor Docker a partir de una image
  - **getting-started**: Este es el nombre de la imagen Docker que se utilizará para ejecutar el contenedor.
 
 
-![](imagenes/Screenshot_8.png)
+![](Imagenes/Screenshot_8.png)
 
 2. Abrimos en el navgador http://localhost:3000 . Se verifica que la aplicación se este ejecutando.
 
 
-![](imagenes/Screenshot_9.png)
+![](Imagenes/Screenshot_9.png)
 
 3. Se agregan elementos para comprobar que funciona. Se marcan  elementos como completos y se eliminan.
 
-![](imagenes/Screenshot_10.png)
+![](Imagenes/Screenshot_10.png)
 
 ## Validar si el contenedor se esta ejecutando
 
@@ -153,7 +153,7 @@ docker ps
 ```
 Este comando  proporciona una lista de los contenedores activos junto con información relevante como el ID del contenedor, el nombre, el ID de la imagen, el estado y el puerto expuesto.
 
-![](imagenes/Screenshot_11.png)
+![](Imagenes/Screenshot_11.png)
 
 
 
@@ -164,7 +164,7 @@ En los siguientes pasos, cambiará el "texto vacío" cuando no tenga ningún ele
 
 1. En el archivo `src/static/js/app.js`, se actualiza la línea 56 para usar el nuevo texto.
 
-![](imagenes/Screenshot_12.png)
+![](Imagenes/Screenshot_12.png)
 
 2. Se crea una versión actualizada de la imagen usando el comando `docker build`.
 
@@ -174,8 +174,8 @@ docker build -t getting-started .
 
 Esta comando ya se explico previamente
 
-![](imagenes/Screenshot_13.png)
-![](imagenes/Screenshot_14.png)
+![](Imagenes/Screenshot_13.png)
+![](Imagenes/Screenshot_14.png)
 
 3. Inicie un nuevo contenedor usando el código actualizado.
 
@@ -183,8 +183,7 @@ Esta comando ya se explico previamente
 docker run -dp 127.0.0.1:3000:3000 getting-started
 ```
 Aparecerá un error como el siguiente:
-
-![](imagenes/Screenshot_15.png)
+![](Imagenes/Screenshot_15.png)
 
 Este error ocurre cuando Docker intenta exponer un puerto en un contenedor, pero el puerto especificado ya está siendo utilizado por otro proceso en el host local.
 
@@ -201,7 +200,7 @@ Para retirar un contenedor, primero debe detenerlo. Una vez que se haya detenido
 ```
 docker ps
 ```
-![](imagenes/Screenshot_16.png)
+![](Imagenes/Screenshot_16.png)
 
 2. Utilice el comando `docker stop` para detener el contenedor. Reemplace `<the-container-id>` con el identificador del contenedor obtenido en el paso anterior.
 ```
@@ -213,7 +212,7 @@ Este comando se utiliza para detener un contenedor Docker en ejecución
  - **docker stop**: Esto indica que queremos detener un contenedor Docker.
  - **`<the-container-id>`**: En este espacio, se debe especificar el ID del contenedor que desea detener.
 
-![](imagenes/Screenshot_17.png)
+![](Imagenes/Screenshot_17.png)
 
 3. Una vez que el contenedor se haya detenido, puede eliminarlo usando el comando `docker rm`.
 ```
@@ -224,7 +223,7 @@ Este comando se utiliza para eliminar un contenedor Docker que ya no está en ej
  - **docker rm**: Esto indica que queremos eliminar un contenedor Docker.
  - **`<the-container-id>`**: En este espacio, se debe especificar el ID del contenedor que desea eliminar.
 
-![](imagenes/Screenshot_18.png)
+![](Imagenes/Screenshot_18.png)
 
 ## Inicie el contenedor de aplicaciones actualizado
 
@@ -232,9 +231,9 @@ Se inicia la aplicación actualizada usando el comando `docker run`.
 ```
 docker run -dp 127.0.0.1:3000:3000 getting-started
 ```
-![](imagenes/Screenshot_19.png)
+![](Imagenes/Screenshot_19.png)
 
 Se actualiza la pagina en el navegador y se ve el texto de ayuda actualizado.
 
-![](imagenes/Screenshot_20.png)
+![](Imagenes/Screenshot_20.png)
 
