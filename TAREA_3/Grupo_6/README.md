@@ -193,3 +193,21 @@ $ docker build --platform linux/amd64 -t eliasacuna/getting-started .
    </p>
 
 
+## Conservar la base de datos 
+1) para conservar la base de datos primero se debe iniciar un contenedor alpino y acceder a su caparazón con el siguiente comando: docker run -ti --name=mytest alpine
+   ## conservar la BD
+   <p align="center">
+  <img src="Imagenes/bd1.png" alt="Imagen 20">
+   </p>
+
+   como en este caso no reconoce el comando, se debe ejecutar mediante el siguiente:
+   $ winpty docker run -ti --name=mytest alpine
+   de esta forma, el comando empezara la descarga
+
+     <p align="center">
+  <img src="Imagenes/bd2.png" alt="Imagen 20">
+   </p>
+
+ 
+   
+
