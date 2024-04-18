@@ -213,5 +213,8 @@ procedemos a crear el archivo greetings y posteriormente saldremos del contenedo
   <img src="Imagenes/bd3.png" alt="Imagen 20">
    </p>
  
-   
+   nos saldra el siguiente error ya que  el archivo no existe en el nuevo contenedor.
+      <p align="center">
+  <img src="Imagenes/bd4.png" alt="Imagen 20">
+   </p>
 
