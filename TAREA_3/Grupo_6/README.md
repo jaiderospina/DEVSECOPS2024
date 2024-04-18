@@ -197,7 +197,7 @@ $ docker build --platform linux/amd64 -t eliasacuna/getting-started .
 1) para conservar la base de datos primero se debe iniciar un contenedor alpino y acceder a su caparazón con el siguiente comando: docker run -ti --name=mytest alpine
    ## conservar la BD
    <p align="center">
-  <img src="Imagenes/bd1.png" alt="Imagen 20">
+  <img src="Imagenes/bd1.png" alt="Imagen 23">
    </p>
 
    como en este caso no reconoce el comando, se debe ejecutar mediante el siguiente:
@@ -205,22 +205,31 @@ $ docker build --platform linux/amd64 -t eliasacuna/getting-started .
    de esta forma, el comando empezara la descarga
 
      <p align="center">
-  <img src="Imagenes/bd2.png" alt="Imagen 20">
+  <img src="Imagenes/bd2.png" alt="Imagen 24">
    </p>
 procedemos a crear el archivo greetings y posteriormente saldremos del contenedor
 
-     <p align="center">
-  <img src="Imagenes/bd3.png" alt="Imagen 20">
+  <p align="center">
+  <img src="Imagenes/bd3.png" alt="Imagen 25">
    </p>
  
    nos saldra el siguiente error ya que  el archivo no existe en el nuevo contenedor.
-      <p align="center">
-  <img src="Imagenes/bd4.png" alt="Imagen 20">
+   
+  <p align="center">
+  <img src="Imagenes/bd4.png" alt="Imagen 26">
    </p>
+   
   procederemos a ejecutar los siguientes comandos para eliminar los contenedores mediante su identificacion
-      <p align="center">
-  <img src="Imagenes/bd4.png" alt="Imagen 20">
+   <p align="center">
+  <img src="Imagenes/bd5.png" alt="Imagen 27">
    </p>
-       <p align="center">
-  <img src="Imagenes/bd5.png" alt="Imagen 20">
+   
+   <p align="center">
+  <img src="Imagenes/bd6.png" alt="Imagen 28">
+   </p>
+
+  ahora crearemos un nuevo volumen del contenedor para comprobar que los datos persisten
+
+  <p align="center">
+  <img src="Imagenes/bd8.png" alt="Imagen 29">
    </p>
