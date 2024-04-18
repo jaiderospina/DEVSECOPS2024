@@ -217,4 +217,10 @@ procedemos a crear el archivo greetings y posteriormente saldremos del contenedo
       <p align="center">
   <img src="Imagenes/bd4.png" alt="Imagen 20">
    </p>
-
+  procederemos a ejecutar los siguientes comandos para eliminar los contenedores mediante su identificacion
+      <p align="center">
+  <img src="Imagenes/bd5.png" alt="Imagen 20">
+   </p>
+       <p align="center">
+  <img src="Imagenes/bd6.png" alt="Imagen 20">
+   </p>
