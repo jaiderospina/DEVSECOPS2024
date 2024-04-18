@@ -183,5 +183,13 @@ Se observa el cambio en el texto de la aplicación
   <img src="Imagenes/actualizarapp2.png" alt="Imagen 21">
    </p>
 3) como siguiente paso ejecutaremos la imagen en una segunda instancia utilizando el comando:
-| http://localhost:3000/ |
-|------------------------|
+
+$ docker build --platform linux/amd64 -t eliasacuna/getting-started .
+
+
+## ejecutar imagen en segunda instancia
+   <p align="center">
+  <img src="Imagenes/actualizarapp3.png" alt="Imagen 22">
+   </p>
+
+
