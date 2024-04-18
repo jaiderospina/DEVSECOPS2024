@@ -176,7 +176,7 @@ Se observa el cambio en el texto de la aplicación
    <p align="center">
   <img src="Imagenes/actualizarapp1.png" alt="Imagen 20">
    </p>
-2) se procede a empujar la imagen al repositorio
+2) se procede a empujar la imagen al repositorio utilizando el comando que nos arrojo el repositorio, este dependera de cada usuario
 
  ## empujar imagen
    <p align="center">
