@@ -171,5 +171,5 @@ Se observa el cambio en el texto de la aplicación
 </p>
 
 ## Compartir la aplicación 
-1)
+1) para compartir la aplicacion lo primero que se deb realizar es crear un repositorio en docker-hub
 
