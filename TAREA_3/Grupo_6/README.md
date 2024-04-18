@@ -1,3 +1,11 @@
+# Grupo 6
+
+- David Medina - 424738
+- Felipe Sánchez - 611390
+- Elias Acuña - 710154
+- Juan Felipe Sánchez - 594066
+- Brayan Andres Lara - 728895
+
 # Contenerización de una aplicación
 En esta practica, se procederá a contenerizar una aplicación. Durante el proceso, se trabajará con un gestor de listas de tareas básico que opera en Node.js.
 
