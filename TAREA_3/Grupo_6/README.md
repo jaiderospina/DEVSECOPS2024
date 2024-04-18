@@ -174,6 +174,11 @@ Se observa el cambio en el texto de la aplicación
 1) para compartir la aplicacion lo primero que se deb realizar es crear un repositorio en docker-hub
    ## crear repositorio y ponerlo publico
    <p align="center">
-  <img src="Imagenes/actualizarapp1.png" alt="Imagen 4">
+  <img src="Imagenes/actualizarapp1.png" alt="Imagen 20">
    </p>
+2) se procede a empujar la imagen al repositorio
 
+ ## empujar imagen
+   <p align="center">
+  <img src="Imagenes/actualizarapp2.png" alt="Imagen 21">
+   </p>
