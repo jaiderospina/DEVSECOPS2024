@@ -207,7 +207,11 @@ $ docker build --platform linux/amd64 -t eliasacuna/getting-started .
      <p align="center">
   <img src="Imagenes/bd2.png" alt="Imagen 20">
    </p>
+procedemos a crear el archivo greetings y posteriormente saldremos del contenedor
 
+     <p align="center">
+  <img src="Imagenes/bd3.png" alt="Imagen 20">
+   </p>
  
    
 
