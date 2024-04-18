@@ -18,7 +18,7 @@ En resumen, se empaquetará la aplicación utilizando Docker y se trabajará con
 |-------------------------------------------------------------|
 
 <p align="center">
-  <img src="Imagenes/1.jpg" alt="Imagen 1">
+  <img src="[Imagenes/1.jpg](https://github.com/Jairfelipe02/Contenerizacion-de-una-aplicacion/blob/main/Imagenes/1.jpg)" alt="Imagen 1">
 </p>
 
 <p align="center">
