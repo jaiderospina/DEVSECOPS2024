@@ -51,7 +51,7 @@ Para el arranque del contenedor ejecutamos el comando "docker run -dp 127.0.0.1:
 
 Para listar los contenedores se debe utilizar el comando docker ps, este es un comando que muestra los contenedores Docker que están actualmente en ejecución en tu sistema. Es como mirar una lista de todas las aplicaciones que están corriendo en un equipo o servidor, pero en este caso, son aplicaciones encapsuladas en contenedores Docker. 
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/6.PNG?raw=true" alt="logo" width="730" height="250"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/6.PNG?raw=true" alt="logo" width="920" height="50"/></p>
 
 
 ## Paso 7 Actualización de codigo fuente
