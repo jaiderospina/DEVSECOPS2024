@@ -97,7 +97,54 @@ para la función Build este no ayudara a crear una imagen Docker usando un archi
 #Ejecución de los 3 comandos
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/11.png?raw=true" alt="logo" width="730" height="350"/></p>
 
+## Paso 12 Persistir la base de datos
 
+
+Cuando un contenedor se pone en funcionamiento, aprovecha las diversas capas de una imagen para su sistema de archivos. Asimismo, cada contenedor posee su propio entorno "temporal" para llevar a cabo la creación, actualización o eliminación de archivos. Estos cambios no se reflejarán en otros contenedores, incluso si están basados en la misma imagen.
+
+Para observar este proceso en acción, procederemos a iniciar dos contenedores. En uno de ellos, se generará un archivo, mientras que en el otro se verificará la existencia de dicho archivo. Lo que se podrá observar es que el archivo creado en un contenedor no estará disponible en el otro.
+
+Iniciamos un contenedor Alpine y accedemos a su caparazón. con el siguiente comando. Este comando crea y ejecuta un nuevo contenedor utilizando la imagen Alpine, con un terminal interactivo asignado, lo que permite al usuario interactuar con el contenedor a través de la línea de comandos. El contenedor se identificará con el nombre "mytest".
+
+```
+	docker run -ti --name=mytest alpine
+```
+
+
+Ahora se procede a ejecutar el siguiente comando, el cual crea un archivo llamado "greeting.txt" dentro del directorio actual del contenedor, que contiene la palabra "hello".:
+
+```
+	/ # echo "hello" > greeting.txt
+```
+
+Ejecutamos la salida del contenedor, el shell actual se cierra y se regresa al sistema operativo del host o al shell que llamó al contenedor, dependiendo de cómo se haya iniciado el contenedor, con el siguiente comando:
+
+```
+	/ # exit
+```
+
+Despues de salir del contenedor ejecutamos el siguiente comando con nuevo contenedor Alpine y usando la instancia cat:
+
+```
+	docker run alpine cat greeting.txt
+```
+
+Sin embargo, como se indica en el resultado proporcionado, el comando devuelve un error:
+
+```
+	cat: can't open 'greeting.txt': No such file or directory
+```
+
+Esto indicando que no puede abrir greeting.txt porque el archivo no existe en el nuevo contenedor. Esto confirma que el archivo greeting.txt no está disponible en el contenedor actual, ya que fue creado en otro contenedor previamente.
+
+Por ultimo ejecutamos el comando, el cual esta opción indica a Docker que muestre todos los contenedores, incluidos los que no están en ejecución actualmente. Esto significa que se mostrará una lista completa de todos los contenedores que han sido creados en el sistema Docker, junto con su estado actual (ya sea en ejecución o detenido), su identificador único (ID), el nombre asignado al contenedor y otra información relevante, como la imagen base utilizada para crear el contenedor, la fecha y hora de creación, etc.
+
+```
+	docker ps --all
+```
+
+#Ejecución de los 5 comandos
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_docker/12.png?raw=true" alt="logo" width="730" height="450"/></p>
 
 Integrantes:
   - Johan Esteban Salinas Acosta ID: 614420
