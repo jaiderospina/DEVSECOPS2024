@@ -95,7 +95,7 @@ para la función Build este no ayudara a crear una imagen Docker usando un archi
 
 
 #Ejecución de los 3 comandos
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/11.png?raw=true" alt="logo" width="730" height="250"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/11.png?raw=true" alt="logo" width="730" height="350"/></p>
 
 
 
