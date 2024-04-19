@@ -198,6 +198,10 @@ Por ultimo, el comando docker logs -f <container-id> se utiliza para ver los reg
 	 docker logs -f <container-id>
 ```
 
+#Ejecución de los 3 comandos
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/14.png?raw=true" alt="logo" width="730" height="350"/></p>
+
+
 
 Integrantes:
   - Johan Esteban Salinas Acosta ID: 614420
