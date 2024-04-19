@@ -444,9 +444,28 @@ procedemos a crear el archivo greetings y posteriormente saldremos del contenedo
   <img src="Imagenes/p7 8.png" alt="Imagen 50">
   </p>
 
-  Conéctese a la base de datos mysql y demuestre que los elementos se están escribiendo en la base de datos.
+## Usando Docker Compose
 
-  <p align="center">
-  <img src="Imagenes/p7 9.png" alt="Imagen 51">
+Docker Compose es una herramienta de orquestación de contenedores que facilita la definición, configuración y ejecución de aplicaciones multi-contenedor en entornos basados en Docker. Proporciona una interfaz simple y declarativa para gestionar la infraestructura de aplicaciones, permitiendo a los desarrolladores y administradores de sistemas especificar los componentes de la aplicación, sus dependencias y configuraciones en un único archivo YAML.
+Para la configuración se deben seguir los siguientes pasos:
+
+Sobre la ruta de la aplicación getting-started-app y por medio del comando vi compose.yaml, se creará el archivo .yaml que permitirá  alojar la configuración necesaria para que funcione correctamente 
+<p align="center">
+  <img src="Imagenes/P8-1.png" alt="Imagen 50">
   </p>
+
+Se realizan las configuraciones sobre el archivo .yaml
+Agregando caracteristicas como configuración de puertos, se define el ambiente del compose entre otros.
+
+<p align="center">
+  <img src="Imagenes/P8-2.png" alt="Imagen 51">
+  </p>
+
+  Se ejecuta el compose sin novedades
+  
+<p align="center">
+  <img src="Imagenes/P8-3.png" alt="Imagen 52">
+  </p>
+
+  
   
