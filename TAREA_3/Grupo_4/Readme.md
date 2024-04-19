@@ -35,7 +35,7 @@ Despues procedemos agregar contenido en el Dockerfile, este contenido básicamen
 Para construir la imgen debemos ejecutar el siguiente comando "docker build -t getting-started ." este comando en Docker es como darle instrucciones a una fábrica para construir un producto nuevo. "docker build" le dice a Docker que comience a crear algo nuevo. "-t getting-started" es como etiquetar ese producto, dándole un nombre para identificarlo fácilmente. Y finalmente, el punto "." le dice a Docker que construya este producto usando el archivo de configuración llamado "Dockerfile" que está en el directorio actual.
 
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/3.PNG?raw=true" alt="logo" width="830" height="250"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/3.PNG?raw=true" alt="logo" width="830" height="350"/></p>
 
 
 ## Paso 5 arranque de contenedor 
@@ -44,7 +44,7 @@ Para el arranque del contenedor ejecutamos el comando "docker run -dp 127.0.0.1:
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/4.PNG?raw=true" alt="logo" width="730" height="250"/></p>
 
-<p align="center"><img src="https://github.com/duversalgado/Docker_diplomado/blob/main/Screen_docker/5.PNG?raw=true" alt="logo" width="730" height="250"/></p>
+<p align="center"><img src="https://github.com/duversalgado/Docker_diplomado/blob/main/Screen_docker/5.PNG?raw=true" alt="logo" width="900" height="150"/></p>
 
 
 ## Paso 6  Listado de contenedores
