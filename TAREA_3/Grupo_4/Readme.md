@@ -172,6 +172,33 @@ Por ultimo observamos la informacion del volumen, el cual proporciona informaci�
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/13.png?raw=true" alt="logo" width="730" height="350"/></p>
 
 
+
+
+## Paso 14 Ejecucion de aplicación en un contenedor de desarrollo
+
+Para ello se inicia con la ejecucion del siguiente comando, Este comando ejecuta un contenedor Docker a partir de la imagen node:18-alpine. Utiliza la opción -dp para ejecutar el contenedor en segundo plano y mapear el puerto 3000 del contenedor al puerto 3000 del host local. Además, establece el directorio de trabajo dentro del contenedor en /app usando -w /app. Luego, monta el directorio actual del host ($pwd) en el directorio /app del contenedor. Una vez que el contenedor se inicia, ejecuta los comandos yarn install y yarn run dev dentro del contenedor utilizando el shell (sh -c). Esto generalmente se usa para iniciar una aplicación en modo de desarrollo.
+
+```
+	 docker run -dp 127.0.0.1:3000:3000 `
+	-w /app --mount "type=bind,src=$pwd,target=/app" `
+    	node:18-alpine `
+    	sh -c "yarn install && yarn run dev"
+```
+
+
+Seguido de esto, listamos la imgaen para poder obtener su ID con el siguiente comando:
+
+```
+	 docker ps
+```
+
+Por ultimo, el comando docker logs -f <container-id> se utiliza para ver los registros de salida de un contenedor específico en tiempo real. La opción -f o --follow permite seguir continuamente la salida del registro a medida que se actualiza, lo que es útil para monitorear el comportamiento del contenedor en tiempo real, especialmente durante la ejecución de procesos o aplicaciones en el contenedor. El <container-id> se reemplaza por el ID del contenedor del cual se desean ver los registros.
+
+```
+	 docker logs -f <container-id>
+```
+
+
 Integrantes:
   - Johan Esteban Salinas Acosta ID: 614420
   - Duver Salgado ID: 596826
