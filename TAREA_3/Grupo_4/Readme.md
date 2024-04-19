@@ -171,9 +171,6 @@ Por ultimo observamos la informacion del volumen, el cual proporciona informaci�
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/13.png?raw=true" alt="logo" width="730" height="350"/></p>
 
-
-
-
 ## Paso 14 Ejecucion de aplicación en un contenedor de desarrollo
 
 Para ello se inicia con la ejecucion del siguiente comando, Este comando ejecuta un contenedor Docker a partir de la imagen node:18-alpine. Utiliza la opción -dp para ejecutar el contenedor en segundo plano y mapear el puerto 3000 del contenedor al puerto 3000 del host local. Además, establece el directorio de trabajo dentro del contenedor en /app usando -w /app. Luego, monta el directorio actual del host ($pwd) en el directorio /app del contenedor. Una vez que el contenedor se inicia, ejecuta los comandos yarn install y yarn run dev dentro del contenedor utilizando el shell (sh -c). Esto generalmente se usa para iniciar una aplicación en modo de desarrollo.
@@ -201,6 +198,56 @@ Por ultimo, el comando docker logs -f <container-id> se utiliza para ver los reg
 #Ejecución de los 3 comandos
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/14.png?raw=true" alt="logo" width="730" height="350"/></p>
 
+## Paso 15 - Agregar Docker Compose para definir y compartir aplicaciones de múltiples contenedores
+
+Docker Compose es una herramienta que facilita la definición y el despliegue de aplicaciones de múltiples contenedores. Permite definir todos los servicios de la aplicación en un solo archivo YAML, lo que facilita la colaboración y el despliegue de la aplicación en diferentes entornos.
+
+A continuación, se describen los pasos para utilizar Docker Compose en este proyecto:
+
+1. Crear el archivo `compose.yaml` en el directorio `getting-started-app`.
+
+2. Definir el servicio de la aplicación en el archivo `compose.yaml`:
+
+```
+services:
+app:
+image: node:18-alpine
+command: sh -c "yarn install && yarn run dev"
+ports:
+- 127.0.0.1:3000:3000
+working_dir: /app
+volumes:
+- ./:/app
+environment:
+MYSQL_HOST: mysql
+MYSQL_USER: root
+MYSQL_PASSWORD: secret
+MYSQL_DB: todos
+```
+
+3. Definir el servicio MySQL en el archivo `compose.yaml`:
+```
+services:
+app:
+# Definición del servicio de la aplicación
+mysql:
+image: mysql:8.0
+volumes:
+- todo-mysql-data:/var/lib/mysql
+environment:
+MYSQL_ROOT_PASSWORD: secret
+MYSQL_DATABASE: todos
+```
+
+4. Ejecutar la pila de aplicaciones utilizando el comando `docker compose up -d`.
+
+5. Verificar los registros de los contenedores utilizando el comando `docker compose logs -f`.
+
+6. Acceder a la aplicación en el navegador en http://localhost:3000.
+
+7. Para detener y eliminar la pila de aplicaciones, utilizar el comando `docker compose down`.
+
+Con Docker Compose, definir y compartir aplicaciones de múltiples contenedores se vuelve más fácil y eficiente, lo que facilita el desarrollo y el despliegue de la aplicación en diferentes entornos.
 
 
 Integrantes:
