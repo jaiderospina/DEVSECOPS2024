@@ -65,7 +65,7 @@ En git que clonamos debemos a ir a la ruta "src/static/js/app.js" y modificar el
 
 Una vez realizo lo anterior se debe  construir  la versión de la imagen, para ello se debe ejecutar el siguiente comando "docker build -t getting-started ."  este comando "docker build -t getting-started ." es como decirle a Docker que construya una imagen de contenedor llamada "getting-started" utilizando los archivos en el directorio actual (representado por el punto "."). La opción "-t" establece el nombre o etiqueta de la imagen para identificarla fácilmente más tarde. Es como decirle a Docker que haga un ensamblaje de todos los archivos y configuraciones necesarios para crear un contenedor con el nombre "getting-started".  Adiconalmente despues de haber ejecutado este comando se debe ejecutar el comando "docker run -dp 127.0.0.1:3000:3000 getting-started" este comando ya lo hemos explicado anteriormente.
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/8.png?raw=true" alt="logo" width="730" height="250"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/8.png?raw=true" alt="logo" width="730" height="350"/></p>
 
 
 ## Paso 9 Retiración y arranque contenedor 
