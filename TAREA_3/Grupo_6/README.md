@@ -254,5 +254,104 @@ procedemos a crear el archivo greetings y posteriormente saldremos del contenedo
    </p>
 
 
+   # USAR MONTAJES DE ENLACE 
 
-   ## USAR MONTAJES DE ENLACE
+   # Comparaciones rápidas de tipos de volumen
+
+  Los siguientes son ejemplos de un volumen con nombre y un montaje vinculado usando `--mount`:
+
+  - **Volumen nombrado:** `type=volume,src=my-volume,target=/usr/local/data`
+  - **Montaje de enlace:** `type=bind,src=/path/to/data,target=/usr/local/data`
+
+  Abra una terminal y cambie el directorio al getting-started-app directorio.
+
+  <p align="center">
+  <img src="Imagenes/p6 1.png" alt="Imagen 31">
+   </p>
+
+  Para iniciar una sesión de bash en un contenedor Ubuntu con un montaje de enlace, proceda ejecutando el siguiente comando. La opción --mount type=bind instruye a Docker para establecer un montaje de enlace, permitiendo   la sincronización de directorios entre el sistema operativo anfitrión y el contenedor. En este caso, 'src' representa el directorio de trabajo actual en su máquina host, que en este contexto es el proyecto denominado     'getting-started-app'. Por otro lado, 'target' indica la ubicación dentro del contenedor donde se reflejará este directorio montado, en este caso, '/src'. Al ejecutar este comando, asegúrese de reemplazar 'src' y         'target' con las rutas correspondientes según su configuración específica.
+
+  <p align="center">
+  <img src="Imagenes/p6 2.png" alt="Imagen 32">
+   </p>
+
+  Tras ejecutar el comando proporcionado, Docker abre una sesión interactiva de bash dentro del contenedor, colocándolo en el directorio raíz del sistema de archivos del contenedor. Esto significa que está directamente     dentro del entorno del contenedor, listo para interactuar con él utilizando comandos de bash. Desde este punto, puede explorar y trabajar dentro del entorno del contenedor según sea necesario para el proyecto o tarea     en curso.
+  Después de ejecutar el comando, diríjase al directorio 'src'. Este es el directorio que se montó al iniciar el contenedor y muestra los mismos archivos que tiene en el directorio 'getting-started-app' de su máquina       host. Puede verificar esto listando el contenido del directorio utilizando el comando ls. Esto le permitirá confirmar que está trabajando con los archivos correctos y que el montaje de enlace se realizó correctamente.
+
+  <p align="center">
+  <img src="Imagenes/p6 3.png" alt="Imagen 33">
+  </p>
+
+  Cree un nuevo archivo llamado myfile.txt.
+
+  <p align="center">
+  <img src="Imagenes/p6 4.png" alt="Imagen 34">
+  </p>
+
+  Abra el getting-started-app directorio en el host y observe que el myfile.txt archivo está en el directorio.
+
+  <p align="center">
+  <img src="Imagenes/p6 5.png" alt="Imagen 35">
+  </p>
+
+  Desde el host, elimine el myfile.txt archivo.
+
+  <p align="center">
+  <img src="Imagenes/p6 6.png" alt="Imagen 36">
+  </p>
+
+  En el contenedor, visualice el contenido del app directorio una vez más. Observe que el archivo ya no está.
+
+  <p align="center">
+  <img src="Imagenes/p6 7.png" alt="Imagen 37">
+  </p>  
+
+  ## Contenedores de desarrollo
+
+  Los siguientes pasos detallan cómo ejecutar un contenedor de desarrollo con un montaje de enlace que realiza las siguientes acciones:
+
+  - Monta su código fuente en el contenedor.
+  - Instala todas las dependencias necesarias.
+  - Inicia nodemon para observar los cambios en el sistema de archivos.
+
+  Asegúrese de no tener ningún contenedor getting-started ejecutándose actualmente.
+
+  Ejecute el siguiente comando desde el getting-started-app directorio.
+
+  <p align="center">
+  <img src="Imagenes/p6 8.png" alt="Imagen 38">
+  </p>
+
+  - Para ejecutar el contenedor en modo independiente (en segundo plano) con una asignación de puertos, se utiliza la opción `-d -p 127.0.0.1:3000:3000`. Esto garantiza que el contenedor funcione en segundo plano y que     el puerto 3000 del contenedor esté mapeado al puerto 3000 del host.
+
+  - Además, se establece el "directorio de trabajo" del contenedor utilizando la opción `-w //app`, lo que indica que el directorio actual desde donde se ejecuta el comando es `/app` dentro del contenedor.
+
+  - Luego, se emplea la opción `--mount type=bind,src="/$(pwd)",target=/app` para enlazar y montar el directorio actual del host al directorio `/app` dentro del contenedor. Esto asegura que el código fuente del proyecto    esté disponible dentro del contenedor y se sincronice con los cambios realizados en el sistema de archivos del host.
+
+  - La imagen base utilizada es `node:18-alpine`, que se especifica con el propósito de la aplicación según el Dockerfile.
+
+  - Por último, el comando ejecutado dentro del contenedor es `sh -c "yarn install && yarn run dev"`. Aquí, se inicia un shell utilizando `sh` (ya que alpine no tiene bash) y se ejecutan los comandos `yarn install` para    instalar las dependencias del proyecto y `yarn run dev` para iniciar el servidor de desarrollo. Es importante mencionar que si se revisa el archivo `package.json`, se verá que el script `dev` inicia el servidor           utilizando `nodemon`.
+
+  Los registros se pueden ver usando docker logs <container-id>. Sabrás que estás listo para comenzar cuando visualice esto:
+
+  <p align="center">
+  <img src="Imagenes/p6 9.png" alt="Imagen 39">
+  </p>
+
+  ## Desarrolla tu aplicación con el contenedor de desarrollo
+
+  En el src/static/js/app.jsarchivo, en la línea 109, cambie el botón "Agregar elemento" para que diga simplemente "Agregar":
+
+  <p align="center">
+  <img src="Imagenes/p6 10.png" alt="Imagen 40">
+  </p>
+  <p align="center">
+  <img src="Imagenes/p6 11.png" alt="Imagen 41">
+  </p>
+
+  Actualice su página en el navegador web y notará que el cambio se refleja casi de inmediato gracias al montaje del enlace. Nodemon detectará el cambio y reiniciará el servidor automáticamente. Es posible que el           servidor de Node tarde unos segundos en reiniciar. Si encuentra algún error, inténtelo de nuevo después de unos segundos.
+
+  <p align="center">
+  <img src="Imagenes/p6 12.png" alt="Imagen 42">
+  </p>
+  
