@@ -357,10 +357,11 @@ procedemos a crear el archivo greetings y posteriormente saldremos del contenedo
   # APLICACIONES DE MULTIMPES CONTENEDORES
 
   Hasta este punto, el enfoque ha estado en trabajar con aplicaciones de contenedor único. Sin embargo, ahora se agregará MySQL a la pila de aplicaciones. Surge la pregunta: "¿Dónde debería ejecutarse MySQL? ¿Debería       instalarse en el mismo contenedor o ejecutarse de forma independiente?" En términos generales, cada contenedor debería cumplir una función específica y hacerlo de manera eficiente. Aquí hay algunas razones para           considerar la ejecución del contenedor de MySQL por separado:
-  -	Escalabilidad diferenciada: Es probable que necesite escalar las API y las interfaces de usuario de manera diferente a la base de datos. Mantener los contenedores separados facilita esta gestión y permite ajustar los     recursos según las necesidades específicas de cada componente.
-  -	Gestión de versiones: Al mantener la base de datos en un contenedor separado, puede versionarla y actualizarla de forma aislada. Esto garantiza un control más preciso sobre las actualizaciones y evita posibles            conflictos entre componentes de la aplicación.
-  -	Entorno de producción: Si bien puede ser conveniente utilizar un contenedor para la base de datos localmente durante el desarrollo, en un entorno de producción es posible que prefiera utilizar un servicio de base de      datos administrado. Separar la base de datos del resto de la aplicación le permite adaptarse fácilmente a diferentes entornos sin arrastrar consigo el motor de base de datos.
-  -	Complejidad de múltiples procesos: Ejecutar múltiples procesos dentro de un mismo contenedor puede complicar la gestión del ciclo de vida del contenedor. Se requerirá un administrador de procesos adicional, lo que        aumenta la complejidad del inicio y apagado del contenedor. Mantener los componentes en contenedores separados simplifica esta gestión y hace que el sistema sea más modular y fácil de mantener.
+  - Escalabilidad diferenciada: Es probable que necesite escalar las API y las interfaces de usuario de manera diferente a la base de datos. Mantener los contenedores separados facilita esta gestión y permite ajustar los 
+    recursos según las necesidades específicas de cada componente.
+  - Gestión de versiones: Al mantener la base de datos en un contenedor separado, puede versionarla y actualizarla de forma aislada. Esto garantiza un control más preciso sobre las actualizaciones y evita posibles            conflictos entre componentes de la aplicación.
+  - Entorno de producción: Si bien puede ser conveniente utilizar un contenedor para la base de datos localmente durante el desarrollo, en un entorno de producción es posible que prefiera utilizar un servicio de base de      datos administrado. Separar la base de datos del resto de la aplicación le permite adaptarse fácilmente a diferentes entornos sin arrastrar consigo el motor de base de datos.
+  - Complejidad de múltiples procesos: Ejecutar múltiples procesos dentro de un mismo contenedor puede complicar la gestión del ciclo de vida del contenedor. Se requerirá un administrador de procesos adicional, lo que        aumenta la complejidad del inicio y apagado del contenedor. Mantener los componentes en contenedores separados simplifica esta gestión y hace que el sistema sea más modular y fácil de mantener.
 
   ## Redes de contenedores
   
@@ -397,6 +398,7 @@ procedemos a crear el archivo greetings y posteriormente saldremos del contenedo
   ## Conéctate a MySQL
 
   Ahora que se sabe que MySQL está en funcionamiento, se puede comenzar a utilizar. Sin embargo, surge la pregunta: ¿Cómo se utiliza exactamente? Además, si se ejecuta otro contenedor en la misma red, ¿cómo se puede        encontrar el contenedor MySQL? Es importante recordar que cada contenedor tiene su propia dirección IP.
+  
   Para responder a estas preguntas y profundizar en la comprensión de las redes de contenedores, se puede utilizar el contenedor "nicolaka/netshoot". Este contenedor viene equipado con numerosas herramientas que son        útiles para solucionar o depurar problemas relacionados con las redes. Su amplio conjunto de herramientas facilitará la exploración y el diagnóstico dentro del entorno de contenedores.
   
   Inicie un nuevo contenedor usando la imagen nicolaka/netshoot. Asegúrate de conectarlo a la misma red.
@@ -412,6 +414,7 @@ procedemos a crear el archivo greetings y posteriormente saldremos del contenedo
   </p>
 
   En la "SECCIÓN DE RESPUESTA", se observará que hay un registro A donde "mysql" se resuelve en 172.23.0.2 (es probable que la dirección IP sea diferente en su caso). Aunque "mysql" normalmente no sería un nombre de host   válido, Docker pudo resolverlo en la dirección IP del contenedor que tenía ese alias de red. Esto se debe al uso del --network-alias anterior.
+  
   Lo que esto implica es que, para su aplicación, solo necesita conectarse a un host llamado "mysql" para comunicarse con la base de datos. Esta resolución facilita el proceso de conexión, ya que la aplicación puede        interactuar con la base de datos utilizando el nombre de host "mysql", en lugar de la dirección IP específica del contenedor.
   
   ## Ejecute su aplicación con MySQL
