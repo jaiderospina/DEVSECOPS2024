@@ -144,7 +144,7 @@ Por ultimo ejecutamos el comando, el cual esta opción indica a Docker que muest
 ```
 
 #Ejecución de los 5 comandos
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/12.png?raw=true" alt="logo" width="730" height="350"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/12.png?raw=true" alt="logo" width="730" height="450"/></p>
 
 ## Paso 13 Crear un volumen e iniciar el contenedor.
 
@@ -165,6 +165,12 @@ Por ultimo observamos la informacion del volumen, el cual proporciona informaci�
 ```
 	 docker volume inspect todo-db
 ```
+
+
+#Ejecución de los 3 comandos
+
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/13.png?raw=true" alt="logo" width="730" height="350"/></p>
+
 
 Integrantes:
   - Johan Esteban Salinas Acosta ID: 614420
