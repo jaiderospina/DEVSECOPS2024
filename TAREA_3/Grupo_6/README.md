@@ -192,6 +192,19 @@ $ docker build --platform linux/amd64 -t eliasacuna/getting-started .
   <img src="Imagenes/actualizarapp3.png" alt="Imagen 22">
    </p>
 
+4) Se inicia la aplicación en un nuevo contenedor creado, con la imagen que se descargo del repositorio
+  
+| docker run -dp 0.0.0.0:3000:3000 YOUR-USER-NAME/getting-started |
+|-----------------------------------------------------------------|   
+
+<p align="center">
+  <img src="Imagenes/19.jpg" alt="Imagen 19">
+</p>
+
+<p align="center">
+  <img src="Imagenes/20.jpg" alt="Imagen 20">
+</p>
+
 
 ## Conservar la base de datos 
 1) para conservar la base de datos primero se debe iniciar un contenedor alpino y acceder a su caparazón con el siguiente comando: docker run -ti --name=mytest alpine
