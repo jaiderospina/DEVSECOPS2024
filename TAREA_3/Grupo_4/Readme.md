@@ -42,7 +42,7 @@ Para construir la imgen debemos ejecutar el siguiente comando "docker build -t g
 
 Para el arranque del contenedor ejecutamos el comando "docker run -dp 127.0.0.1:3000:3000 getting-started", este comando "docker run" ejecuta un contenedor Docker a partir de una imagen llamada "getting-started". La bandera "-dp" especifica que el contenedor se ejecutará en segundo plano y redirigirá el tráfico desde el puerto 3000 del host (localhost) al puerto 3000 del contenedor. Esto es útil para aplicaciones web, donde el puerto 3000 suele ser utilizado.
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/4.PNG?raw=true" alt="logo" width="950" height="100"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/4.PNG?raw=true" alt="logo" width="950" height="50"/></p>
 
 <p align="center"><img src="https://github.com/duversalgado/Docker_diplomado/blob/main/Screen_docker/5.PNG?raw=true" alt="logo" width="900" height="250"/></p>
 
