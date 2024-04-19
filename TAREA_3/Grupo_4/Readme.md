@@ -146,6 +146,26 @@ Por ultimo ejecutamos el comando, el cual esta opción indica a Docker que muest
 #Ejecución de los 5 comandos
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/12.png?raw=true" alt="logo" width="730" height="350"/></p>
 
+## Paso 13 Crear un volumen e iniciar el contenedor.
+
+Procedemos a crear un volumen, en este caso, se está creando un volumen con el nombre todo-db. Este nombre se puede utilizar posteriormente para vincularlo a contenedores que necesiten acceder o persistir datos en este volumen. Los nombres de los volúmenes en Docker deben ser únicos dentro del sistema Docker, esto lo vemos con el comando:
+
+```
+	docker volume create todo-db
+```
+
+Seguido de esto, iniciamos el contenedor, a partir de la imagen getting-started, configurando el mapeo de puertos y montando un volumen llamado todo-db en el contenedor en el directorio /etc/todos, ademas de que captura todos los archivos creados en la ruta, esto se ejecuta con el comando:
+
+```
+	docker run -dp 127.0.0.1:3000:3000 --mount type=volume,src=todo-db,target=/etc/todos getting-started
+```
+
+Por ultimo observamos la informacion del volumen, el cual proporciona información JSON detallada sobre el volumen todo-db, que puede incluir su nombre, controlador de almacenamiento, etiquetas asociadas, opciones de montaje, y más. Esta información puede ser útil para verificar la configuración del volumen, así como para solucionar problemas relacionados con su uso o configuración. Esto lo vemos con el siguiente comando
+
+```
+	 docker volume inspect todo-db
+```
+
 Integrantes:
   - Johan Esteban Salinas Acosta ID: 614420
   - Duver Salgado ID: 596826
