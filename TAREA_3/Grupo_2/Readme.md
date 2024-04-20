@@ -39,7 +39,7 @@ Este comando se ejecuta desde una terminal y utiliza el protocolo git para clona
 
 ## Construir la imagen de la aplicación.
 
-Para crear la imagen, necesitará utilizar un Dockerfile. Un Dockerfile es simplemente un archivo basado en texto sin extensión de archivo que contiene un script de instrucciones. Docker usa este script para crear una imagen de contenedor.
+Para generar la imagen deseada, es esencial contar con un Dockerfile. Este archivo, desprovisto de una extensión específica y conformado por texto simple, alberga un conjunto de instrucciones en forma de script. Dichas instrucciones proporcionan a Docker las directrices necesarias para construir una imagen de contenedor personalizada. En esencia, el Dockerfile actúa como un plano detallado que guía el proceso de construcción, desde la configuración del entorno hasta la instalación de dependencias y la ejecución de comandos específicos. Mediante este archivo, se especifica con precisión cómo se desea que el entorno del contenedor se configure y opere, permitiendo así la reproducibilidad y portabilidad de la aplicación en diferentes entornos de ejecución.
 
 Los siguientes comandos fueron ejecutados en Windows en el terminal de Git Bash.
 
@@ -110,7 +110,7 @@ docker build -t getting-started .
 Este comando se utiliza para construir una imagen Docker a partir de un Dockerfile y los archivos presentes en el directorio actual.
 
  - **docker build**: Este es el comando principal de Docker utilizado para construir imágenes Docker.
- - **-t getting-started**: La opción -t se utiliza para etiquetar la imagen que se está construyendo con un nombre y, opcionalmente, un tag. En este caso, se está etiquetando la imagen con el nombre getting-started.
+ - **-t getting-started**: La opción -t se emplea para asignar una etiqueta a la imagen en construcción, proporcionándole un nombre y, opcionalmente, un tag. En este contexto, la imagen está siendo etiquetada como "getting-started".
  - **.** : Esto especifica el contexto de construcción. En este caso, el punto (.) significa que el contexto de construcción es el directorio actual en el que se está ejecutando el comando. Todos los archivos y directorios en este directorio serán considerados por Docker durante el proceso de construcción de la imagen.
 
 ![](Imagenes/Screenshot_6.png)
@@ -152,7 +152,7 @@ Ejecute el siguiente comando `docker ps` en una terminal para enumerar sus conte
 ```
 docker ps
 ```
-Este comando  proporciona una lista de los contenedores activos junto con información relevante como el ID del contenedor, el nombre, el ID de la imagen, el estado y el puerto expuesto.
+Este comando es fundamental para obtener una visión instantánea de los contenedores activos en el entorno Docker actual. Al ejecutarlo, se despliega una lista que incluye el ID del contenedor, su nombre, el ID de la imagen subyacente, su estado actual y los puertos que están siendo expuestos. Esta información es crucial para supervisar el estado y la actividad de los contenedores en tiempo real, lo que facilita la administración y el diagnóstico de cualquier problema que pueda surgir.
 
 ![](Imagenes/Screenshot_11.png)
 
@@ -196,7 +196,7 @@ Este error ocurre cuando Docker intenta exponer un puerto en un contenedor, pero
 
 ## Retire el contenedor viejo.
 
-Para retirar un contenedor, primero debe detenerlo. Una vez que se haya detenido, puedes eliminarlo.
+Antes de eliminar un contenedor, es fundamental detenerlo para asegurar la terminación ordenada de sus procesos. Una vez detenido, se puede proceder con seguridad a su eliminación, liberando así los recursos asignados. Es importante recordar que la eliminación del contenedor no afecta a la imagen subyacente, que permanece disponible para futuros usos.
 
 1. Obtenga el ID del contenedor mediante el comando `docker ps`.
 ```
