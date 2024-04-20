@@ -451,21 +451,46 @@ Para la configuración se deben seguir los siguientes pasos:
 
 Sobre la ruta de la aplicación getting-started-app y por medio del comando vi compose.yaml, se creará el archivo .yaml que permitirá  alojar la configuración necesaria para que funcione correctamente 
 <p align="center">
-  <img src="Imagenes/P8-1.png" alt="Imagen 50">
+  <img src="Imagenes/P8-1.jpg" alt="Imagen 50">
   </p>
 
 Se realizan las configuraciones sobre el archivo .yaml
 Agregando caracteristicas como configuración de puertos, se define el ambiente del compose entre otros.
 
 <p align="center">
-  <img src="Imagenes/P8-2.png" alt="Imagen 51">
+  <img src="Imagenes/P8-2.jpg" alt="Imagen 51">
   </p>
 
   Se ejecuta el compose sin novedades
   
 <p align="center">
-  <img src="Imagenes/P8-3.png" alt="Imagen 52">
+  <img src="Imagenes/P8-3.jpg" alt="Imagen 52">
   </p>
 
-  
-  
+Se evidencia que el servicio responde desde navegador
+
+<p align="center">
+  <img src="Imagenes/P8-4.jpg" alt="Imagen 52">
+  </p>
+
+
+## Buenas practicas Docker
+
+Ejecutando el comando docker image history getting-started esto mostrará el historial de capas ejecutadas para la imagen
+
+![image](https://github.com/jaiderospina/DEVSECOPS2024/assets/163653987/1cac9e37-90cb-40ae-a9cf-3bce57baefd0)
+
+Todas estas capas se deben recrear en cada una de las veces que se requiera ejecutar la imagen lo que ralentizará el proceso de ejecución.
+Para esto lo aconsejable es habilitar el almacenamiento del caché de estas capas para que no deba recrearlas en cada ejecución.
+Se debe abrir el dockerfile y modificarlo de la siguiente manera
+
+![image](https://github.com/jaiderospina/DEVSECOPS2024/assets/163653987/bf258c90-6000-4d4d-96a3-22a1072cc394)
+
+Y se realiza la creación del archivo .dockerignore
+
+![image](https://github.com/jaiderospina/DEVSECOPS2024/assets/163653987/4a89be5d-72b7-4bd6-9379-7ce880fbbf1b)
+Y se construye nuevamente la imagen donde el proceso demora mucho menos y es exitoso.
+
+![image](https://github.com/jaiderospina/DEVSECOPS2024/assets/163653987/6d2d1a7d-cb56-4b3c-b815-59860c78c666)
+
+
