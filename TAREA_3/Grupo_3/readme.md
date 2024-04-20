@@ -71,7 +71,7 @@ Esto comenzará contruir la imagen y a descargar directamente desde DockerHub la
     <img style="" alt="DevSecOps" src="Imagenes/Imagen-5.png">
 </div>
 
-## Paso 3:
+## Paso 4:
 
 Una vez finalizada la descarga de la imagen vamos a correrla en un contenedor enviándole como parámetros los puertos por los que nos vamos a poder comunicar con la aplicación con el siguiente comando:
 
@@ -104,9 +104,9 @@ Como ya estamos seguros de que el contenedor existe y tenemos el puerto `3000` e
 </div>
 
 
-ACTUALIZACIÓN DE LA APLICACIÓN
+# ACTUALIZACIÓN DE LA APLICACIÓN
 
-Paso 1:
+## Paso 1:
 Para esta parte se va a realizar la edición del archivo src/static/js/app.js en la línea 56, en donde vamos a cambiarla por los siguiente:
 
 Antes: 
@@ -134,7 +134,7 @@ Nos va a salir un error parecido a este:
 
 Esto se debe a que como estamos generando otro contenedor con el mismo puerto y nombre al que ya tenemos encuentra un conflicto y no nos permite crear el nuevo contenedor. Para arreglar este problema vamos a para el contenedor actual y a eliminarlo para poder crear el nuevo con los cambios que realizamos:
 
-Paso 2:
+## Paso 2:
 Para eliminar un contendor vamos a copiar el id de este a detener su ejecución con el siguiente comando reemplazando el <the-container-id> por el id que copiamos:
 
 ``` docker stop <the-container-id>``` 
@@ -161,7 +161,7 @@ Si vemos la lista de los contenedores con el comando Docker ps ya no nos deberí
     <img style="" alt="DevSecOps" src="Imagenes/Imagen-14.png">
 </div>
 
-Paso 4:
+## Paso 3:
 
 Para finalizar el proceso de actualización ahora solo queda correr el comando para correr el contenedor con los nuevos cambios:
 
@@ -180,9 +180,9 @@ Y volvemos a revisar la pagina en la dirección http://localhost:3000 refrescand
 </div>
 
 
-COMPARTIR LA APLICACIÓN
+# COMPARTIR LA APLICACIÓN
 
-Paso 1:
+## Paso 1:
 
 Para realizar un push hacia el repositorio de nuestra cuenta de DockerHub es necesario primero iniciar sesión, para esto utilizamos el siguiente comando cambiando YOUR-USER-NAME por el nombre de usuario de la cuenta de docker:
 
@@ -236,13 +236,13 @@ Al revisar en el repositorio de la página web de DockerHub podremos ver el repo
     <img style="" alt="DevSecOps" src="Imagenes/Imagen-21.png">
 </div>  
 
-PERSISTENCIA EN CONTENEDORES
+# PERSISTENCIA EN CONTENEDORES
 
 Cuando se trabaja con varios o instalando y desinstalando contenedores, un problema muy común es el tema de la persistencia de los datos ya que los contenedores no retienen información, pero existe una solución los cuales son los volúmenes.
 
 Para realizar las pruebas de que no se mantiene persistencia de datos vamos a realizar la construcción de dos contenedores:
 
-Paso 1:
+## Paso 1:
 
 Iniciar al contenedor alpine y accedemos al terminar 
 
@@ -290,14 +290,14 @@ docker run -dp 127.0.0.1:3000:3000 --mount type=volume, src=todo-db,target=/etc/
 
 Ahora es momento de probar la persistencia del volumen configurado en el contenedor que acabamos de correr, para esto desde localhost:3000 añadimos unos elementos y eliminamos el contenedor:
 
-1.	Añadimos elementos:
+### 1.	Añadimos elementos:
 
 <div style="width: 100%; text-align: center;">
     <img style="" alt="DevSecOps" src="Imagenes/Imagen-27.png">
 </div>
  
 
-2.	Ahora eliminamos el contenedor con el siguiente comando donde reemplazamos <id> por el id del contenedor:
+### 2.	Ahora eliminamos el contenedor con el siguiente comando donde reemplazamos <id> por el id del contenedor:
 
 docker rm -f <id>
 
@@ -305,7 +305,7 @@ docker rm -f <id>
     <img style="" alt="DevSecOps" src="Imagenes/Imagen-28.png">
 </div> 
 
-3.	Y volvemos a crear el contenedor como lo realizamos al principio y deberíamos ver en la página los ítems creados:
+### 3.	Y volvemos a crear el contenedor como lo realizamos al principio y deberíamos ver en la página los ítems creados:
 
 docker run -dp 127.0.0.1:3000:3000 --mount type=volume, src=todo-db,target=/etc/todos getting-started
 
@@ -329,13 +329,13 @@ De esta manera veremos una estructura de datos como esta con la información res
     <img style="" alt="DevSecOps" src="Imagenes/Imagen-31.png">
 </div>
 
-MONTAJES DE ENLACES 
+# MONTAJES DE ENLACES 
 
 Un montaje de enlaces es otro tipo de montaje con el que se puede compartir datos desde el sistema principal con el contenedor, este montaje puede detectar los cambios realizados en los archivos al instante.
 
 Para ver como funcionan estos montajes se va a hacer una prueba con el proyecto getting-started-app que ya se ha venido trabajando anteriormente.
 
-Paso 1:
+## Paso 1:
 
 En la consola nos vamos a dirigir hacia el directorio getting-started-app y vamos a ejectuar el siguiente comando:
 
