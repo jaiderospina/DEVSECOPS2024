@@ -381,3 +381,13 @@ Pero no solo funciona del contenedor hacia el host, sino también en la direcci�
 Ya finalizada la practica nos salimos de la sesión de contenedor con ctrl + D o digitando exit
 
 ## CONTENEDORES DE DESARROLLO 
+
+Los montajes de enlace son especialmente útiles para el desarrollo local, ya que permiten al equipo de desarrollo trabajar sin necesidad de instalar todas las herramientas o entornos de compilación en sus máquinas. Para ejecutar estos contenedores de desarrollo, utilizaremos el proyecto getting-started-app. Es importante asegurarse de que no haya otros contenedores en ejecución. A continuación, ejecutaremos el siguiente comando en el directorio del proyecto. 
+
+docker run -dp 127.0.0.1:3000:3000 ^
+    -w /app --mount "type=bind,src=%cd%,target=/app" ^
+    node:18-alpine ^
+    sh -c "yarn install && yarn run dev"
+
+Al ejecutar el comando, veremos un resultado similar en la consola 
+
