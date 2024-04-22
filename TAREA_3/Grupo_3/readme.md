@@ -389,5 +389,83 @@ docker run -dp 127.0.0.1:3000:3000 ^
     node:18-alpine ^
     sh -c "yarn install && yarn run dev"
 
-Al ejecutar el comando, veremos un resultado similar en la consola 
+Al ejecutar el comando, veremos el siguiente resultado en la consola :
+
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-63.png">
+</div>
+
+Desde la consola, se pueden revisar los registros del contenedor para saber cuándo está listo para ser utilizado
+
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-64.png">
+</div>
+
+Probamos realizando un cambio en el código desde el editor y lo guardamos. Luego, verificamos que los cambios se hayan reflejado en la página en ejecución desde el contenedor. A continuación, mostramos el estado de la página antes del cambio
+
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-65.png">
+</div>
+
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-66.png">
+</div>
+
+2.	Después del cambio
+
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-67.png">
+</div>
+
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-68.png">
+</div>
+
+Se pueden realizar los cambios que sean necesarios en la aplicación y al finalizar se usa el siguiente comando para construir una nueva imagen
+docker build -t getting-started .
+
+## APLICACIONES MULTI-CONTENEDORES
+
+Los multi-contenedores son una excelente opción para encapsular funcionalidades separadas del software en desarrollo. Permiten separar los API de los front-ends, y conectarlos a diferentes bases de datos, lo que también facilita el versionamiento y mantenimiento de cada módulo.
+
+Para gestionar y comunicarse entre diferentes contenedores, es necesario crear una red para facilitar el flujo de datos entre ellos. Como prueba, conectaremos un contenedor con MySQL a nuestra aplicación.
+
+Paso 1: Creamos la red para conectar los contenedores con el siguiente comando:
+
+docker network create todo-app
+
+Se mostrará el hash de la red creada:
+
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-69.png">
+</div>
+
+Vamos iniciar un contenedor con SQL dándole opciones en donde lo conectaremos directamente a la red creada anteriormente:
+docker run -d ^
+    --network todo-app --network-alias mysql ^
+    -v todo-mysql-data:/var/lib/mysql ^
+    -e MYSQL_ROOT_PASSWORD=secret ^
+    -e MYSQL_DATABASE=todos ^
+    mysql:8.0
+Paso 2:
+Al ser ejecutado iniciará el proceso de instalación y quedará algo como esto:
+
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-70.png">
+</div>
+
+Paso 3:
+Para asegurarnos de que la bases de datos SQL este ejecutándose correctamente, vamos a usar el siguiente comando para verificar la conexión, reemplace el <mysql-container-id> por el id del contenedor creado anteriormente:
+docker exec -it <mysql-container-id> mysql -u root -p
+Una vez pida la contraseña se debe digitar la palabra “secret” para poder acceder y colocaremos SHOW DATABASES para verificar las bases de datos existentes:
+
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-71.png">
+</div>
+
+
+
+
+
+
 
