@@ -466,7 +466,11 @@ Una vez pida la contraseña se debe digitar la palabra “secret” para poder a
     <img style="" alt="DevSecOps" src="Imagenes/Imagen-71.png">
 </div>
 
+Una vez comprobadas las bases de datos salimos del contenedor:
 
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-73.png">
+</div>
 
 
 
