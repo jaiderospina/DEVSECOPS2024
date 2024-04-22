@@ -28,6 +28,8 @@ En resumen, se empaquetará la aplicación utilizando Docker y se trabajará con
   <img src="Imagenes/1.jpg" alt="Imagen 1">
 </p>
 
+2) Ver el contenido del repositorio clonado. Debería ver los siguientes archivos y subdirectorios
+
 <p align="center">
   <img src="Imagenes/2.jpg" alt="Imagen 2">
 </p>
@@ -37,7 +39,13 @@ En resumen, se empaquetará la aplicación utilizando Docker y se trabajará con
 Un Dockerfile es como una receta de cocina para crear una imagen de contenedor. Es un archivo de texto que contiene una serie de instrucciones que Docker utiliza para construir automáticamente una imagen Docker. Especifica qué software y configuraciones se deben incluir en la imagen, así como cómo se deben configurar y ejecutar. Una vez que tienes un Dockerfile, Docker puede usarlo para construir una imagen de contenedor de manera consistente y reproducible.
 
 1) Entrar en el repositorio clonado y crear un archivo vacío llamado Dockerfile
-
+   
+| cd /path/to/getting-started-app |
+|-------------------------------------------------------------|
+   
+| touch Dockerfile |
+|-------------------------------------------------------------|
+  
 <p align="center">
   <img src="Imagenes/3.jpg" alt="Imagen 3">
 </p>
@@ -99,6 +107,11 @@ Una vez que se han agregado los elementos, se puede marcar esta tarea como compl
   <img src="Imagenes/9.jpg" alt="Imagen 9">
 </p>
 
+Ejecutar el siguiente comando en una terminal para enumerar sus contenedores.
+
+| docker ps |
+|------------------------|
+
 # Actualizar la aplicación
 En esta sección, se procederá a actualizar tanto la aplicación como la imagen asociada. Además, se aprenderá a detener y eliminar un contenedor en ejecución.
 
@@ -114,6 +127,11 @@ En esta sección, se procederá a actualizar tanto la aplicación como la imagen
 <p align="center">
   <img src="Imagenes/12.jpg" alt="Imagen 12">
 </p>
+
+3) Inicie un nuevo contenedor usando el código actualizado.
+
+| docker run -dp 127.0.0.1:3000:3000 getting-started |
+|------------------------|
 
 ## Eliminar el contenedor creado anteriormente
 
@@ -171,28 +189,48 @@ Se observa el cambio en el texto de la aplicación
 </p>
 
 ## Compartir la aplicación 
-1) para compartir la aplicacion lo primero que se deb realizar es crear un repositorio en docker-hub
-   ## crear repositorio y ponerlo publico
+Ahora que ha creado una imagen, puede compartirla. Para compartir imágenes de Docker, debe utilizar un registro de Docker. El registro predeterminado es Docker Hub y es de donde provienen todas las imágenes que ha utilizado.
+
+### Crear un repositorio
+Para enviar una imagen, primero debe crear un repositorio en Docker Hub.
+
+1. Regístrese o inicie sesión en Docker Hub .
+2. Seleccione el botón Crear repositorio .
+3. Para el nombre del repositorio, utilice getting-started. Asegúrese de que la visibilidad sea pública .
+4. Seleccione Crear .
+   
+   ## Crear repositorio y ponerlo publico
    <p align="center">
   <img src="Imagenes/actualizarapp1.png" alt="Imagen 20">
    </p>
-2) se procede a empujar la imagen al repositorio utilizando el comando que nos arrojo el repositorio, este dependera de cada usuario
 
- ## empujar imagen
+## Push en la imagen
+
+1. Este comando enviará a este repositorio.
+
+| docker push docker/getting-started:tagname |
+|------------------------|
+
+2. Inicie sesión en Docker Hub usando el comando
+   
+| docker login -u YOUR-USER-NAME |
+|------------------------|
+
+3. Utilice el docker tagcomando para darle a la getting-startedimagen un nuevo nombre. Reemplácelo YOUR-USER-NAMEcon su ID de Docker.
+
+|  docker tag getting-started YOUR-USER-NAME/getting-started |
+|------------------------|
+
+4. Ahora ejecute el docker pushcomando nuevamente. Si está copiando el valor de Docker Hub, puede descartar la tagnameparte, ya que no agregó una etiqueta al nombre de la imagen. Si no especifica una etiqueta, Docker usa una etiqueta llamada latest.
+
+| docker push YOUR-USER-NAME/getting-started |
+|------------------------|
+
    <p align="center">
   <img src="Imagenes/actualizarapp2.png" alt="Imagen 21">
    </p>
-3) como siguiente paso ejecutaremos la imagen en una segunda instancia utilizando el comando:
 
-$ docker build --platform linux/amd64 -t eliasacuna/getting-started .
-
-
-## ejecutar imagen en segunda instancia
-   <p align="center">
-  <img src="Imagenes/actualizarapp3.png" alt="Imagen 22">
-   </p>
-
-4) Se inicia la aplicación en un nuevo contenedor creado, con la imagen que se descargo del repositorio
+Se inicia la aplicación en un nuevo contenedor creado, con la imagen que se descargo del repositorio
   
 | docker run -dp 0.0.0.0:3000:3000 YOUR-USER-NAME/getting-started |
 |-----------------------------------------------------------------|   
@@ -205,6 +243,33 @@ $ docker build --platform linux/amd64 -t eliasacuna/getting-started .
   <img src="Imagenes/20.jpg" alt="Imagen 20">
 </p>
 
+## Ejecute la imagen en una nueva instancia.
+
+Ahora que su imagen se creó y se insertó en un registro, intente ejecutar su aplicación en una instancia nueva que nunca haya visto esta imagen de contenedor. Para hacer esto, utilizará Play with Docker.
+
+| docker build --platform linux/amd64 -t YOUR-USER-NAME/getting-started . |
+|------------------------|
+
+1. Abra su navegador para Play with Docker.
+
+2. Seleccione Iniciar sesión y luego seleccione la ventana acoplable en la lista desplegable.
+
+3. Inicie sesión con su cuenta de Docker Hub y luego seleccione Iniciar .
+
+4. Seleccione la opción AGREGAR NUEVA INSTANCIA en la barra lateral izquierda. Si no lo ve, amplíe un poco su navegador. Después de unos segundos, se abre una ventana de terminal en su navegador.
+   
+5. En la terminal, inicie su aplicación recién enviada.
+
+| docker run -dp 0.0.0.0:3000:3000 YOUR-USER-NAME/getting-started |
+|------------------------|
+
+6. Seleccione la insignia 3000 cuando aparezca.
+
+Si la insignia 3000 no aparece, puede seleccionar Abrir puerto y especificar 3000.
+
+   <p align="center">
+  <img src="Imagenes/actualizarapp3.png" alt="Imagen 22">
+   </p>
 
 ## Conservar la base de datos 
 1) para conservar la base de datos primero se debe iniciar un contenedor alpino y acceder a su caparazón con el siguiente comando: docker run -ti --name=mytest alpine
