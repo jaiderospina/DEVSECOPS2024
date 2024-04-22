@@ -443,11 +443,17 @@ Se mostrará el hash de la red creada:
 Vamos iniciar un contenedor con SQL dándole opciones en donde lo conectaremos directamente a la red creada anteriormente:
 
 docker run -d ^
+
     --network todo-app --network-alias mysql ^
+    
     -v todo-mysql-data:/var/lib/mysql ^
+    
     -e MYSQL_ROOT_PASSWORD=secret ^
+    
     -e MYSQL_DATABASE=todos ^
+    
     mysql:8.0
+    
 Paso 2:
 Al ser ejecutado iniciará el proceso de instalación y quedará algo como esto:
 
