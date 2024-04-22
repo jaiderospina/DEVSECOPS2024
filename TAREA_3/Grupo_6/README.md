@@ -619,4 +619,5 @@ Y se construye nuevamente la imagen donde el proceso demora mucho menos y es exi
 
 ![image](https://github.com/jaiderospina/DEVSECOPS2024/assets/163653987/6d2d1a7d-cb56-4b3c-b815-59860c78c666)
 
-
+# Referencia
+- https://docs.docker.com/get-started/
