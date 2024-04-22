@@ -13,10 +13,10 @@
 </p>
 
 Esta guía contiene instrucciones paso a paso sobre cómo empezar a utilizar Docker. Esta guía le muestra cómo:
-	- Cree y ejecute una imagen como contenedor.
-	- Comparta imágenes usando Docker Hub.
-	- Implemente aplicaciones Docker utilizando varios contenedores con una base de datos.
-	- Ejecute aplicaciones usando Docker Compose.
+- Cree y ejecute una imagen como contenedor.
+- Comparta imágenes usando Docker Hub.
+- Implemente aplicaciones Docker utilizando varios contenedores con una base de datos.
+- Ejecute aplicaciones usando Docker Compose.
 
 ## ¿Qué es un contenedor?
 
@@ -48,8 +48,7 @@ En resumen, se empaquetará la aplicación utilizando Docker y se trabajará con
 
 1. Clonar el repositorio getting-started-app usando el comando:
    
-| git clone https://github.com/docker/getting-started-app.git |
-|-------------------------------------------------------------|
+< git clone https://github.com/docker/getting-started-app.git >
 
 <p align="center">
   <img src="Imagenes/1.jpg" alt="Imagen 1">
