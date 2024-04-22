@@ -483,6 +483,73 @@ Una vez comprobadas las bases de datos salimos del contenedor:
 
 ## CONEXIÓN A MySQL
 
+Para utilizar otros contenedores en la misma red, es importante tener en cuenta que cada contenedor tiene su propia dirección IP. Conectaremos varios contenedores a la misma red.
+Para iniciar una imagen de nicolaka/netshoot y conectarla a la misma red, use el siguiente comando:
+docker run -it --network todo-app nicolaka/netshoot
+
+
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-74.png">
+</div>
+
+Una vez dentro del contenedor, utilizaremos el comando dig para ver la dirección IP del host MySQL:
+
+dig mysql
+
+El resultado debería ser algo similar a lo siguiente:
+
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-75.png">
+</div>
+
+Ahora vamos a conectar el contenedor que aloja el proyecto getting-started-app:
+
+docker run -dp 127.0.0.1:3000:3000 ^
+
+  -w /app -v "%cd%:/app" ^
+  
+  --network todo-app ^
+  
+  -e MYSQL_HOST=mysql ^
+  
+  -e MYSQL_USER=root ^
+  
+  -e MYSQL_PASSWORD=secret ^
+  
+  -e MYSQL_DB=todos ^
+  
+  node:18-alpine ^
+  
+  sh -c "yarn install && yarn run dev"
+
+  <div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-76.png">
+</div>
+
+Ejecutando el comando para ver los logs del contenedor que se creó debería aparecer algo como esto:
+
+docker logs -f <container-id>
+
+ <div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-77.png">
+</div>
+
+Ahora es hora de ejecutar el contenedor con la base de datos, reemplazamos <mysql-container-id> por el id del contenedor:
+docker exec -it <mysql-container-id> mysql -p todos
+
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-78.png">
+</div>
+
+Entramos a la dirección http://localhost:3000 e ingresamos varios registros y comprobamos en realizando la consulta desde el contenedor de MySQL:
+
+
+
+
+
+
+
+
 
 
 
