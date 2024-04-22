@@ -552,7 +552,7 @@ Entramos a la dirección http://localhost:3000 e ingresamos varios registros y c
 </div>
 
 
-
+## USAR DOCKER COMPOSE 
 
 
 
