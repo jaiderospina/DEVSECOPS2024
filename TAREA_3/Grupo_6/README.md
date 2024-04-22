@@ -50,7 +50,7 @@ En resumen, se empaquetará la aplicación utilizando Docker y se trabajará con
 
 ```
 git clone https://github.com/docker/getting-started-app.git
-``` 
+```
 <p align="center">
   <img src="Imagenes/1.jpg" alt="Imagen 1">
 </p>
@@ -66,12 +66,13 @@ git clone https://github.com/docker/getting-started-app.git
 Un Dockerfile es como una receta de cocina para crear una imagen de contenedor. Es un archivo de texto que contiene una serie de instrucciones que Docker utiliza para construir automáticamente una imagen Docker. Especifica qué software y configuraciones se deben incluir en la imagen, así como cómo se deben configurar y ejecutar. Una vez que tienes un Dockerfile, Docker puede usarlo para construir una imagen de contenedor de manera consistente y reproducible.
 
 1. Entrar en el repositorio clonado y crear un archivo vacío llamado Dockerfile
-   
-| cd /path/to/getting-started-app |
-|-------------------------------------------------------------|
-   
-| touch Dockerfile |
-|-------------------------------------------------------------|
+```
+cd /path/to/getting-started-app
+```
+
+```
+touch Dockerfile
+```
   
 <p align="center">
   <img src="Imagenes/3.jpg" alt="Imagen 3">
@@ -85,8 +86,9 @@ Un Dockerfile es como una receta de cocina para crear una imagen de contenedor. 
 
 3. Se construye la imagen usando el comando:
 
-| docker build -t getting-started . |
-|-----------------------------------|
+```
+docker build -t getting-started .
+```
 
 <p align="center">
   <img src="Imagenes/5.jpg" alt="Imagen 5">
@@ -106,8 +108,9 @@ El comando `docker build` utiliza el Dockerfile para construir una imagen de con
 
 1. Ejecutar el comando:
 
-| docker run -dp 127.0.0.1:3000:3000 getting-started |
-|----------------------------------------------------|
+```
+docker run -dp 127.0.0.1:3000:3000 getting-started
+```
 
 <p align="center">
   <img src="Imagenes/7.jpg" alt="Imagen 7">
@@ -122,9 +125,9 @@ La bandera `-d` (abreviatura de --detach) ejecuta el contenedor en segundo plano
 La bandera `-p` (abreviatura de --publish) crea una asignación de puertos entre el host y el contenedor. Toma un valor de cadena en el formato HOST:CONTAINER, donde HOST es la dirección en el host y CONTAINER es el puerto en el contenedor. El comando publica el puerto 3000 del contenedor en 127.0.0.1:3000 (localhost:3000) en el host. Sin la asignación de puertos, no se puede acceder a la aplicación desde el host.
 
 2. Abrir en el navegador web el enlace:
-
-| http://localhost:3000/ |
-|------------------------|
+```
+docker run -dp 127.0.0.1:3000:3000 getting-started](http://localhost:3000/)
+```
 
 Al agregar uno o dos elementos y verificar que funcione según lo esperado, se puede confirmar que la interfaz está almacenando los elementos correctamente en el backend. Esto implica ingresar los elementos en la interfaz, verificar que se guarden correctamente en el backend y luego confirmar su presencia en la interfaz nuevamente.
 
@@ -133,11 +136,6 @@ Una vez que se han agregado los elementos, se puede marcar esta tarea como compl
 <p align="center">
   <img src="Imagenes/9.jpg" alt="Imagen 9">
 </p>
-
-Ejecutar el siguiente comando en una terminal para enumerar sus contenedores.
-
-| docker ps |
-|------------------------|
 
 # 3. Actualizar la aplicación
 En esta sección, se procederá a actualizar tanto la aplicación como la imagen asociada. Además, se aprenderá a detener y eliminar un contenedor en ejecución.
@@ -153,20 +151,20 @@ En esta sección, se procederá a actualizar tanto la aplicación como la imagen
 
 3. Inicie un nuevo contenedor usando el código actualizado.
 
-| docker run -dp 127.0.0.1:3000:3000 getting-started |
-|------------------------|
+```
+docker run -dp 127.0.0.1:3000:3000 getting-started
+```
 
 ## Eliminar el contenedor creado anteriormente
 
 1. Obtener el ID del contenedor con el comando:
-
-| docker ps |
-|-----------|
-
+```
+docker ps
+```
 2. Utilizar el docker stopcomando para detener el contenedor. Reemplazar <the-container-id>con el CONTAINER ID.
-
-| docker stop <the-container-id> |
-|--------------------------------|
+```
+docker stop <the-container-id
+```
 
 <p align="center">
   <img src="Imagenes/13.jpg" alt="Imagen 13">
@@ -195,9 +193,10 @@ En esta sección, se procederá a actualizar tanto la aplicación como la imagen
 </p>
 
 2. Abrir en el navegador web el enlace:
-   
-| http://localhost:3000/ |
-|------------------------|
+docker stop <the-container-id>
+```
+http://localhost:3000/
+```
 
 Se observa el cambio en el texto de la aplicación
 
@@ -230,27 +229,26 @@ Para enviar una imagen, primero debe crear un repositorio en Docker Hub.
 ## Push en la imagen
 
 1. Este comando enviará a este repositorio.
-
-| docker push docker/getting-started:tagname |
-|------------------------|
+```
+docker push docker/getting-started:tagname
+```
 
 2. Inicie sesión en Docker Hub usando el comando
-   
-| docker login -u YOUR-USER-NAME |
-|------------------------|
+```
+docker login -u YOUR-USER-NAME
+```
 
 3. Utilice el docker tagcomando para darle a la getting-startedimagen un nuevo nombre. Reemplácelo YOUR-USER-NAMEcon su ID de Docker.
-
-|  docker tag getting-started YOUR-USER-NAME/getting-started |
-|------------------------|
-
+```
+docker tag getting-started YOUR-USER-NAME/getting-started
+```
 
 ## Ejecute la imagen en una nueva instancia.
 
 Ahora que su imagen se creó y se insertó en un registro, intente ejecutar su aplicación en una instancia nueva que nunca haya visto esta imagen de contenedor. Para hacer esto, utilizará Play with Docker.
-
-| docker build --platform linux/amd64 -t YOUR-USER-NAME/getting-started . |
-|------------------------|
+```
+docker build --platform linux/amd64 -t YOUR-USER-NAME/getting-started .
+```
 
 1. Abra su navegador para Play with Docker.
 
@@ -261,18 +259,18 @@ Ahora que su imagen se creó y se insertó en un registro, intente ejecutar su a
 4. Seleccione la opción AGREGAR NUEVA INSTANCIA en la barra lateral izquierda. Si no lo ve, amplíe un poco su navegador. Después de unos segundos, se abre una ventana de terminal en su navegador.
 
 Ahora ejecute el docker pushcomando nuevamente. Si está copiando el valor de Docker Hub, puede descartar la tagnameparte, ya que no agregó una etiqueta al nombre de la imagen. Si no especifica una etiqueta, Docker usa una etiqueta llamada latest.
-
-| docker push YOUR-USER-NAME/getting-started |
-|------------------------|
+```
+docker push YOUR-USER-NAME/getting-started
+```
 
    <p align="center">
   <img src="Imagenes/actualizarapp2.png" alt="Imagen 21">
    </p>
 
 Se inicia la aplicación en un nuevo contenedor creado, con la imagen que se descargo del repositorio
-  
-| docker run -dp 0.0.0.0:3000:3000 YOUR-USER-NAME/getting-started |
-|-----------------------------------------------------------------|   
+```
+ docker run -dp 0.0.0.0:3000:3000 YOUR-USER-NAME/getting-started 
+```  
 
 <p align="center">
   <img src="Imagenes/19.jpg" alt="Imagen 19">
@@ -284,9 +282,9 @@ Se inicia la aplicación en un nuevo contenedor creado, con la imagen que se des
 
    
 6. En la terminal, inicie su aplicación recién enviada.
-
-| docker run -dp 0.0.0.0:3000:3000 YOUR-USER-NAME/getting-started |
-|------------------------|
+```
+docker run -dp 0.0.0.0:3000:3000 YOUR-USER-NAME/getting-started
+```
 
 6. Seleccione la insignia 3000 cuando aparezca.
 
@@ -304,17 +302,18 @@ En caso de que no lo hayas notado, tu lista de tareas pendientes está vacía ca
 Cuando se ejecuta un contenedor, utiliza las distintas capas de una imagen para su sistema de archivos. Cada contenedor también tiene su propio "espacio temporal" para crear/actualizar/eliminar archivos. Los cambios no se verán en otro contenedor, incluso si usan la misma imagen.
 
 1. Para conservar la base de datos primero se debe iniciar un contenedor alpino y acceder a su caparazón con el siguiente comando:
+```
+docker run -ti --name=mytest alpine
+```
 
-| docker run -ti --name=mytest alpine |
-|------------------------|
    <p align="center">
   <img src="Imagenes/bd1.png" alt="Imagen 23">
    </p>
 
    Como en este caso no reconoce el comando, se debe ejecutar mediante el siguiente:
-
-| winpty docker run -ti --name=mytest alpine |
-|------------------------|
+```
+winpty docker run -ti --name=mytest alpine
+```
 
 De esta forma, el comando empezara la descarga
 <p align="center">
@@ -323,14 +322,13 @@ De esta forma, el comando empezara la descarga
 
 
 2. En el contenedor, cree un greeting.txtarchivo con helloel interior.
-
-| echo "hello" > greeting.txt |
-|------------------------|
-
+```
+echo "hello" > greeting.txt
+```
 3. Sal del contenedor.
-| exit |
-|------------------------|
-
+```
+exit
+```
 Procedemos a crear el archivo greetings y posteriormente saldremos del contenedor
 
   <p align="center">
@@ -358,8 +356,9 @@ Procedemos a crear el archivo greetings y posteriormente saldremos del contenedo
   <img src="Imagenes/bd8.png" alt="Imagen 29">
    </p>
 4. Ejecute un nuevo contenedor Alpine y use el catcomando para verificar que el archivo no existe.
-|  docker run alpine cat greeting.txt |
-|------------------------|
+```
+docker run alpine cat greeting.txt 
+```
 
 5.Continúe y retire los contenedores usando docker ps --allpara obtener las identificaciones y luego docker rm -f <container-id>para quitar los contenedores.
 
