@@ -441,6 +441,7 @@ Se mostrará el hash de la red creada:
 </div>
 
 Vamos iniciar un contenedor con SQL dándole opciones en donde lo conectaremos directamente a la red creada anteriormente:
+
 docker run -d ^
     --network todo-app --network-alias mysql ^
     -v todo-mysql-data:/var/lib/mysql ^
