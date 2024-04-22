@@ -377,3 +377,5 @@ Pero no solo funciona del contenedor hacia el host, sino también en la direcci�
 <div style="width: 100%; text-align: center;">
     <img style="" alt="DevSecOps" src="Imagenes/Imagen-62.png">
 </div> 
+
+Ya finalizada la practica nos salimos de la sesión de contenedor con ctrl + D o digitando exit
