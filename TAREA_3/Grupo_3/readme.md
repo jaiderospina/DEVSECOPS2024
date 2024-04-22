@@ -370,3 +370,6 @@ Y en el directorio del sistema principal es decir el host, también se debe most
 
 Pero no solo funciona del contenedor hacia el host, sino también en la dirección contraria, de host hacia el contenedor. Vamos a eliminar el archivo que creamos desde el host y veremos que en el contenedor ya no se encuentra:
 
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-61.png">
+</div> 
