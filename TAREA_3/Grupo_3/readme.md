@@ -543,7 +543,13 @@ docker exec -it <mysql-container-id> mysql -p todos
 
 Entramos a la dirección http://localhost:3000 e ingresamos varios registros y comprobamos en realizando la consulta desde el contenedor de MySQL:
 
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-79.png">
+</div>
 
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-80.png">
+</div>
 
 
 
