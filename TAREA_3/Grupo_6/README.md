@@ -481,7 +481,7 @@ En este capítulo, verá cómo puede usar montajes vinculados y una herramienta 
   <img src="Imagenes/p6 12.png" alt="Imagen 42">
   </p>
   
-  # APLICACIONES DE MULTIMPES CONTENEDORES
+# 7. Aplicacion con multiples contenedores
 
   Hasta este punto, el enfoque ha estado en trabajar con aplicaciones de contenedor único. Sin embargo, ahora se agregará MySQL a la pila de aplicaciones. Surge la pregunta: "¿Dónde debería ejecutarse MySQL? ¿Debería       instalarse en el mismo contenedor o ejecutarse de forma independiente?" En términos generales, cada contenedor debería cumplir una función específica y hacerlo de manera eficiente. Aquí hay algunas razones para           considerar la ejecución del contenedor de MySQL por separado:
   - Escalabilidad diferenciada: Es probable que necesite escalar las API y las interfaces de usuario de manera diferente a la base de datos. Mantener los contenedores separados facilita esta gestión y permite ajustar los 
@@ -571,7 +571,7 @@ En este capítulo, verá cómo puede usar montajes vinculados y una herramienta 
   <img src="Imagenes/p7 8.png" alt="Imagen 50">
   </p>
 
-## Usando Docker Compose
+# 8. Usando Docker Compose
 
 Docker Compose es una herramienta de orquestación de contenedores que facilita la definición, configuración y ejecución de aplicaciones multi-contenedor en entornos basados en Docker. Proporciona una interfaz simple y declarativa para gestionar la infraestructura de aplicaciones, permitiendo a los desarrolladores y administradores de sistemas especificar los componentes de la aplicación, sus dependencias y configuraciones en un único archivo YAML.
 Para la configuración se deben seguir los siguientes pasos:
@@ -600,8 +600,7 @@ Se evidencia que el servicio responde desde navegador
   <img src="Imagenes/P8-4.jpg" alt="Imagen 52">
   </p>
 
-
-## Buenas practicas Docker
+# 9. Buenas practicas Docker
 
 Ejecutando el comando docker image history getting-started esto mostrará el historial de capas ejecutadas para la imagen
 
