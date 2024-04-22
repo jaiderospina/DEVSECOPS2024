@@ -5,13 +5,36 @@
 - Elias Acuña - 710154
 - Juan Felipe Sánchez - 594066
 - Brayan Andres Lara - 728895
-  
+
+# 1. Descripción general 
+
 <p align="center">
   <img src="Imagenes/Python-in-Docker-with-Paketo-Buildpacks.png" alt="Imagen indice">
 </p>
 
-# Contenerización de una aplicación
+Esta guía contiene instrucciones paso a paso sobre cómo empezar a utilizar Docker. Esta guía le muestra cómo:
+	- Cree y ejecute una imagen como contenedor.
+	- Comparta imágenes usando Docker Hub.
+	- Implemente aplicaciones Docker utilizando varios contenedores con una base de datos.
+	- Ejecute aplicaciones usando Docker Compose.
+
+## ¿Qué es un contenedor?
+
+Un contenedor es un proceso aislado que se ejecuta en una máquina host que está aislada de todos los demás procesos que se ejecutan en esa máquina host. Ese aislamiento aprovecha los espacios de nombres del kernel y los cgroups , características que han estado en Linux durante mucho tiempo. Docker hace que estas capacidades sean accesibles y fáciles de usar. En resumen, un contenedor:
+
+- Es una instancia ejecutable de una imagen. Puede crear, iniciar, detener, mover o eliminar un contenedor mediante la API o CLI de Docker.
+- Puede ejecutarse en máquinas locales, máquinas virtuales o implementarse en la nube.
+- Es portátil (y puede ejecutarse en cualquier sistema operativo).
+- Está aislado de otros contenedores y ejecuta su propio software, binarios, configuraciones, etc.
+- Si está familiarizado con chroot, piense en un contenedor como una versión extendida de chroot. El sistema de archivos proviene de la imagen. Sin embargo, un contenedor agrega aislamiento adicional que no está disponible cuando se usa chroot.
+
+## ¿Qué es una imagen?
+Un contenedor en ejecución utiliza un sistema de archivos aislado. Este sistema de archivos aislado lo proporciona una imagen, y la imagen debe contener todo lo necesario para ejecutar una aplicación: todas las dependencias, configuraciones, scripts, archivos binarios, etc. La imagen también contiene otras configuraciones para el contenedor, como variables de entorno, un comando predeterminado ejecutar y otros metadatos.
+
+
+# 2. Contenerización de una aplicación
 En esta practica, se procederá a contenerizar una aplicación. Durante el proceso, se trabajará con un gestor de listas de tareas básico que opera en Node.js.
+
 
 ## Requisitos
 
@@ -116,7 +139,7 @@ Ejecutar el siguiente comando en una terminal para enumerar sus contenedores.
 | docker ps |
 |------------------------|
 
-# Actualizar la aplicación
+# 3. Actualizar la aplicación
 En esta sección, se procederá a actualizar tanto la aplicación como la imagen asociada. Además, se aprenderá a detener y eliminar un contenedor en ejecución.
 
 ## Actualizar el código fuente
@@ -188,7 +211,7 @@ Se observa el cambio en el texto de la aplicación
   <img src="Imagenes/18.jpg" alt="Imagen 18">
 </p>
 
-## Compartir la aplicación 
+# 4. Compartir la aplicación 
 Ahora que ha creado una imagen, puede compartirla. Para compartir imágenes de Docker, debe utilizar un registro de Docker. El registro predeterminado es Docker Hub y es de donde provienen todas las imágenes que ha utilizado.
 
 ### Crear un repositorio
@@ -274,22 +297,41 @@ Si la insignia 3000 no aparece, puede seleccionar Abrir puerto y especificar 300
    </p>
 
 
-## Conservar la base de datos 
-1. Para conservar la base de datos primero se debe iniciar un contenedor alpino y acceder a su caparazón con el siguiente comando: docker run -ti --name=mytest alpine
-2. 
-   ## Conservar la BD
+# 5. Persistir la base de datos
+En caso de que no lo hayas notado, tu lista de tareas pendientes está vacía cada vez que inicias el contenedor. ¿Por qué es esto? En esta parte, profundizará en cómo funciona el contenedor.
+
+## El sistema de archivos del contenedor.
+Cuando se ejecuta un contenedor, utiliza las distintas capas de una imagen para su sistema de archivos. Cada contenedor también tiene su propio "espacio temporal" para crear/actualizar/eliminar archivos. Los cambios no se verán en otro contenedor, incluso si usan la misma imagen.
+
+1. Para conservar la base de datos primero se debe iniciar un contenedor alpino y acceder a su caparazón con el siguiente comando:
+
+| docker run -ti --name=mytest alpine |
+|------------------------|
    <p align="center">
   <img src="Imagenes/bd1.png" alt="Imagen 23">
    </p>
 
    Como en este caso no reconoce el comando, se debe ejecutar mediante el siguiente:
-   $ winpty docker run -ti --name=mytest alpine
-   de esta forma, el comando empezara la descarga
 
-     <p align="center">
+| winpty docker run -ti --name=mytest alpine |
+|------------------------|
+
+De esta forma, el comando empezara la descarga
+<p align="center">
   <img src="Imagenes/bd2.png" alt="Imagen 24">
    </p>
-  Procedemos a crear el archivo greetings y posteriormente saldremos del contenedor
+
+
+2. En el contenedor, cree un greeting.txtarchivo con helloel interior.
+
+| echo "hello" > greeting.txt |
+|------------------------|
+
+3. Sal del contenedor.
+| exit |
+|------------------------|
+
+Procedemos a crear el archivo greetings y posteriormente saldremos del contenedor
 
   <p align="center">
   <img src="Imagenes/bd3.png" alt="Imagen 25">
@@ -315,6 +357,18 @@ Si la insignia 3000 no aparece, puede seleccionar Abrir puerto y especificar 300
   <p align="center">
   <img src="Imagenes/bd8.png" alt="Imagen 29">
    </p>
+4. Ejecute un nuevo contenedor Alpine y use el catcomando para verificar que el archivo no existe.
+|  docker run alpine cat greeting.txt |
+|------------------------|
+
+5.Continúe y retire los contenedores usando docker ps --allpara obtener las identificaciones y luego docker rm -f <container-id>para quitar los contenedores.
+
+## Volúmenes de contenedores
+Con el experimento anterior, viste que cada contenedor comienza desde la definición de la imagen cada vez que comienza. Si bien los contenedores pueden crear, actualizar y eliminar archivos, esos cambios se pierden cuando elimina el contenedor y Docker aísla todos los cambios en ese contenedor. Con los volúmenes, puedes cambiar todo esto.
+
+Los volúmenes brindan la capacidad de conectar rutas específicas del sistema de archivos del contenedor a la máquina host. Si monta un directorio en el contenedor, los cambios en ese directorio también se ven en la máquina host. Si monta ese mismo directorio al reiniciar el contenedor, verá los mismos archivos.
+
+Hay dos tipos principales de volúmenes. Eventualmente usarás ambos, pero comenzarás con montajes de volumen.
 
    ## Datos de prueba 
    
@@ -322,9 +376,14 @@ Si la insignia 3000 no aparece, puede seleccionar Abrir puerto y especificar 300
   <img src="Imagenes/bdfinal.png" alt="Imagen 29">
    </p>
 
-   # USAR MONTAJES DE ENLACE 
+# 6. Usar montajes de enlace
+En la parte 5 , utilizó un montaje de volumen para conservar los datos en su base de datos. Un montaje de volumen es una excelente opción cuando necesita un lugar persistente para almacenar los datos de su aplicación.
 
-   # Comparaciones rápidas de tipos de volumen
+Un montaje vinculado es otro tipo de montaje, que le permite compartir un directorio desde el sistema de archivos del host en el contenedor. Cuando trabaja en una aplicación, puede utilizar un montaje de enlace para montar el código fuente en el contenedor. El contenedor ve los cambios que realiza en el código inmediatamente, tan pronto como guarda un archivo. Esto significa que puede ejecutar procesos en el contenedor que detectan cambios en el sistema de archivos y responden a ellos.
+
+En este capítulo, verá cómo puede usar montajes vinculados y una herramienta llamada nodemon para observar los cambios en los archivos y luego reiniciar la aplicación automáticamente. Existen herramientas equivalentes en la mayoría de los demás lenguajes y marcos.
+
+   ## Comparaciones rápidas de tipos de volumen
 
   Los siguientes son ejemplos de un volumen con nombre y un montaje vinculado usando `--mount`:
 
