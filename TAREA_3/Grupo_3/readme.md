@@ -430,7 +430,8 @@ Los multi-contenedores son una excelente opción para encapsular funcionalidades
 
 Para gestionar y comunicarse entre diferentes contenedores, es necesario crear una red para facilitar el flujo de datos entre ellos. Como prueba, conectaremos un contenedor con MySQL a nuestra aplicación.
 
-Paso 1: Creamos la red para conectar los contenedores con el siguiente comando:
+# Paso 1:
+Creamos la red para conectar los contenedores con el siguiente comando:
 
 docker network create todo-app
 
@@ -454,14 +455,16 @@ docker run -d ^
     
     mysql:8.0
     
-Paso 2:
+# Paso 2:
+
 Al ser ejecutado iniciará el proceso de instalación y quedará algo como esto:
 
 <div style="width: 100%; text-align: center;">
     <img style="" alt="DevSecOps" src="Imagenes/Imagen-70.png">
 </div>
 
-Paso 3:
+# Paso 3:
+
 Para asegurarnos de que la bases de datos SQL este ejecutándose correctamente, vamos a usar el siguiente comando para verificar la conexión, reemplace el <mysql-container-id> por el id del contenedor creado anteriormente:
 
 docker exec -it <mysql-container-id> mysql -u root -p
@@ -478,6 +481,7 @@ Una vez comprobadas las bases de datos salimos del contenedor:
     <img style="" alt="DevSecOps" src="Imagenes/Imagen-73.png">
 </div>
 
+## CONEXIÓN A MySQL
 
 
 
