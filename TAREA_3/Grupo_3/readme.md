@@ -459,6 +459,7 @@ Paso 3:
 Para asegurarnos de que la bases de datos SQL este ejecutándose correctamente, vamos a usar el siguiente comando para verificar la conexión, reemplace el <mysql-container-id> por el id del contenedor creado anteriormente:
 
 docker exec -it <mysql-container-id> mysql -u root -p
+
 Una vez pida la contraseña se debe digitar la palabra “secret” para poder acceder y colocaremos SHOW DATABASES para verificar las bases de datos existentes:
 
 <div style="width: 100%; text-align: center;">
