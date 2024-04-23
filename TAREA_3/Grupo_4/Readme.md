@@ -236,8 +236,16 @@ MYSQL_DATABASE: todos
 Con Docker Compose, definir y compartir aplicaciones de múltiples contenedores se vuelve más fácil y eficiente, lo que facilita el desarrollo y el despliegue de la aplicación en diferentes entornos.
 
 ## Mejores Practicas para la construccion de imagenes usando docker.
-1. Usar el comando <b>docker image history</b> muestra el comando que utilizo para crear cada capa dentro de la imagen.
-2. 
+
+1. Usar el comando <b>docker image history getting-started</b> muestra el comando que utilizo para crear cada capa dentro de la imagen.
+   
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/27.png?raw=true" alt="logo" width="600" height="600"/></p>
+2. Se evidencian algunas lineas truncadas, Para evitar esto, usar el comando anterior sumado con <b>--no-trunc</b> para tener una salida completa
+
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/28.png?raw=true" alt="logo" width="600" height="600"/></p>
+
+Esto puede ver la cantidad y tamaño de las capas ayudando a diagnosticar las mas grandes
+
 Integrantes:
   - Johan Esteban Salinas Acosta ID: 614420
   - Duver Salgado ID: 596826
