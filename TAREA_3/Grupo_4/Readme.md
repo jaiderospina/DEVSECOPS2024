@@ -81,9 +81,7 @@ Para retirar un contenedor se debe utilizar dos comandos  "docker stop <the-cont
 
 Cuando arranquemos  el contenedor  de la aplicación  revisamos los cambio que hemos realizado, para ello se debe ir a la url configurada predeterminadamente http://localhost:3000/
 
-
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/10.png?raw=true" alt="logo" width="730" height="250"/></p>
-
 
 ## Paso 11 Creación etiqueta, push y compilado de imagen
 
@@ -93,12 +91,10 @@ Para realizar el push utilizamos el comando "docker push YOUR-USER-NAME/getting-
 
 para la función Build este no ayudara a crear una imagen Docker usando un archivo de configuración llamado Dockerfile. "--platform linux/amd64" especifica que la imagen se construirá para la arquitectura x86_64 comúnmente conocida como AMD64 de Linux. "-t YOUR-USER-NAME/getting-started" etiqueta la imagen con un nombre fácil de recordar. Y el punto al final indica que Docker debe buscar el Dockerfile en el directorio actual. Esencialmente, es como construir un paquete listo para usar que contiene todo lo que tu aplicación necesita para ejecutarse, como configuraciones, código y dependencias.
 
-
 #Ejecución de los 3 comandos
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/11.png?raw=true" alt="logo" width="730" height="350"/></p>
 
 ## Paso 12 Persistir la base de datos
-
 
 Cuando un contenedor se pone en funcionamiento, aprovecha las diversas capas de una imagen para su sistema de archivos. Asimismo, cada contenedor posee su propio entorno "temporal" para llevar a cabo la creación, actualización o eliminación de archivos. Estos cambios no se reflejarán en otros contenedores, incluso si están basados en la misma imagen.
 
@@ -109,7 +105,6 @@ Iniciamos un contenedor Alpine y accedemos a su caparazón. con el siguiente com
 ```
 	docker run -ti --name=mytest alpine
 ```
-
 
 Ahora se procede a ejecutar el siguiente comando, el cual crea un archivo llamado "greeting.txt" dentro del directorio actual del contenedor, que contiene la palabra "hello".:
 
