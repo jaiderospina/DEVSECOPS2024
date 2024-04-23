@@ -1,7 +1,6 @@
-![imagen](https://github.com/jaiderospina/DEVSECOPS2024/assets/145037206/bb53d865-6b41-4099-b156-c37aea1b6ef1)# <h1 align="center"> CONTENERIACIÓN DE UNA APLICACIÓN </h1>
+# <h1 align="center"> CONTENERIACIÓN DE UNA APLICACIÓN </h1>
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/contenedores-docker.png?raw=true" alt="logo" width="888" height="550"/></p>
-
 
 ## Guia de inicio 
 ### Paso 1 Login en DockerHub
