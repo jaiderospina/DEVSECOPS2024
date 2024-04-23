@@ -1,4 +1,4 @@
-# <h1 align="center"> CONTENERIACIÓN DE UNA APLICACIÓN </h1>
+![imagen](https://github.com/jaiderospina/DEVSECOPS2024/assets/145037206/bb53d865-6b41-4099-b156-c37aea1b6ef1)# <h1 align="center"> CONTENERIACIÓN DE UNA APLICACIÓN </h1>
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/contenedores-docker.png?raw=true" alt="logo" width="888" height="550"/></p>
 
@@ -82,7 +82,7 @@ Para realizar el push utilizamos el comando <b>"docker push YOUR-USER-NAME/getti
 
 para la función Build este no ayudara a crear una imagen Docker usando un archivo de configuración llamado Dockerfile. "--platform linux/amd64" especifica que la imagen se construirá para la arquitectura x86_64 comúnmente conocida como AMD64 de Linux. "-t YOUR-USER-NAME/getting-started" etiqueta la imagen con un nombre fácil de recordar. Y el punto al final indica que Docker debe buscar el Dockerfile en el directorio actual. Esencialmente, es como construir un paquete listo para usar que contiene todo lo que tu aplicación necesita para ejecutarse, como configuraciones, código y dependencias.
 
-#Ejecución de los 3 comandos
+# Ejecución de los 3 comandos
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/11.png?raw=true" alt="logo" width="730" height="350"/></p>
 
 ## Paso 12 Persistir la base de datos
@@ -153,7 +153,7 @@ Por ultimo observamos la informacion del volumen, el cual proporciona informaci�
 ```
 
 
-#Ejecución de los 3 comandos
+# Ejecución de los 3 comandos
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/13.png?raw=true" alt="logo" width="730" height="350"/></p>
 
@@ -188,11 +188,11 @@ Por ultimo, el comando docker logs -f <container-id> se utiliza para ver los reg
 
 Docker Compose es una herramienta que facilita la definición y el despliegue de aplicaciones de múltiples contenedores. Permite definir todos los servicios de la aplicación en un solo archivo YAML, lo que facilita la colaboración y el despliegue de la aplicación en diferentes entornos.
 
-A continuación, se describen los pasos para utilizar Docker Compose en este proyecto:
+# A continuación, se describen los pasos para utilizar Docker Compose en este proyecto:
 
-1. Crear el archivo `compose.yaml` en el directorio `getting-started-app`.
+1. Crear el archivo <b>`compose.yaml`</b> en el directorio <b>`getting-started-app`</b>.
 
-2. Definir el servicio de la aplicación en el archivo `compose.yaml`:
+2. Definir el servicio de la aplicación en el archivo <b>`compose.yaml`</b>:
 
 ```
 services:
@@ -235,10 +235,12 @@ MYSQL_DATABASE: todos
 
 Con Docker Compose, definir y compartir aplicaciones de múltiples contenedores se vuelve más fácil y eficiente, lo que facilita el desarrollo y el despliegue de la aplicación en diferentes entornos.
 
-
+## Mejores Practicas para la construccion de imagenes usando docker.
+1. Usar el comando <b>docker image history</b> muestra el comando que utilizo para crear cada capa dentro de la imagen.
+2. 
 Integrantes:
   - Johan Esteban Salinas Acosta ID: 614420
   - Duver Salgado ID: 596826
   - Jhoan Camilo Montealegre Romero ID: 705426
   - Pedro Orozco ID: 211654
-  - Harold Cer ID:
+  - Harol David Cerquera Saez ID: 258381
