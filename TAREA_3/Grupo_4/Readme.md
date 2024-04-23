@@ -240,13 +240,23 @@ Con Docker Compose, definir y compartir aplicaciones de múltiples contenedores 
 1. Usar el comando <b>docker image history getting-started</b> muestra el comando que utilizo para crear cada capa dentro de la imagen.
    
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/27.png?raw=true" alt="logo" width="600" height="600"/></p>
+
 2. Se evidencian algunas lineas truncadas, Para evitar esto, usar el comando anterior sumado con <b>--no-trunc</b> para tener una salida completa
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/28.png?raw=true" alt="logo" width="600" height="600"/></p>
 
 Esto puede ver la cantidad y tamaño de las capas ayudando a diagnosticar las mas grandes
+3. Se debe crear una nueva imagen usando el comando <b>docker build -t getting-started</b>, Lo que nos permitira ver una salida con la informacion de la copia creada, Alli puedes realizar los cambios que consideren necesarios y al crear nuevamente el contenedor, se prodra evidenciar que el proceso de compilación, es mas rapido, lo que permitira crear varias dependencias y podria reducir el tamaño enviando solo lo que la aplicacion necesita
 
-Integrantes:
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/28.png?raw=true" alt="logo" width="600" height="600"/></p>
+
+Obteniendo como resultado:
+
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/31.png?raw=true" alt="logo" width="600" height="600"/></p>
+
+En lo visto anteriormente, se logro evidenciar, como mediante algunas de las mejores practicas de construccion de imagenes, las cuales incluyen cache de capas y multiples creaciones en multiples etapas, optimizando el tiempo de creacion y compilacion y logrando reducir o aumentar capas segun necesidad. 
+
+# Integrantes:
   - Johan Esteban Salinas Acosta ID: 614420
   - Duver Salgado ID: 596826
   - Jhoan Camilo Montealegre Romero ID: 705426
