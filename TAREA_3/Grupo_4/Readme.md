@@ -247,11 +247,11 @@ Con Docker Compose, definir y compartir aplicaciones de múltiples contenedores 
 Esto puede ver la cantidad y tamaño de las capas ayudando a diagnosticar las mas grandes
 3. Se debe crear una nueva imagen usando el comando <b>docker build -t getting-started</b>, Lo que nos permitira ver una salida con la informacion de la copia creada, Alli puedes realizar los cambios que consideren necesarios y al crear nuevamente el contenedor, se prodra evidenciar que el proceso de compilación, es mas rapido, lo que permitira crear varias dependencias y podria reducir el tamaño enviando solo lo que la aplicacion necesita
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/28.png?raw=true" alt="logo" width="600" height="600"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/28.png?raw=true" alt="logo" width="900" height="400"/></p>
 
 Obteniendo como resultado:
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/31.png?raw=true" alt="logo" width="600" height="600"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_4/Screen_Docker/31.png?raw=true" alt="logo" width="900" height="400"/></p>
 
 En lo visto anteriormente, se logro evidenciar, como mediante algunas de las mejores practicas de construccion de imagenes, las cuales incluyen cache de capas y multiples creaciones en multiples etapas, optimizando el tiempo de creacion y compilacion y logrando reducir o aumentar capas segun necesidad. 
 
