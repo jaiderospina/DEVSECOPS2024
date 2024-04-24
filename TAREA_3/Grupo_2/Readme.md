@@ -251,3 +251,17 @@ Ahora que esta creada la imagen docker, ahora se puede compartir la imagen. Para
 2. Seleccione el botón Crear repositorio. Para el nombre del repositorio, use . Asegúrese de que la visibilidad sea pública.getting-started en este caso, seleccione Crear en la pagina.
 
 ![](Imagenes/captura_21.png)
+
+3. Subir (Empujar) la imagen: En la línea de comandos, ejecute el comando que ve en Docker Concentrador. Tenga en cuenta que su comando tendrá su ID de Docker, no "docker". Por ejemplo. `docker push docker push YOUR-USER-NAME/getting-started`.
+
+![](Imagenes/captura_3.png)
+
+pero la subida de la imagen falla, esto puede ser pot varias razones:
+
+*La imagen con la etiqueta docker/getting-started no exista localmente en tu sistema. Se puede verificar esto ejecutando `docker images` para listar todas las imágenes locales.
+*No haber iniciado sesión en Docker Hub utilizando el comando docker login. Si no has iniciado sesión, Docker no te permitirá subir imágenes.
+*Que la etiqueta de la imagen sea correcta. Si la imagen se llama de manera diferente o tiene una etiqueta diferente, se debe usar esa etiqueta en lugar de `docker/getting-started`
+
+![](Imagenes/captura_4.png)
+
+
