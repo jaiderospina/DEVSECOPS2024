@@ -337,7 +337,7 @@ docker volume create todo-db
 docker run -dp 127.0.0.1:3000:3000 --mount type=volume,src=todo-db,target=/etc/todos getting-started
 ```
 
-##Compruebe que los datos persisten
+5. Compruebe que los datos persisten
 
 Una vez que se inicie el contenedor, abra la aplicación y agregue algunos elementos a la lista de tareas pendientes.
 
