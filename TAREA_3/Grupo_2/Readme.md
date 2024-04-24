@@ -259,7 +259,9 @@ Ahora que esta creada la imagen docker, ahora se puede compartir la imagen. Para
 pero la subida de la imagen falla, esto puede ser pot varias razones:
 
 *La imagen con la etiqueta docker/getting-started no exista localmente en tu sistema. Se puede verificar esto ejecutando `docker images` para listar todas las imágenes locales.
+
 *No haber iniciado sesión en Docker Hub utilizando el comando docker login. Si no has iniciado sesión, Docker no te permitirá subir imágenes.
+
 *Que la etiqueta de la imagen sea correcta. Si la imagen se llama de manera diferente o tiene una etiqueta diferente, se debe usar esa etiqueta en lugar de `docker/getting-started`
 
 ![](Imagenes/captura_4.png)
