@@ -330,7 +330,9 @@ docker volume create todo-db
 
 2. Detenga y quite el contenedor de tareas pendientes de la aplicación una vez más con , ya que todavía se está ejecutando sin usar el volumen persistente. `docker rm -f <id>`
 
-3. Inicie el contenedor de tareas pendientes de la aplicación, pero agregue la opción de especificar un Montaje de volumen.
+![](Imagenes/captura_11.png)
+
+4. Inicie el contenedor de tareas pendientes de la aplicación, pero agregue la opción de especificar un Montaje de volumen.
 ```
 docker run -dp 127.0.0.1:3000:3000 --mount type=volume,src=todo-db,target=/etc/todos getting-started
 ```
@@ -339,4 +341,3 @@ docker run -dp 127.0.0.1:3000:3000 --mount type=volume,src=todo-db,target=/etc/t
 
 Una vez que se inicie el contenedor, abra la aplicación y agregue algunos elementos a la lista de tareas pendientes.
 
-![](Imagenes/captura_11.png)
