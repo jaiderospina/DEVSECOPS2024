@@ -274,15 +274,15 @@ pero la subida de la imagen falla, esto puede ser pot varias razones:
 
 4.Ejecución de la imagen en una nueva instancia: Ahora que la imagen se ha compilado e insertado en un registro, se puede ejecutar la aplicación en una marca nueva instancia que nunca ha visto esta imagen de contenedor. Para ello, usará Play with docker.
 
-*Se selecciona el inicio de sesión y, a continuación, se selecciona Docker en la lista desplegable.
+- Se selecciona el inicio de sesión y, a continuación, se selecciona Docker en la lista desplegable.
 
-*Se inicia sesión con su cuenta de Docker Hub y, a continuación, seleccione Iniciar.
+- Se inicia sesión con su cuenta de Docker Hub y, a continuación, seleccione Iniciar.
 
-*Seleccione la opción AGREGAR NUEVA INSTANCIA en la barra lateral izquierda. Si no lo ves, haz que tu navegador sea un poco más ancho. Después de unos segundos, se abre una ventana de terminal en su navegador.
+- Seleccione la opción AGREGAR NUEVA INSTANCIA en la barra lateral izquierda. Si no lo ves, haz que tu navegador sea un poco más ancho. Después de unos segundos, se abre una ventana de terminal en su navegador.
 
 ![](Imagenes/captura_6.png)
 
-*Se ejecuta el comando `docker run -dp 0.0.0.0:3000:3000 YOUR-USER-NAME/getting-started`
+- Se ejecuta el comando `docker run -dp 0.0.0.0:3000:3000 YOUR-USER-NAME/getting-started`
 
 ![](Imagenes/captura_10.png)
 
