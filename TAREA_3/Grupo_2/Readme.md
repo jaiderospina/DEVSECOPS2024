@@ -239,7 +239,9 @@ Se actualiza la pagina en el navegador y se ve el texto de ayuda actualizado.
 
 ![](Imagenes/Screenshot_20.png)
 
+
 # Paso 4: Compartir la aplicación
+## Subir la imagen creada al servidor de docker hub
 
 Ahora que esta creada la imagen docker, ahora se puede compartir la imagen. Para compartir imágenes de Docker, se debe usar un Docker registro. El registro predeterminado es Docker Hub y es de donde proceden todas las imágenes que ha usado.
 
@@ -251,6 +253,8 @@ Ahora que esta creada la imagen docker, ahora se puede compartir la imagen. Para
 2. Seleccione el botón Crear repositorio. Para el nombre del repositorio, use . Asegúrese de que la visibilidad sea pública.getting-started en este caso, seleccione Crear en la pagina.
 
 ![](Imagenes/captura_21.png)
+
+![](Imagenes/captura_2.png)
 
 3. Subir (Empujar) la imagen: En la línea de comandos, ejecute el comando que ve en Docker Concentrador. Tenga en cuenta que su comando tendrá su ID de Docker, no "docker". Por ejemplo. `docker push docker push YOUR-USER-NAME/getting-started`.
 
@@ -266,4 +270,73 @@ pero la subida de la imagen falla, esto puede ser pot varias razones:
 
 ![](Imagenes/captura_4.png)
 
+![](Imagenes/captura_5.png)
 
+4.Ejecución de la imagen en una nueva instancia: Ahora que la imagen se ha compilado e insertado en un registro, se puede ejecutar la aplicación en una marca nueva instancia que nunca ha visto esta imagen de contenedor. Para ello, usará Play with docker.
+
+*Se selecciona el inicio de sesión y, a continuación, se selecciona Docker en la lista desplegable.
+
+*Se inicia sesión con su cuenta de Docker Hub y, a continuación, seleccione Iniciar.
+
+*Seleccione la opción AGREGAR NUEVA INSTANCIA en la barra lateral izquierda. Si no lo ves, haz que tu navegador sea un poco más ancho. Después de unos segundos, se abre una ventana de terminal en su navegador.
+
+![](Imagenes/captura_6.png)
+
+*Se ejecuta el comando `docker run -dp 0.0.0.0:3000:3000 YOUR-USER-NAME/getting-started`
+
+![](Imagenes/captura_10.png)
+
+# Paso 5: **Compartir la aplicación**
+
+##El sistema de archivos del contenedor
+
+Cuando se ejecuta un contenedor, utiliza las distintas capas de una imagen para su sistema de archivos. Cada contenedor también tiene su propio "espacio temporal" para crear,actualizar o eliminar archivos. Cualquier Los cambios no se verán en otro contenedor, incluso si usan la misma imagen.
+
+Para ver esto en acción, se inicia dos contenedores. En un contenedor, creará un archivo. En el otro contenedor, comprobará que el archivo existe. Lo que verá es que el archivo creado en un contenedor no está disponible en otro.
+
+1. Se inicia un contenedor de alpine y acceda a su caparazón.
+
+2. En el contenedor, cree un archivo con dentro `greeting.txthello`
+
+![](Imagenes/captura_7.png)
+
+3. Ejecute un nuevo contenedor de Alpine y utilice el comando para verificar que el El archivo no existe `cat`
+
+![](Imagenes/captura_8.png)
+
+4. Se tiene que eliminar el contenedor con los comandos `docker ps --all` y `docker rm -f <container-id>`
+
+![](Imagenes/captura_9.png)
+
+
+#Volúmenes de contenedores
+
+Con el experimento anterior, se vio que cada contenedor comienza desde la definición de la imagen cada vez que se inicia. Aunque los contenedores pueden crear, actualizar y eliminar archivos, esos cambios se pierden cuando se quita el contenedor y Docker aísla todos los cambios en ese contenedor. Con los volúmenes, puedes cambiar todo esto.
+
+Los volúmenes proporcionan la capacidad de conectar rutas de acceso específicas del sistema de archivos de el contenedor de vuelta a la máquina host. Si monta un directorio en el contenedor, los cambios en ese directorio también se ven en la máquina host. Si monta ese mismo directorio en los reinicios de contenedores, verá los mismos archivos.
+
+#Conservar los datos de tareas pendientes
+
+De forma predeterminada, la aplicación de tareas pendientes almacena sus datos en una base de datos SQLite en el sistema de archivos del contenedor. Si no estás familiarizado con SQLite, Si bien esto no es lo mejor para aplicaciones a gran escala, Funciona para pequeñas demostraciones. Aprenderá a cambiar esto a un motor de base de datos diferente más adelante. `/etc/todos/todo.db`
+
+##Creación de un volumen e inicio del contenedor
+
+1. Cree un volumen mediante el comando.
+```
+docker volume create todo-db
+```
+
+![](Imagenes/captura_12.png)
+
+2. Detenga y quite el contenedor de tareas pendientes de la aplicación una vez más con , ya que todavía se está ejecutando sin usar el volumen persistente. `docker rm -f <id>`
+
+3. Inicie el contenedor de tareas pendientes de la aplicación, pero agregue la opción de especificar un Montaje de volumen.
+```
+docker run -dp 127.0.0.1:3000:3000 --mount type=volume,src=todo-db,target=/etc/todos getting-started
+```
+
+##Compruebe que los datos persisten
+
+Una vez que se inicie el contenedor, abra la aplicación y agregue algunos elementos a la lista de tareas pendientes.
+
+![](Imagenes/captura_11.png)
