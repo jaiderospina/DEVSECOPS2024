@@ -288,7 +288,7 @@ pero la subida de la imagen falla, esto puede ser pot varias razones:
 
 # Paso 5: **Compartir la aplicación**
 
-##El sistema de archivos del contenedor
+**El sistema de archivos del contenedor**
 
 Cuando se ejecuta un contenedor, utiliza las distintas capas de una imagen para su sistema de archivos. Cada contenedor también tiene su propio "espacio temporal" para crear,actualizar o eliminar archivos. Cualquier Los cambios no se verán en otro contenedor, incluso si usan la misma imagen.
 
@@ -309,17 +309,17 @@ Para ver esto en acción, se inicia dos contenedores. En un contenedor, creará 
 ![](Imagenes/captura_9.png)
 
 
-#Volúmenes de contenedores
+**Volúmenes de contenedores**
 
 Con el experimento anterior, se vio que cada contenedor comienza desde la definición de la imagen cada vez que se inicia. Aunque los contenedores pueden crear, actualizar y eliminar archivos, esos cambios se pierden cuando se quita el contenedor y Docker aísla todos los cambios en ese contenedor. Con los volúmenes, puedes cambiar todo esto.
 
 Los volúmenes proporcionan la capacidad de conectar rutas de acceso específicas del sistema de archivos de el contenedor de vuelta a la máquina host. Si monta un directorio en el contenedor, los cambios en ese directorio también se ven en la máquina host. Si monta ese mismo directorio en los reinicios de contenedores, verá los mismos archivos.
 
-#Conservar los datos de tareas pendientes
+**Conservar los datos de tareas pendientes**
 
 De forma predeterminada, la aplicación de tareas pendientes almacena sus datos en una base de datos SQLite en el sistema de archivos del contenedor. Si no estás familiarizado con SQLite, Si bien esto no es lo mejor para aplicaciones a gran escala, Funciona para pequeñas demostraciones. Aprenderá a cambiar esto a un motor de base de datos diferente más adelante. `/etc/todos/todo.db`
 
-##Creación de un volumen e inicio del contenedor
+# **Creación de un volumen e inicio del contenedor**
 
 1. Cree un volumen mediante el comando.
 ```
