@@ -239,3 +239,15 @@ Se actualiza la pagina en el navegador y se ve el texto de ayuda actualizado.
 
 ![](Imagenes/Screenshot_20.png)
 
+# Paso 4: Compartir la aplicación
+
+Ahora que esta creada la imagen docker, ahora se puede compartir la imagen. Para compartir imágenes de Docker, se debe usar un Docker registro. El registro predeterminado es Docker Hub y es de donde proceden todas las imágenes que ha usado.
+
+## Crear un repositorio
+1. Se crea cuenta y se inicia sesion.
+   
+![](Imagenes/captura_1.png)
+
+2. Seleccione el botón Crear repositorio. Para el nombre del repositorio, use . Asegúrese de que la visibilidad sea pública.getting-started en este caso, seleccione Crear en la pagina.
+
+![](Imagenes/captura_21.png)
