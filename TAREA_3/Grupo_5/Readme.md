@@ -21,7 +21,7 @@ Antes de empezar, se debe clonar el repositorio getting-started-app repository u
     git clone https://github.com/docker/getting-started-app.git
 ```
 Aparecerá algo como esto:
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/imagenes/1.PNG" alt="logo" width="500"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/1.png" alt="logo" width="500"/></p>
 
 ## Construir la imagen de una app
 
