@@ -21,7 +21,7 @@ Antes de empezar, se debe clonar el repositorio getting-started-app repository u
     git clone https://github.com/docker/getting-started-app.git
 ```
 Aparecerá algo como esto:
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/1.png" alt="logo" width="500"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/1.png" alt="logo" width="700"/></p>
 
 ## Construir la imagen de una app
 
@@ -52,7 +52,7 @@ Usando tu editor de código agrega los siguientes comandos a tu Dockerfile:
     EXPOSE 3000
 ```
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/4.png" alt="logo" width="500"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/4.png" alt="logo" width="700"/></p>
 
 Para construir la imagen usas el siguiente comando:
 
@@ -70,7 +70,7 @@ El punto al final del comando docker build indica a Docker que debe buscar el Do
 
 Al correr el comando aparecerá algo como esto en la consola:
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/5.png" alt="logo" width="500"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/5.png" alt="logo" width="700"/></p>
 
 
 ## Inicia el contenedor de una app
@@ -89,7 +89,7 @@ luego el puerto del contenedor, y por último, como se mensionó antes, el nombr
 
 
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/6.png" alt="logo" width="500"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/6.png" alt="logo" width="700"/></p>
 
 Podemos ver la lista de contenedores corriendo actualmente con el siguiente comando:
 
@@ -98,12 +98,12 @@ Podemos ver la lista de contenedores corriendo actualmente con el siguiente coma
 ```
 
 Veremos algo como lo siguiente:
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/7.png" alt="logo" width="500"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/7.png" alt="logo" width="700"/></p>
 
 Luego de esto podemos ir a 
 [Texto del enlace](http://localhost:3000)
 
 Allí veremos una todo list app así:
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/8.png" alt="logo" width="500"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/8.png" alt="logo" width="700"/></p>
 
 # Paso 2
