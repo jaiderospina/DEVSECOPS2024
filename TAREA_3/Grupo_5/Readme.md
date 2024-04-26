@@ -89,7 +89,7 @@ luego el puerto del contenedor, y por último, como se mensionó antes, el nombr
 
 
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/6.png" alt="logo" width="700"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/6.png" alt="logo" width="1200"/></p>
 
 Podemos ver la lista de contenedores corriendo actualmente con el siguiente comando:
 
@@ -98,7 +98,7 @@ Podemos ver la lista de contenedores corriendo actualmente con el siguiente coma
 ```
 
 Veremos algo como lo siguiente:
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/7.png" alt="logo" width="700"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/7.png" alt="logo" width="1200"/></p>
 
 Luego de esto podemos ir a 
 [Texto del enlace](http://localhost:3000)
