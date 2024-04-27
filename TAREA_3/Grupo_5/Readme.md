@@ -109,22 +109,33 @@ Allí veremos una todo list app así:
 # Paso 3: Actualizar la aplicación
 Abrimos nuestro visor de codigo
 En el src/static/js/app.jsarchivo, actualice la línea 56 para usar el nuevo texto vacío.
-	- <p className="text-center">No items yet! Add one above!</p>
-	+ <p className="text-center">You have no todo items yet! Add one above!</p>
-
+```
+No items yet! Add one above
+You have no todo items yet! Add one above!
+```
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/9.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/10.png" alt="logo" width="700"/></p>
 
 luego Creeamos una versión actualizada de la imagen usando el docker buildcomando.
- 	docker build -t getting-started .
+```
+docker build -t getting-started .
+```
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/11.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/12.png" alt="logo" width="700"/></p>
 
 luego iniciamos el nuevo contenedor usando el código actualizado.
-	docker run -dp 127.0.0.1:3000:3000 getting-started
-
+```
+docker run -dp 127.0.0.1:3000:3000 getting-started
+```
+Retire el contenedor viejo. con los comandos
+```
+docker ps
+docker stop <the-container-id>
+docker rm <the-container-id>
+```
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/13.png" alt="logo" width="700"/></p>
 
+Ahora, inicie su aplicación actualizada usando el docker runcomando.
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/14.png" alt="logo" width="700"/></p>
 
 
