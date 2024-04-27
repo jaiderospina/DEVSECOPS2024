@@ -106,7 +106,8 @@ Luego de esto podemos ir a
 Allí veremos una todo list app así:
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/8.png" alt="logo" width="700"/></p>
 
-# Paso 2
+# Paso 3: Actualizar la aplicación
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/9.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/10.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/11.png" alt="logo" width="700"/></p>
