@@ -286,7 +286,7 @@ pero la subida de la imagen falla, esto puede ser pot varias razones:
 
 ![](Imagenes/captura_10.png)
 
-# Paso 5: **Compartir la aplicación**
+# Paso 5: **Persistir la base de datos**
 
 **El sistema de archivos del contenedor**
 
