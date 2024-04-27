@@ -135,6 +135,9 @@ Allí veremos una todo list app así:
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/29.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/30.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/31.png" alt="logo" width="700"/></p>
+
+# Paso 5: Persistir la base de datos
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/32.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/33.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/34.png" alt="logo" width="700"/></p>
