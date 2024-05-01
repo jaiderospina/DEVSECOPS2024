@@ -116,6 +116,22 @@ docker run [imagen]
     <img alt="DevSecOps" src="img/4.jpg">
 </div>
 
+## Conclusiones
+
+## Conclusiones
+
+1. **Uso de Docker CLI**: El documento muestra el uso de varios comandos de Docker en la línea de comandos (CLI), tales como `docker ps`, `docker build`, `docker image tag`, `docker login`, `docker push` y `docker run`. Esto demuestra el conocimiento y la capacidad de utilizar la interfaz de línea de comandos de Docker para construir, etiquetar, autenticar, subir y ejecutar imágenes de contenedores.
+
+2. **Creación de imágenes de Docker**: Se presenta el proceso de construcción de una imagen de Docker a partir de un archivo Dockerfile llamado "grupo3.Dockerfile". Esto implica el conocimiento de cómo crear y estructurar archivos Dockerfile para definir la configuración y los componentes de una imagen de contenedor.
+
+3. **Subida de imágenes a Docker Hub**: El documento describe los pasos necesarios para subir una imagen de Docker a un repositorio en Docker Hub. Esto incluye el etiquetado de la imagen con un nombre de usuario y un nombre de repositorio, el inicio de sesión en Docker Hub y, finalmente, el comando `docker push` para subir la imagen al repositorio remoto.
+
+4. **Ejecución de contenedores**: Se muestra cómo ejecutar un contenedor a partir de una imagen subida a Docker Hub utilizando el comando `docker run`. Esto demuestra la capacidad de desplegar y ejecutar contenedores a partir de imágenes almacenadas en un repositorio remoto.
+
+5. **Documentación con Markdown**: El archivo está escrito en formato Markdown, lo que facilita la legibilidad y la estructuración del contenido. También incluye capturas de pantalla que complementan las instrucciones escritas, lo que mejora la claridad y la comprensión del proceso.
+
+6. **Buenas prácticas de Docker Hub**: Se menciona el seguimiento de las buenas prácticas recomendadas por Docker Hub al crear un repositorio directamente en GitHub. Esto demuestra la conciencia y el cumplimiento de las pautas establecidas por Docker Hub para una mejor organización y gestión de repositorios.
+
 ## Integrantes :trollface:
 
 | [<img src="https://avatars.githubusercontent.com/u/163602168?v=4" width=115><br><sub>Juliteth Pinilla</sub>](https://github.com/jpinillaDiplomado) | [<img src="https://avatars.githubusercontent.com/u/105172071?v=4" width=115><br><sub>Miguel Aponte</sub>](https://github.com/Miguelo89)  | [<img src="https://avatars.githubusercontent.com/u/163653023?v=4" width=115><br><sub>Andrés Gonzales </sub>](https://github.com/Andrezk8) |  
