@@ -145,19 +145,21 @@ Una vez que haya generado una imagen, se puede difundir. Para compartir imágene
 El principal es Docker Hub, el origen de todas las imágenes que haya empleado hasta ahora.
 
 
+
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/15.png" alt="logo" width="700"/></p>
+
 Para enviar una imagen, primero debe crear un repositorio en Docker Hub.
 
 -el primer paso es Regístrese o iniciar sesión en Docker Hub como se evidencia en la imagen.
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/15.png" alt="logo" width="700"/></p>
-
--Seleccione el botón Crear repositorio como lo idnica la imagen
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/16.png" alt="logo" width="400"/></p>
 
--Para el nombre del repositorio, utilice getting-started. Asegúrese de que la visibilidad sea pública y para finalizar dele en crear 
+-Seleccione el botón Crear repositorio como lo idnica la imagen
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/17.png" alt="logo" width="700"/></p>
+
+-Para el nombre del repositorio, utilice getting-started. Asegúrese de que la visibilidad sea pública y para finalizar dele en crear 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/18.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/19.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/20.png" alt="logo" width="700"/></p>
