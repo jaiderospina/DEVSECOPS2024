@@ -216,13 +216,29 @@ Si la insignia 3000 no aparece, puede seleccionar Abrir puerto y especificar 300
 # Paso 5: Persistir la base de datos
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/32.png" alt="logo" width="700"/></p>
+-Ejecute un nuevo contenedor Alpine y use el catcomando para verificar que el archivo no existe, al ejecutar el comando debería ver un resultado similar al siguiente que indica que el archivo no existe en el nuevo contenedor.
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/33.png" alt="logo" width="700"/></p>
+-Continúe y retire los contenedores usando docker ps --allpara obtener las identificaciones y luego docker rm -f <container-id>para quitar los contenedores.
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/34.png" alt="logo" width="700"/></p>
+ 
+ ### Volúmenes de contenedores
+ notaste que cada vez que iniciabas un contenedor, este se basaba en la definición de la imagen desde el principio. Aunque los contenedores pueden realizar cambios en archivos, dichas modificaciones se pierden cuando se elimina el contenedor, ya que Docker aísla todos los cambios dentro de ese contenedor. Sin embargo, los volúmenes pueden cambiar este comportamiento.
+
+ Los volúmenes permiten conectar rutas específicas del sistema de archivos del contenedor a la máquina anfitriona. Al montar un directorio en el contenedor, los cambios en ese directorio también se reflejan en la máquina anfitriona. Si vuelves a montar ese mismo directorio al reiniciar el contenedor, encontrarás los mismos archivos.
+
+ ### Crear un volumen e iniciar el contenedor.
+   Puede crear el volumen e iniciar el contenedor utilizando la CLI o la interfaz gráfica de Docker Desktop.
+ - Para iniciar Cree un volumen usando el docker volume createcomando.
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/35.png" alt="logo" width="700"/></p>
+ -Detenga y elimine el contenedor de la aplicación de tareas pendientes nuevamente con docker rm -f <id>, ya que todavía se está ejecutando sin usar el volumen persistente.
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/36.png" alt="logo" width="700"/></p>
+-Inicie el contenedor de la aplicación de tareas pendientes pero agregue la --mountopción para especificar un montaje de volumen luego asigne un nombre al volumen y móntelo /etc/todos en el contenedor, que captura todos los archivos creados en la ruta.
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/37.png" alt="logo" width="700"/></p>
+-Una vez que se inicie el contenedor, abra la aplicación y agregue algunos elementos a su lista de tareas pendientes.
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/38.png" alt="logo" width="700"/></p>
+-Detenga y elimine el contenedor de la aplicación de tareas pendientes. Utilice Docker Desktop o docker pspara obtener la identificación y luego docker rm -f id eliminarla posteriormente inicie un nuevo contenedor siguiendo los pasos anteriores.
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/39.png" alt="logo" width="700"/></p>
+luego abra la aplicación. Deberías ver tus artículos todavía en tu lista, Continúe y retire el contenedor cuando haya terminado de revisar su lista.
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/40.png" alt="logo" width="700"/></p>
 
 
