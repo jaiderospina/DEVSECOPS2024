@@ -214,7 +214,8 @@ Si la insignia 3000 no aparece, puede seleccionar Abrir puerto y especificar 300
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/31.png" alt="logo" width="700"/></p>
 
 # Paso 5: Persistir la base de datos
-
+-Inicie un contenedor Alpine y acceda a su caparazón.
+.En el contenedor, cree un greeting.txtarchivo con helloel interior.
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/32.png" alt="logo" width="700"/></p>
 -Ejecute un nuevo contenedor Alpine y use el catcomando para verificar que el archivo no existe, al ejecutar el comando debería ver un resultado similar al siguiente que indica que el archivo no existe en el nuevo contenedor.
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/33.png" alt="logo" width="700"/></p>
@@ -267,7 +268,7 @@ De manera predeterminada, los contenedores se crean y ejecutan de forma aislada,
 ```
     docker network create todo-app
 ```
-Este comando se utiliza en Docker para crear una red de contenedores con el nombre "todo-app".
+Este comando se utiliza en Docker para crear una red de contenedores con el nombre "todo-app".  
 
 Aparecera un un resultado como este:
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/56.png" alt="logo" width="700"/></p>
