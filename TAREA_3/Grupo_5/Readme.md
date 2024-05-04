@@ -5,7 +5,7 @@ Integrantes:
  - Daniel lopez        - ID: 711991
  - Fabial silva       - ID: 
  - Sebastian romero    - ID: 732124
- - Sebastian prieto    - ID: 711751
+ - Sebastian Sarmiento - ID: 711751
 
  # Paso 2: Contenerizar una aplicación
 
@@ -140,6 +140,8 @@ Ahora, inicie su aplicación actualizada usando el docker runcomando.
 
 
 # Paso 4: Comparte la aplicación
+Una vez que haya generado una imagen, se puede difundir. Para compartir imágenes de Docker es necesario emplear un registro de Docker. 
+El principal es Docker Hub, el origen de todas las imágenes que haya empleado hasta ahora.
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/15.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/16.png" alt="logo" width="400"/></p>
