@@ -225,14 +225,69 @@ En la siguiente imagen, puede ver un comando Docker de ejemplo de Docker Hub. Es
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/55.png" alt="logo" width="700"/></p>
 
 # Paso 7: Aplicaciones de múltiples contenedores
+De manera predeterminada, los contenedores se crean y ejecutan de forma aislada, sin tener conocimiento de otros procesos o contenedores en el mismo entorno. Sin embargo, al crear redes, facilitamos la comunicación entre los contenedores, permitiéndoles interactuar entre sí de manera efectiva.
 
+ - Creación de la red
+```
+    docker network create todo-app
+```
+Este comando se utiliza en Docker para crear una red de contenedores con el nombre "todo-app".
+
+Aparecera un un resultado como este:
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/56.png" alt="logo" width="700"/></p>
+
+ - Iniciamos un contenedor Mysql
+```
+    docker run -d \
+    --network todo-app --network-alias mysql \
+    -v todo-mysql-data:/var/lib/mysql \
+    -e MYSQL_ROOT_PASSWORD=secret \
+    -e MYSQL_DATABASE=todos \
+    mysql:8.0
+```
+Este comando se utiliza para ejecutar un contenedor MySQL en Docker con una serie de configuraciones específicas:
+
+ - -d: Esta opción indica a Docker que ejecute el contenedor en modo 'detached' (desconectado), lo que significa que se ejecutará en segundo plano.
+ - -network todo-app: Indica que el contenedor se conectará a la red llamada "todo-app", que fue creada previamente con el comando docker network create.
+ - -network-alias mysql: Asigna un alias de red al contenedor. En este caso, el alias "mysql" será utilizado para referirse al contenedor MySQL dentro de la red "todo-app".
+ - -v todo-mysql-data:/var/lib/mysql: Crea un volumen llamado "todo-mysql-data" y lo monta en el directorio /var/lib/mysql dentro del contenedor. Esto se utiliza para persistir los datos de MySQL incluso después de que el contenedor se detenga o se elimine.
+ - -e MYSQL_ROOT_PASSWORD=secret: Establece la contraseña de root de MySQL como "secret". Esto se hace utilizando una variable de entorno para configurar la contraseña durante la inicialización del contenedor.
+ - -e MYSQL_DATABASE=todos: Crea una base de datos llamada "todos" durante la inicialización del contenedor. Esto también se realiza mediante una variable de entorno.
+ - mysql:8.0: Especifica la imagen de Docker que se utilizará para crear el contenedor. En este caso, se está utilizando la imagen oficial de MySQL versión 8.0.
+
+Aparecerá algo como esto:
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/57.png" alt="logo" width="700"/></p>
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/58.png" alt="logo" width="700"/></p>
+
+Seguido de esto confirmaremos que la base de datos este en funcionamiento con el siguiente comando
+```
+    docker exec -it <mysql-container-id> mysql -u root -p
+```
+Luego se nos pedira una contraseña, escribiremos ```secret```  pues esta es la que hemos puesto en el paso anterior cuando definimos las variables de entorno mysql
+Luego con el siguiente comando listaremos las bases de datos existentes y verificamos que se encuentra creada la base de datos llamada ```todos```:
+```
+    mysql> SHOW DATABASES;
+```
+Aparecerá algo como esto:
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/60.png" alt="logo" width="400"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/61.png" alt="logo" width="400"/></p>
+El siguiente comando sera para salir del shwll de Mysql y regesar al shell de nuestra maquina
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/62.png" alt="logo" width="400"/></p>
+
+Ahora iniciaremos un nuevo contenedor usando la imagen ```nicolaka/netshoot``` , este contenedor contiene herramientas utiles oara solucionar y comprobar el funcionamiento de las redes.
+esto lo haremos con el siguiente comando
+```
+    docker run -it --network todo-app nicolaka/netshoot
+```
+Aparecerá algo como esto:
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/63.png" alt="logo" width="700"/></p>
+
+En el contenedor, empleamos el comando "dig", una herramienta DNS valiosa. Este comando  lo usamos para buscar la dirección IP asociada al nombre de host "mysql".
+```
+    dig mysql
+```
+Tendremos este resultado:
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/64.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/65.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/66.png" alt="logo" width="700"/></p>
