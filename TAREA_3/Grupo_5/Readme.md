@@ -341,7 +341,20 @@ El comando ```docker ps```  lo usaremos para listar los contenedores Docker que 
 y con el comando ```docker logs -f <container-id>``` se usamos para visualizar los logs (registros) del contenedor ```dead3bce7024```  en tiempo real.
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/67.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/68.png" alt="logo" width="700"/></p>
+
+Abrimos la aplicacion en el localhost y agregamos algunos elementos ```hola``` y ```test1```
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/69.png" alt="logo" width="700"/></p>
+
+Luego nos conectamos a la base de datos con el comando
+
+```
+    docker exec -it <mysql-container-id> mysql -p todos
+```
+
+dento de la base de datos ejecutamos la siguiente consulta ```select * from todo_items;```
+
+Tendremos este resultado:
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/70.png" alt="logo" width="700"/></p>
 
 # Paso 8: Utilice la redacción de Docker
