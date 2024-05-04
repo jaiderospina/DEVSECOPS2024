@@ -269,13 +269,50 @@ Si ya ejecutó el comando, verá un resultado similar a este:
 
 # Paso 9: Mejores prácticas de creación de imágenes
 
+Para ver el historial de imagenes creadas se usa el siguiente comando:
+
+´´´
+    docker image history getting-started
+´´´
+
+se verá de la siguiente manera:
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/77.png" alt="logo" width="700"/></p>
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/78.png" alt="logo" width="700"/></p>
+
+Hay algunas imagenes que están truncadas, para poder verlas todas usas el siguiente comando:
+
+´´´
+    docker image history --no-trunc getting-started
+´´´
+
+Cada instrucción en el archivo Docker resulta en la creación de una nueva capa en la imagen. Por ejemplo, si se tiene una instrucción para instalar una biblioteca en particular, esa acción creará una capa nueva en la imagen.
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/79.png" alt="logo" width="700"/></p>
+
+## Captura de capaz
+
+Con la configuración actual de nuestro Dockerfile, cada vez que hacemos un cambio en nuestr app, las dependencias tienen que ser reisntaladas, para corregir estye problema vamos a nuestro archivo Dockerfile
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/80.png" alt="logo" width="700"/></p>
+
+
+Actualiza el Dockerfile para copiar primero el archivo package.json, instalar las dependencias y luego copiar todo lo demás.
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/81.png" alt="logo" width="700"/></p>
+
+
+Crea un archivo .dockerignore y define que se ignorarán los archivos que se encuentren en la carpeta nopde_models
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/82.png" alt="logo" width="700"/></p>
+
+
+Genera un cambio en nuestra app, nos dirigimos a nuestro index.html
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/83.png" alt="logo" width="400"/></p>
+
+
+Cambia el titulo del index.html
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/84.png" alt="logo" width="700"/></p>
+
+
+Ejecuta las instrucciones del Dockerfile, y notarás que no se reinstalan las dependencias de node
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/85.png" alt="logo" width="700"/></p>
+
+Tambien se puede visualizar que se efectuaron los cambios correctamente
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/86.png" alt="logo" width="700"/></p>
