@@ -309,7 +309,33 @@ En el contenedor, empleamos el comando "dig", una herramienta DNS valiosa. Este 
 Tendremos este resultado:
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/64.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/65.png" alt="logo" width="700"/></p>
+
+Ahora procederemos a iniciar el contenedor 
+
+```
+    docker run -dp 127.0.0.1:3000:3000 `
+   -w /app -v "$(pwd):/app" `
+   --network todo-app `
+   -e MYSQL_HOST=mysql `
+   -e MYSQL_USER=root `
+   -e MYSQL_PASSWORD=secret `
+   -e MYSQL_DB=todos `
+   node:18-alpine `
+   sh -c "yarn install && yarn run dev"
+```
+Este comando ejecuta un contenedor Docker utilizando la imagen "node:18-alpine".
+ - -dp 127.0.0.1:3000:3000: Este comando indica a Docker que el contenedor debe ejecutarse en modo detached (-d), es decir, en segundo plano, y que el puerto 3000 del contenedor debe mapearse al puerto 3000 del host (127.0.0.1:3000:3000).
+ - -w /app: Establece el directorio de trabajo dentro del contenedor en "/app".
+ - -v "$(pwd):/app": Monta el directorio actual del host ($(pwd)) en el directorio "/app" del contenedor. Esto permite sincronizar el código fuente del host con el contenedor.
+ - --network todo-app: Conecta el contenedor a la red Docker llamada "todo-app".
+ - -e MYSQL_HOST=mysql -e MYSQL_USER=root -e MYSQL_PASSWORD=secret -e MYSQL_DB=todos: Establece variables de entorno dentro del contenedor para configurar la conexión a la base de datos MySQL. Especifica el host de MySQL, el nombre de usuario, la contraseña y la base de datos.
+ - node:18-alpine: Especifica la imagen de Docker que se utilizará para crear el contenedor. En este caso, se utiliza la imagen "node:18-alpine", que es una versión ligera de Node.js basada en Alpine Linux.
+ - sh -c "yarn install && yarn run dev": Ejecuta un shell dentro del contenedor y luego ejecuta los comandos "yarn install" y "yarn run dev". Estos comandos se utilizan comúnmente en proyectos de Node.js para instalar dependencias y ejecutar el servidor de desarrollo, respectivamente.
+
+Tendremos este resultado:
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/66.png" alt="logo" width="700"/></p>
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/67.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/68.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/69.png" alt="logo" width="700"/></p>
