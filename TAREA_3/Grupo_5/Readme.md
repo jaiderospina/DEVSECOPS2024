@@ -155,18 +155,37 @@ Para enviar una imagen, primero debe crear un repositorio en Docker Hub.
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/16.png" alt="logo" width="400"/></p>
 
--Seleccione el botón Crear repositorio como lo idnica la imagen
+-Seleccione el botón Crear repositorio como lo indica la imagen
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/17.png" alt="logo" width="700"/></p>
 
--Para el nombre del repositorio, utilice getting-started. Asegúrese de que la visibilidad sea pública y para finalizar dele en crear 
+-Para el nombre del repositorio, utilice getting-started. Asegúrese de que la visibilidad sea pública y para finalizar darle clic en crear
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/18.png" alt="logo" width="700"/></p>
+
+-En la siguiente imagen, puede ver un comando Docker de ejemplo de Docker Hub. Este comando enviará a este repositorio.
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/19.png" alt="logo" width="700"/></p>
+En la siguiente imagen, puede ver un comando Docker de ejemplo de Docker Hub. Este comando enviará a este repositorio.
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/20.png" alt="logo" width="700"/></p>
+  
+  ### Empuja la Imagen 
+-Como primer paso abrimos la línea de comando, ejecute el docker pushcomando que se ve en Docker Hub. Tenga en cuenta que su comando tendrá su ID de Docker(su usuario de docker), no "docker". Por ejemplo, docker push YOUR-USER-NAME/getting-started.
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/21.png" alt="logo" width="700"/></p>
+
+¿Por qué fracasó? El comando push estaba buscando una imagen llamada docker/getting-started, pero no encontró ninguna. Si corres docker image ls, tampoco verás ninguno Para solucionar este problema, debe etiquetar la imagen existente que creó para darle otro nombre.
+
+-Inicie sesión en Docker Hub usando el comando docker login -u YOUR-USER-NAME..
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/22.png" alt="logo" width="700"/></p>
+
+-Utilice el docker tagcomando para darle a la getting-startedimagen un nuevo nombre. Reemplácelo YOUR-USER-NAMEcon su ID de Docker.
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/23.png" alt="logo" width="700"/></p>
+-Ahora ejecute el docker pushcomando nuevamente. Si está copiando el valor de Docker Hub, puede descartar la tagnameparte, ya que no agregó una etiqueta al nombre de la imagen. Si no especifica una etiqueta, Docker usa una etiqueta llamada latest.
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/24.png" alt="logo" width="700"/></p>
+
+-Ahora una vez terminado el push se evicencia la imagen que acabamos de agregar en el docker 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/25.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/26.png" alt="logo" width="400"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/27.png" alt="logo" width="400"/></p>
