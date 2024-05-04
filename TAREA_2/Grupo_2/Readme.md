@@ -3,7 +3,7 @@
 Integrantes:
  - Juan Peña - ID: 635668
  - Oscar Yela - ID: 433321
- - Maycol Paez - ID: 751391
+ - Maycol Javier Paez Rincon - ID: 751391
  - Brigitte Rodriguez - ID: 415800
  - Alvaro Adolfo Cote Sanchez - ID: 730352
 
@@ -38,6 +38,8 @@ Inicie sesión en DockerHub con el siguiente comando, aquí pedirá el usuario y
 ```
 
 ![](imagenes/Screenshot_4.png)
+
+La sesión queda activada en el computador, no es nesesario hacer el inicio de sesión cada vez que se quiere acceder
 
 ### Paso 4
 
