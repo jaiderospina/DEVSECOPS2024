@@ -208,11 +208,28 @@ Ahora, inicie su aplicación actualizada usando el docker runcomando.
 
 # Paso 8: Utilice la redacción de Docker
 
+En el getting-started-appdirectorio, cree un archivo llamado compose.yaml.
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/71.png" alt="logo" width="400"/></p>
+
+En el paso 7 utilizó el siguiente comando para iniciar el servicio de la aplicación.
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/72 (si ya está corriendo no es necesario).png" alt="logo" width="700"/></p>
+
+Ahora es el momento de definir el servicio MySQL. El comando que usaste para ese contenedor fue el siguiente:
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/73.png" alt="logo" width="700"/></p>
+
+Inicie la pila de aplicaciones usando el docker compose upcomando. Agregue la -dbandera para ejecutar todo en segundo plano.
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/74.png" alt="logo" width="700"/></p>
+
+Mire los registros usando el docker compose logs -f
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/75.png" alt="logo" width="400"/></p>
+
+Si ya ejecutó el comando, verá un resultado similar a este:
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/76.png" alt="logo" width="700"/></p>
 
 # Paso 9: Mejores prácticas de creación de imágenes
