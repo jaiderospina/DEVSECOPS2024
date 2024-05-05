@@ -241,24 +241,145 @@ Si la insignia 3000 no aparece, puede seleccionar Abrir puerto y especificar 300
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/39.png" alt="logo" width="700"/></p>
 luego abra la aplicación. Deberías ver tus artículos todavía en tu lista, Continúe y retire el contenedor cuando haya terminado de revisar su lista.
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/40.png" alt="logo" width="700"/></p>
-
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/41.png" alt="logo" width="700"/></p>
 
 # Paso 6: Usar montajes de enlace
 
-<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/41.png" alt="logo" width="700"/></p>
+La Sección 5 describe cómo guardar los datos en una base de datos de una aplicación usando montajes de volumen, destacando su utilidad para el almacenamiento persistente. El montaje vinculado también es una opción que permite compartir directorios del sistema de archivos del host en el contenedor. Este método es particularmente útil para montar el código fuente y permitir que el contenedor detecte cambios en tiempo real. Se menciona la herramienta nodemon, que puede observar cambios en archivos y reiniciar automáticamente la aplicación, lo que indica que puede haber herramientas similares en otros lenguajes y marcos.
+
+## Comparaciones rápidas de tipos de volumen
+
+Los siguientes son ejemplos de un volumen con nombre y un montaje vinculado usando --mount:
+
+Volumen nombrado: type=volume,src=my-volume,target=/usr/local/data
+Montaje de enlace: type=bind,src=/path/to/data,target=/usr/local/data
+
+La siguiente tabla describe las principales diferencias entre montajes de volumen y montajes de enlace.
+
+    Volúmenes                                                    Nombrados	    Enlazar monturas
+Ubicación del anfitrión	                                        Docker elige	  Tú decides
+Llena un nuevo volumen con el contenido del contenedor.          	Sí	              No
+Admite controladores de volumen	                                    Sí	              No
+
+## Probando monturas vinculantes
+
+Antes de porder aplicar los montajes de enlace , se puede realizar una ejemplo rapido de una practica de como funcionan.
+
+1. Verificar que el directorio getting-started-app este en un directorio definido en la configuración para compartir archivos Docker Desktop.
+2. Abrir una terminal y cambie de directorio al directorio getting-started-app.
+3. Ejecutar el siguiente comando para comenzar bash en un ubuntu contenedor con un montaje de enlace.
+```
+$ docker run -it --mount type=bind,src="/$(pwd)",target=/src ubuntu bash
+```
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/42.png" alt="logo" width="700"/></p>
+
+4. Después de ejecutar el comando, Docker inicia en bash una sesión interactiva en el directorio raíz del sistema de archivos del contenedor.
+```
+root@ac1237fad8db:/# pwd
+/
+root@ac1237fad8db:/# ls
+bin   dev  home  media  opt   root  sbin  srv  tmp  var
+boot  etc  lib   mnt    proc  run   src   sys  usr
+```
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/43.png" alt="logo" width="700"/></p>
+
+5. Cambie de directorio al src directorio.
+```
+root@ac1237fad8db:/# cd src
+root@ac1237fad8db:/src# ls
+Dockerfile  node_modules  package.json  spec  src  yarn.lock
+```
+
+6. Cree un nuevo archivo llamado myfile.txt.
+```
+root@ac1237fad8db:/src# touch myfile.txt
+root@ac1237fad8db:/src# ls
+Dockerfile  myfile.txt  node_modules  package.json  spec  src  yarn.lock
+```
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/44.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/45.png" alt="logo" width="400"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/46.png" alt="logo" width="400"/></p>
+
+7. Abra el directorio getting-started-app en el host y observe que el myfile.txtarchivo está en el directorio.
+```
+├── getting-started-app/
+│ ├── Dockerfile
+│ ├── myfile.txt
+│ ├── node_modules/
+│ ├── package.json
+│ ├── spec/
+│ ├── src/
+│ └── yarn.lock
+```
+
+8. Desde el host, elimine el myfile.txt archivo.
+9. En el contenedor, enumere el contenido del app directorio una vez más. Observe que el archivo ya no está.
+```
+root@ac1237fad8db:/src# ls
+Dockerfile  node_modules  package.json  spec  src  yarn.lock
+```
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/47.png" alt="logo" width="700"/></p>
+
+10. Detenga la sesión del contenedor interactivo con Ctrl+ D.
+
+## Contenedores de desarrollo
+
+El uso de montajes vinculados es común para las configuraciones de desarrollo local. La ventaja es que la máquina de desarrollo no necesita tener instalados todos los entornos y herramientas de compilación. Con un solo comando de ejecución de Docker, Docker extrae dependencias y herramientas.
+
+### Ejecute su aplicación en un contenedor de desarrollo
+
+Los siguientes pasos describen cómo ejecutar un contenedor de desarrollo con un montaje de enlace que hace lo siguiente:
+
+- Monte su código fuente en el contenedor
+- Instalar todas las dependencias
+- Comience ```nodemon``` a observar los cambios en el sistema de archivos
+
+Puede utilizar la CLI o Docker Desktop para ejecutar su contenedor con un montaje de enlace.
+
+1. Asegúrese de no tener ningún ```getting-started``` contenedor ejecutándose actualmente.
+2. Ejecute el siguiente comando desde el ```getting-started-app``` directorio.
+```
+$ docker run -dp 127.0.0.1:3000:3000 \
+    -w //app --mount type=bind,src="/$(pwd)",target=/app \
+    node:18-alpine \
+    sh -c "yarn install && yarn run dev"
+```
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/48.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/49.png" alt="logo" width="700"/></p>
+
+El siguiente es un desglose del comando:
+
+- ``` -dp 127.0.0.1:3000:3000 ```- Igual que antes. Ejecute en modo independiente (en segundo plano) y cree una asignación de puertos
+- ```-w //app```- establece el "directorio de trabajo" o el directorio actual desde donde se ejecutará el comando
+- ```--mount type=bind,src="/$(pwd)",target=/app``` - enlazar montar el directorio actual desde el host al /appdirectorio en el contenedor
+- ```node:18-alpine```- la imagen a utilizar. Tenga en cuenta que esta es la imagen base de su aplicación desde Dockerfile.
+- ```sh -c "yarn install && yarn run dev"```- El comando. Está iniciando un shell usando ```sh```(alpine no tiene ```bash```) y ejecutándolo ```yarn install``` para instalar paquetes y luego ejecutando ```yarn run dev``` para iniciar el servidor de desarrollo. Si miras en ```package.json```, verás que ```dev``` se inicia el script ```nodemon```.
+3. Puedes ver los registros usando ```docker logs <container-id>```. Sabrás que estás listo para comenzar cuando veas esto:
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/50.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/51.png" alt="logo" width="400"/></p>
+Cuando haya terminado de ver los registros, salga presionando Ctrl+ C.
+
+### Desarrolla tu aplicación con el contenedor de desarrollo
+
+Actualice su aplicación en su máquina host y vea los cambios reflejados en el contenedor.
+
+1. En el ```src/static/js/app.js``` archivo, en la línea 109, cambie el botón "Agregar elemento" para que diga simplemente "Agregar":
+```
+- {submitting ? 'Adding...' : 'Add Item'}
++ {submitting ? 'Adding...' : 'Add'}
+```
+
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/52.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/53.png" alt="logo" width="700"/></p>
+Guarda el archivo.
+
+2. Actualice la página en su navegador web y debería ver el cambio reflejado casi de inmediato debido al montaje del enlace. Nodemon detecta el cambio y reinicia el servidor. Es posible que el servidor de Node tarde unos segundos en reiniciarse. Si recibe un error, intente actualizar después de unos segundos.
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/54.png" alt="logo" width="700"/></p>
+
+3. No dude en realizar cualquier otro cambio que desee. Cada vez que realiza un cambio y guarda un archivo, el cambio se refleja en el contenedor debido al montaje de enlace. Cuando Nodemon detecta un cambio, reinicia la aplicación dentro del contenedor automáticamente. Cuando haya terminado, detenga el contenedor y cree su nueva imagen usando:
+```
+$ docker build -t getting-started .
+```
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/55.png" alt="logo" width="700"/></p>
 
 # Paso 7: Aplicaciones de múltiples contenedores
