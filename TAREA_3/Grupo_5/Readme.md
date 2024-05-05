@@ -256,10 +256,7 @@ Montaje de enlace: type=bind,src=/path/to/data,target=/usr/local/data
 
 La siguiente tabla describe las principales diferencias entre montajes de volumen y montajes de enlace.
 
-    Volúmenes                                                    Nombrados	    Enlazar monturas
-Ubicación del anfitrión	                                        Docker elige	  Tú decides
-Llena un nuevo volumen con el contenido del contenedor.          	Sí	              No
-Admite controladores de volumen	                                    Sí	              No
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/87.png" alt="logo" width="700"/></p>
 
 ## Probando monturas vinculantes
 
@@ -368,7 +365,6 @@ Actualice su aplicación en su máquina host y vea los cambios reflejados en el 
 - {submitting ? 'Adding...' : 'Add Item'}
 + {submitting ? 'Adding...' : 'Add'}
 ```
-
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/52.png" alt="logo" width="700"/></p>
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/TAREA_3/Grupo_5/Imagenes/53.png" alt="logo" width="700"/></p>
 Guarda el archivo.
