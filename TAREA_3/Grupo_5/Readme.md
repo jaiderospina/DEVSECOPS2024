@@ -251,9 +251,9 @@ La Sección 5 describe cómo guardar los datos en una base de datos de una aplic
 
 Los siguientes son ejemplos de un volumen con nombre y un montaje vinculado usando --mount:
 
-Volumen nombrado: type=volume,src=my-volume,target=/usr/local/data
+Volumen nombrado: ```type=volume,src=my-volume,target=/usr/local/data```
 
-Montaje de enlace: type=bind,src=/path/to/data,target=/usr/local/data
+Montaje de enlace: ```type=bind,src=/path/to/data,target=/usr/local/data```
 
 La siguiente tabla describe las principales diferencias entre montajes de volumen y montajes de enlace.
 
