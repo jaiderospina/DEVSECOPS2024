@@ -522,9 +522,9 @@ Si ya ejecutó el comando, verá un resultado similar a este:
 
 Para ver el historial de imagenes creadas se usa el siguiente comando:
 
-´´´
+```
     docker image history getting-started
-´´´
+```
 
 se verá de la siguiente manera:
 
