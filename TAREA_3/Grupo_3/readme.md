@@ -566,6 +566,24 @@ Vemos a crear el archivo en el directorio del proyecto getting-started-app y lla
 </div>
 
 
+Y los siguientes comandos van a quedar transformados de la siguiente manera:
+docker run -dp 127.0.0.1:3000:3000 \
+  -w /app -v "$(pwd):/app" \
+  --network todo-app \
+  -e MYSQL_HOST=mysql \
+  -e MYSQL_USER=root \
+  -e MYSQL_PASSWORD=secret \
+  -e MYSQL_DB=todos \
+  node:18-alpine \
+  sh -c "yarn install && yarn run dev"
+
+docker run -d \
+  --network todo-app --network-alias mysql \
+  -v todo-mysql-data:/var/lib/mysql \
+  -e MYSQL_ROOT_PASSWORD=secret \
+  -e MYSQL_DATABASE=todos \
+  mysql:8.0
+
 
 
 
