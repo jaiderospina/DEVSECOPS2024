@@ -554,6 +554,10 @@ Entramos a la dirección http://localhost:3000 e ingresamos varios registros y c
 
 ## USAR DOCKER COMPOSE 
 
+Docker compose es una herramienta muy útil para definir y compartir aplicaciones multi-contenedores. La mayor ventaja que tiene es que desde un propio archivo .yaml se definen todas las directivas y opciones de cada contenedor que se necesita.
+Para este ejercicio vamos a pasar las aplicaciones que hemos realizado a través de comandos en el CLI a instrucciones desde un archivo yaml
+
+
 
 
 
