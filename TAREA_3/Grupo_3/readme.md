@@ -601,6 +601,7 @@ Una vez termine el proceso de creación es posible acceder al aplicativo de mane
 MEJORES PRACTICAS EN CONTRUCCION DE IMÁGENES
 
 CAPAS DE IMÁGENES
+
 Para verificar el historial de las capas de las imágenes usamos el siguiente comando:
 docker image history getting-started
 Al ejecutar este comando veremos cada capa de la imagen de la imagen con un resultado similar a esto:
@@ -610,6 +611,7 @@ Al ejecutar este comando veremos cada capa de la imagen de la imagen con un resu
 </div>
 
 CAPAS EN CACHE
+
 Esto nos ayuda a bajar el tamaño y el tiempo que se consume al construir una imagen para un contenedor.
 Para mirar una prueba de esto vamos desde el editor de código fijarnos en el código actual del archivo Dockerfile:
 
