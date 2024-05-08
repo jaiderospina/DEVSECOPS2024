@@ -588,6 +588,39 @@ docker run -d \
     <img style="" alt="DevSecOps" src="Imagenes/Imagen-82.png">
 </div>
 
+Una vez editado el archivo vamos a ejecutar el archivo compose.yaml con el siguiente comando, hay que asegurarse no tener ningún otro contenedor de las practicas anteriores corriendo:
+docker compose up -d
+
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-83.png">
+</div>
+
+Una vez termine el proceso de creación es posible acceder al aplicativo de manera normal.
+
+
+MEJORES PRACTICAS EN CONTRUCCION DE IMÁGENES
+
+CAPAS DE IMÁGENES
+Para verificar el historial de las capas de las imágenes usamos el siguiente comando:
+docker image history getting-started
+Al ejecutar este comando veremos cada capa de la imagen de la imagen con un resultado similar a esto:
+
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-84.png">
+</div>
+
+CAPAS EN CACHE
+Esto nos ayuda a bajar el tamaño y el tiempo que se consume al construir una imagen para un contenedor.
+Para mirar una prueba de esto vamos desde el editor de código fijarnos en el código actual del archivo Dockerfile:
+
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-85.png">
+</div>
+
+
+
+
+
 
 
 
