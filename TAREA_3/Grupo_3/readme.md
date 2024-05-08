@@ -584,6 +584,9 @@ docker run -d \
   -e MYSQL_DATABASE=todos \
   mysql:8.0
 
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-82.png">
+</div>
 
 
 
