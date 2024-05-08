@@ -562,7 +562,7 @@ Paso 1:
 Vemos a crear el archivo en el directorio del proyecto getting-started-app y llamarlo compose.yaml:
 
 <div style="width: 100%; text-align: center;">
-    <img style="" alt="DevSecOps" src="Imagenes/Imagen-69.png">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-81.png">
 </div>
 
 
