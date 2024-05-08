@@ -557,6 +557,14 @@ Entramos a la dirección http://localhost:3000 e ingresamos varios registros y c
 Docker compose es una herramienta muy útil para definir y compartir aplicaciones multi-contenedores. La mayor ventaja que tiene es que desde un propio archivo .yaml se definen todas las directivas y opciones de cada contenedor que se necesita.
 Para este ejercicio vamos a pasar las aplicaciones que hemos realizado a través de comandos en el CLI a instrucciones desde un archivo yaml
 
+Paso 1:
+
+Vemos a crear el archivo en el directorio del proyecto getting-started-app y llamarlo compose.yaml:
+
+<div style="width: 100%; text-align: center;">
+    <img style="" alt="DevSecOps" src="Imagenes/Imagen-69.png">
+</div>
+
 
 
 
