@@ -619,6 +619,33 @@ Para mirar una prueba de esto vamos desde el editor de código fijarnos en el c�
     <img style="" alt="DevSecOps" src="Imagenes/Imagen-85.png">
 </div>
 
+# Conclusiones
+
+# Docker Simplifica el Despliegue de Aplicaciones
+
+El proceso de containerizar una aplicación con Docker permite empaquetar todo el entorno necesario (dependencias, librerías, configuraciones) en una imagen liviana y portátil. Esto facilita el despliegue consistente de la aplicación en diferentes entornos (desarrollo, pruebas, producción) sin preocuparse por conflictos de dependencias o configuraciones específicas del sistema.
+
+## Desarrollo y Pruebas Ágiles
+
+Docker permite a los desarrolladores trabajar en contenedores de desarrollo, montando el código fuente directamente desde el sistema host. Cualquier cambio en el código se refleja instantáneamente en el contenedor en ejecución, acelerando el ciclo de desarrollo y pruebas. Esto fomenta un flujo de trabajo ágil y iterativo, reduciendo el tiempo y el esfuerzo dedicados a la configuración del entorno.
+
+## Arquitectura de Microservicios
+
+Docker facilita la creación de arquitecturas de microservicios, donde cada componente (base de datos, API, front-end) se encapsula en un contenedor separado. Estos contenedores se pueden comunicar entre sí a través de redes virtuales definidas por Docker, promoviendo la modularidad y el escalamiento independiente de cada servicio.
+
+## Portabilidad y Consistencia
+
+Las imágenes de Docker son inmutables y portátiles, lo que garantiza que la aplicación se ejecute de manera consistente en cualquier entorno compatible con Docker. Esto simplifica el proceso de migración y solución de problemas, ya que se elimina la necesidad de recrear entornos complejos en diferentes sistemas.
+
+## Optimización de Imágenes
+
+Docker promueve las mejores prácticas en la construcción de imágenes, como el uso de capas en caché y la optimización del tamaño de las imágenes. Estas prácticas mejoran el tiempo de construcción y reducen el consumo de recursos, lo que resulta en un mejor rendimiento y eficiencia en la entrega de aplicaciones.
+
+## Ecosistema y Herramientas
+
+Docker cuenta con un ecosistema maduro y en constante crecimiento, con herramientas como Docker Compose para definir y administrar aplicaciones multi-contenedor. Esto simplifica la gestión de entornos complejos y facilita la colaboración y el intercambio de configuraciones entre equipos de desarrollo.
+
+
 
 
 
