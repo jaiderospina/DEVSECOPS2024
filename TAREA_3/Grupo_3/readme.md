@@ -621,7 +621,7 @@ Para mirar una prueba de esto vamos desde el editor de código fijarnos en el c�
 
 # Conclusiones
 
-# Docker Simplifica el Despliegue de Aplicaciones
+## Docker Simplifica el Despliegue de Aplicaciones
 
 El proceso de containerizar una aplicación con Docker permite empaquetar todo el entorno necesario (dependencias, librerías, configuraciones) en una imagen liviana y portátil. Esto facilita el despliegue consistente de la aplicación en diferentes entornos (desarrollo, pruebas, producción) sin preocuparse por conflictos de dependencias o configuraciones específicas del sistema.
 
