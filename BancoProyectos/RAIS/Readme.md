@@ -8,7 +8,6 @@ El Sistema de Informaci√≥n para Autoridades Reguladoras (RAIS+) es una aplicaci√
 
 
 # Descarga de software
-- https://drive.google.com/file/d/1-wyymzijkzR0-3Z-535BPGqO2CuHK5HX/view?usp=drive_link
 - https://www.iaea.org/resources/software/rais-plus
 
 
