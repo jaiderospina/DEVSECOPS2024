@@ -1,4 +1,3 @@
-```markdown
 # Descripción del Programa de Gestión de Inventarios para un Gastrobar
 
 ## Introducción
