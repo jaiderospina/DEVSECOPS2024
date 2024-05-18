@@ -5,3 +5,7 @@ El Sistema de Información para Autoridades Reguladoras (RAIS+) es una aplicaci�
 - El objetivo como implementaci{on, dado que no demanda desarrollo de código, sino e despliegue de arquitectura exclusivamente, implica:
   - Desarrollo y prueba de script ( se sugiere el uso de powershell) para aprovisionar los recursos rqueridos sobre windows server 2022.  Despliegue monolitico.
   - Contenerización de aplicación ( servicio 1 base de datos + servicio 2 app). 
+
+
+# Descarga de software
+- https://drive.google.com/file/d/1-wyymzijkzR0-3Z-535BPGqO2CuHK5HX/view?usp=drive_link
