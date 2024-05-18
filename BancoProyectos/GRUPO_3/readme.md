@@ -3,12 +3,14 @@
     :closed_lock_with_key: GESTOR DE ARCHIVOS DOCUMENTAL :closed_lock_with_key:
     <br />
     <br />
+    <img width="800" height="140" alt="DevSecOps" src="img/gestiondoc.jpg">
   </h1>
 </div>
 
 # TABLA DE CONTENIDO
 
-- [Introducción](#Introducción)
+- [Descripción Funcional]
+- [Documento Arquitectural]
 
 
-## INTRODUCCIÓN  :books:
+## DESCRIPCIÓN FUNCIONAL  :books:
