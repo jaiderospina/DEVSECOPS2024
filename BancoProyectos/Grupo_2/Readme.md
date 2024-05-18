@@ -13,10 +13,11 @@ En el presente trabajo se pretende explicar y conocer acerca de RAIS+ la cual es
 Esta aplicación promueve un enfoque coherente y común para el control de las fuentes de radiación a escala nacional e internacional y facilita el intercambio de información entre órganos reguladores, en particular relacionada con la importación y exportación de fuentes radiactivas personalizandose en funcion del Estado miembro. 
 
 ## Misión
-Por medio de esta aplicación se busca llevar el registro de fuentes de radiación para controlar niveles de radiacion y tener control de las normativas internacionales 
+Desarrollar y desplegar una aplicación robusta y segura basada en RAIS+ y las directrices del OIEA, que facilite una gestión eficiente y estandarizada de las actividades y materiales radiactivos a nivel globalonales 
 
 
 ## Visión
+La aplicación propuesta se desarrollará utilizando el Sistema Integrado de Información para la Regulación (RAIS+) en combinación con las directrices y estándares del Organismo Internacional de Energía Atómica (OIEA). Esta plataforma innovadora tiene como objetivo principal optimizar la gestión y el control de materiales y actividades radiactivas, garantizando un alto nivel de seguridad y cumplimiento regulatorio a nivel mundial.
 
 
 ## Objetivo
