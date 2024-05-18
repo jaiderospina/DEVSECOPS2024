@@ -7,5 +7,16 @@ Integrantes:
  - Brigitte Rodriguez - ID: 415800
  - Alvaro Adolfo Cote Sanchez - ID: 730352
  - Sebastián ....
+ - 
+## Intoducción
 
-## Introducción
+
+## Misión
+Po medio de esta aplicación se busca llevar el registro de fuentes de radiación para controlar niveles 
+
+
+## Visión
+
+
+## Objetivo
+Contenerizar y gestionar el despliegue de la aplicación mediante docker en un servidor Windows.
