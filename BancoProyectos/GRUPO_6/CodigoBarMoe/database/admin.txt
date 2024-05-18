@@ -1,0 +1,12 @@
+## Acceso Admin
+Usuario "admin"
+Contraseña "1234abcd.."
+
+## Acceso Mesero
+Usuario "Pedro"
+Contraseña "1234abcd.."
+
+
+## Acceso Cajero
+Usuario "Andres"
+Contraseña "1234abcd.."
