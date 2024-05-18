@@ -12,7 +12,7 @@ Integrantes:
 
 
 ## Misión
-Po medio de esta aplicación se busca llevar el registro de fuentes de radiación para controlar niveles 
+Por medio de esta aplicación se busca llevar el registro de fuentes de radiación para controlar niveles de radiacion y tener control de las normativas internacionales 
 
 
 ## Visión
