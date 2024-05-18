@@ -1,1 +1,11 @@
-Maycol Paez ID: 751391
+# <h1 align="center"> PROYECTO RAIS </h1>
+
+Integrantes:
+ - Juan Peña - ID: 635668
+ - Oscar Yela - ID: 433321
+ - Maycol Paez - ID: 751391
+ - Brigitte Rodriguez - ID: 415800
+ - Alvaro Adolfo Cote Sanchez - ID: 730352
+ - Sebastián ....
+
+## Introducción
