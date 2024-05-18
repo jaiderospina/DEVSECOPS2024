@@ -1,4 +1,4 @@
-# Descripción del Programa de Gestión de Inventarios para un Gastrobar
+# Gestión de Inventarios para un Gastrobar
 
 ## Introducción
 El programa de gestión de inventarios para un gastrobar está diseñado para optimizar y automatizar el manejo de todos los aspectos relacionados con los insumos y productos de un establecimiento de comida y bebida. Este sistema integral facilita la administración de inventarios, permitiendo a los dueños y gerentes centrarse en la calidad del servicio y la experiencia del cliente.
