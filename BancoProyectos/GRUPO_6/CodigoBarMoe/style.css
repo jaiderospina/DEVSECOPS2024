@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+body, html {
+  margin: 0;
+  padding: 0;
+  background-image: url(Bar2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Fira Sans";
+  text-align: center;
+}
+body .canvas, html .canvas {
+  width: 600px;
+  height: 400px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 20px 1px #bbb;
+}
+body .foot-wrapper, html .foot-wrapper {
+  color: #BFBFBF;
+  float: left;
+  position: relative;
+}
+body .foot-wrapper .footer, html .foot-wrapper .footer {
+  margin-top: 100vh;
+  margin-left: 20px;
+}
+
+p {
+  color: white;
+  font-size: 100px;
+  text-shadow: 7px 4px 5px blue;
+}
+
+.buttons {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  width: 200px;
+  height: 100px;
+  background: #000;
+  position: relative;
+  margin: 3px;
+  top: 100px;
+  padding: 16px;
+  font-size: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 0px 0px #310085, 0px 0px 20px 0px #bbb;
+  transition: all 0.2s;
+}
+
+a:active {
+  top: 108px;
+  box-shadow: 0px 7px 0px 0px #f02046;
+}
+
+
+.button1 {
+  background-color: #F2385A;
+}
+
+.button2 {
+  background-color: #3498DB;
+  box-shadow: 0px 15px 0px 0px #258cd1;
+}
+.button2:active {
+  box-shadow: 0px 7px 0px 0px #258cd1;
+}
