@@ -25,7 +25,7 @@ Contenerizar y gestionar el despliegue de la aplicación mediante docker en un s
 
 ## Dependecias nesesarias
 
- - dotnet-hosting-6.0.20 y 7.0.9
- - iisexpress
+ - dotnet-hosting-6.0.20 y 7.0.9 
+ - iisexpress (https://download.microsoft.com/download/C/E/8/CE8D18F5-D4C0-45B5-B531-ADECD637A1AA/iisexpress_amd64_es-ES.msi)
  - SQL2019-SSEI-Expr
  - windowsdesktop-runtime-6.0.30
