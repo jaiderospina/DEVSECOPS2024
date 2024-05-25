@@ -11,6 +11,7 @@
 
 - [Descripción Funcional]
 - [Documento Arquitectural]
+- [Diagrama de Secuencia]
 
 
 ## DESCRIPCIÓN FUNCIONAL  :books:
@@ -18,5 +19,8 @@ En respuesta a las crecientes necesidades de las empresas en la gestión documen
 Para materializar esta visión, se ha adoptado el patrón de diseño MVC, que permite una programación más clara y escalable, junto con la metodología de desarrollo Java y los lenguajes HTML, JavaScript, MySQL y PHP. Cada uno de estos elementos se explica detalladamente, facilitando su comprensión y correcta manipulación, lo que asegura la efectividad y sostenibilidad del proyecto.
 
 ## DIAGRAMA DE SECUENCIA
-El diagrama de secuencia muestra los pasos que sigue el usuario en el sistema para realiar y llevar a cabo las funcionalidades del mismo.
+El diagrama de secuencia muestra los pasos que sigue el usuario en el sistema para realizar y llevar a cabo las funcionalidades del mismo.
+<div align="center">
+  <img alt="DiagramaSecuencia" src="img/D. Secuencia.drawio.png">
+</div>
 
