@@ -32,6 +32,7 @@ Contenerizar y gestionar el despliegue de la aplicación mediante docker en un s
  - windowsdesktop-runtime-6.0.30 [Descargar](https://download.visualstudio.microsoft.com/download/pr/b14af665-ca5f-40a5-b0a9-4c7ca9ff1072/dfc3ab88e4dfbcece4fb7ee5246c406b/windowsdesktop-runtime-6.0.30-win-x64.exe)
 
 ## Script
+Este scrpit es para la descarga y cinfiguración de windows server 2022 en una imagen de docker lista para usar
 ```
 services:
  windows:
@@ -56,3 +57,4 @@ services:
    - C:\Users\...\Recursos:\oem
    - C:\Users\...\Recursos:\shared
  ```
+el puerto ```6006``` es el usado para que ingrese al navegador local, ```VERSION: "2022"``` es la version de windows que se quiere instalar, en este caso windows server 2022.
