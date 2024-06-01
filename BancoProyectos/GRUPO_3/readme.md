@@ -47,6 +47,13 @@ Como se puede observar en la figura, hay una interfaz web que da acceso a los re
   <img alt="Diagramadecomponentes" src="img/Diagrama de componentes.jpg">
 </div>
 
+## DIAGRAMA DE ARQUITECTURA
+El diagrama de arquitectura proporciona al proyecto una vista clara y concisa de cómo los diferentes componentes de la aplicación interactúan y se integran. Usar Docker para contenerizar los diferentes servicios de una aplicación PHP permite un desarrollo más ágil, escalabilidad y facilidad de despliegue. Este diagrama es fundamental para entender la infraestructura del proyecto y garantizar que todos los miembros del equipo tengan una visión común del sistema.
+
+<div align="center">
+  <img alt="Diagramadearquitectura" src="img/D. Arquitectura.png">
+</div>
+
 ## DISEÑO DEL MODELO ENTIDAD - RELACION
 
 Es un modelo de datos para representar las Entidades de información (Conjunto de datos) y las relaciones que las componen. En este modelo, se considera labase de datos como un conjunto de relaciones, las cuales se almacenan en una tabla (Conjunto de filas).
