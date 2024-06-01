@@ -18,6 +18,13 @@
 En respuesta a las crecientes necesidades de las empresas en la gestión documental, este proyecto presenta la implementación de una aplicación diseñada específicamente para optimizar estos procesos. Esta herramienta no solo facilita el control de los procedimientos administrativos, sino que también proporciona a clientes y personal interno las herramientas necesarias para agilizar sus tareas diarias. Al digitalizar los historiales documentales, la aplicación reduce significativamente el espacio físico requerido para su almacenamiento y los tiempos de búsqueda de información, mejorando así la eficiencia operativa. Además, ofrece un control más riguroso sobre el flujo de documentos, garantizando un servicio de mayor calidad y una mayor seguridad y estabilidad de los datos.
 Para materializar esta visión, se ha adoptado el patrón de diseño MVC, que permite una programación más clara y escalable, junto con la metodología de desarrollo Java y los lenguajes HTML, JavaScript, MySQL y PHP. Cada uno de estos elementos se explica detalladamente, facilitando su comprensión y correcta manipulación, lo que asegura la efectividad y sostenibilidad del proyecto.
 
+## MAPA DE IMPACTO
+El Mapa de Impacto es una herramienta visual que permitirá en la planificación estratégica del proyecto a alinear las actividades del equipo con los objetivos de negocio y las necesidades de los usuarios. Facilita la identificación de los impactos deseados y las acciones necesarias para alcanzarlos, asegurando que todos los esfuerzos del equipo estén orientados hacia la creación de valor.
+
+<div align="center">
+  <img alt="DiagramaSecuencia" src="img/Gestor Documental - Mapa de Impacto.jpg">
+</div>
+
 ## DIAGRAMA DE SECUENCIA
 El diagrama de secuencia muestra los pasos que sigue el usuario en el sistema para realizar y llevar a cabo las funcionalidades del mismo.
 <div align="center">
