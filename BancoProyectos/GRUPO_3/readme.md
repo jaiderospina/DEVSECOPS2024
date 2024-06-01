@@ -45,4 +45,14 @@ Como se puede observar en la figura, hay una interfaz web que da acceso a los re
   <img alt="Diagramadecomponentes" src="img/Diagrama de componentes.jpg">
 </div>
 
+## DISEÑO DEL MODELO ENTIDAD - RELACION
+
+Es un modelo de datos para representar las Entidades de información (Conjunto de datos) y las relaciones que las componen. En este modelo, se considera labase de datos como un conjunto de relaciones, las cuales se almacenan en una tabla (Conjunto de filas).
+
+A continuación, se presenta el diseño del modelo relacional de la base de datos para el subsistema de seguridad con la respectiva especificación.
+
+<div align="center">
+  <img alt="Diseño del modelo Entidad – Relación" src="Diseño del modelo Entidad – Relación.jpg">
+</div>
+
 
