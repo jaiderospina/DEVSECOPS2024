@@ -12,6 +12,8 @@
 - [Descripción Funcional]
 - [Documento Arquitectural]
 - [Diagrama de Secuencia]
+- [Diagrama de Componenetes]
+- [Diagrama Entidad - Relacion]
 
 
 ## DESCRIPCIÓN FUNCIONAL  :books:
