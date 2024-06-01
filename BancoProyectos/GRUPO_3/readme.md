@@ -40,6 +40,9 @@ El diagrama de secuencia muestra los pasos que sigue el usuario en el sistema pa
 
 ## DIAGRAMA DE COMPONENTES
 Como se puede observar en la figura, hay una interfaz web que da acceso a los requerimientos funcionales del sistema. Además, existe otra interfaz de administración que da acceso a características de seguridad y control del sistema. En la Lógica de Negocio, se encuentran las características de los requerimientos funcionales del sistema, además de los módulos de administración de usuarios, roles y permisos que pertenecen al módulo que maneja la seguridad del sistema. En la capa de documentación se encuentra todo lo relacionado a la gestión de documentos y datos de los usuarios, y también se realizó la creación de un bean, que permite evitar la reprogramación de todos los componentes del sistema y realizar la conexión viable con la base de datos. Por último, las capas son soportadas por un servidor de base de datos.
+<div style="width: 100%; text-align: center;">
+    <img style="max-width: 50rem; width: 100%" alt="DevSecOps" src="Imagenes/Imagen-84.png">
+</div>
 
 
 
