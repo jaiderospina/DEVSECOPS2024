@@ -79,15 +79,16 @@ Para la ejecución en Docker se recomienda tener una carpeta con la siguiente es
 ```
 	├── proyecto
 	│ ├── compose.yaml
-	│ ├── install.bat
-	│ ├── InstallDependecies.ps1
-	│ ├── SetupIIS.ps1
-	│ ├── IAEA_RAIS_Configuration_Tool.exe
-	│ ├── Prerequisites/
-	│ │ ├── dotnet-hosting-6.0.20-win.exe
-	│ │ ├── dotnet-hosting-7.0.9-win.exe
-	│ │ ├── SQL2019-SSEI-Expr.exe
-	│ │ ├── windowsdesktop-runtime-6.0.30-win-x64.exe
+	│ ├── Recursos/
+  | │ ├── install.bat
+  | │ ├── InstallDependecies.ps1
+  | │ ├── SetupIIS.ps1
+  | │ ├── IAEA_RAIS_Configuration_Tool.exe
+  | │ ├── Prerequisites/
+  |	│ │ ├── dotnet-hosting-6.0.20-win.exe
+  |	│ │ ├── dotnet-hosting-7.0.9-win.exe
+  |	│ │ ├── SQL2019-SSEI-Expr.exe
+  |	│ │ ├── windowsdesktop-runtime-6.0.30-win-x64.exe
 ```
 
 ### Archivo **install.bat**
@@ -282,7 +283,16 @@ if (Test-Path $installerPath) {
 ```
 
 ### Archivo **compose.yaml**
-Este scrpit es para la descarga y cinfiguración de windows server 2022 en una imagen de docker lista para usar
+
+Para la ejecución en Docker se utiliza un archivo Docker compose, para orquestar la creación del contenedor.
+
+La documentación oficial de la imagen utilizada la pueden encontrar en: 
+ - https://hub.docker.com/r/dockurr/windows
+
+El siguiente es un ejemplo del archivo compose que se puede utilizar para pruebas, sin embargo, es necesario ajustarlo a las necesidades de acuerdo con la documentación oficial.
+
+#### ¡¡¡¡¡¡¡¡ IMPORTANTE: Se debe modificar el apartado ```volumes``` con las ubicación de la carpeta "Proyecto" !!!!!!!!
+
 
 ```
 services:
@@ -305,16 +315,8 @@ services:
    - 3389:3389/udp
   stop_grace_period: 2m
   volumes:
-   - C:\Users\...\Recursos:\oem
-   - C:\Users\...\Recursos:\shared
+   - /home/user/example:\oem
+   - /home/user/example:\shared
  ```
 
 el puerto ```6006``` es el usado para que ingrese al navegador local, ```VERSION: "2022"``` es la version de windows que se quiere instalar, en este caso windows server 2022.
-
-Asi se muetra el programa cuando ya termino la instalacion, al ejecutarse ingresa a la pagina de inicio de sesion:
-
-![](imagenes/captura_1.png)
-
-Asi se muestra el perfil de la cuenta de administrador:
-
-![](imagenes/captura_2.png)
