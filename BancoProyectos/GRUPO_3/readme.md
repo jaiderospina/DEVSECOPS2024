@@ -9,11 +9,13 @@
 
 # TABLA DE CONTENIDO
 
-- [Descripción Funcional]
-- [Documento Arquitectural]
-- [Diagrama de Secuencia]
-- [Diagrama de Componenetes]
-- [Diagrama Entidad - Relacion]
+- [Descripción Funcional](#DESCRIPCIÓN-FUNCIONAL)
+- [Mapa de Impacto](#MAPA-DE-IMPACTO)
+- [Mapa de Historia de Usuario](#MAPA-DE-HISTORIAS-DE-USUARIO)
+- [Diagrama de Secuencia](#DIAGRAMA-DE-SECUENCIA)
+- [Diagrama de Arquitectura](#DIAGRAMA-DE-ARQUITECTURA)
+- [Diagrama Entidad - Relación](#DISEÑO-DEL-MODELO-ENTIDAD-RELACIÓN)
+- [Diagrama de Arquitectura de Hardware](#ARQUITECTURA-DE-HARDWARE)
 
 
 ## DESCRIPCIÓN FUNCIONAL  :books:
@@ -54,7 +56,7 @@ El diagrama de arquitectura proporciona al proyecto una vista clara y concisa de
   <img alt="Diagramadearquitectura" src="img/D. Arquitectura.png">
 </div>
 
-## DISEÑO DEL MODELO ENTIDAD - RELACION
+## DISEÑO DEL MODELO ENTIDAD - RELACIÓN
 
 Es un modelo de datos para representar las Entidades de información (Conjunto de datos) y las relaciones que las componen. En este modelo, se considera labase de datos como un conjunto de relaciones, las cuales se almacenan en una tabla (Conjunto de filas).
 
