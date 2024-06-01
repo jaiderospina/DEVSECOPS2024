@@ -31,7 +31,7 @@ El Mapa de Impacto es una herramienta visual que permitirá en la planificación
 El Story Mapping mapa de historia de usuario es una técnica visual utilizada en la gestión de proyectos ágiles para planificar y organizar las tareas necesarias para completar un proyecto. Representa las actividades principales que el usuario realiza al interactuar con el producto y describen funciones o características específicas desde la perspectiva del usuario.
 
 <div align="center">
-  <img alt="StoryMapping" src="img/Gestor Documental - Story Mapping.jpg">
+  <img alt="StoryMapping" src="img/Story Mapping.jpg">
 </div>
 
 ## DIAGRAMA DE SECUENCIA
