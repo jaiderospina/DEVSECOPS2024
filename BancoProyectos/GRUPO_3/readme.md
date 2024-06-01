@@ -65,6 +65,7 @@ A continuación, se presenta el diseño del modelo relacional de la base de dato
 </div>
 
 ## ARQUITECTURA DE HARDWARE
+
 <div align="center">
   <img alt="Arquitectura Hardware" src="img/Arquitectura Hardware.jpg">
 </div>
