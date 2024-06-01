@@ -310,3 +310,11 @@ services:
  ```
 
 el puerto ```6006``` es el usado para que ingrese al navegador local, ```VERSION: "2022"``` es la version de windows que se quiere instalar, en este caso windows server 2022.
+
+Asi se muetra el programa cuando ya termino la instalacion, al ejecutarse ingresa a la pagina de inicio de sesion:
+
+![](imagenes/captura_1.png)
+
+Asi se muestra el perfil de la cuenta de administrador:
+
+![](imagenes/captura_2.png)
