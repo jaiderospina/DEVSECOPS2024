@@ -1,13 +1,16 @@
 <?php
-	
-	require("config.php");
+$servername = "bd-db-1"; 
+$username = "root";
+$password = "my-secret-pw";
+$dbname = "fosdb";
 
-	// Create connection
-	$sqlconnection = new mysqli($servername, $username, $password,$dbname);
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-	// Check connection
-	if ($sqlconnection->connect_error) {
-    	die("Connection failed: " . $sqlconnection->connect_error);
-	}
-	
+if ($conn->connect_error) {
+    die("Error de conexión: " . $conn->connect_error);
+} else {
+    echo "Conexión exitosa a la base de datos";
+}
+
+$conn->close();
 ?>
