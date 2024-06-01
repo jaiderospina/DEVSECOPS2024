@@ -35,6 +35,6 @@ El Story Mapping mapa de historia de usuario es una técnica visual utilizada en
 ## DIAGRAMA DE SECUENCIA
 El diagrama de secuencia muestra los pasos que sigue el usuario en el sistema para realizar y llevar a cabo las funcionalidades del mismo.
 <div align="center">
-  <img width="800" height="140" alt="DiagramaSecuencia" src="img/D. Secuencia.drawio.png">
+  <img alt="DiagramaSecuencia" src="img/D. Secuencia.drawio.png">
 </div>
 
