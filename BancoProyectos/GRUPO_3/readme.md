@@ -64,4 +64,4 @@ A continuación, se presenta el diseño del modelo relacional de la base de dato
   <img alt="Diseño del modelo Entidad – Relación" src="img/Diseño del modelo Entidad – Relación.jpg">
 </div>
 
-
+## ARQUITECTURA DE HARDWARE
