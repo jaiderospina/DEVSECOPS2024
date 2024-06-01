@@ -22,12 +22,19 @@ Para materializar esta visión, se ha adoptado el patrón de diseño MVC, que pe
 El Mapa de Impacto es una herramienta visual que permitirá en la planificación estratégica del proyecto a alinear las actividades del equipo con los objetivos de negocio y las necesidades de los usuarios. Facilita la identificación de los impactos deseados y las acciones necesarias para alcanzarlos, asegurando que todos los esfuerzos del equipo estén orientados hacia la creación de valor.
 
 <div align="center">
-  <img alt="DiagramaSecuencia" src="img/Gestor Documental - Mapa de Impacto.jpg">
+  <img alt="ImpactMapping" src="img/Gestor Documental - Mapa de Impacto.jpg">
+</div>
+
+## MAPA DE HISTORIAS DE USUARIO
+El Story Mapping mapa de historia de usuario es una técnica visual utilizada en la gestión de proyectos ágiles para planificar y organizar las tareas necesarias para completar un proyecto. Representa las actividades principales que el usuario realiza al interactuar con el producto y describen funciones o características específicas desde la perspectiva del usuario.
+
+<div align="center">
+  <img alt="StoryMapping" src="img/Gestor Documental - Story Mapping.jpg">
 </div>
 
 ## DIAGRAMA DE SECUENCIA
 El diagrama de secuencia muestra los pasos que sigue el usuario en el sistema para realizar y llevar a cabo las funcionalidades del mismo.
 <div align="center">
-  <img alt="DiagramaSecuencia" src="img/D. Secuencia.drawio.png">
+  <img width="800" height="140" alt="DiagramaSecuencia" src="img/D. Secuencia.drawio.png">
 </div>
 
