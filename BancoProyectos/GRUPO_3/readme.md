@@ -77,4 +77,4 @@ A continuación, se presenta el diseño del modelo relacional de la base de dato
 
 Para más información, puedes consultar el siguiente documento:
 
-[Ver documento](BancoProyectos/GRUPO_3/Manual de Usuario.pdf)
+[Ver documento](GRUPO_3/Manual de Usuario.pdf)
