@@ -77,4 +77,4 @@ A continuación, se presenta el diseño del modelo relacional de la base de dato
 
 Para más información, puedes consultar el siguiente documento:
 
-[Ver documento](docs/Manual de Usuario.pdf)
+[Ver documento](docs/Manual_de_Usuario.pdf)
