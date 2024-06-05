@@ -73,7 +73,7 @@ A continuación, se presenta el diseño del modelo relacional de la base de dato
   <img alt="Arquitectura Hardware" src="img/Arquitectura Hardware.JPG">
 </div>
 
-## Manual de Usuario
+## MANUAL DE USUARIO
 
 Para más información, puedes consultar el siguiente documento:
 
