@@ -16,6 +16,7 @@
 - [Diagrama de Arquitectura](#DIAGRAMA-DE-ARQUITECTURA)
 - [Diagrama Entidad - Relación](#DISEÑO-DEL-MODELO-ENTIDAD-RELACIÓN)
 - [Diagrama de Arquitectura de Hardware](#ARQUITECTURA-DE-HARDWARE)
+- [Manual de Usuario](#MANUAL-DE-USUARIO)
 
 
 ## DESCRIPCIÓN FUNCIONAL  :books:
@@ -71,3 +72,9 @@ A continuación, se presenta el diseño del modelo relacional de la base de dato
 <div align="center">
   <img alt="Arquitectura Hardware" src="img/Arquitectura Hardware.JPG">
 </div>
+
+## Manual de Usuario
+
+Para más información, puedes consultar el siguiente documento:
+
+[Ver documento](docs/documento.pdf)
