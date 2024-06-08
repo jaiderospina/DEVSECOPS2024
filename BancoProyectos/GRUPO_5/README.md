@@ -103,28 +103,33 @@ Visualizamos los usuarios que tiene los permisos al repositorio.
 De lo anterior  indico las funcionalidades de la administración del gitlab.
 Para asignarle a los usuario dependiendo el rol asignado:
 
-##Dashboard:
+## Dashboard:
+
 Descripción: Esta es la página principal del área de administración. Proporciona una vista general del estado actual de GitLab, incluyendo estadísticas de uso y notificaciones importantes.
 Funcionalidad: Aquí, los administradores pueden obtener una visión rápida de la actividad reciente y el estado general del sistema GitLab, ayudando a monitorear el rendimiento y detectar posibles problemas.
 
-##Projects:
+## Projects:
+
 Descripción: Esta sección lista todos los proyectos existentes en el servidor de GitLab.
 Funcionalidad: Permite a los administradores gestionar todos los proyectos, incluyendo la creación, edición, y eliminación de proyectos, así como la configuración de permisos y la administración de repositorios de código. 
 
 ##Users:
+
 Descripción: Muestra todos los usuarios registrados en el sistema GitLab.
 Funcionalidad: Los administradores pueden gestionar las cuentas de usuario, lo que incluye la creación, eliminación y modificación de usuarios, así como la asignación de roles y permisos específicos.
 
-##Groups:
+## Groups:
 
 Descripción: Esta opción gestiona los grupos de usuarios en GitLab.
 Funcionalidad: Los grupos permiten organizar proyectos y usuarios. Los administradores pueden crear y gestionar grupos, definir permisos a nivel de grupo y facilitar la colaboración en equipo a través de la agrupación de proyectos.
 
-##Runners:
+## Runners:
+
 Descripción: Lista y administra los runners configurados en el sistema GitLab.
 Funcionalidad: Los runners son procesos que ejecutan las tareas de CI/CD. Aquí, los administradores pueden registrar nuevos runners, configurar los existentes y monitorear su estado y uso.
 
-##Jobs:
+## Jobs:
+
 Descripción: Muestra la lista de trabajos (jobs) de CI/CD que se están ejecutando o se han ejecutado en el sistema.
 Funcionalidad: Permite a los administradores ver el estado de los jobs, revisar logs de ejecución, y gestionar los jobs en curso o pasados, facilitando el seguimiento de los procesos de integración y despliegue continuo.
 
