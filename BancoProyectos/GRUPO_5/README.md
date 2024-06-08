@@ -1,6 +1,7 @@
 # PROYECTO FINAL SECDEVOPS 2024-1
 ## Integrantes
--Johan Esteban Salinas Acosta
+
+- Johan Esteban Salinas Acosta
 - Duver Salgado
 - Harol Cerquera
 - Pedro Orozco
