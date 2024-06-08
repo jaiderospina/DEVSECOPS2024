@@ -69,9 +69,14 @@ A continuación, se presenta el diseño del modelo relacional de la base de dato
 
 ## ARQUITECTURA DE HARDWARE
 
-<div align="center">
-  <img alt="Arquitectura Hardware" src="img/Arquitectura Hardware.JPG">
-</div>
+En el desarrollo del sistema web es necesario contar con un equipo servidor de que cumpla con los siguientes requerimientos de hardware y software como mínimo:
+
+Equipo: Servidor físico o virtual en ambiente VMWare.
+Procesador: Intel Core 7 de sexta generación en adelante o superior. Memoria RAM: 8GB.
+Disco Duro: 1TB
+Sistema Operativo: Windows 10 de 64 bits. Sistema gestor de datos: MYSQL.
+Interfaz de desarrollo Sublime Text o Bracket. Lenguaje de programación. JavaScript y PHP 7.0
+Internet banda ancha canal dedicado.
 
 ## MANUAL DE USUARIO
 
