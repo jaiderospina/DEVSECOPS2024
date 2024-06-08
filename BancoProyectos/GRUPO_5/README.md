@@ -50,3 +50,8 @@
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/BancoProyectos/GRUPO_5/imagenes/Diagrama%20de%20secuencia.jpeg" alt="logo" width="1000"/></p>
 
+# Diagrama de despliegue
+
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/BancoProyectos/GRUPO_5/imagenes/Diagrama%20despliegue.png" alt="logo" width="800"/></p>
+
+
