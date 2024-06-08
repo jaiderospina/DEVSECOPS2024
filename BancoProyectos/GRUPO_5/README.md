@@ -1,6 +1,7 @@
 # PROYECTO FINAL SECDEVOPS 2024-1
 ## Integrantes
--Johan Esteban Salinas Acosta
+
+- Johan Esteban Salinas Acosta
 - Duver Salgado
 - Harol Cerquera
 - Pedro Orozco
@@ -11,9 +12,9 @@
 - Camilo Montealegre
 
 
-# Introduccion
+## Introduccion
 
-# Casos de uso
+## Casos de uso
 
 | Caso de Uso  | Inicio de Sesión                                                 |
 |--------------|------------------------------------------------------------------|
@@ -46,7 +47,7 @@
 | Características | - El usuario ingresa el nombre o una parte del nombre del producto en el campo de búsqueda designado.<br> - El sistema realiza una búsqueda dentro de la base de datos del inventario y filtra los productos cuyos nombres coinciden con la entrada del usuario.<br> - Los resultados de la búsqueda se presentan al usuario, permitiéndole revisar y seleccionar los productos deseados de manera eficiente. |
 
 
-# Diagrama de secuencia
+## Diagrama de secuencia
 
 <p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/BancoProyectos/GRUPO_5/imagenes/Diagrama%20de%20secuencia.jpeg" alt="logo" width="1000"/></p>
 
