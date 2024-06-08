@@ -113,7 +113,7 @@ Funcionalidad: Aquí, los administradores pueden obtener una visión rápida de 
 Descripción: Esta sección lista todos los proyectos existentes en el servidor de GitLab.
 Funcionalidad: Permite a los administradores gestionar todos los proyectos, incluyendo la creación, edición, y eliminación de proyectos, así como la configuración de permisos y la administración de repositorios de código. 
 
-##Users:
+## Users:
 
 Descripción: Muestra todos los usuarios registrados en el sistema GitLab.
 Funcionalidad: Los administradores pueden gestionar las cuentas de usuario, lo que incluye la creación, eliminación y modificación de usuarios, así como la asignación de roles y permisos específicos.
