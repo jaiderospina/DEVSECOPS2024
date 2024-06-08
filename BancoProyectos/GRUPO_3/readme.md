@@ -64,7 +64,7 @@ Es un modelo de datos para representar las Entidades de información (Conjunto d
 A continuación, se presenta el diseño del modelo relacional de la base de datos para el subsistema de seguridad con la respectiva especificación.
 
 <div align="center">
-  <img alt="Diseño del modelo Entidad – Relación" src="img/Diseño del modelo Entidad – Relación.jpg">
+  <img alt="Diagrama de relación de entidad.jpg" src="img/Diagrama de relación de entidad.jpg">
 </div>
 
 ## ARQUITECTURA DE HARDWARE
