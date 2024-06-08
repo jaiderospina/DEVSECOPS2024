@@ -1,7 +1,5 @@
 # Gestión de Inventarios para un Gastrobar
-<p align="center">
-  <img src="Imagenes/Bar2.jpg" alt="Imagen 1">
-</p>
+<p align="center"><img src="Imagenes/Bar2.jpg" alt="Imagen"></p>
 
 ## 1. Introducción
 ### Descripción general del sistema: 
@@ -73,10 +71,26 @@ Este es un sistema integral diseñado para optimizar y automatizar el manejo de 
 ## 5. Manual de Uso
 - **Interface Principal**:
   - Selecciona el rol de empleado o Administrador
-    <p align="center">
-  <img src="Imagenes/1.png" alt="Imagen 2">
-</p>
-- **Interface de Logeo**:
-Ingrese credenciales 
-    <p align="center">
-  <img src="Imagenes/2.png" alt="Imagen 3">
+    <p align="center"><img src="Imagenes/1.png" alt="Imagen 1"></p>
+
+- **Interface de Logeo como administrador**:
+Ingrese credenciales de Administrador
+    <p align="center"><img src="Imagenes/2.png" alt="Imagen 2"></p>
+  
+- **Panel de Administracion**:
+En el Menu de seleccion se puede cambiar la  opcion para visualizar
+- Panel de Control
+   <p align="center"><img src="Imagenes/3.png" alt="Imagen 3"></p>
+
+- Productos
+   <p align="center"><img src="Imagenes/4.png" alt="Imagen 4"></p>
+
+- Ventas
+    <p align="center"><img src="Imagenes/5.png" alt="Imagen 5"></p>
+
+- Empleados
+   <p align="center"><img src="Imagenes/6.png" alt="Imagen 6"></p>
+
+- **Interface de Logeo como empleado**:
+Ingrese credenciales de Empleado
+    <p align="center"><img src="Imagenes/2.png" alt="Imagen 2"></p>
