@@ -10,7 +10,7 @@ El programa de gestión de inventarios para un gastrobar está diseñado para op
 - **Alertas de Stock**: Notificaciones automáticas cuando los niveles de inventario alcanzan puntos críticos o mínimos, para evitar rupturas de stock.
 
 ### Roles de Administracion y de Usuarios
-- **Rol Adminsitrador**: Es el que administra y puede supervisar los productos y las ordenes ingresadas por el usuario,ademas de las claves y demas usuarios
+- **Rol Adminsitrador**: Es el que administra y puede supervisar los productos y las ordenes ingresadas por el usuario,ademas de las claves y demas usuarios.
 - **Rol de Usuario**: Es el encargado de ingresar todas las ordenes al sistema.
 
 ### Control de Proveedores y Pedidos
