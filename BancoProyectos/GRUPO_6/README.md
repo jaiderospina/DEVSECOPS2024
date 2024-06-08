@@ -74,9 +74,9 @@ Este es un sistema integral diseñado para optimizar y automatizar el manejo de 
 - **Interface Principal**:
   - Selecciona el rol de empleado o Administrador
     <p align="center">
-  <img src="Imagenes/Bar2.jpg" alt="Imagen 1">
+  <img src="Imagenes/1.png" alt="Imagen 2">
 </p>
 - **Interface de Logeo**:
 Ingrese credenciales 
     <p align="center">
-  <img src="Imagenes/B2.png" alt="Imagen 2">
+  <img src="Imagenes/2.png" alt="Imagen 3">
