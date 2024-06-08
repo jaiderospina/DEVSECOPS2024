@@ -2,6 +2,7 @@
 <p align="center">
   <img src="Imagenes/Bar2.jpg" alt="Imagen 1">
 </p>
+
 ## 1. Introducción
 ### Descripción general del sistema: 
 Este es un sistema integral diseñado para optimizar y automatizar el manejo de inventarios y procesos relacionados en un establecimiento de comida y bebida (gastrobar). Facilita la administración eficiente de insumos, productos y órdenes, garantizando un control preciso de los niveles de inventario y una atención ágil a los clientes.
@@ -72,4 +73,10 @@ Este es un sistema integral diseñado para optimizar y automatizar el manejo de 
 ## 5. Manual de Uso
 - **Interface Principal**:
   - Selecciona el rol de empleado o Administrador
-     
+    <p align="center">
+  <img src="Imagenes/Bar2.jpg" alt="Imagen 1">
+</p>
+- **Interface de Logeo**:
+Ingrese credenciales 
+    <p align="center">
+  <img src="Imagenes/B2.png" alt="Imagen 2">
