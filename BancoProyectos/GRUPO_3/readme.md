@@ -131,7 +131,7 @@ funciones.
 Acción: El botón "Acción" permite editar o eliminar el usuario.
 
 <div align="center">
-  <img alt="Login4" src="img/Login4.JPG">
+  <img alt="Login4" src="img/login4.JPG">
 </div>
 
 ## 2. Cómo eliminar y editar un nuevo usuario
@@ -151,7 +151,7 @@ Estatus: El estatus del usuario.
 Haga clic en el botón "Guardar" para guardar los cambios.
 
 <div align="center">
-  <img alt="Login5" src="img/Login5.JPG">
+  <img alt="Login5" src="img/login5.JPG">
 </div>
 
 
@@ -167,7 +167,7 @@ Estatus: El estatus del usuario.
 Haga clic en el botón "Guardar" para guardar el usuario.
 
 <div align="center">
-  <img alt="Login6" src="img/Login6.JPG">
+  <img alt="Login6" src="img/login6.JPG">
 </div>
 
 ## 4. Cómo editar un usuario
