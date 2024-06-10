@@ -67,10 +67,172 @@ http://localhost:3000/admin/index.php
 Luego Ingrese su nombre de usuario y contraseña en los campos correspondientes
 y haga clic en el botón "Acceder"
 
+<div align="center">
+  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+</div>
+
+Para acceder al usuario administrador debe realizar lo siguiente:
+• Ingrese su nombre de usuario en el campo correspondiente.
+• Ingrese su contraseña en el campo correspondiente.
+• Haga clic en el botón "Acceder".
+En este ejemplo, la imagen y el texto se complementan entre sí para explicar al
+usuario cómo iniciar sesión en el Sistema Gestor de Archivos Básico.
+Usuario: admin
+Contraseña: admin
+
+<div align="center">
+  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+</div>
+
+La imagen muestra una pantalla de una aplicación web llamada "Sistema Gestor de
+Archivos Básico". La pantalla está dividida en tres secciones:
+• Barra superior:
+En la parte izquierda de la barra superior, se encuentra el logotipo de la aplicación.
+En el centro de la barra superior, se encuentra el nombre de la aplicación, "Sistema
+Gestor de Archivos Básico".
+A la derecha de la barra superior, se encuentran los botones para acceder a las
+diferentes secciones de la aplicación: "Tablero", "Cuentas", "Mission" y "Vision".
+• Panel lateral izquierdo:
+En el panel lateral izquierdo, se encuentra una lista de las cuentas del usuario.
+La cuenta seleccionada actualmente está resaltada en azul.
+En la parte inferior del panel lateral izquierdo, se encuentra un botón para crear una
+nueva cuenta.
+• Panel principal:
+El panel principal muestra la información de la cuenta seleccionada actualmente.
+En la parte superior del panel principal, se encuentra el nombre de la cuenta.
+En el centro del panel principal, se encuentra el formulario para crear una nueva
+misión.
+
+<div align="center">
+  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+</div>
+
+## 1. Contenido modulo administrador
+La tabla de usuarios incluye los siguientes campos:
+Nombre: El nombre del usuario es un campo obligatorio. Debe ser un nombre real
+del usuario.
+Apellidos: Los apellidos del usuario son un campo obligatorio. Deben ser los
+apellidos reales del usuario.
+Usuario: El nombre de usuario del usuario es un campo obligatorio. Debe ser un
+nombre de usuario único que identifique al usuario.
+Contraseña: La contraseña del usuario es un campo obligatorio. Debe ser una
+contraseña segura que cumpla con los siguientes requisitos:
+Tener al menos 8 caracteres de longitud.
+Contener al menos una letra minúscula.
+Contener al menos una letra mayúscula.
+Contener al menos un número.
+Contener al menos un símbolo especial.
+Estatus: El estatus del usuario es un campo obligatorio. Puede ser "activo" o
+"inactivo".
+• Un usuario activo puede iniciar sesión en la aplicación y utilizar sus
+funciones.
+• Un usuario inactivo no puede iniciar sesión en la aplicación ni utilizar sus
+funciones.
+Acción: El botón "Acción" permite editar o eliminar el usuario.
+
+<div align="center">
+  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+</div>
 
 
+## 2. Cómo eliminar y editar un nuevo usuario
+Para eliminar un usuario, siga estos pasos:
+En la tabla de usuarios, haga clic en el botón "Eliminar" de la fila del usuario que
+desea eliminar.
+Haga clic en el botón "Aceptar" en el cuadro de diálogo de confirmación.
+Para editar un usuario, siga estos pasos:
+En la tabla de usuarios, haga clic en el botón "Editar" de la fila del usuario que
+desea editar.
+En el formulario para editar un usuario, complete los siguientes campos:
+Nombre: El nombre del usuario.
+Apellidos: Los apellidos del usuario.
+Usuario: El nombre de usuario del usuario.
+Contraseña: La contraseña del usuario.
+Estatus: El estatus del usuario.
+Haga clic en el botón "Guardar" para guardar los cambios.
+
+<div align="center">
+  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+</div>
 
 
+## 3. Como agregar un usuario estudiante desde administrador
+Para agregar un nuevo usuario, siga estos pasos:
+Haga clic en el botón "Agregar Usuario" en la parte inferior del panel principal.
+En el formulario para agregar un nuevo usuario, complete los siguientes campos:
+Nombre: El nombre del usuario.
+Apellidos: Los apellidos del usuario.
+Usuario: El nombre de usuario del usuario.
+Contraseña: La contraseña del usuario.
+Estatus: El estatus del usuario.
+Haga clic en el botón "Guardar" para guardar el usuario.
+
+<div align="center">
+  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+</div>
+
+## 4. Cómo editar un usuario
+
+
+<div align="center">
+  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+</div>
+
+## 5. Acceder como estudiante al SGA
+Luego Ingrese su nombre cuenta Estudiante y contraseña en los campos
+correspondientes y haga clic en el botón "Acceder".
+
+<div align="center">
+  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+</div>
+
+Cuenta Estudiante: 1
+Contraseña: 1234
+El formulario para editar la información de la cuenta incluye los siguientes campos:
+Nombre: El nombre de la cuenta es un campo obligatorio. Debe ser un nombre
+único que identifique la cuenta.
+Descripción: La descripción de la cuenta es un campo opcional. Puede ser una
+breve descripción de la cuenta o una explicación más detallada de los objetivos de
+la cuenta.
+Propietario: El propietario de la cuenta es un campo obligatorio. Debe ser el
+nombre de usuario del usuario propietario de la cuenta.
+Permisos: Los permisos de la cuenta son un campo obligatorio.
+Sistema Gestor de Archivos Básico 11
+Los permisos de la cuenta pueden ser:
+Administrador: El usuario tiene acceso completo a la cuenta. Puede editar la
+información de la cuenta, agregar y eliminar usuarios, y acceder a todos los archivos
+de la cuenta.
+Usuario: El usuario tiene acceso limitado a la cuenta. Puede acceder a los archivos
+de la cuenta, pero no puede editar la información de la cuenta, agregar y eliminar
+usuarios, ni acceder a las opciones de administración de la cuenta.
+
+## 6. Como editar y eliminar carga de archivos
+
+<div align="center">
+  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+</div>
+
+Para editar la información de la cuenta, siga estos pasos:
+En el panel lateral izquierdo, seleccione la cuenta que desea editar.
+En el panel principal, complete el formulario para editar la información de la cuenta.
+Haga clic en el botón "Guardar" para guardar los cambios.
+Uso de la imagen en el manual de usuario
+La imagen se puede utilizar en el manual de usuario para ilustrar el proceso de
+editar la información de la cuenta. La imagen se puede utilizar junto con las
+instrucciones escritas para ayudar a los usuarios a comprender el proceso.
+Aquí hay algunos ejemplos de cómo se puede utilizar la imagen en el manual de
+usuario:
+La imagen se puede utilizar en una sección sobre cómo editar la información de la
+cuenta.
+Sistema Gestor de Archivos Básico 12
+La imagen se puede utilizar junto con un paso a paso sobre cómo editar la
+información de la cuenta.
+La imagen se puede utilizar como una captura de pantalla para ilustrar un ejemplo
+de cómo editar la información de la cuenta.
+
+<div align="center">
+  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+</div>
 
 
 
