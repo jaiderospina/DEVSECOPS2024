@@ -61,6 +61,32 @@ A continuación, se presenta el diseño del modelo relacional de la base de dato
 
 ## MANUAL DE USUARIO
 
+Acceder como administrador al SGA
+Para acceder al SGA, abra un navegador web y vaya a la siguiente dirección:
+http://localhost:3000/admin/index.php
+Luego Ingrese su nombre de usuario y contraseña en los campos correspondientes
+y haga clic en el botón "Acceder"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Para más información, puedes consultar el siguiente documento:
 
 [Manual de Usuario](BancoProyectos/GRUPO_3/Documentos/Manual_de_Usuario.pdf)
