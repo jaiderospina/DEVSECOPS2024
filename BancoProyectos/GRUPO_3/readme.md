@@ -68,7 +68,7 @@ Luego Ingrese su nombre de usuario y contraseña en los campos correspondientes
 y haga clic en el botón "Acceder"
 
 <div align="center">
-  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+  <img alt="Interfaz login1" src="img/Interfaz login1.JPG">
 </div>
 
 Para acceder al usuario administrador debe realizar lo siguiente:
