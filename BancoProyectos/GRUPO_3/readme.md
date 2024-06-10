@@ -104,7 +104,7 @@ En el centro del panel principal, se encuentra el formulario para crear una nuev
 misión.
 
 <div align="center">
-  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+  <img alt="Login3" src="img/Login3.JPG">
 </div>
 
 ## 1. Contenido modulo administrador
@@ -131,9 +131,8 @@ funciones.
 Acción: El botón "Acción" permite editar o eliminar el usuario.
 
 <div align="center">
-  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+  <img alt="Login4" src="img/Login4.JPG">
 </div>
-
 
 ## 2. Cómo eliminar y editar un nuevo usuario
 Para eliminar un usuario, siga estos pasos:
@@ -152,7 +151,7 @@ Estatus: El estatus del usuario.
 Haga clic en el botón "Guardar" para guardar los cambios.
 
 <div align="center">
-  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+  <img alt="Login5" src="img/Login5.JPG">
 </div>
 
 
@@ -168,14 +167,14 @@ Estatus: El estatus del usuario.
 Haga clic en el botón "Guardar" para guardar el usuario.
 
 <div align="center">
-  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+  <img alt="Login6" src="img/Login6.JPG">
 </div>
 
 ## 4. Cómo editar un usuario
 
 
 <div align="center">
-  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+  <img alt="Login7" src="img/Login7.JPG">
 </div>
 
 ## 5. Acceder como estudiante al SGA
@@ -183,9 +182,8 @@ Luego Ingrese su nombre cuenta Estudiante y contraseña en los campos
 correspondientes y haga clic en el botón "Acceder".
 
 <div align="center">
-  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+  <img alt="Login8" src="img/Login8.JPG">
 </div>
-
 Cuenta Estudiante: 1
 Contraseña: 1234
 El formulario para editar la información de la cuenta incluye los siguientes campos:
@@ -209,7 +207,7 @@ usuarios, ni acceder a las opciones de administración de la cuenta.
 ## 6. Como editar y eliminar carga de archivos
 
 <div align="center">
-  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+  <img alt="Login9" src="img/Login9.JPG">
 </div>
 
 Para editar la información de la cuenta, siga estos pasos:
@@ -231,7 +229,7 @@ La imagen se puede utilizar como una captura de pantalla para ilustrar un ejempl
 de cómo editar la información de la cuenta.
 
 <div align="center">
-  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+  <img alt="Login10" src="img/Login10.JPG">
 </div>
 
 
