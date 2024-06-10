@@ -81,7 +81,7 @@ Usuario: admin
 Contraseña: admin
 
 <div align="center">
-  <img alt="Diagramadearquiteura" src="img/D. Arquitectu.png">
+  <img alt="Interfaz login2" src="img/Interfaz login2.JPG">
 </div>
 
 La imagen muestra una pantalla de una aplicación web llamada "Sistema Gestor de
