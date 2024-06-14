@@ -38,9 +38,11 @@ El Story Mapping mapa de historia de usuario es una técnica visual utilizada en
 </div>
 
 ## HISTORIAS DE USUARIO
-Se construyen las historias de usuario en el tablero de Azure DevOps con la cuenta que ofrece la Universidad. Para visualizar las historias de usuario, se agregan al directorio de Documentos [HISTORIAS DE USUARIO](BancoProyectos/GRUPO_3/Documentos/GESTOR DOCUMENTAL HISTORIAS DE USUARIO.xlsx) y también se dan los permisos necesarios para acceder al tablero de Azure a los integrantes del equipo y al Profesor Jaider a través de la siguiente URL:
+Se construyen las historias de usuario en el tablero de Azure DevOps con la cuenta que ofrece la Universidad. Para visualizar las historias de usuario, se agregan al directorio de Documentos:
+[HISTORIAS DE USUARIO](https://github.com/jaiderospina/DEVSECOPS2024/blob/main/BancoProyectos/GRUPO_3/Documentos/GESTOR%20DOCUMENTAL%20HISTORIAS%20DE%20USUARIO.xlsx)
+También se dan los permisos necesarios para acceder al tablero de Azure a los integrantes del equipo y al Profesor Jaider a través de la siguiente URL:
 
-https://dev.azure.com/jpinill5/GESTOR%20DOCUMENTAL/_backlogs/backlog/GESTOR%20DOCUMENTAL%20Team/Epics
+[TABLERO AZURE DEVOPS - PROYECTO GESTOR DOCUMENTAL](https://dev.azure.com/jpinill5/GESTOR%20DOCUMENTAL/_backlogs/backlog/GESTOR%20DOCUMENTAL%20Team/Epics)
 
 
 ## DIAGRAMA DE SECUENCIA
