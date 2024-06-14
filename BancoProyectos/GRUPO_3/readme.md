@@ -12,6 +12,7 @@
 - [Descripción Funcional](#DESCRIPCIÓN-FUNCIONAL)
 - [Mapa de Impacto](#MAPA-DE-IMPACTO)
 - [Mapa de Historia de Usuario](#MAPA-DE-HISTORIAS-DE-USUARIO)
+- [Historias de Usuarios](#HISTORIAS-DE-USUARIO)
 - [Diagrama de Secuencia](#DIAGRAMA-DE-SECUENCIA)
 - [Diagrama de Arquitectura](#DIAGRAMA-DE-ARQUITECTURA)
 - [Diagrama Entidad - Relación](#DISEÑO-DEL-MODELO-ENTIDAD-RELACIÓN)
@@ -35,6 +36,10 @@ El Story Mapping mapa de historia de usuario es una técnica visual utilizada en
 <div align="center">
   <img alt="StoryMapping" src="img/Story Mapping.jpg">
 </div>
+
+## HISTORIAS DE USUARIO
+Se construyen las historias de usuario en el tablero de Azure DevOps con la cuenta que ofrece la Universidad. Para visualizar las historias de usuario, se agregan al directorio de Documentos y también se dan los permisos necesarios para acceder al tablero de Azure a los integrantes del equipo y al Profesor Jaider
+
 
 ## DIAGRAMA DE SECUENCIA
 El diagrama de secuencia muestra los pasos que sigue el usuario en el sistema para realizar y llevar a cabo las funcionalidades del mismo.
