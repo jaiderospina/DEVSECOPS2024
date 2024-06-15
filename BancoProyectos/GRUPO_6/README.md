@@ -1,6 +1,15 @@
 # Gestión de Inventarios para un Gastrobar
 <p align="center"><img src="Imagenes/Bar2.jpg" alt="Imagen"></p>
 
+
+## IMAGEN DE APACHE: https://hub.docker.com/repository/docker/jsanchezlo6/proyecto-web/general
+
+
+## MARIADB:  https://hub.docker.com/repository/docker/jsanchezlo6/mariadb/general
+
+
+## PHPMYADMIN:   https://hub.docker.com/repository/docker/jsanchezlo6/phpmyadmin/general
+
 ## 1. Introducción
 ### Descripción general del sistema: 
 Este es un sistema integral diseñado para optimizar y automatizar el manejo de inventarios y procesos relacionados en un establecimiento de comida y bebida (gastrobar). Facilita la administración eficiente de insumos, productos y órdenes, garantizando un control preciso de los niveles de inventario y una atención ágil a los clientes.
