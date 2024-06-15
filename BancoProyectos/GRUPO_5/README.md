@@ -18,33 +18,25 @@
 |    CÓDIGO    | REQUISITO FUNCIONAL                                              |
 |--------------|------------------------------------------------------------------|
 |              | Nombre: Gestión Ingreso al sistema                               |
-|              |------------------------------------------------------------------|
-|              | Descripción: El sistema permitirá el acceso a los usuarios administrador y colaborador y podrán ingresar al sistema mediante la autenticación de usuario y contraseña.|
-|              |------------------------------------------------------------------|
+|   RQF001     | Descripción: El sistema permitirá el acceso a los usuarios administrador y colaborador y podrán ingresar al sistema mediante la autenticación de usuario y contraseña.|
 |              | Usuarios: Administrador, Colaborador                             |
 
 |    CÓDIGO    | REQUISITO FUNCIONAL                                              |
 |--------------|------------------------------------------------------------------|
 |              | Nombre: Gestión de usuarios                                      |
-|              |------------------------------------------------------------------|
 |   RQF002     | Descripción: El sistema permitirá consultar, actualizar y eliminar registro de usuarios del sistema.|
-|              |------------------------------------------------------------------|
 |              | Usuarios: Administrador                                          |
 
 |    CÓDIGO    | REQUISITO FUNCIONAL                                              |
 |--------------|------------------------------------------------------------------|
 |              | Nombre: Gestión de productos                                     |
-|              |------------------------------------------------------------------|
 |   RQF003     | Descripción: El sistema permitirá consultar, crear, actualizar y eliminar registros en la base de productos del sistema.|
-|              |------------------------------------------------------------------|
 |              | Usuarios: Administrador, Colaborador                             |
 
 |    CÓDIGO    | REQUISITO FUNCIONAL                                              |
 |--------------|------------------------------------------------------------------|
 |              | Nombre: Reporte productos                                        |
-|              |------------------------------------------------------------------|
 |   RQF004     | Descripción: El sistema permitirá al colaborador descargar un reporte de la base de productos.|
-|              |------------------------------------------------------------------|
 |              | Usuarios: Administrador                                          |
 
 # Requerimientos no funcionales
@@ -52,22 +44,19 @@
 |    CÓDIGO    | REQUISITO NO FUNCIONAL                                           |
 |--------------|------------------------------------------------------------------|
 |              | Nombre: Rendimiento del aplicativo                               |
-|   RQNF001    |------------------------------------------------------------------|
-|              | Descripción: El sistema debe ser capaz de manejar el ingreso de buena cantidad de registros por día para evitar retrasos significativos, el tiempo de respuesta para el ingreso de un registro no debe exceder los 5 segundos para proporcionar una experiencia fluida al usuario.|
+|   RQNF001    | Descripción: El sistema debe ser capaz de manejar el ingreso de buena cantidad de registros por día para evitar retrasos significativos, el tiempo de respuesta para el ingreso de un registro no debe exceder los 5 segundos para proporcionar una experiencia fluida al usuario.|
 
 |    CÓDIGO    | REQUISITO NO FUNCIONAL                                           |
 |--------------|------------------------------------------------------------------|
 |              | Nombre: Disponibilidad del aplicativo                            |
-|   RQNF002    |------------------------------------------------------------------|
-|              | Descripción: El sistema debe tener un tiempo de disponibilidad del 99.9% para garantizar que los usuarios puedan ingresar y consultar en cualquier momento.|
+|   RQNF002    | Descripción: El sistema debe tener un tiempo de disponibilidad del 99.9% para garantizar que los usuarios puedan ingresar y consultar en cualquier momento.|
 
 |    CÓDIGO    | REQUISITO NO FUNCIONAL                                           |
 |--------------|------------------------------------------------------------------|
 |              | Nombre: Diseño de Interfaz grafica                               |
-|   RQNF003    |------------------------------------------------------------------|
-|              | Descripción: El aplicativo debe hacer uso de una interfaz intuitiva, sencilla de utilizar y que permita identificar fácilmente los datos importantes con respecto al inventario.|
+|   RQNF003    | Descripción: El aplicativo debe hacer uso de una interfaz intuitiva, sencilla de utilizar y que permita identificar fácilmente los datos importantes con respecto al inventario.|
 
-# Historias de Usuario
+# Casos de uso
 
 | Caso de Uso  | Inicio de Sesión                                                 |
 |--------------|------------------------------------------------------------------|
