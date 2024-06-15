@@ -258,3 +258,10 @@ Para más información, puedes consultar el siguiente documento:
 Para acceder al manual de administración y seguir el paso a paso de la contenerización de la aplicación se debe ingresar al siguiente link:
 
 [MANUAL DE ADMINISTRACIÓN](https://github.com/SebastianVilla13/SISTEMA-GESTOR-DE-ARCHIVOS-BASICO-FUENTE-WEB)
+
+## Integrantes :trollface:
+
+| [<img src="https://avatars.githubusercontent.com/u/163602168?v=4" width=115><br><sub>Juliteth Pinilla</sub>](https://github.com/jpinillaDiplomado) | [<img src="https://avatars.githubusercontent.com/u/105172071?v=4" width=115><br><sub>Miguel Aponte</sub>](https://github.com/Miguelo89)  | [<img src="https://avatars.githubusercontent.com/u/163653023?v=4" width=115><br><sub>Andrés Gonzales </sub>](https://github.com/Andrezk8) |  
+| :---: | :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/63757797?v=4" width=115><br><sub>John Solorza </sub>](https://github.com/jsolorza) | [<img src="https://avatars.githubusercontent.com/u/43438728?v=4" width=115><br><sub>Sebastian Villa </sub>](https://github.com/SebastianVilla13) | [<img src="https://avatars.githubusercontent.com/u/164546938?v=4" width=115><br><sub>Leonardo Rondon </sub>](https://github.com/leonardoj27) |
+
