@@ -320,3 +320,25 @@ services:
  ```
 
 ```services ``` : Define los servicios que se ejecutarán en Docker Compose. En este caso, hay un solo servicio llamado windows.
+
+```windows``` : Define el servicio windows.
+```image``` : La imagen de Docker a usar, que en este caso es dockurr/windows. Esta imagen debería contener una instalación de Windows adecuada para correr en un contenedor Docker.
+```container_name``` : El nombre del contenedor, que será windows.
+```environment``` : Variables de entorno para configurar el contenedor.
+```VERSION``` : La versión de Windows, que es "2022".
+```LANGUAGE``` : El idioma de Windows, que es "Spanish".
+```RAM_SIZE``` : La cantidad de RAM asignada, que es "2G" (2 gigabytes).
+```CPU_CORES``` : El número de núcleos de CPU asignados, que es "4".
+```DISK_SIZE``` : El tamaño del disco asignado, que es "40G" (40 gigabytes).
+```devices``` : Dispositivos del host que se pasarán al contenedor.
+```/dev/kvm``` : Esto sugiere que se está utilizando la virtualización basada en KVM.
+```cap_add``` : Capacidades adicionales que se añaden al contenedor.
+```NET_ADMIN ``` : Permite la administración de la red dentro del contenedor.
+```ports``` : Puertos que se mapearán desde el host al contenedor.
+```8006:8006``` : Mapea el puerto 8006 del host al puerto 8006 del contenedor.
+```3389:3389/tcp``` : Mapea el puerto 3389 (protocolo TCP) del host al puerto 3389 del contenedor. Este puerto generalmente se utiliza para RDP (Remote Desktop Protocol).
+```3389:3389/udp``` : Mapea el puerto 3389 (protocolo UDP) del host al puerto 3389 del contenedor.
+```stop_grace_period``` : El tiempo de gracia para que el contenedor se detenga antes de forzar la detención, que es de 2 minutos.
+```volumes``` : Montajes de volúmenes entre el host y el contenedor.
+```/home/user/example:\oem``` : Mapea el directorio /home/user/example del host al directorio \oem en el contenedor.
+```/home/user/example:\shared``` : Mapea el directorio /home/user/example del host al directorio \shared en el contenedor.
