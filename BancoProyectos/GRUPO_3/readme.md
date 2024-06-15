@@ -63,7 +63,7 @@ El diagrama de arquitectura proporciona al proyecto una vista clara y concisa de
 ## DIAGRAMA MODELO PERSISTENCIA
 
 <div align="center">
-  <img alt="Diagramadearquitectura" src="img/Diagrama Persistencia.jpg">
+  <img alt="Diagramadearquitectura" src="img/Diagrama-persistencia.jpg">
 </div>
 
 ## DISEÑO DEL MODELO ENTIDAD - RELACIÓN
