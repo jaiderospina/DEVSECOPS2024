@@ -319,4 +319,4 @@ services:
    - /home/user/example:\shared
  ```
 
-el puerto ```8006``` es el usado para que ingrese al navegador local, ```VERSION: "2022"``` es la version de windows que se quiere instalar, en este caso windows server 2022.
+```services ``` : Define los servicios que se ejecutarán en Docker Compose. En este caso, hay un solo servicio llamado windows.
