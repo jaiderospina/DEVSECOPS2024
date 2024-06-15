@@ -24,19 +24,19 @@
 |    CÓDIGO    | REQUISITO FUNCIONAL                                              |
 |--------------|------------------------------------------------------------------|
 |              | Nombre: Gestión de usuarios                                      |
-|   RQF002     | Descripción: El sistema permitirá consultar, actualizar y eliminar registro de usuarios del sistema.                              |
+|   RQF002     | Descripción: El sistema permitirá consultar, actualizar y eliminar registro de usuarios del sistema.|
 |              | Usuarios: Administrador                                          |
 
 |    CÓDIGO    | REQUISITO FUNCIONAL                                              |
 |--------------|------------------------------------------------------------------|
 |              | Nombre: Gestión de productos                                     |
-|   RQF003     | Descripción: El sistema permitirá consultar, crear, actualizar y eliminar registros en la base de productos del sistema.                              |
+|   RQF003     | Descripción: El sistema permitirá consultar, crear, actualizar y eliminar registros en la base de productos del sistema.|
 |              | Usuarios: Administrador, Colaborador                             |
 
 |    CÓDIGO    | REQUISITO FUNCIONAL                                              |
 |--------------|------------------------------------------------------------------|
 |              | Nombre: Reporte productos                                        |
-|   RQF004     | Descripción: El sistema permitirá al colaborador descargar un reporte de la base de productos.                                    |
+|   RQF004     | Descripción: El sistema permitirá al colaborador descargar un reporte de la base de productos.|
 |              | Usuarios: Administrador                                          |
 
 # Requerimientos no funcionales
@@ -57,6 +57,17 @@
 |   RQNF003    | Descripción: El aplicativo debe hacer uso de una interfaz intuitiva, sencilla de utilizar y que permita identificar fácilmente los datos importantes con respecto al inventario.|
 
 # Casos de uso
+
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/BancoProyectos/GRUPO_5/imagenes/Caso_Uso_1.png" alt="logo" width="1000"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/BancoProyectos/GRUPO_5/imagenes/Caso_Uso_2.png" alt="logo" width="1000"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/BancoProyectos/GRUPO_5/imagenes/Caso_Uso_3.png" alt="logo" width="1000"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/BancoProyectos/GRUPO_5/imagenes/Caso_Uso_4.png" alt="logo" width="1000"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/BancoProyectos/GRUPO_5/imagenes/Caso_Uso_5.png" alt="logo" width="1000"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/BancoProyectos/GRUPO_5/imagenes/Caso_Uso_6.png" alt="logo" width="1000"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/BancoProyectos/GRUPO_5/imagenes/Caso_Uso_7.png" alt="logo" width="1000"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/BancoProyectos/GRUPO_5/imagenes/Caso_Uso_8.png" alt="logo" width="1000"/></p>
+<p align="center"><img src="https://github.com/jaiderospina/DEVSECOPS2024/blob/main/BancoProyectos/GRUPO_5/imagenes/Caso_Uso_9.png" alt="logo" width="1000"/></p>
+
 
 | Caso de Uso  | Inicio de Sesión                                                 |
 |--------------|------------------------------------------------------------------|
