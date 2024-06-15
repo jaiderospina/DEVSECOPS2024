@@ -15,6 +15,7 @@
 - [Historias de Usuarios](#HISTORIAS-DE-USUARIO)
 - [Diagrama de Secuencia](#DIAGRAMA-DE-SECUENCIA)
 - [Diagrama de Arquitectura](#DIAGRAMA-DE-ARQUITECTURA)
+- [Diagrama Modelo Persistencia](#DIAGRAMA-MODELO-PERSISTENCIA)
 - [Diagrama Entidad - Relación](#DISEÑO-DEL-MODELO-ENTIDAD-RELACIÓN)
 - [Manual de Usuario](#MANUAL-DE-USUARIO)
 - [Manual de Administración](#MANUAL-DE-ADMINISTRACIÓN)
@@ -54,6 +55,12 @@ El diagrama de secuencia muestra los pasos que sigue el usuario en el sistema pa
 
 ## DIAGRAMA DE ARQUITECTURA
 El diagrama de arquitectura proporciona al proyecto una vista clara y concisa de cómo los diferentes componentes de la aplicación interactúan y se integran. Usar Docker para contenerizar los diferentes servicios de una aplicación PHP permite un desarrollo más ágil, escalabilidad y facilidad de despliegue. Este diagrama es fundamental para entender la infraestructura del proyecto y garantizar que todos los miembros del equipo tengan una visión común del sistema.
+
+<div align="center">
+  <img alt="Diagramadearquitectura" src="img/D. Arquitectura.png">
+</div>
+
+## DIAGRAMA MODELO PERSISTENCIA
 
 <div align="center">
   <img alt="Diagramadearquitectura" src="img/D. Arquitectura.png">
