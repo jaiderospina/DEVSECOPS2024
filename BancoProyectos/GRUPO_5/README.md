@@ -18,25 +18,25 @@
 |    CÓDIGO    | REQUISITO FUNCIONAL                                              |
 |--------------|------------------------------------------------------------------|
 |              | Nombre: Gestión Ingreso al sistema                               |
-|   RQF001     | Descripción: El sistema permitirá el acceso a los usuarios administrador y colaborador y podrán ingresar al sistema mediante la autenticación de usuario y contraseña.|
+|   RQF001     | Descripción: El sistema permitirá el acceso a los usuarios administrador y colaborador y podrán ingresar al sistema mediante la autenticación de usuario y contraseña.|      
 |              | Usuarios: Administrador, Colaborador                             |
 
 |    CÓDIGO    | REQUISITO FUNCIONAL                                              |
 |--------------|------------------------------------------------------------------|
 |              | Nombre: Gestión de usuarios                                      |
-|   RQF002     | Descripción: El sistema permitirá consultar, actualizar y eliminar registro de usuarios del sistema.|
+|   RQF002     | Descripción: El sistema permitirá consultar, actualizar y eliminar registro de usuarios del sistema.                              |
 |              | Usuarios: Administrador                                          |
 
 |    CÓDIGO    | REQUISITO FUNCIONAL                                              |
 |--------------|------------------------------------------------------------------|
 |              | Nombre: Gestión de productos                                     |
-|   RQF003     | Descripción: El sistema permitirá consultar, crear, actualizar y eliminar registros en la base de productos del sistema.|
+|   RQF003     | Descripción: El sistema permitirá consultar, crear, actualizar y eliminar registros en la base de productos del sistema.                              |
 |              | Usuarios: Administrador, Colaborador                             |
 
 |    CÓDIGO    | REQUISITO FUNCIONAL                                              |
 |--------------|------------------------------------------------------------------|
 |              | Nombre: Reporte productos                                        |
-|   RQF004     | Descripción: El sistema permitirá al colaborador descargar un reporte de la base de productos.|
+|   RQF004     | Descripción: El sistema permitirá al colaborador descargar un reporte de la base de productos.                                    |
 |              | Usuarios: Administrador                                          |
 
 # Requerimientos no funcionales
