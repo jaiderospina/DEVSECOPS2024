@@ -17,6 +17,7 @@
 - [Diagrama de Arquitectura](#DIAGRAMA-DE-ARQUITECTURA)
 - [Diagrama Entidad - Relación](#DISEÑO-DEL-MODELO-ENTIDAD-RELACIÓN)
 - [Manual de Usuario](#MANUAL-DE-USUARIO)
+- [Manual de Administración](#MANUAL-DE-ADMINISTRACIÓN)
 
 
 ## DESCRIPCIÓN FUNCIONAL  :books:
