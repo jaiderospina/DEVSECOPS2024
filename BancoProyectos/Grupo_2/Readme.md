@@ -6,7 +6,7 @@ Integrantes:
  - Maycol Paez - ID: 751391
  - Brigitte Rodriguez - ID: 415800
  - Alvaro Adolfo Cote Sanchez - ID: 730352
- - Sebastián ....
+ - Sebastián Camilo Romero Leon - ID: 732124
 
 
 ## Intoducción
