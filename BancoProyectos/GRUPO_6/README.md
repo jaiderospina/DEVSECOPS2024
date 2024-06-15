@@ -78,14 +78,12 @@ Ingrese credenciales de Administrador
     <p align="center"><img src="Imagenes/2.png" alt="Imagen 2"></p>
   
 - **Panel de Administracion**:
-En el Menu de seleccion se puede cambiar la  opcion para visualizar
-- Panel de Control
+En el Menu de seleccion se puede cambiar la  opcion para visualizar:
+  1. Panel de Control Administrador
    <p align="center"><img src="Imagenes/3.png" alt="Imagen 3"></p>
-
-- Productos
+  2.Productos
    <p align="center"><img src="Imagenes/4.png" alt="Imagen 4"></p>
-
-- Ventas
+   3. Ventas
     <p align="center"><img src="Imagenes/5.png" alt="Imagen 5"></p>
 
 - Empleados
@@ -93,4 +91,26 @@ En el Menu de seleccion se puede cambiar la  opcion para visualizar
 
 - **Interface de Logeo como empleado**:
 Ingrese credenciales de Empleado
-    <p align="center"><img src="Imagenes/2.png" alt="Imagen 2"></p>
+    <p align="center"><img src="Imagenes/7.png" alt="Imagen 7"></p>
+
+  - **Panel de Empleado Mesero**:
+En el Menu de seleccion se puede cambiar la  opcion para visualizar:
+  1. Panel de Empleado
+   <p align="center"><img src="Imagenes/8.png" alt="Imagen 8"></p>
+  2. Estado de conexion empleado Mesero 
+  - Offline
+   <p align="center"><img src="Imagenes/9.png" alt="Imagen 9"></p>
+  - Online
+   <p align="center"><img src="Imagenes/10.png" alt="Imagen 10"></p>
+  3. Administracion de Ordenes 
+   <p align="center"><img src="Imagenes/11.png" alt="Imagen 11"></p>
+   - Tomar Orden por categoria
+   <p align="center"><img src="Imagenes/12.png" alt="Imagen 12"></p>
+    - Seleccionar cantidad
+    <p align="center"><img src="Imagenes/13.png" alt="Imagen 13"></p>
+     - Enviar resumen de pedido
+    <p align="center"><img src="Imagenes/14.png" alt="Imagen 14"></p>
+      
+    - **Panel de Empleado Cajero**:
+    - Enviar estado de la orden Preparando, Listo
+    <p align="center"><img src="Imagenes/15.png" alt="Imagen 15"></p>
