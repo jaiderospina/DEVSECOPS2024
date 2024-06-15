@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  web:
+    build: 
+      context: ./web
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    volumes:
+      - ./web:/var/www/html
+    depends_on:
+      - db
+    networks:
+      - my_network
+
+  db:
+    image: mariadb:10.4.22
+    environment:
+      MYSQL_ROOT_PASSWORD: my-secret-pw
+      MYSQL_DATABASE: fosdb
+    volumes:
+      - db_data:/var/lib/mysql       # Persistencia de datos de MySQL/MariaDB
+      - ./db:/docker-entrypoint-initdb.d   # Inicialización de base de datos
+    ports:
+      - "3306:3306"
+    networks:
+      - my_network
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: my_phpmyadmin
+    environment:
+      PMA_HOST: db
+      PMA_USER: root
+      PMA_PASSWORD: my-secret-pw
+    ports:
+      - "8081:80"
+    depends_on:
+      - db
+    networks:
+      - my_network
+
+volumes:
+  db_data:   # Volumen para los datos de la base de datos
+
+networks:
+  my_network:
+    driver: bridge
