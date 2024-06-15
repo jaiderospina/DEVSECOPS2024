@@ -241,22 +241,12 @@ de cómo editar la información de la cuenta.
   <img alt="Login10" src="img/login10.JPG">
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Para más información, puedes consultar el siguiente documento:
 
 [Manual de Usuario](BancoProyectos/GRUPO_3/Documentos/Manual_de_Usuario.pdf)
 
+## MANUAL DE ADMINISTRACIÓN
+
+Para acceder al manual de administración y seguir el paso a paso de la contenerización de la aplicación se debe ingresar al siguiente link:
+
+[MANUAL DE ADMINISTRACIÓN](https://github.com/SebastianVilla13/SISTEMA-GESTOR-DE-ARCHIVOS-BASICO-FUENTE-WEB)
